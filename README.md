@@ -40,8 +40,8 @@ The book is built for practitioners. Every chapter addresses the actual work - w
 - [Chapter 7: Protocol Analysis and Traffic Inspection](part-2-advanced-techniques/chapter-07-protocol-analysis.md)
 - [Chapter 8: Cryptographic Intelligence](part-2-advanced-techniques/chapter-08-cryptographic-intelligence.md)
 - [Chapter 9: Advanced Data Mining](part-2-advanced-techniques/chapter-09-advanced-data-mining.md)
-- [Chapter 10: Infrastructure Reconnaissance](part-2-advanced-techniques/chapter-10-infrastructure-reconnaissance.md)
-- [Chapter 11: Advanced Social Engineering Analysis](part-2-advanced-techniques/chapter-11-advanced-social-engineering.md)
+- [Chapter 10: Infrastructure Reconnaissance](part-2-advanced-techniques/chapter-10-infrastructure-recon.md)
+- [Chapter 11: Advanced Social Engineering Analysis](part-2-advanced-techniques/chapter-11-social-engineering.md)
 - [Chapter 12: Geospatial Intelligence](part-2-advanced-techniques/chapter-12-geospatial-intelligence.md)
 - [Chapter 13: Temporal Analysis](part-2-advanced-techniques/chapter-13-temporal-analysis.md)
 - [Chapter 14: Communication Pattern Analysis](part-2-advanced-techniques/chapter-14-communication-patterns.md)
@@ -51,7 +51,7 @@ The book is built for practitioners. Every chapter addresses the actual work - w
 - [Chapter 16: Financial Intelligence](part-3-specialized-domains/chapter-16-financial-intelligence.md)
 - [Chapter 17: Cyber Threat Intelligence](part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md)
 - [Chapter 18: Business Intelligence](part-3-specialized-domains/chapter-18-business-intelligence.md)
-- [Chapter 19: Academic and Research Intelligence](part-3-specialized-domains/chapter-19-academic-research-intelligence.md)
+- [Chapter 19: Academic and Research Intelligence](part-3-specialized-domains/chapter-19-academic-research.md)
 - [Chapter 20: Media and Information Analysis](part-3-specialized-domains/chapter-20-media-analysis.md)
 
 ### Part 4 - Operational Considerations
