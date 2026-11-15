@@ -97,4 +97,4 @@ Code examples: [MIT](LICENSE)
 
 **Raghav Dinesh** | [github.com/ruwgxo](https://github.com/ruwgxo)
 
-Detection and Security Platform Engineer with experience building production security systems since 2012. *OSINT: Open Source Intelligence* draws on professional intelligence tradecraft, publicly documented methodologies from the intelligence community, and practical experience applying open source collection and analysis at enterprise scale.
+Security architect with experience building production security systems since 2012. *OSINT: Open Source Intelligence* draws on professional intelligence tradecraft, publicly documented methodologies from the intelligence community, and practical experience applying open source collection and analysis at enterprise scale.
