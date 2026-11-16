@@ -1,0 +1,49 @@
+# chapter_06_index.yaml
+
+---
+title: 'Chapter 6: Search Methodologies - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 6
+  source_file: part-1-fundamentals/chapter-06-search-methodologies.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260106 | OSINT: Fundamentals (Chapter 06 Search Methodologies) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Fundamentals
+      - ‣‣‣ Search Methodologies
+chapter_overview:
+  contents:
+    - Boolean logic and operators
+    - Search engine algorithms (basic understanding)
+    - Query construction techniques
+    - Dorking methodologies
+    - Advanced search operators across platforms
+    - Search result validation
+sections:
+  - section_number: '6.1'
+    title: Boolean Logic and Operators
+    filename: section_06_01_boolean_logic_and_operators.yaml
+  - section_number: '6.2'
+    title: Search Engine Algorithms (Basic Understanding)
+    filename: section_06_02_search_engine_algorithms_basic_understanding.yaml
+  - section_number: '6.3'
+    title: Query Construction Techniques
+    filename: section_06_03_query_construction_techniques.yaml
+  - section_number: '6.4'
+    title: Dorking Methodologies
+    filename: section_06_04_dorking_methodologies.yaml
+  - section_number: '6.5'
+    title: Advanced Search Operators Across Platforms
+    filename: section_06_05_advanced_search_operators_across_platforms.yaml
+  - section_number: '6.6'
+    title: Search Result Validation
+    filename: section_06_06_search_result_validation.yaml

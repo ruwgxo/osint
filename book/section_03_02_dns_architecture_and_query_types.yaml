@@ -1,0 +1,134 @@
+# section_03_02_dns_architecture_and_query_types.yaml
+
+---
+title: DNS Architecture and Query Types
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 3
+  section: 2
+  section_code: '0302'
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: DNS Architecture and Query Types
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          The Domain Name System (DNS) serves as the internet’s distributed directory service, translating
+          human-readable domain names into numerical IP addresses required for network communication.
+          DNS infrastructure analysis provides extensive opportunities for organizational intelligence,
+          infrastructure mapping, and behavioral pattern recognition.
+      - type: prose
+        text: >-
+          **Hierarchical Naming Structure** organizes domain names into a tree-like hierarchy that reflects
+          administrative boundaries and organizational relationships. Top-level domains (TLDs) represent
+          the highest level of the hierarchy, encompassing generic TLDs like .com and .org alongside country-code
+          TLDs such as .uk and .de. Understanding TLD characteristics and registration requirements provides
+          context for organizational analysis and verification activities.
+      - type: prose
+        text: >-
+          Second-level domains typically represent organizational boundaries, with registration records
+          containing administrative and technical contact information. Domain registration analysis reveals
+          organizational relationships, operational timelines, and potential infrastructure connections.
+          Historical registration data, available through various commercial and research databases, enables
+          temporal analysis of organizational evolution and relationship development.
+      - type: prose
+        text: >-
+          Subdomain analysis identifies organizational structure and operational patterns through systematic
+          enumeration of third-level and lower domain names. Subdomain naming conventions often reflect
+          functional boundaries, geographic distribution, or service categorization. Automated subdomain
+          discovery techniques leverage dictionary-based brute force methods, certificate transparency
+          logs, and DNS zone transfer attempts.
+      - type: prose
+        text: >-
+          **DNS Query Types and Intelligence Applications** encompass various record types that serve
+          different functions within the DNS system. Each record type provides specific information categories
+          that support different analytical objectives.
+      - type: prose
+        text: >-
+          Address records (A and AAAA) provide the fundamental name-to-address translation services. A
+          records map domain names to IPv4 addresses while AAAA records support IPv6 mappings. Historical
+          analysis of address records reveals infrastructure changes, hosting provider relationships,
+          and potential operational patterns.
+      - type: prose
+        text: >-
+          Mail Exchange (MX) records specify email server priorities and destinations for domain-associated
+          email traffic. MX record analysis reveals email infrastructure, outsourcing relationships, and
+          potential communication pathways. Organizations often maintain multiple MX records with different
+          priority levels for redundancy and load distribution.
+      - type: prose
+        text: >-
+          Name Server (NS) records identify authoritative DNS servers for specific domains. NS record
+          analysis reveals DNS hosting relationships, infrastructure dependencies, and potential points
+          of failure. Changes in NS records often indicate hosting provider transitions or organizational
+          restructuring.
+      - type: prose
+        text: >-
+          Canonical Name (CNAME) records create domain name aliases that redirect queries to alternative
+          names. CNAME analysis reveals service relationships, content delivery network usage, and infrastructure
+          organization patterns. Complex CNAME chains sometimes indicate attempts to obscure ultimate
+          destination hosts.
+      - type: prose
+        text: >-
+          Text (TXT) records contain arbitrary text information associated with domain names. Organizations
+          use TXT records for various purposes including email authentication (SPF, DKIM, DMARC), domain
+          ownership verification, and service configuration. TXT record analysis can reveal third-party
+          service relationships, security implementations, and administrative practices.
+      - type: prose
+        text: >-
+          **DNS Reconnaissance Techniques** enable systematic collection of DNS-related intelligence through
+          various query methods and analysis approaches. Professional OSINT practitioners employ multiple
+          techniques to comprehensively map DNS infrastructure while maintaining appropriate ethical and
+          legal boundaries.
+      - type: prose
+        text: >-
+          Zone transfer attempts seek to obtain complete DNS zone files containing all records for specific
+          domains. Successful zone transfers provide comprehensive domain mappings but are increasingly
+          restricted by security-conscious administrators. Zone transfer attempts should only be conducted
+          against targets where explicit permission exists.
+      - type: prose
+        text: >-
+          DNS bruteforcing systematically queries potential subdomain names using dictionary-based approaches
+          or pattern-based generation methods. Effective bruteforcing requires carefully curated wordlists,
+          rate limiting to avoid detection, and parallel processing to manage large query volumes. Results
+          should be validated through additional verification methods.
+      - type: prose
+        text: >-
+          Reverse DNS analysis queries IP addresses to identify associated domain names. Reverse lookup
+          patterns often reveal hosting infrastructure, service categorization, or organizational naming
+          conventions. Systematic reverse lookup analysis across IP address ranges can identify previously
+          unknown organizational assets.
+      - type: prose
+        text: >-
+          Certificate transparency log analysis leverages public certificate databases to identify domain
+          names and subdomain relationships. Certificate authorities publish certificate issuance records
+          to transparency logs, creating searchable databases of domain name mappings. This technique
+          can reveal domains that might not respond to direct DNS queries.
+      - type: prose
+        text: >-
+          **DNS Security and Evasion Considerations** address the increasing implementation of security
+          measures that can impact reconnaissance activities while also providing additional intelligence
+          opportunities.
+      - type: prose
+        text: >-
+          DNS Security Extensions (DNSSEC) implement cryptographic authentication for DNS responses, protecting
+          against various manipulation attacks. DNSSEC deployment analysis reveals security posture and
+          administrative sophistication. DNSSEC validation failures might indicate infrastructure problems
+          or potential security incidents.
+      - type: prose
+        text: >-
+          DNS over HTTPS (DoH) and DNS over TLS (DoT) encrypt DNS queries to protect against eavesdropping
+          and manipulation. While these security measures enhance privacy, they can complicate traffic
+          analysis activities. Understanding DoH/DoT deployment patterns provides insights into organizational
+          security priorities.
+      - type: prose
+        text: >-
+          DNS filtering and blocking systems attempt to prevent access to malicious or inappropriate domains.
+          Analysis of DNS filtering implementations can reveal organizational policies, security measures,
+          and potential bypass techniques. However, circumvention attempts should only be conducted within
+          appropriate legal and ethical frameworks.

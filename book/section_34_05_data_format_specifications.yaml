@@ -1,0 +1,138 @@
+# section_34_05_data_format_specifications.yaml
+
+---
+title: Data Format Specifications
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 5
+  section_code: '3405'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Data Format Specifications
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: JSON (JavaScript Object Notation) - RFC 7159
+      - type: list
+        style: bullet
+        items:
+          - Basic Structure
+          - JSON Schema for Validation
+      - type: prose
+        text: >-
+          Basic Structure
+      - type: code
+        lang: text
+        text: |
+          {
+              "name": "John Doe",
+              "age": 30,
+              "email": "john@example.com",
+              "address": {
+                  "street": "123 Main St",
+                  "city": "Anytown",
+                  "zipcode": "12345"
+              },
+              "phones": ["555-1234", "555-5678"]
+          }
+      - type: prose
+        text: >-
+          JSON Schema for Validation
+      - type: code
+        lang: text
+        text: |
+          {
+              "$schema": "https://json-schema.org/draft/2020-12/schema",
+              "type": "object",
+              "properties": {
+                  "name": {"type": "string"},
+                  "age": {"type": "integer", "minimum": 0},
+                  "email": {"type": "string", "format": "email"}
+              },
+              "required": ["name", "age"]
+          }
+      - type: heading
+        level: 3
+        text: XML (Extensible Markup Language)
+      - type: list
+        style: bullet
+        items:
+          - Basic Structure
+          - XML Namespaces
+      - type: prose
+        text: >-
+          Basic Structure
+      - type: code
+        lang: text
+        text: |
+          <?xml version="1.0" encoding="UTF-8"?>
+          <person>
+              <name>John Doe</name>
+              <age>30</age>
+              <email>john@example.com</email>
+              <address>
+                  <street>123 Main St</street>
+                  <city>Anytown</city>
+                  <zipcode>12345</zipcode>
+              </address>
+          </person>
+      - type: prose
+        text: >-
+          XML Namespaces
+      - type: code
+        lang: text
+        text: |
+          <root xmlns:person="http://example.com/person"
+                xmlns:address="http://example.com/address">
+              <person:name>John Doe</person:name>
+              <address:street>123 Main St</address:street>
+          </root>
+      - type: heading
+        level: 3
+        text: CSV (Comma-Separated Values) - RFC 4180
+      - type: prose
+        text: >-
+          Basic Format Rules
+      - type: list
+        style: bullet
+        items:
+          - Records separated by line breaks (CRLF)
+          - Fields separated by commas
+          - Fields containing commas, quotes, or line breaks must be quoted
+          - Quotes within fields are escaped by doubling
+      - type: prose
+        text: >-
+          Example
+      - type: code
+        lang: text
+        text: |
+          Name,Age,Email,City
+          "Doe, John",30,john@example.com,Anytown
+          "Smith, Jane",25,jane@example.com,"New York, NY"
+      - type: heading
+        level: 3
+        text: YAML (YAML Ain't Markup Language)
+      - type: prose
+        text: >-
+          Basic Structure
+      - type: code
+        lang: text
+        text: |
+          person:
+            name: John Doe
+            age: 30
+            email: john@example.com
+            address:
+              street: 123 Main St
+              city: Anytown
+              zipcode: "12345"
+            phones:
+              - "555-1234"
+              - "555-5678"

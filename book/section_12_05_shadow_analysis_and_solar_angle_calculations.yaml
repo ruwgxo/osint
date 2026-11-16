@@ -1,0 +1,118 @@
+# section_12_05_shadow_analysis_and_solar_angle_calculations.yaml
+
+---
+title: Shadow Analysis and Solar Angle Calculations
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 12
+  section: 5
+  section_code: '1205'
+  source_file: part-2-advanced-techniques/chapter-12-geospatial-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Shadow Analysis and Solar Angle Calculations
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Shadow analysis provides precise timing and directional information through mathematical calculation
+          of sun positions and shadow characteristics, enabling verification of image acquisition timing
+          and geographic location.
+      - type: prose
+        text: >-
+          **Solar Position Calculation** determines sun elevation and azimuth angles for specific locations,
+          dates, and times to enable precise shadow analysis and verification calculations.
+      - type: prose
+        text: >-
+          Astronomical algorithms calculate solar position based on Earth’s orbital mechanics and rotational
+          characteristics. Solar declination calculation accounts for seasonal variation in sun position
+          relative to Earth’s equator. Equation of time correction accounts for Earth’s elliptical orbit
+          and axial tilt effects on solar timing. Solar zenith and azimuth angle calculation provides
+          directional information for shadow analysis.
+      - type: prose
+        text: >-
+          Time zone and coordinate system considerations ensure accurate solar calculations for specific
+          geographic locations. Universal Coordinated Time (UTC) conversion standardizes time calculations
+          across different time zones. Longitude correction accounts for position within time zones and
+          daylight saving time adjustments. Local solar time calculation provides actual sun position
+          timing for shadow analysis.
+      - type: prose
+        text: >-
+          Atmospheric refraction correction accounts for light bending effects that affect apparent sun
+          position. Refraction angle calculation adjusts solar elevation for atmospheric density effects.
+          Horizon depression correction accounts for observer height above terrain. Temperature and pressure
+          corrections improve refraction accuracy for precise applications.
+      - type: prose
+        text: >-
+          **Shadow Measurement and Analysis** examines shadow characteristics in imagery to extract timing
+          and directional information while accounting for terrain effects and measurement uncertainties.
+      - type: prose
+        text: >-
+          Shadow length measurement requires careful identification of shadow boundaries and object heights
+          for accurate calculations. Object height determination uses known reference objects or architectural
+          standards for scale. Shadow tip identification locates precise shadow boundaries despite image
+          resolution limitations. Terrain slope correction accounts for non-horizontal surfaces that affect
+          shadow measurements.
+      - type: prose
+        text: >-
+          Shadow direction analysis determines sun azimuth angles through measurement of shadow orientations.
+          Magnetic declination correction accounts for differences between true north and magnetic north.
+          Grid convergence correction accounts for differences between grid north and true north in map
+          projections. Directional accuracy assessment considers measurement uncertainties and image resolution
+          limitations.
+      - type: prose
+        text: >-
+          Multiple shadow analysis improves accuracy and confidence through analysis of several objects
+          within single images. Shadow consistency verification ensures multiple shadows indicate consistent
+          solar conditions. Shadow length ratio analysis uses objects of different heights to verify solar
+          elevation calculations. Cross-validation techniques compare shadow-derived timing with claimed
+          acquisition times.
+      - type: prose
+        text: >-
+          **Temporal Verification Applications** use shadow analysis to verify claimed image acquisition
+          times and detect potentially manipulated or misrepresented imagery.
+      - type: prose
+        text: >-
+          Acquisition time verification compares calculated solar position with observed shadow characteristics.
+          Time window determination establishes ranges of possible acquisition times consistent with shadow
+          evidence. Seasonal constraints identify time periods when observed shadows are astronomically
+          possible. Daily timing verification determines specific hours when shadows match observations.
+      - type: prose
+        text: >-
+          Geographic location verification uses shadow characteristics to confirm or refine location estimates.
+          Latitude constraints derived from solar elevation angles narrow possible geographic locations.
+          Azimuth consistency verification ensures shadow directions match claimed locations. Location
+          accuracy assessment considers uncertainties in shadow measurements and solar calculations.
+      - type: prose
+        text: >-
+          Image authenticity assessment examines whether shadow characteristics are consistent with natural
+          illumination. Lighting consistency analysis verifies that all shadows indicate common light
+          source direction. Shadow manipulation detection identifies digital alterations that create unrealistic
+          lighting conditions. Composite image detection identifies images created from multiple sources
+          with inconsistent illumination.
+      - type: prose
+        text: >-
+          **Terrain and Obstruction Effects** account for topographic influences on shadow patterns and
+          solar illumination that affect shadow analysis accuracy and interpretation.
+      - type: prose
+        text: >-
+          Digital elevation model integration incorporates terrain information into shadow analysis calculations.
+          Terrain slope effects modify shadow lengths and directions on non-horizontal surfaces. Horizon
+          obstruction analysis accounts for mountains or buildings that block solar illumination. Valley
+          and depression effects create local variations in illumination timing and shadow characteristics.
+      - type: prose
+        text: >-
+          Building and structure effects create complex shadow patterns in urban environments. Multi-story
+          building shadows create stepped shadow patterns that complicate analysis. Architectural feature
+          shadows including overhangs and recesses create complex illumination patterns. Infrastructure
+          shadows from power lines, bridges, and other structures affect shadow analysis.
+      - type: prose
+        text: >-
+          Atmospheric and weather effects influence shadow characteristics and visibility in imagery.
+          Cloud shadow detection identifies temporary obstructions that affect local illumination. Haze
+          and atmospheric scattering effects modify shadow contrast and visibility. Precipitation effects
+          including snow and rain affect surface reflectance and shadow characteristics.

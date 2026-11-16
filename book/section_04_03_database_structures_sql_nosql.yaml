@@ -1,0 +1,116 @@
+# section_04_03_database_structures_sql_nosql.yaml
+
+---
+title: Database Structures (SQL, NoSQL)
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 4
+  section: 3
+  section_code: '0403'
+  source_file: part-1-fundamentals/chapter-04-data-structures-formats.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Database Structures (SQL, NoSQL)
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Database systems organize and manage structured information in ways that reflect organizational
+          priorities, operational processes, and analytical requirements. Understanding database structures
+          enables effective intelligence extraction while revealing organizational characteristics and
+          operational patterns.
+      - type: prose
+        text: >-
+          **Relational Database Intelligence** focuses on SQL-based systems that organize information
+          through normalized table structures and relationship definitions. Relational databases often
+          contain comprehensive organizational information including personnel records, financial data,
+          and operational metrics.
+      - type: prose
+        text: >-
+          Schema analysis examines table structures, field definitions, and relationship constraints to
+          understand organizational data models and operational processes. Database schemas reflect business
+          logic, compliance requirements, and analytical priorities. Foreign key relationships reveal
+          data dependencies and organizational structure patterns.
+      - type: prose
+        text: >-
+          Index analysis identifies frequently accessed data combinations and query optimization strategies
+          that might reveal operational priorities and usage patterns. Index structures indicate important
+          data relationships and performance-critical operations. Missing indexes might indicate ad-hoc
+          query requirements or system performance issues.
+      - type: prose
+        text: >-
+          Query analysis examines SQL statements, stored procedures, and database logs to understand data
+          access patterns and operational workflows. Query complexity and frequency patterns reveal analytical
+          requirements and system usage characteristics. Parameterized queries might indicate application
+          integration patterns.
+      - type: prose
+        text: >-
+          **NoSQL Database Varieties** encompass document stores, key-value databases, column-family systems,
+          and graph databases that implement different data organization approaches. NoSQL systems often
+          reflect modern application architectures and scalability requirements.
+      - type: prose
+        text: >-
+          Document database analysis examines JSON, BSON, or XML document structures within systems like
+          MongoDB or CouchDB. Document schemas reveal application data models and business logic implementation.
+          Document relationships might be embedded within documents or maintained through reference structures.
+      - type: prose
+        text: >-
+          Key-value database analysis focuses on data access patterns and key naming conventions within
+          systems like Redis or DynamoDB. Key structures often reflect application logic and data partitioning
+          strategies. Value analysis requires understanding of serialization formats and data encoding
+          methods.
+      - type: prose
+        text: >-
+          Graph database analysis examines node and edge structures within systems like Neo4j or Amazon
+          Neptune. Graph schemas reveal relationship modeling approaches and analytical requirements.
+          Graph traversal patterns might indicate common analysis workflows and operational queries.
+      - type: prose
+        text: >-
+          **Database Reconnaissance Techniques** enable identification and analysis of database systems
+          through various approaches that balance information gathering with appropriate boundaries and
+          access controls.
+      - type: prose
+        text: >-
+          Database fingerprinting identifies database software types, versions, and configurations through
+          response analysis and behavioral observation. Different database systems exhibit distinct characteristics
+          in error messages, timing behaviors, and feature implementations. Fingerprinting enables targeted
+          analysis approaches and potential vulnerability identification.
+      - type: prose
+        text: >-
+          Schema enumeration attempts to identify database structures through systematic probing and information
+          gathering. Schema information might be available through information schema databases, system
+          tables, or administrative interfaces. Schema enumeration should only be conducted within appropriate
+          authorization boundaries.
+      - type: prose
+        text: >-
+          Data sampling examines representative database content to understand information categories,
+          data quality, and organizational significance. Sampling strategies should balance analytical
+          requirements with privacy considerations and access limitations. Statistical sampling methods
+          enable extrapolation from limited data access.
+      - type: prose
+        text: >-
+          **Database Security and Access Control Analysis** examines protection mechanisms and authentication
+          systems that govern database access while potentially revealing organizational security practices
+          and administrative procedures.
+      - type: prose
+        text: >-
+          Authentication mechanism analysis identifies user management approaches, credential requirements,
+          and access control implementations. Authentication logs might reveal usage patterns, failed
+          access attempts, and administrative activities. Multi-factor authentication implementations
+          indicate security sophistication levels.
+      - type: prose
+        text: >-
+          Authorization model analysis examines role-based access controls, permission structures, and
+          data classification systems. Authorization models reflect organizational structure, operational
+          responsibilities, and compliance requirements. Permission auditing capabilities might reveal
+          access tracking and monitoring implementations.
+      - type: prose
+        text: >-
+          Encryption and data protection analysis identifies data protection implementations including
+          transparent data encryption, column-level encryption, and backup security measures. Encryption
+          implementations indicate security priorities and compliance requirements. Key management practices
+          might reveal organizational security maturity levels.

@@ -1,0 +1,120 @@
+# section_09_06_natural_language_processing_and_sentiment_analysis.yaml
+
+---
+title: Natural Language Processing and Sentiment Analysis
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 9
+  section: 6
+  section_code: 0906
+  source_file: part-2-advanced-techniques/chapter-09-advanced-data-mining.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Natural Language Processing and Sentiment Analysis
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Natural Language Processing (NLP) enables automated analysis of textual content to extract meaning,
+          identify entities, and understand sentiment patterns that support intelligence analysis across
+          diverse text sources including social media, news articles, and organizational documents.
+      - type: prose
+        text: >-
+          **Text Preprocessing and Feature Extraction** prepare textual data for systematic analysis through
+          standardization, cleaning, and conversion into numerical representations suitable for computational
+          analysis.
+      - type: prose
+        text: >-
+          Tokenization breaks text into individual words, phrases, or other meaningful units for analysis.
+          Word tokenization separates text into individual words while handling punctuation and special
+          characters. Sentence tokenization identifies sentence boundaries despite abbreviations and complex
+          punctuation. Subword tokenization handles out-of-vocabulary words and improves handling of morphologically
+          rich languages.
+      - type: prose
+        text: >-
+          Normalization standardizes text format and reduces variability that might interfere with analysis.
+          Case normalization converts text to consistent capitalization patterns. Stemming reduces words
+          to root forms by removing suffixes and prefixes. Lemmatization reduces words to dictionary forms
+          while preserving grammatical structure. Stop word removal eliminates common words that provide
+          little discriminative value.
+      - type: prose
+        text: >-
+          Feature representation converts text into numerical formats suitable for machine learning algorithms.
+          Bag-of-words representation counts word frequencies while ignoring word order. TF-IDF weighting
+          emphasizes terms that are frequent in specific documents but rare across the corpus. N-gram
+          features capture phrase patterns and local context information. Word embeddings represent words
+          as dense vectors that capture semantic relationships.
+      - type: prose
+        text: >-
+          **Named Entity Recognition and Information Extraction** identify specific types of information
+          within text including persons, organizations, locations, and other entity types relevant for
+          intelligence analysis.
+      - type: prose
+        text: >-
+          Entity type identification recognizes predefined categories including persons, organizations,
+          locations, dates, and monetary amounts. Person name recognition identifies individuals mentioned
+          in text and handles name variations and aliases. Organization recognition identifies companies,
+          government agencies, and other institutional entities. Location recognition identifies geographic
+          references including cities, countries, and landmarks.
+      - type: prose
+        text: >-
+          Relationship extraction identifies connections between recognized entities and creates structured
+          knowledge representations. Dependency parsing analyzes grammatical structure and identifies
+          syntactic relationships between words. Semantic role labeling identifies who did what to whom
+          in sentence structures. Coreference resolution identifies when different text spans refer to
+          the same entity.
+      - type: prose
+        text: >-
+          Information extraction templates structure identified information into standardized formats
+          for database storage and analysis. Template filling populates predefined fields with extracted
+          information. Event extraction identifies specific event types and associated participants. Temporal
+          information extraction identifies time references and creates timeline structures.
+      - type: prose
+        text: >-
+          **Sentiment Analysis and Opinion Mining** assess emotional tone, attitude, and opinion expressed
+          in text to understand public sentiment, organizational attitudes, and communication patterns.
+      - type: prose
+        text: >-
+          Document-level sentiment analysis determines overall emotional tone of entire documents or messages.
+          Polarity classification identifies positive, negative, or neutral sentiment orientations. Emotion
+          detection identifies specific emotions including anger, fear, joy, and sadness. Subjectivity
+          analysis distinguishes factual statements from opinion expressions.
+      - type: prose
+        text: >-
+          Aspect-based sentiment analysis examines sentiment toward specific topics or features mentioned
+          within text. Aspect identification recognizes specific topics or products discussed within text.
+          Aspect sentiment classification determines sentiment toward each identified aspect. Opinion
+          summarization aggregates sentiment across multiple documents and aspects.
+      - type: prose
+        text: >-
+          Sentiment trend analysis examines how sentiment changes over time and across different sources.
+          Temporal sentiment tracking identifies sentiment evolution and trend patterns. Comparative sentiment
+          analysis examines sentiment differences across different groups or sources. Sentiment correlation
+          analysis identifies relationships between sentiment and other variables or events.
+      - type: prose
+        text: >-
+          **Advanced NLP Applications** leverage sophisticated techniques to understand text meaning,
+          generate insights, and support complex analytical tasks that require deep language understanding.
+      - type: prose
+        text: >-
+          Topic modeling identifies thematic structure within document collections without requiring predefined
+          categories. Latent Dirichlet Allocation (LDA) discovers topics as distributions over words and
+          documents as distributions over topics. Non-negative Matrix Factorization (NMF) provides alternative
+          topic modeling approaches with different mathematical properties. Dynamic topic modeling tracks
+          topic evolution over time.
+      - type: prose
+        text: >-
+          Text summarization creates condensed versions of longer documents while preserving essential
+          information. Extractive summarization selects important sentences from original documents. Abstractive
+          summarization generates new text that captures document essence. Multi-document summarization
+          synthesizes information across multiple related documents.
+      - type: prose
+        text: >-
+          Machine translation enables analysis of foreign language content and cross-lingual information
+          processing. Statistical machine translation uses parallel corpora to learn translation patterns.
+          Neural machine translation leverages deep learning for improved translation quality. Translation
+          quality assessment evaluates accuracy and fluency of machine-generated translations.

@@ -1,0 +1,213 @@
+# section_34_04_cryptographic_standard_implementations.yaml
+
+---
+title: Cryptographic Standard Implementations
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 4
+  section_code: '3404'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Cryptographic Standard Implementations
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Symmetric Encryption Standards
+      - type: list
+        style: bullet
+        items:
+          - Advanced Encryption Standard (AES) - FIPS 197
+          - Data Encryption Standard (DES) - FIPS 46
+          - '**Triple DES (3DES) - FIPS 46-3**'
+      - type: heading
+        level: 3
+        text: Advanced Encryption Standard (AES) - FIPS 197
+      - type: prose
+        text: >-
+          Key Sizes: 128, 192, 256 bits
+
+          Block Size: 128 bits
+
+          Modes of Operation:
+      - type: list
+        style: bullet
+        items:
+          - 'ECB: Electronic Codebook (not recommended)'
+          - 'CBC: Cipher Block Chaining'
+          - 'CFB: Cipher Feedback'
+          - 'OFB: Output Feedback'
+          - 'CTR: Counter Mode'
+          - 'GCM: Galois/Counter Mode (authenticated)'
+      - type: prose
+        text: >-
+          AES-256-GCM Example Usage:
+      - type: code
+        lang: text
+        text: |
+          # Python example using cryptography library
+          from cryptography.fernet import Fernet
+          from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+
+          key = AESGCM.generate_key(bit_length=256)
+          aesgcm = AESGCM(key)
+          nonce = os.urandom(12)
+          ct = aesgcm.encrypt(nonce, data, aad)
+      - type: heading
+        level: 3
+        text: Data Encryption Standard (DES) - FIPS 46
+      - type: list
+        style: bullet
+        items:
+          - 'Status: Deprecated due to small key size'
+          - 'Key Size: 56 bits (64 bits with parity)'
+          - 'Block Size: 64 bits'
+      - type: heading
+        level: 3
+        text: Triple DES (3DES) - FIPS 46-3
+      - type: list
+        style: bullet
+        items:
+          - 'Status: Legacy, being phased out             Key Size: 112 or 168 bits effective             Block Size: 64 bits'
+      - type: heading
+        level: 3
+        text: Asymmetric Encryption Standards
+      - type: list
+        style: bullet
+        items:
+          - '**RSA (Rivest-Shamir-Adleman)**'
+          - '**Elliptic Curve Cryptography (ECC)**'
+      - type: heading
+        level: 3
+        text: RSA (Rivest-Shamir-Adleman)
+      - type: prose
+        text: >-
+          Key Sizes: 1024, 2048, 3072, 4096 bits           Security Level:
+      - type: list
+        style: bullet
+        items:
+          - '1024-bit: Deprecated'
+          - '2048-bit: Minimum recommended'
+          - '3072-bit: Good security margin'
+          - '4096-bit: High security'
+      - type: prose
+        text: >-
+          RSA Key Generation Process:
+      - type: list
+        style: bullet
+        items:
+          - Choose two large prime numbers p and q
+          - Compute n = p × q
+          - Compute φ(n) = (p-1)(q-1)
+          - Choose e such that gcd(e, φ(n)) = 1
+          - Compute d such that d × e ≡ 1 (mod φ(n))
+          - 'Public key: (n, e), Private key: (n, d)'
+      - type: heading
+        level: 3
+        text: Elliptic Curve Cryptography (ECC)
+      - type: prose
+        text: >-
+          Common Curves:
+      - type: list
+        style: bullet
+        items:
+          - 'P-256 (secp256r1): 256-bit prime field'
+          - 'P-384 (secp384r1): 384-bit prime field'
+          - 'P-521 (secp521r1): 521-bit prime field'
+          - 'Curve25519: High-security curve'
+          - 'Ed25519: Edwards curve for signatures'
+      - type: prose
+        text: >-
+          ECC vs RSA Security Equivalence:
+      - type: list
+        style: bullet
+        items:
+          - 256-bit ECC ≈ 3072-bit RSA
+          - 384-bit ECC ≈ 7680-bit RSA
+          - 521-bit ECC ≈ 15360-bit RSA
+      - type: heading
+        level: 3
+        text: Hash Functions
+      - type: list
+        style: bullet
+        items:
+          - SHA-2 Family (FIPS 180-4)
+          - SHA-3 (Keccak) - FIPS 202
+          - Legacy Hash Functions (Deprecated)
+      - type: prose
+        text: >-
+          SHA-2 Family (FIPS 180-4)
+      - type: list
+        style: bullet
+        items:
+          - 'SHA-224: 224-bit hash, 512-bit blocks'
+          - 'SHA-256: 256-bit hash, 512-bit blocks'
+          - 'SHA-384: 384-bit hash, 1024-bit blocks'
+          - 'SHA-512: 512-bit hash, 1024-bit blocks'
+      - type: prose
+        text: >-
+          SHA-3 (Keccak) - FIPS 202
+      - type: list
+        style: bullet
+        items:
+          - 'SHA3-224: 224-bit hash'
+          - 'SHA3-256: 256-bit hash'
+          - 'SHA3-384: 384-bit hash'
+          - 'SHA3-512: 512-bit hash'
+          - 'SHAKE128/SHAKE256: Extendable-output functions'
+      - type: prose
+        text: >-
+          Legacy Hash Functions (Deprecated)
+      - type: list
+        style: bullet
+        items:
+          - 'MD5: 128-bit hash, cryptographically broken'
+          - 'SHA-1: 160-bit hash, deprecated for security'
+      - type: heading
+        level: 3
+        text: Digital Signatures
+      - type: list
+        style: bullet
+        items:
+          - RSA Signature Schemes
+          - DSA (Digital Signature Algorithm) - FIPS 186-4
+          - ECDSA (Elliptic Curve DSA)
+          - EdDSA (Edwards-curve Digital Signature Algorithm)
+      - type: heading
+        level: 3
+        text: RSA Signature Schemes
+      - type: list
+        style: bullet
+        items:
+          - '**PKCS#1 v1.5**: Legacy padding scheme'
+          - '**PSS**: Probabilistic Signature Scheme (recommended)'
+      - type: heading
+        level: 3
+        text: DSA (Digital Signature Algorithm) - FIPS 186-4
+      - type: list
+        style: bullet
+        items:
+          - '**Key Sizes**: 1024, 2048, 3072 bits'
+          - '**Hash Functions**: SHA-1 (deprecated), SHA-2 family'
+      - type: heading
+        level: 3
+        text: ECDSA (Elliptic Curve DSA)
+      - type: list
+        style: bullet
+        items:
+          - '**Curves**: P-256, P-384, P-521'
+          - '**Advantages**: Smaller key sizes, faster operations'
+      - type: heading
+        level: 3
+        text: EdDSA (Edwards-curve Digital Signature Algorithm)
+      - type: list
+        style: bullet
+        items:
+          - '**Variants**: Ed25519, Ed448'
+          - '**Benefits**: High security, resistance to implementation errors'

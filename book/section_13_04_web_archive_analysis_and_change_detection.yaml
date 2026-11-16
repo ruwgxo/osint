@@ -1,0 +1,117 @@
+# section_13_04_web_archive_analysis_and_change_detection.yaml
+
+---
+title: Web Archive Analysis and Change Detection
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 13
+  section: 4
+  section_code: '1304'
+  source_file: part-2-advanced-techniques/chapter-13-temporal-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Web Archive Analysis and Change Detection
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Web archive analysis examines historical versions of web content to track organizational changes,
+          information evolution, and content modification patterns through systematic analysis of archived
+          web pages and digital resources.
+      - type: prose
+        text: >-
+          **Web Archive Platform Utilization** leverages various archive services and their unique characteristics
+          to maximize historical web content recovery and analysis capabilities.
+      - type: prose
+        text: >-
+          Internet Archive Wayback Machine provides comprehensive historical web content with millions
+          of archived pages spanning decades. Snapshot frequency varies significantly across different
+          websites and time periods. Archive completeness varies with some sites having extensive coverage
+          while others have sporadic snapshots. Advanced search capabilities enable targeted temporal
+          searches and bulk analysis of archived content.
+      - type: prose
+        text: >-
+          National and institutional archives provide specialized collections focusing on specific geographic
+          regions or subject areas. Library of Congress web archive focuses on culturally and historically
+          significant web content. National archives maintain government and policy-related web content
+          with systematic collection approaches. University archives preserve academic and research-related
+          web content with disciplinary focuses.
+      - type: prose
+        text: >-
+          Commercial archive services provide enhanced features and access to premium content not available
+          through public archives. Archive-It provides subscription-based archiving with customizable
+          collection parameters. Arquivo.pt focuses on Portuguese web content with comprehensive national
+          coverage. Regional archives provide specialized coverage for specific geographic or linguistic
+          areas.
+      - type: prose
+        text: >-
+          **Content Change Detection and Analysis** systematically identifies modifications to web content
+          over time while distinguishing between significant content changes and routine updates or technical
+          modifications.
+      - type: prose
+        text: >-
+          Text comparison algorithms identify changes in textual content between different archived versions.
+          Diff algorithms highlight specific additions, deletions, and modifications between text versions.
+          Semantic analysis identifies meaningful content changes versus formatting or technical modifications.
+          Language analysis identifies changes in tone, messaging, or policy statements.
+      - type: prose
+        text: >-
+          Visual change detection identifies modifications to images, layout, and visual presentation.
+          Screenshot comparison identifies visual changes that may not be apparent in text analysis. Layout
+          change detection identifies structural modifications to page organization. Image change detection
+          identifies updated photographs, logos, or graphics.
+      - type: prose
+        text: >-
+          Structural change analysis examines modifications to website architecture and navigation. Link
+          analysis identifies changes in internal and external linking patterns. Menu and navigation analysis
+          tracks organizational and informational structure modifications. Page hierarchy analysis examines
+          changes in content organization and accessibility.
+      - type: prose
+        text: >-
+          **Organizational Evolution Tracking** examines how organizations modify their web presence over
+          time to understand strategic changes, policy evolution, and operational developments.
+      - type: prose
+        text: >-
+          Corporate messaging analysis tracks changes in organizational communications, mission statements,
+          and public positioning. Mission statement evolution analysis identifies strategic direction
+          changes. Product portfolio analysis examines business focus modifications over time. Corporate
+          responsibility messaging tracks organizational values and policy evolution.
+      - type: prose
+        text: >-
+          Personnel and leadership analysis examines changes in organizational structure and key personnel.
+          Executive biography analysis tracks leadership changes and background evolution. Staff directory
+          analysis identifies organizational growth and restructuring patterns. Contact information analysis
+          reveals operational changes and geographic expansion.
+      - type: prose
+        text: >-
+          Service and product evolution analysis tracks organizational capability development and business
+          model changes. Service description analysis identifies capability expansion or contraction.
+          Pricing information analysis tracks business model evolution and market positioning. Technology
+          adoption analysis examines organizational modernization and digital transformation.
+      - type: prose
+        text: >-
+          **Policy and Regulatory Change Documentation** leverages web archives to track how organizations
+          respond to regulatory changes and evolving policy requirements through systematic analysis of
+          policy-related content.
+      - type: prose
+        text: >-
+          Privacy policy evolution analysis tracks organizational responses to changing privacy regulations
+          and data protection requirements. Policy language analysis identifies specific regulatory compliance
+          measures. Data handling practice documentation tracks changes in data collection and processing
+          procedures. User consent mechanism analysis examines evolving privacy protection implementations.
+      - type: prose
+        text: >-
+          Terms of service analysis examines how organizations modify user agreements and service conditions
+          over time. Legal language evolution tracks regulatory compliance and risk management approaches.
+          Service limitation analysis identifies changing organizational liability and responsibility
+          positions. Dispute resolution procedure analysis tracks legal process evolution.
+      - type: prose
+        text: >-
+          Compliance documentation analysis examines how organizations demonstrate regulatory adherence
+          through public documentation. Industry regulation compliance tracks sector-specific requirement
+          responses. Geographic compliance analysis examines responses to jurisdiction-specific regulations.
+          Audit and certification documentation tracks third-party validation and compliance verification.

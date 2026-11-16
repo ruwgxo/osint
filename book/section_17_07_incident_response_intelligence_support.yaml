@@ -1,0 +1,210 @@
+# section_17_07_incident_response_intelligence_support.yaml
+
+---
+title: Incident response intelligence support
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 17
+  section: 7
+  section_code: '1707'
+  source_file: part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Incident response intelligence support
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Incident response intelligence support provides timely, actionable threat intelligence during
+          active security incidents while enabling effective containment, eradication, and recovery through
+          systematic intelligence collection and analysis tailored to incident response requirements.
+      - type: heading
+        level: 3
+        text: Real-Time Intelligence Collection and Analysis
+      - type: prose
+        text: >-
+          Rapid intelligence gathering during active incidents requires specialized collection approaches
+          that prioritize speed and relevance while maintaining analytical rigor and operational security
+          throughout the response process.
+      - type: prose
+        text: >-
+          Emergency intelligence protocols establish expedited collection and analysis procedures for
+          time-sensitive incident response situations. Priority intelligence requirements focus collection
+          efforts on critical questions that directly impact response decisions and tactical actions.
+          Rapid assessment frameworks provide structured approaches to initial threat characterization
+          and impact evaluation. Escalation procedures ensure appropriate intelligence resources are allocated
+          based on incident severity and organizational impact.
+      - type: prose
+        text: >-
+          Tactical intelligence support provides immediate analytical products that enable informed decision-making
+          during incident response operations. Threat actor profiling rapidly develops adversary capability
+          assessments and likely operational objectives based on observed tactics, techniques, and procedures.
+          Infrastructure analysis identifies command and control systems, staging areas, and potential
+          data exfiltration channels. Timeline reconstruction establishes chronological sequence of attack
+          activities and helps identify ongoing threat actor presence.
+      - type: prose
+        text: >-
+          Collaborative intelligence sharing coordinates information exchange with external partners while
+          maintaining appropriate operational security and information handling requirements. Peer organization
+          coordination shares tactical indicators and lessons learned with industry partners facing similar
+          threats. Government partnership leverages law enforcement and national security intelligence
+          resources when appropriate. Vendor coordination obtains technical assistance and threat intelligence
+          from security technology providers.
+      - type: heading
+        level: 3
+        text: Indicator Development and Tactical Intelligence
+      - type: prose
+        text: >-
+          Systematic indicator creation during incident response enables rapid detection of related activities
+          while supporting defensive measures and attribution efforts through comprehensive technical
+          analysis and behavioral pattern identification.
+      - type: prose
+        text: >-
+          Dynamic indicator extraction rapidly identifies and validates new indicators of compromise discovered
+          during incident investigation. Network indicator development creates actionable intelligence
+          from observed malicious network communications and infrastructure usage. Host-based indicator
+          development identifies file system artifacts, registry modifications, and process behaviors
+          that indicate threat actor presence. Email indicator development creates detection signatures
+          for phishing campaigns and malicious communication patterns.
+      - type: prose
+        text: >-
+          Indicator validation ensures tactical intelligence accuracy while preventing false positive
+          impacts on business operations during incident response. Technical verification confirms that
+          indicators actually represent malicious activity rather than legitimate business operations.
+          Contextual validation ensures indicators are relevant to the specific incident and threat actor
+          involved. Temporal validation confirms that indicators remain current and actionably relevant
+          to ongoing response efforts.
+      - type: prose
+        text: >-
+          Tactical intelligence products provide actionable information in formats optimized for immediate
+          operational use by incident response teams. Indicator feeds deliver machine-readable indicators
+          for immediate deployment to security tools and monitoring systems. Technical reports provide
+          detailed analysis of threat actor capabilities and operational methods. Executive briefings
+          communicate incident status and business impact to organizational leadership.
+      - type: heading
+        level: 3
+        text: Attribution Support and Actor Profiling
+      - type: prose
+        text: >-
+          Incident-focused attribution analysis provides tactical intelligence about threat actor identity,
+          capabilities, and likely operational objectives while supporting strategic planning and risk
+          assessment during active incident response.
+      - type: prose
+        text: >-
+          Rapid attribution assessment provides preliminary threat actor identification based on observed
+          tactics, techniques, and procedures. Technical signature analysis compares incident artifacts
+          with known threat actor tool preferences and operational patterns. Behavioral analysis examines
+          attack methodology and target selection patterns that might indicate specific threat actor groups.
+          Infrastructure correlation identifies connections between incident infrastructure and previously
+          attributed threat actor operations.
+      - type: prose
+        text: >-
+          Threat actor capability assessment evaluates adversary technical sophistication and potential
+          operational objectives to inform response planning and defensive prioritization. Technical skill
+          evaluation examines exploit sophistication and custom tool development that indicates threat
+          actor capabilities. Resource assessment evaluates infrastructure investment and operational
+          scope that suggests threat actor organizational characteristics. Persistence evaluation examines
+          threat actor operational security and likely duration of compromise.
+      - type: prose
+        text: >-
+          Operational objective analysis attempts to understand threat actor goals and likely future activities
+          to inform containment and eradication strategies. Data targeting analysis examines what information
+          the threat actor attempted to access or exfiltrate. System targeting analysis identifies which
+          systems and networks received threat actor attention. Timeline analysis examines threat actor
+          operational pacing and likely planning characteristics.
+      - type: heading
+        level: 3
+        text: Threat Landscape Contextualization
+      - type: prose
+        text: >-
+          Incident contextualization places current security events within broader threat landscape patterns
+          while identifying potential connections to ongoing campaigns and strategic threat actor objectives.
+      - type: prose
+        text: >-
+          Campaign correlation analysis identifies potential connections between current incidents and
+          broader threat actor operations or attack campaigns. Infrastructure correlation identifies shared
+          command and control systems or hosting preferences that might indicate campaign connections.
+          Victim correlation examines whether other organizations have experienced similar attacks from
+          the same threat actor. Temporal correlation identifies timing patterns that might indicate coordinated
+          campaign activities.
+      - type: prose
+        text: >-
+          Strategic intelligence integration places tactical incident details within broader threat actor
+          strategic objectives and organizational characteristics. Geopolitical context analysis examines
+          how incident timing and targeting align with international political developments. Economic
+          context analysis considers how attacks might relate to business competition or economic espionage
+          objectives. Regulatory context analysis examines how incidents might relate to compliance requirements
+          or regulatory enforcement actions.
+      - type: prose
+        text: >-
+          Trend analysis identifies how current incidents relate to evolving threat actor capabilities
+          and operational approaches. Technical evolution analysis examines how threat actor tools and
+          techniques have developed over time. Target evolution analysis identifies changes in threat
+          actor victim selection and operational focus. Geographic evolution analysis examines changes
+          in threat actor operational territories and infrastructure preferences.
+      - type: heading
+        level: 3
+        text: Intelligence-Driven Response Planning
+      - type: prose
+        text: >-
+          Strategic intelligence integration guides incident response planning and resource allocation
+          while supporting long-term defensive improvements and organizational risk management based on
+          threat intelligence insights.
+      - type: prose
+        text: >-
+          Response strategy optimization uses threat intelligence to inform tactical decisions about containment,
+          eradication, and recovery approaches. Containment planning leverages threat actor capability
+          assessments to determine appropriate isolation and monitoring strategies. Eradication planning
+          uses threat actor persistence mechanism analysis to ensure complete threat removal. Recovery
+          planning incorporates threat actor operational pattern analysis to prevent reinfection and detect
+          potential ongoing presence.
+      - type: prose
+        text: >-
+          Resource allocation guidance helps incident response teams prioritize efforts based on threat
+          intelligence assessment of risk and impact. Critical asset protection focuses defensive resources
+          on systems and data most likely to be targeted based on threat actor operational patterns. Monitoring
+          prioritization focuses detection capabilities on indicators and behaviors most likely to reveal
+          ongoing threat actor activities. Investigation prioritization focuses forensic resources on
+          evidence most likely to provide actionable intelligence and attribution information.
+      - type: prose
+        text: >-
+          Long-term defensive planning integrates incident lessons learned with threat intelligence to
+          improve organizational security posture and resilience. Control effectiveness assessment examines
+          how existing security controls performed against observed threat actor tactics and techniques.
+          Gap analysis identifies security improvements needed to defend against similar future attacks.
+          Training requirements analysis identifies skill development needs for security personnel based
+          on observed threat actor capabilities.
+      - type: heading
+        level: 3
+        text: Legal and Regulatory Intelligence Support
+      - type: prose
+        text: >-
+          Incident response intelligence coordination with legal and regulatory requirements ensures appropriate
+          evidence preservation and information sharing while maintaining compliance with disclosure obligations
+          and law enforcement cooperation requirements.
+      - type: prose
+        text: >-
+          Evidence preservation intelligence guides forensic collection and analysis to ensure legal admissibility
+          and investigative utility. Chain of custody procedures maintain evidence integrity throughout
+          intelligence collection and analysis processes. Legal standard compliance ensures intelligence
+          collection and analysis meet evidentiary requirements for potential legal proceedings. Documentation
+          standards create comprehensive records that support legal and regulatory reporting requirements.
+      - type: prose
+        text: >-
+          Regulatory compliance intelligence ensures incident response activities meet disclosure and
+          notification requirements while protecting sensitive intelligence sources and methods. Disclosure
+          timeline analysis identifies regulatory notification requirements and deadlines. Information
+          sensitivity assessment determines what intelligence can be shared with regulatory authorities.
+          Compliance documentation creates records that demonstrate adherence to regulatory requirements.
+      - type: prose
+        text: >-
+          Law enforcement coordination provides appropriate intelligence sharing and cooperation while
+          protecting organizational interests and sensitive intelligence capabilities. Intelligence sharing
+          protocols determine what information can be provided to law enforcement agencies. Evidence coordination
+          ensures forensic analysis supports both organizational response and potential criminal investigation.
+          Victim impact assessment provides information needed for law enforcement case development and
+          prosecution support.

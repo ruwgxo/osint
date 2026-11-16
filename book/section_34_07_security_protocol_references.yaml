@@ -1,0 +1,156 @@
+# section_34_07_security_protocol_references.yaml
+
+---
+title: Security Protocol References
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 7
+  section_code: '3407'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Security Protocol References
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: TLS/SSL Implementation Details
+      - type: list
+        style: bullet
+        items:
+          - Cipher Suite Format
+          - Recommended Cipher Suites (2023)
+          - Certificate Fields for Analysis
+      - type: prose
+        text: >-
+          Cipher Suite Format
+      - type: code
+        lang: text
+        text: |
+          TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+           │    │     │    │      │   │   │
+           │    │     │    │      │   │   └── MAC algorithm
+           │    │     │    │      │   └────── AEAD algorithm
+           │    │     │    │      └────────── Encryption algorithm
+           │    │     │    └───────────────── Key size
+           │    │     └────────────────────── Bulk encryption algorithm
+           │    └──────────────────────────── Authentication algorithm
+           └───────────────────────────────── Key exchange algorithm
+      - type: prose
+        text: >-
+          Recommended Cipher Suites (2023)
+
+          TLS 1.3:
+      - type: list
+        style: bullet
+        items:
+          - TLS_AES_256_GCM_SHA384
+          - TLS_AES_128_GCM_SHA256
+          - TLS_CHACHA20_POLY1305_SHA256
+      - type: prose
+        text: >-
+          TLS 1.2:
+      - type: list
+        style: bullet
+        items:
+          - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+          - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+          - TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+      - type: prose
+        text: >-
+          Certificate Fields for Analysis
+      - type: code
+        lang: text
+        text: |
+          Subject: CN=example.com, O=Example Corp, C=US
+          Issuer: CN=DigiCert SHA2 High Assurance Server CA
+          Serial Number: 0x1234567890abcdef
+          Not Before: Jan 1 00:00:00 2023 GMT
+          Not After: Jan 1 23:59:59 2024 GMT
+          Subject Alternative Names: example.com, www.example.com, api.example.com
+      - type: heading
+        level: 3
+        text: SSH Protocol (RFC 4251)
+      - type: list
+        style: bullet
+        items:
+          - SSH Connection Process
+          - SSH Key Types
+          - SSH Configuration Analysis
+      - type: prose
+        text: >-
+          SSH Connection Process
+      - type: list
+        style: bullet
+        items:
+          - 'Protocol Version Exchange: Client and server exchange version strings'
+          - 'Algorithm Negotiation: Agree on encryption, MAC, and compression algorithms'
+          - 'Key Exchange: Establish shared secret using Diffie-Hellman'
+          - 'Authentication: User authentication (password, key, etc.)'
+          - 'Channel Setup: Establish encrypted communication channels'
+      - type: prose
+        text: >-
+          SSH Key Types
+      - type: list
+        style: bullet
+        items:
+          - 'RSA: Legacy, minimum 2048-bit recommended'
+          - 'ECDSA: Elliptic curve, 256/384/521-bit'
+          - 'Ed25519: Modern, high-security curve'
+          - 'DSA: Deprecated'
+      - type: prose
+        text: >-
+          SSH Configuration Analysis
+      - type: code
+        lang: text
+        text: |
+          # Common SSH configuration locations
+          ~/.ssh/config          # User configuration
+          /etc/ssh/ssh_config    # System-wide client config
+          /etc/ssh/sshd_config   # Server configuration
+          ~/.ssh/authorized_keys # Authorized public keys
+          ~/.ssh/known_hosts     # Known server fingerprints
+      - type: heading
+        level: 3
+        text: IPSec Protocol Suite
+      - type: list
+        style: bullet
+        items:
+          - IPSec Protocols
+          - IPSec Modes
+          - IPSec Security Associations (SA)
+      - type: prose
+        text: >-
+          IPSec Protocols
+      - type: list
+        style: bullet
+        items:
+          - 'AH (Authentication Header): Provides authentication and integrity'
+          - 'ESP (Encapsulating Security Payload): Provides confidentiality, authentication, and integrity'
+          - 'IKE (Internet Key Exchange): Key management protocol'
+      - type: prose
+        text: >-
+          IPSec Modes
+      - type: list
+        style: bullet
+        items:
+          - 'Transport Mode: Protects payload only'
+          - 'Tunnel Mode: Protects entire IP packet'
+      - type: prose
+        text: >-
+          IPSec Security Associations (SA)
+
+          Parameters that define IPSec connection:
+      - type: list
+        style: bullet
+        items:
+          - Security Parameter Index (SPI)
+          - Destination IP address
+          - Security protocol (AH or ESP)
+          - Encryption algorithm and keys
+          - Authentication algorithm and keys

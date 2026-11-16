@@ -1,0 +1,121 @@
+# section_06_04_dorking_methodologies.yaml
+
+---
+title: Dorking Methodologies
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 6
+  section: 4
+  section_code: '0604'
+  source_file: part-1-fundamentals/chapter-06-search-methodologies.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Dorking Methodologies
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Google dorking and similar advanced search techniques leverage specialized operators and search
+          patterns to discover information that might not appear in conventional searches. These methodologies
+          enable systematic exploration of indexed content through targeted query construction that exploits
+          search engine capabilities and content organization patterns.
+      - type: prose
+        text: >-
+          **Google Dork Operators and Applications** encompass specialized search operators that enable
+          precise targeting of specific content types, file formats, and website characteristics for intelligence
+          gathering applications.
+      - type: prose
+        text: >-
+          Site operator restricts searches to specific domains or website sections enabling focused analysis
+          of particular organizations or content sources. Site-specific searches reveal organizational
+          content breadth and information management approaches. Subdomain analysis identifies organizational
+          structure and service categorization. Domain exclusion removes irrelevant content sources from
+          broader searches.
+      - type: prose
+        text: >-
+          Filetype operator targets specific document formats that might contain specialized intelligence
+          including technical documents, financial reports, and administrative records. PDF document searches
+          reveal official publications and formal documentation. Spreadsheet file searches identify data
+          repositories and analytical content. Presentation file searches discover training materials
+          and strategic documents.
+      - type: prose
+        text: >-
+          Intitle and inurl operators target specific text patterns within document titles and web addresses
+          to identify particular content categories. Title-based searches identify documents with specific
+          naming conventions or subject focus. URL pattern searches reveal website organization and content
+          categorization approaches. Combined title and URL searching improves targeting precision and
+          reduces false positives.
+      - type: prose
+        text: >-
+          Cache operator accesses historical versions of web content that might no longer be available
+          on original websites. Cache analysis enables temporal content comparison and change detection.
+          Historical content recovery provides access to information that has been removed or modified.
+          Version comparison identifies content evolution and editorial changes.
+      - type: prose
+        text: >-
+          **Advanced Dorking Combinations** create sophisticated search expressions that combine multiple
+          operators to address complex intelligence requirements and optimize result targeting.
+
+          Multi-operator combinations integrate different search constraints to create highly specific
+          result sets. Site and filetype combinations focus on particular document types within specific
+          organizations. Date range and content type combinations identify time-sensitive information
+          categories. Author and organization combinations target specific personnel and their associated
+          content.
+      - type: prose
+        text: >-
+          Negative operator usage excludes irrelevant content categories while maintaining comprehensive
+          coverage of relevant material. Commercial content exclusion removes marketing materials from
+          analytical content searches. Common false positive removal improves result quality and processing
+          efficiency. Geographic exclusion focuses searches on particular regional contexts.
+
+          Complex Boolean integration combines traditional Boolean logic with specialized Google operators
+          to create sophisticated search expressions. Nested operator structures handle multi-dimensional
+          search requirements. Operator precedence management ensures predictable result behavior. Expression
+          optimization balances complexity with search platform capabilities.
+      - type: prose
+        text: >-
+          **Target Identification and Reconnaissance** applies dorking methodologies to systematic intelligence
+          gathering about specific organizations, technologies, or topic areas.
+
+          Organizational analysis combines domain-specific searches with content type targeting to comprehensively
+          map organizational digital presence. Executive identification searches target leadership personnel
+          and their associated content. Strategic document discovery identifies planning materials and
+          policy documents. Infrastructure analysis reveals technical implementations and service dependencies.
+      - type: prose
+        text: >-
+          Technology identification searches target specific software implementations, version information,
+          and configuration details. Error message searches reveal technology stacks and potential vulnerabilities.
+          Configuration file discovery identifies system settings and operational parameters. Version
+          information searches enable technology inventory and update tracking.
+
+          Competitive intelligence applications target industry analysis, market research, and strategic
+          planning information. Industry report discovery identifies analytical content and market assessments.
+          Patent and innovation searches reveal intellectual property and development activities. Partnership
+          and collaboration identification maps business relationships and strategic alliances.
+      - type: prose
+        text: >-
+          **Legal and Ethical Considerations** address responsible dorking practices that respect organizational
+          boundaries and legal constraints while maintaining effective intelligence gathering capabilities.
+      - type: prose
+        text: >-
+          Content access boundaries distinguish between publicly indexed information and unauthorized
+          access attempts. Robots.txt compliance ensures adherence to website access policies. Authentication
+          bypass avoidance prevents unauthorized access to protected content. Legal content interpretation
+          focuses on legitimately available information.
+      - type: prose
+        text: >-
+          Privacy and sensitivity considerations address potential exposure of personal information or
+          confidential organizational data. Personal information handling requires appropriate privacy
+          protections and usage limitations. Organizational sensitivity assessment considers potential
+          impacts of information disclosure. Responsible disclosure procedures address discovered vulnerabilities
+          or misconfigurations.
+      - type: prose
+        text: >-
+          Professional ethics frameworks establish standards for responsible dorking practices within
+          legitimate intelligence requirements. Purpose limitation ensures dorking serves legitimate analytical
+          objectives. Proportionality assessment balances collection intensity with information importance.
+          Transparency maintenance enables accountability and professional oversight.

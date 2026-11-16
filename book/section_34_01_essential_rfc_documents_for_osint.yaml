@@ -1,0 +1,342 @@
+# section_34_01_essential_rfc_documents_for_osint.yaml
+
+---
+title: Essential RFC Documents for OSINT
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 1
+  section_code: '3401'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Essential RFC Documents for OSINT
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Core Internet Protocols
+      - type: list
+        style: bullet
+        items:
+          - RFC 791 - Internet Protocol (IPv4)
+          - RFC 2460 - Internet Protocol Version 6 (IPv6)
+          - RFC 793 - Transmission Control Protocol (TCP)
+          - RFC 768 - User Datagram Protocol (UDP)
+      - type: heading
+        level: 3
+        text: RFC 791 - Internet Protocol (IPv4)
+      - type: prose
+        text: >-
+          Date: September 1981           Status: Internet Standard           Summary: Defines the Internet Protocol version 4, including packet format, addressing, and routing.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - IP address geolocation and attribution
+          - Network topology mapping
+          - Traffic flow analysis
+          - Infrastructure reconnaissance
+      - type: prose
+        text: >-
+          Header Fields of Interest:
+      - type: list
+        style: bullet
+        items:
+          - 'Source Address (32 bits): Origin of packet'
+          - 'Destination Address (32 bits): Target of packet'
+          - 'Time to Live (8 bits): Maximum hop count'
+          - 'Protocol (8 bits): Next level protocol identifier'
+      - type: heading
+        level: 3
+        text: RFC 2460 - Internet Protocol Version 6 (IPv6)
+      - type: prose
+        text: >-
+          Date: December 1998           Status: Internet Standard           Summary: Specification for IPv6, the next generation Internet Protocol.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Next-generation network analysis
+          - Extended address space tracking
+          - Enhanced security analysis
+          - Mobile device tracking
+      - type: prose
+        text: >-
+          IPv6 Address Types:
+      - type: list
+        style: bullet
+        items:
+          - 'Unicast: Single interface identifier'
+          - 'Multicast: Group communication'
+          - 'Anycast: Nearest of multiple interfaces'
+      - type: heading
+        level: 3
+        text: RFC 793 - Transmission Control Protocol (TCP)
+      - type: prose
+        text: >-
+          Date: September 1981           Status: Internet Standard           Summary: Defines TCP for reliable, ordered delivery of data streams.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Connection analysis and tracking
+          - Service identification
+          - Session reconstruction
+          - Traffic pattern analysis
+      - type: prose
+        text: >-
+          TCP Flags for Analysis:
+      - type: list
+        style: bullet
+        items:
+          - 'SYN: Connection initiation'
+          - 'ACK: Acknowledgment'
+          - 'FIN: Connection termination'
+          - 'RST: Connection reset'
+          - 'PSH: Push data immediately'
+          - 'URG: Urgent data pointer'
+      - type: heading
+        level: 3
+        text: RFC 768 - User Datagram Protocol (UDP)
+      - type: prose
+        text: >-
+          Date: August 1980           Status: Internet Standard           Summary: Simple, connectionless transport protocol.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - DNS query analysis
+          - Real-time communication tracking
+          - Gaming and streaming analysis
+          - IoT device communication
+      - type: heading
+        level: 3
+        text: Domain Name System (DNS)
+      - type: list
+        style: bullet
+        items:
+          - RFC 1035 - Domain Names - Implementation and Specification
+          - RFC 3596 - DNS Extensions to Support IPv6
+      - type: heading
+        level: 3
+        text: RFC 1035 - Domain Names - Implementation and Specification
+      - type: prose
+        text: >-
+          Date: November 1987           Status: Internet Standard           Summary: Core DNS specification defining domain name structure and resolution.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Domain ownership research
+          - Infrastructure mapping
+          - Subdomain enumeration
+          - DNS tunneling detection
+      - type: prose
+        text: >-
+          DNS Message Structure:
+      - type: code
+        lang: text
+        text: |
+          Header (12 bytes)
+          Question Section (variable)
+          Answer Section (variable)
+          Authority Section (variable)
+          Additional Section (variable)
+      - type: heading
+        level: 3
+        text: RFC 3596 - DNS Extensions to Support IPv6
+      - type: prose
+        text: >-
+          Date: October 2003           Status: Internet Standard           Summary: Defines AAAA records for IPv6 address resolution.
+
+          RFC 4034 - Resource Records for DNS Security Extensions
+
+          Date: March 2005           Status: Proposed Standard           Summary: Defines DNSSEC resource records for DNS security.
+      - type: prose
+        text: >-
+          DNSSEC Record Types:
+      - type: list
+        style: bullet
+        items:
+          - 'DNSKEY: Public key for verification'
+          - 'RRSIG: Digital signature'
+          - 'DS: Delegation Signer'
+          - 'NSEC/NSEC3: Authenticated denial of existence'
+      - type: heading
+        level: 3
+        text: HTTP and Web Technologies
+      - type: list
+        style: bullet
+        items:
+          - 'RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing'
+          - RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)
+          - RFC 6455 - The WebSocket Protocol
+      - type: heading
+        level: 3
+        text: 'RFC 7230 - Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing'
+      - type: prose
+        text: >-
+          Date: June 2014           Status: Proposed Standard           Summary: Core HTTP/1.1 specification for web communication.
+
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Web traffic analysis
+          - User behavior tracking
+          - Content analysis
+          - Server identification
+      - type: prose
+        text: >-
+          HTTP Request Methods:
+      - type: list
+        style: bullet
+        items:
+          - 'GET: Retrieve resource'
+          - 'POST: Submit data'
+          - 'PUT: Update resource'
+          - 'DELETE: Remove resource'
+          - 'HEAD: Get headers only'
+          - 'OPTIONS: Query supported methods'
+      - type: heading
+        level: 3
+        text: RFC 7540 - Hypertext Transfer Protocol Version 2 (HTTP/2)
+      - type: prose
+        text: >-
+          Date: May 2015           Status: Proposed Standard           Summary: Major revision of HTTP with performance improvements.
+
+          Key Features for Analysis:
+      - type: list
+        style: bullet
+        items:
+          - Binary protocol format
+          - Request/response multiplexing
+          - Server push capability
+          - Header compression (HPACK)
+      - type: heading
+        level: 3
+        text: RFC 6455 - The WebSocket Protocol
+      - type: prose
+        text: >-
+          Date: December 2011           Status: Proposed Standard           Summary: Full-duplex communication protocol over TCP.
+      - type: prose
+        text: >-
+          OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Real-time communication monitoring
+          - Chat and messaging analysis
+          - Live data stream analysis
+          - Interactive application tracking
+      - type: heading
+        level: 3
+        text: Email Protocols
+      - type: list
+        style: bullet
+        items:
+          - RFC 5321 - Simple Mail Transfer Protocol (SMTP)
+          - RFC 3501 - Internet Message Access Protocol (IMAP) Version 4rev1
+      - type: heading
+        level: 3
+        text: RFC 5321 - Simple Mail Transfer Protocol (SMTP)
+      - type: prose
+        text: >-
+          Date: October 2008           Status: Draft Standard           Summary: Protocol for email transmission between servers.
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Email routing analysis
+          - Server identification
+          - Spam source tracking
+          - Email authentication
+      - type: prose
+        text: >-
+          SMTP Commands:
+      - type: list
+        style: bullet
+        items:
+          - 'HELO/EHLO: Identify sending server'
+          - 'MAIL FROM: Specify sender'
+          - 'RCPT TO: Specify recipient'
+          - 'DATA: Begin message content'
+          - 'QUIT: End session'
+      - type: heading
+        level: 3
+        text: RFC 3501 - Internet Message Access Protocol (IMAP) Version 4rev1
+      - type: prose
+        text: >-
+          Date: March 2003           Status: Proposed Standard           Summary: Protocol for accessing and managing email on a server.
+
+          RFC 1939 - Post Office Protocol - Version 3 (POP3)
+
+          Date: May 1996           Status: Internet Standard           Summary: Protocol for retrieving email from a server.
+      - type: heading
+        level: 3
+        text: Security Protocols
+      - type: list
+        style: bullet
+        items:
+          - RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2
+          - RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3
+      - type: heading
+        level: 3
+        text: RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2
+      - type: prose
+        text: >-
+          Date: August 2008           Status: Proposed Standard           Summary: Cryptographic protocol for secure communications.
+
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Certificate analysis
+          - Cipher suite identification
+          - Security assessment
+          - Encrypted traffic analysis
+      - type: prose
+        text: >-
+          TLS Handshake Process:
+      - type: list
+        style: bullet
+        items:
+          - ClientHello
+          - ServerHello
+          - Certificate exchange
+          - Key exchange
+          - Certificate verification
+          - Finished messages
+      - type: heading
+        level: 3
+        text: RFC 8446 - The Transport Layer Security (TLS) Protocol Version 1.3
+      - type: prose
+        text: >-
+          Date: August 2018           Status: Proposed Standard           Summary: Latest version of TLS with improved security and performance.
+      - type: prose
+        text: >-
+          Key Improvements:
+      - type: list
+        style: bullet
+        items:
+          - Reduced handshake latency
+          - Improved forward secrecy
+          - Simplified cipher suite negotiation
+          - Enhanced privacy protection

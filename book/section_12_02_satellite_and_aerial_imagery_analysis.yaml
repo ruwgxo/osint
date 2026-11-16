@@ -1,0 +1,145 @@
+# section_12_02_satellite_and_aerial_imagery_analysis.yaml
+
+---
+title: Satellite and Aerial Imagery Analysis
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 12
+  section: 2
+  section_code: '1202'
+  source_file: part-2-advanced-techniques/chapter-12-geospatial-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Satellite and Aerial Imagery Analysis
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Satellite and aerial imagery provide comprehensive visual intelligence about geographic areas,
+          infrastructure, and activities through systematic analysis of multispectral, temporal, and geometric
+          characteristics that reveal patterns and changes.
+      - type: prose
+        text: >-
+          **Image Acquisition and Characteristics** examine different imagery sources and their technical
+          specifications that affect analytical capabilities and appropriate applications for intelligence
+          gathering.
+      - type: prose
+        text: >-
+          Commercial satellite imagery provides regular coverage with varying spatial and temporal resolution
+          characteristics. High-resolution commercial satellites including WorldView, GeoEye, and Pleiades
+          provide sub-meter spatial resolution suitable for detailed infrastructure analysis. Medium-resolution
+          satellites including Landsat and Sentinel provide regular coverage suitable for broad area monitoring
+          and change detection. Hyperspectral satellites provide detailed spectral information for material
+          identification and environmental analysis.
+      - type: prose
+        text: >-
+          Government and military imagery sources provide specialized capabilities including classified
+          collection systems and historical archives. Declassified intelligence imagery provides historical
+          perspectives on infrastructure development and strategic facilities. Government earth observation
+          programs provide long-term datasets for environmental and infrastructure monitoring. International
+          cooperation agreements enable access to foreign government imagery for legitimate analytical
+          purposes.
+      - type: prose
+        text: >-
+          Imagery metadata includes acquisition parameters that affect image interpretation and analytical
+          applications. Acquisition date and time enable temporal analysis and correlation with external
+          events. Sun angle and illumination conditions affect shadow interpretation and terrain analysis.
+          Sensor characteristics including spectral bands and radiometric resolution determine analytical
+          capabilities and limitations.
+      - type: prose
+        text: >-
+          **Image Processing and Enhancement** improve imagery quality and analytical utility through
+          systematic processing techniques that enhance features and reduce artifacts while preserving
+          analytical accuracy.
+      - type: prose
+        text: >-
+          Radiometric correction adjusts pixel values to account for sensor characteristics, atmospheric
+          effects, and illumination variations. Dark object subtraction removes atmospheric haze and improves
+          contrast for ground feature identification. Histogram equalization enhances contrast to improve
+          visual interpretation. Gamma correction adjusts brightness and contrast for optimal visual display.
+      - type: prose
+        text: >-
+          Geometric correction aligns imagery with geographic coordinate systems and removes geometric
+          distortions. Orthorectification removes terrain-induced geometric distortion using digital elevation
+          models. Georeferencing establishes coordinate relationships between image pixels and geographic
+          locations. Registration aligns multiple images or datasets to enable comparative analysis and
+          change detection.
+      - type: prose
+        text: >-
+          Image fusion combines multiple imagery sources to enhance analytical capabilities. Pan-sharpening
+          merges high-resolution panchromatic imagery with lower-resolution multispectral data. Temporal
+          fusion creates cloud-free composites from multiple acquisition dates. Sensor fusion combines
+          imagery from different platforms to leverage complementary capabilities.
+      - type: prose
+        text: >-
+          **Feature Identification and Classification** systematically identifies and categorizes objects
+          and land cover types within imagery through visual interpretation and automated analysis techniques.
+      - type: prose
+        text: >-
+          Visual interpretation techniques leverage human pattern recognition capabilities for feature
+          identification. Interpretation keys establish systematic criteria for identifying specific object
+          types. Context analysis considers surrounding features and spatial relationships for improved
+          identification accuracy. Multi-temporal analysis examines feature changes over time to improve
+          classification confidence.
+      - type: prose
+        text: >-
+          Automated classification algorithms categorize pixels or image segments based on spectral and
+          spatial characteristics. Supervised classification uses training data to develop statistical
+          models for automatic feature identification. Unsupervised classification identifies natural
+          clusters in spectral data without prior training. Object-based classification analyzes image
+          segments rather than individual pixels for improved accuracy.
+      - type: prose
+        text: >-
+          Accuracy assessment evaluates classification performance and provides confidence measures for
+          analytical conclusions. Confusion matrices quantify classification accuracy for different feature
+          types. Ground truth validation compares classification results with field observations or reference
+          data. Statistical sampling ensures representative accuracy assessment across study areas.
+      - type: prose
+        text: >-
+          **Change Detection and Temporal Analysis** identify modifications to geographic areas and infrastructure
+          through systematic comparison of imagery acquired at different times.
+      - type: prose
+        text: >-
+          Image differencing techniques subtract pixel values between images to identify areas of change.
+          Threshold selection determines sensitivity for change detection while managing false positive
+          rates. Change masking focuses analysis on areas where significant changes are detected. Statistical
+          analysis quantifies change magnitude and significance levels.
+      - type: prose
+        text: >-
+          Time series analysis examines patterns and trends in imagery time sequences. Trend analysis
+          identifies directional changes in land cover or infrastructure over time. Seasonal analysis
+          separates cyclic changes from permanent modifications. Anomaly detection identifies unusual
+          changes that might indicate significant events or activities.
+      - type: prose
+        text: >-
+          Change characterization identifies the nature and significance of detected changes. Land cover
+          change analysis categorizes transitions between different surface types. Infrastructure development
+          analysis tracks construction and modification activities. Environmental change analysis identifies
+          natural or anthropogenic environmental modifications.
+      - type: prose
+        text: >-
+          **Multispectral and Hyperspectral Analysis** leverage different wavelength bands to identify
+          materials, vegetation characteristics, and environmental conditions through systematic spectral
+          analysis.
+      - type: prose
+        text: >-
+          Spectral signature analysis identifies materials based on their reflectance characteristics
+          across different wavelengths. Vegetation indices including NDVI quantify plant health and density.
+          Moisture indices identify water content in soil and vegetation. Mineral indices identify geological
+          materials and surface compositions.
+      - type: prose
+        text: >-
+          Band ratio analysis enhances specific features by combining different spectral bands. Vegetation
+          ratios highlight plant communities and growth conditions. Geological ratios enhance rock types
+          and mineral exposures. Urban ratios identify built-up areas and infrastructure materials.
+      - type: prose
+        text: >-
+          Principal component analysis reduces spectral dimensionality while preserving information content.
+          Component interpretation identifies the physical processes represented by different principal
+          components. Noise reduction eliminates redundant spectral information and enhances signal-to-noise
+          ratios. Feature enhancement emphasizes specific spectral characteristics relevant to analytical
+          objectives.

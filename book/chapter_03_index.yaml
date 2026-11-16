@@ -1,0 +1,49 @@
+# chapter_03_index.yaml
+
+---
+title: 'Chapter 3: Network Fundamentals - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 3
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260103 | OSINT: Fundamentals (Chapter 03 Network Fundamentals) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Fundamentals
+      - ‣‣‣ Network Fundamentals
+chapter_overview:
+  contents:
+    - TCP/IP protocol suite
+    - DNS architecture and query types
+    - HTTP/HTTPS protocol analysis
+    - Network topology mapping
+    - Routing and BGP basics
+    - Port scanning and service enumeration
+sections:
+  - section_number: '3.1'
+    title: TCP/IP Protocol Suite
+    filename: section_03_01_tcp_ip_protocol_suite.yaml
+  - section_number: '3.2'
+    title: DNS Architecture and Query Types
+    filename: section_03_02_dns_architecture_and_query_types.yaml
+  - section_number: '3.3'
+    title: HTTP/HTTPS Protocol Analysis
+    filename: section_03_03_http_https_protocol_analysis.yaml
+  - section_number: '3.4'
+    title: Network Topology Mapping
+    filename: section_03_04_network_topology_mapping.yaml
+  - section_number: '3.5'
+    title: Routing and BGP Basics
+    filename: section_03_05_routing_and_bgp_basics.yaml
+  - section_number: '3.6'
+    title: Port Scanning and Service Enumeration
+    filename: section_03_06_port_scanning_and_service_enumeration.yaml

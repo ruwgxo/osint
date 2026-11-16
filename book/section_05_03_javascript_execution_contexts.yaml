@@ -1,0 +1,110 @@
+# section_05_03_javascript_execution_contexts.yaml
+
+---
+title: JavaScript Execution Contexts
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 5
+  section: 3
+  section_code: '0503'
+  source_file: part-1-fundamentals/chapter-05-web-technologies.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: JavaScript Execution Contexts
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          JavaScript execution within web browsers creates dynamic content environments that significantly
+          impact OSINT collection and analysis activities. Understanding JavaScript execution contexts
+          enables more comprehensive content analysis while revealing organizational development practices
+          and security implementations.
+      - type: prose
+        text: >-
+          **Client-Side Code Analysis** examines JavaScript implementations to understand application
+          functionality, data processing approaches, and potential intelligence sources embedded within
+          client-side code.
+      - type: prose
+        text: >-
+          Code structure analysis identifies development frameworks, library dependencies, and architectural
+          approaches used in web application development. Framework identification reveals technical sophistication
+          and development approach preferences. Library version analysis might indicate security update
+          practices and maintenance approaches.
+      - type: prose
+        text: >-
+          Variable and function analysis examines naming conventions, code organization, and implementation
+          patterns that might reveal development team characteristics or organizational approaches. Obfuscation
+          analysis identifies code protection attempts and potential security considerations. Comments
+          and documentation provide insights into development processes and technical requirements.
+      - type: prose
+        text: >-
+          API integration analysis identifies client-side interactions with server-side services and external
+          integrations. API endpoint discovery reveals service architectures and potential additional
+          attack surfaces. Authentication handling analysis shows security implementation approaches and
+          potential vulnerabilities.
+      - type: prose
+        text: >-
+          **Dynamic Content Generation** addresses JavaScript-generated content that affects both content
+          accessibility and analysis approaches for OSINT practitioners working with modern web applications.
+      - type: prose
+        text: >-
+          DOM manipulation analysis examines how JavaScript modifies page content after initial loading.
+          DOM changes might reveal hidden content, user interaction patterns, or conditional information
+          display. Understanding DOM manipulation enables more comprehensive content collection strategies.
+      - type: prose
+        text: >-
+          Event handling analysis identifies user interaction requirements and application response patterns.
+          Event listeners reveal application functionality and potential user data collection approaches.
+          Form processing events might indicate data validation and submission workflows.
+      - type: prose
+        text: >-
+          Asynchronous operation analysis examines AJAX requests, fetch operations, and other asynchronous
+          patterns that load content dynamically. Asynchronous analysis requires understanding of timing
+          considerations and callback patterns. Network monitoring enables identification of dynamic data
+          sources.
+      - type: prose
+        text: >-
+          **Security Implementation Analysis** examines client-side security measures and their implications
+          for both organizational security posture and OSINT collection activities.
+      - type: prose
+        text: >-
+          Content Security Policy (CSP) analysis identifies security restrictions and trusted resource
+          specifications. CSP implementations reveal security sophistication and potential bypass opportunities.
+          CSP violations might indicate security implementation problems or attempted attacks.
+      - type: prose
+        text: >-
+          Cross-Origin Resource Sharing (CORS) analysis examines resource sharing policies and cross-domain
+          communication restrictions. CORS implementations reveal service architecture and integration
+          approaches. CORS misconfigurations might indicate security vulnerabilities or implementation
+          errors.
+      - type: prose
+        text: >-
+          Authentication and session management analysis identifies client-side security implementations
+          including token handling, session storage, and authentication state management. Security implementation
+          patterns reveal organizational security priorities and potential vulnerabilities.
+      - type: prose
+        text: >-
+          **JavaScript-Based Intelligence Collection** leverages browser automation and code execution
+          capabilities to systematically collect intelligence from JavaScript-heavy web applications.
+      - type: prose
+        text: >-
+          Browser automation frameworks enable controlled JavaScript execution for systematic content
+          collection. Tools like Selenium, Puppeteer, and Playwright provide programmatic browser control
+          with JavaScript execution capabilities. Automation frameworks enable interaction with dynamic
+          content and complex application flows.
+      - type: prose
+        text: >-
+          Headless browsing approaches provide JavaScript execution capabilities without graphical user
+          interface overhead. Headless browsers enable efficient large-scale content collection while
+          maintaining JavaScript compatibility. Resource optimization strategies improve headless browsing
+          performance and reliability.
+      - type: prose
+        text: >-
+          Script injection techniques enable custom JavaScript execution within target application contexts
+          for specialized collection requirements. Injection approaches require careful consideration
+          of security boundaries and legal constraints. Custom scripts can extract information not accessible
+          through standard collection methods.

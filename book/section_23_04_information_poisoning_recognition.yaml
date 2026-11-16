@@ -1,0 +1,130 @@
+# section_23_04_information_poisoning_recognition.yaml
+
+---
+title: Information Poisoning Recognition
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 23
+  section: 4
+  section_code: '2304'
+  source_file: part-4-operational/chapter-23-counterintelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Information Poisoning Recognition
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Information poisoning recognition identifies systematic attempts to contaminate information
+          sources and analytical processes while understanding poisoning techniques and developing detection
+          approaches that maintain information integrity and analytical reliability.
+      - type: prose
+        text: >-
+          **Data Contamination Detection** identifies attempts to introduce false or misleading information
+          into databases and information sources while understanding contamination methods and developing
+          detection capabilities that protect analytical accuracy.
+      - type: prose
+        text: >-
+          Systematic contamination identification recognizes coordinated attempts to introduce false information
+          across multiple sources and platforms. Pattern analysis identifies unusual information distribution
+          that might indicate coordinated contamination efforts. Source correlation analysis examines
+          whether false information appears across multiple supposedly independent sources. Timing analysis
+          identifies coordinated information release that might suggest systematic contamination campaigns.
+      - type: prose
+        text: >-
+          Quality degradation detection identifies subtle attempts to reduce information accuracy through
+          incremental contamination. Accuracy drift analysis identifies gradual decline in information
+          quality that might indicate systematic contamination. Consistency reduction detection identifies
+          increasing contradictions within information sources that might suggest contamination. Reliability
+          degradation analysis examines declining source performance that might indicate compromise or
+          manipulation.
+      - type: prose
+        text: >-
+          Bias injection detection identifies attempts to introduce systematic bias into information sources
+          through selective contamination. Perspective skewing analysis identifies attempts to alter information
+          balance and representation. Emphasis manipulation detection identifies attempts to change information
+          prominence and visibility. Context manipulation recognition identifies attempts to alter information
+          meaning through surrounding content modification.
+      - type: prose
+        text: >-
+          **Disinformation Campaign Recognition** identifies systematic false information operations designed
+          to mislead analytical processes while understanding campaign characteristics and developing
+          detection approaches that maintain analytical integrity.
+      - type: prose
+        text: >-
+          Campaign coordination analysis identifies systematic disinformation efforts through pattern
+          recognition and source correlation. Message coordination detection identifies consistent messaging
+          across multiple platforms and sources. Timing coordination analysis identifies synchronized
+          information release that suggests coordinated operations. Resource coordination analysis examines
+          operational support that indicates systematic campaign implementation.
+      - type: prose
+        text: >-
+          Target identification analysis examines disinformation campaign objectives and intended audiences.
+          Analytical target assessment identifies whether campaigns specifically target intelligence analysts
+          and decision-makers. Decision target analysis examines whether campaigns aim to influence specific
+          decisions or policy choices. Perception target analysis identifies attempts to alter public
+          or organizational perception on specific topics.
+      - type: prose
+        text: >-
+          Narrative construction analysis examines how disinformation campaigns create and promote false
+          narratives through systematic information manipulation. Theme development analysis identifies
+          consistent messaging themes across campaign materials. Story arc analysis examines how campaigns
+          develop false narratives through sequential information release. Credibility building analysis
+          identifies how campaigns establish false narrative credibility through apparent source diversity
+          and corroboration.
+      - type: prose
+        text: >-
+          **Source Compromise Recognition** identifies situations where previously reliable sources have
+          been compromised or manipulated while understanding compromise indicators and developing detection
+          approaches that protect analytical reliability.
+      - type: prose
+        text: >-
+          Behavioral change detection identifies alterations in source behavior that might indicate compromise
+          or manipulation. Reporting pattern analysis identifies changes in source information provision
+          that might suggest compromise. Communication behavior analysis examines changes in source interaction
+          patterns that might indicate external control. Risk tolerance analysis identifies changes in
+          source willingness to provide sensitive information.
+      - type: prose
+        text: >-
+          Content quality assessment examines changes in source information quality that might indicate
+          compromise or manipulation. Accuracy decline analysis identifies deteriorating source reliability
+          that might suggest compromise. Information consistency analysis examines whether source information
+          maintains logical consistency with previous reporting. Expertise demonstration analysis evaluates
+          whether sources continue to demonstrate appropriate knowledge and understanding.
+      - type: prose
+        text: >-
+          Independence verification examines whether sources maintain independence from external influence
+          and control. Financial relationship analysis identifies potential compromising financial arrangements
+          or dependencies. Organizational pressure assessment examines whether sources face external pressure
+          that might affect information provision. Threat assessment analysis identifies whether sources
+          face threats or coercion that might compromise independence.
+      - type: prose
+        text: >-
+          **Verification and Validation Protocols** establish systematic approaches to confirming information
+          accuracy while implementing quality control measures that resist information poisoning and maintain
+          analytical reliability.
+      - type: prose
+        text: >-
+          Multi-source validation implements systematic cross-verification procedures that resist single-source
+          manipulation and contamination. Independent source verification seeks confirmation through sources
+          with different access patterns and potential bias factors. Source diversity requirements ensure
+          verification includes different source types and collection methods. Corroboration standards
+          establish minimum verification requirements for different information categories.
+      - type: prose
+        text: >-
+          Quality assurance procedures implement systematic checks that identify potential contamination
+          and maintain information integrity. Accuracy tracking monitors source performance and identifies
+          declining reliability that might indicate compromise. Consistency checking identifies contradictions
+          and anomalies that might suggest contamination or manipulation. Audit trail maintenance enables
+          retrospective analysis and contamination source identification.
+      - type: prose
+        text: >-
+          Dynamic verification implements ongoing quality assessment that adapts to evolving threats and
+          contamination attempts. Real-time monitoring identifies contamination attempts and quality degradation
+          as they occur. Adaptive procedures modify verification requirements based on threat assessment
+          and source risk evaluation. Continuous improvement incorporates lessons learned and evolving
+          threats into verification procedures and quality standards.

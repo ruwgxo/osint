@@ -1,0 +1,114 @@
+# section_06_03_query_construction_techniques.yaml
+
+---
+title: Query Construction Techniques
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 6
+  section: 3
+  section_code: '0603'
+  source_file: part-1-fundamentals/chapter-06-search-methodologies.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Query Construction Techniques
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Systematic query construction transforms information requirements into effective search expressions
+          that maximize relevant result discovery while minimizing processing overhead. Professional query
+          construction requires understanding both search platform capabilities and information organization
+          patterns.
+      - type: prose
+        text: >-
+          **Query Planning and Strategy Development** establishes systematic approaches to search planning
+          that align query construction with analytical objectives and platform capabilities.
+
+          Requirement analysis defines specific information needs, confidence requirements, and coverage
+          expectations before query construction begins. Information requirements specify content types,
+          source categories, and quality standards. Temporal requirements define relevant time periods
+          and update frequency needs. Geographic requirements establish relevant locations and spatial
+          boundaries.
+      - type: prose
+        text: >-
+          Platform assessment evaluates available search tools and their capabilities relative to analytical
+          requirements. Platform strengths and limitations affect query strategy and result interpretation
+          approaches. Coverage assessment identifies content gaps and overlap areas across different platforms.
+          Capability mapping aligns platform features with specific analytical needs.
+      - type: prose
+        text: >-
+          Search strategy development creates systematic approaches to comprehensive information discovery
+          through multiple query iterations and platform utilization. Iterative query refinement balances
+          breadth and depth across multiple search phases. Platform sequencing optimizes search effort
+          allocation and minimizes redundant processing. Result integration combines findings across multiple
+          platforms and query approaches.
+      - type: prose
+        text: >-
+          **Query Term Selection and Expansion** addresses systematic approaches to identifying and incorporating
+          relevant search terms that capture information requirements comprehensively while maintaining
+          search precision.
+      - type: prose
+        text: >-
+          Primary term identification establishes core concepts and entities that define search focus.
+          Entity naming variations include formal names, common names, abbreviations, and acronyms. Concept
+          terminology encompasses technical terms, colloquial expressions, and domain-specific language.
+          Relationship terms identify connections, associations, and contextual indicators.
+      - type: prose
+        text: >-
+          Synonym expansion incorporates alternative terminology that might be used to describe identical
+          concepts or entities. Thesaurus-based expansion identifies systematically related terms. Domain-specific
+          synonym identification requires subject matter expertise and terminology research. International
+          variations address cultural and linguistic differences in terminology usage.
+      - type: prose
+        text: >-
+          Related term discovery identifies conceptually adjacent terms that might appear in relevant
+          content without being direct synonyms. Association analysis examines co-occurrence patterns
+          in known relevant content. Contextual term identification considers situational factors that
+          might affect terminology usage. Temporal term variation addresses changing terminology over
+          time.
+      - type: prose
+        text: >-
+          **Advanced Query Techniques** leverage sophisticated search platform features and operator combinations
+          to handle complex information requirements and optimize result quality.
+
+          Proximity operators control spatial relationships between query terms within documents to improve
+          relevance and reduce false positives. NEAR operators specify maximum word distances between
+          terms. Phrase searching requires exact term sequences and word order. Paragraph and sentence
+          proximity operators provide intermediate spatial constraints.
+      - type: prose
+        text: >-
+          Wildcard and truncation operators handle term variations and unknown character sequences. Asterisk
+          wildcards replace multiple unknown characters at term endings. Question mark wildcards replace
+          single unknown characters at specific positions. Truncation symbols enable root-based matching
+          with various suffixes.
+      - type: prose
+        text: >-
+          Field-specific searching targets particular document sections or metadata categories to improve
+          precision and enable specialized analysis. Title field searching focuses on document headlines
+          and names. Author field searching targets creator identification and attribution. Date field
+          searching enables temporal constraint application.
+      - type: prose
+        text: >-
+          **Query Optimization and Refinement** provides systematic approaches to improving query performance
+          and result quality through iterative testing and adjustment processes.
+
+          Result quality assessment evaluates search outcomes against analytical requirements and identifies
+          areas for improvement. Precision analysis examines relevant result proportions and false positive
+          rates. Recall analysis estimates comprehensive coverage and potential information gaps. Relevance
+          ranking assessment evaluates result ordering and priority assignment.
+      - type: prose
+        text: >-
+          Query adjustment strategies address identified quality issues through systematic modification
+          approaches. Term addition increases specificity and reduces irrelevant results. Term removal
+          broadens coverage and reduces over-constraint issues. Operator modification adjusts logical
+          relationships and spatial constraints.
+      - type: prose
+        text: >-
+          Performance optimization balances result quality with processing efficiency and resource utilization.
+          Query complexity management prevents timeout issues and system overload. Result volume optimization
+          manages information processing overhead. Response time optimization improves workflow efficiency
+          and user experience.

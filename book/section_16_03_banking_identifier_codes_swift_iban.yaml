@@ -1,0 +1,128 @@
+# section_16_03_banking_identifier_codes_swift_iban.yaml
+
+---
+title: Banking Identifier Codes (SWIFT, IBAN)
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 16
+  section: 3
+  section_code: '1603'
+  source_file: part-3-specialized-domains/chapter-16-financial-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Banking Identifier Codes (SWIFT, IBAN)
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Banking identifier codes provide standardized systems for identifying financial institutions
+          and account structures that enable tracking of international financial transactions and institutional
+          relationships through systematic code analysis and pattern recognition.
+      - type: prose
+        text: >-
+          **SWIFT Code Analysis and Institution Mapping** examines Society for Worldwide Interbank Financial
+          Telecommunication codes to identify financial institutions, geographic locations, and correspondent
+          banking relationships that facilitate international financial transactions.
+      - type: prose
+        text: >-
+          SWIFT BIC code structure analysis reveals standardized information about financial institutions
+          and their characteristics. Bank code identification provides unique identifiers for specific
+          financial institutions. Country code analysis identifies geographic location and regulatory
+          jurisdiction. Location code analysis provides city-level geographic specificity. Branch code
+          analysis identifies specific branches or departments within larger institutions.
+      - type: prose
+        text: >-
+          Correspondent banking relationship analysis examines SWIFT message patterns to identify financial
+          institution relationships and transaction routing patterns. Message type analysis identifies
+          different categories of financial transactions and operational activities. Routing pattern analysis
+          reveals preferred correspondent relationships and backup routing arrangements. Geographic routing
+          analysis identifies regional transaction hubs and financial center relationships.
+      - type: prose
+        text: >-
+          SWIFT network analysis examines global financial communication patterns and identifies major
+          financial hubs and transaction flows. Transaction volume analysis identifies the most active
+          financial institutions and geographic regions. Network topology analysis reveals the structure
+          of global financial communications. Redundancy analysis identifies backup communication paths
+          and system resilience characteristics.
+      - type: prose
+        text: >-
+          **IBAN Structure Analysis and Geographic Intelligence** examines International Bank Account
+          Number formats to understand account structures, banking systems, and regulatory environments
+          across different countries and financial institutions.
+      - type: prose
+        text: >-
+          IBAN format analysis reveals standardized account identification information and national banking
+          system characteristics. Country code analysis identifies regulatory jurisdiction and national
+          banking system. Check digit validation ensures IBAN accuracy and identifies potential errors
+          or manipulation. Bank identifier analysis reveals specific financial institution within national
+          banking systems. Account number analysis provides institution-specific account identification.
+      - type: prose
+        text: >-
+          National banking system analysis examines IBAN implementation patterns and regulatory approaches
+          across different countries. Format standardization analysis reveals national preferences for
+          account numbering and bank identification. Implementation timeline analysis tracks IBAN adoption
+          and regulatory compliance across different jurisdictions. Cross-border compatibility analysis
+          examines international transaction facilitation and regulatory coordination.
+      - type: prose
+        text: >-
+          Account pattern analysis examines IBAN structures to identify account types, customer categories,
+          and banking service characteristics. Personal account identification reveals individual banking
+          relationships and geographic presence. Corporate account identification reveals business banking
+          relationships and operational scale. Government account identification reveals official financial
+          transactions and regulatory oversight.
+      - type: prose
+        text: >-
+          **Payment System Integration and Analysis** examines how banking identifiers integrate with
+          various payment systems and clearing mechanisms to facilitate domestic and international financial
+          transactions.
+      - type: prose
+        text: >-
+          Domestic payment system analysis examines national clearing and settlement mechanisms that use
+          banking identifiers for transaction routing. ACH system analysis reveals automated clearing
+          house relationships and transaction patterns. Wire transfer system analysis examines real-time
+          gross settlement systems and high-value transaction processing. Check clearing analysis reveals
+          paper-based payment processing and institutional relationships.
+      - type: prose
+        text: >-
+          International payment system analysis examines cross-border payment mechanisms and correspondent
+          banking relationships. SWIFT network analysis reveals international payment routing and settlement
+          procedures. Regional payment system analysis examines area-specific payment mechanisms like
+          SEPA in Europe. Bilateral payment agreement analysis reveals country-specific payment arrangements
+          and regulatory relationships.
+      - type: prose
+        text: >-
+          Alternative payment system analysis examines non-traditional payment mechanisms and their integration
+          with banking infrastructure. Cryptocurrency exchange analysis reveals connections between digital
+          assets and traditional banking systems. Mobile payment analysis examines fintech integration
+          with banking infrastructure. Peer-to-peer payment analysis reveals alternative payment mechanisms
+          and their banking connections.
+      - type: prose
+        text: >-
+          **Anti-Money Laundering and Compliance Analysis** examines how banking identifiers support regulatory
+          compliance and suspicious activity identification through systematic analysis of transaction
+          patterns and regulatory requirements.
+      - type: prose
+        text: >-
+          Suspicious transaction pattern analysis uses banking identifiers to identify potentially illicit
+          financial activities. Unusual routing analysis identifies transactions that use unexpected correspondent
+          relationships or geographic routing. Structured transaction analysis identifies patterns that
+          might indicate attempts to avoid reporting requirements. High-risk jurisdiction analysis identifies
+          transactions involving countries with weak regulatory oversight.
+      - type: prose
+        text: >-
+          Customer due diligence analysis examines how banking identifiers support know-your-customer
+          requirements and beneficial ownership identification. Account ownership verification uses banking
+          identifiers to trace account control and beneficial ownership. Corporate structure analysis
+          reveals complex ownership arrangements that might obscure beneficial ownership. Sanctions screening
+          analysis examines banking identifier information against regulatory prohibition lists.
+      - type: prose
+        text: >-
+          Regulatory reporting analysis examines how banking identifiers support mandatory disclosure
+          requirements and regulatory oversight. Currency transaction reporting analysis examines large
+          cash transaction disclosure requirements. Suspicious activity reporting analysis identifies
+          patterns that trigger regulatory notification obligations. International information sharing
+          analysis examines regulatory cooperation and information exchange mechanisms.

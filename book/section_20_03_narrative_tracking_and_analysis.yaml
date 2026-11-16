@@ -1,0 +1,127 @@
+# section_20_03_narrative_tracking_and_analysis.yaml
+
+---
+title: Narrative Tracking and Analysis
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 20
+  section: 3
+  section_code: '2003'
+  source_file: part-3-specialized-domains/chapter-20-media-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Narrative Tracking and Analysis
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Narrative tracking and analysis provide systematic approaches to monitoring how stories develop
+          and spread through media ecosystems while understanding narrative construction, evolution, and
+          influence patterns that shape public discourse and opinion.
+      - type: prose
+        text: >-
+          **Story Development and Evolution Tracking** monitors how narratives emerge, develop, and change
+          over time while identifying key events, sources, and influence factors that shape story progression
+          and public understanding.
+      - type: prose
+        text: >-
+          Narrative emergence analysis identifies how new stories enter public discourse and gain media
+          attention. Initial source identification traces story origins and early reporting sources. Event
+          trigger analysis examines incidents that generate media coverage and public interest. Attention
+          catalyst analysis identifies factors that transform minor stories into major news events.
+      - type: prose
+        text: >-
+          Story development timeline analysis tracks how narratives evolve through different phases of
+          media coverage. Early reporting analysis examines initial story framing and information availability.
+          Investigation phase analysis tracks how additional reporting develops and complicates initial
+          narratives. Resolution phase analysis examines how stories conclude and what lasting impact
+          they maintain.
+      - type: prose
+        text: >-
+          Narrative branching analysis examines how single stories split into multiple related narratives
+          and sub-themes. Sub-narrative identification recognizes related stories that develop from main
+          narrative themes. Tangential story analysis examines how narratives spawn related coverage and
+          commentary. Narrative convergence analysis identifies how separate stories merge into broader
+          thematic coverage.
+      - type: prose
+        text: >-
+          **Cross-Platform Narrative Propagation** examines how stories spread across different media
+          platforms and channels while understanding how platform characteristics affect narrative presentation
+          and audience reach.
+      - type: prose
+        text: >-
+          Platform adaptation analysis examines how narratives change when they move between different
+          media platforms. Traditional media analysis examines newspaper, television, and radio coverage
+          characteristics. Social media analysis tracks how stories adapt to platform-specific formats
+          and engagement requirements. Blog and opinion platform analysis examines how narratives develop
+          in less formal publishing environments.
+      - type: prose
+        text: >-
+          Audience segmentation analysis examines how different platforms reach different demographic
+          groups and how narrative presentation adapts to audience characteristics. Mainstream audience
+          analysis examines broad-reach platform coverage and general audience messaging. Niche audience
+          analysis tracks specialized platform coverage and targeted audience messaging. Cross-demographic
+          analysis examines how narratives reach different population groups through platform selection.
+      - type: prose
+        text: >-
+          Information velocity analysis tracks how quickly narratives spread across platforms and identifies
+          factors that accelerate or slow information propagation. Viral mechanism analysis examines factors
+          that enable rapid narrative spread. Bottleneck identification recognizes factors that limit
+          narrative propagation. Amplification analysis identifies sources and methods that increase narrative
+          reach and influence.
+      - type: prose
+        text: >-
+          **Influence and Impact Assessment** evaluates how narratives affect public opinion, policy decisions,
+          and behavioral change while understanding mechanisms through which media coverage translates
+          into real-world impact.
+      - type: prose
+        text: >-
+          Public opinion impact analysis examines how narrative coverage affects polling data and public
+          sentiment measurement. Opinion shift analysis tracks changes in public opinion that correlate
+          with narrative coverage. Demographic impact analysis examines how narratives affect different
+          population groups differently. Persistence analysis evaluates how long narrative effects maintain
+          influence on public opinion.
+      - type: prose
+        text: >-
+          Policy impact analysis examines how narrative coverage influences government decisions and regulatory
+          actions. Agenda setting analysis identifies how media coverage affects political priorities
+          and policy focus. Policy timing analysis examines relationships between narrative coverage and
+          policy announcement timing. Legislative impact analysis tracks how narratives influence specific
+          legislative proposals and outcomes.
+      - type: prose
+        text: >-
+          Behavioral impact analysis examines how narrative coverage affects individual and collective
+          behavior. Consumer behavior analysis tracks how narratives affect purchasing decisions and brand
+          perception. Investment behavior analysis examines how narratives affect financial markets and
+          investment decisions. Social behavior analysis identifies how narratives influence social movements
+          and collective action.
+      - type: prose
+        text: >-
+          **Narrative Network Analysis** maps relationships between different stories, sources, and themes
+          while understanding how narrative ecosystems develop and influence each other through complex
+          interaction patterns.
+      - type: prose
+        text: >-
+          Story interconnection analysis examines relationships between different narratives and identifies
+          thematic clustering. Related story identification recognizes narratives that share common themes
+          or sources. Competitive narrative analysis examines stories that present opposing viewpoints
+          or competing interpretations. Complementary narrative analysis identifies stories that reinforce
+          and support each other.
+      - type: prose
+        text: >-
+          Source network analysis maps relationships between different information sources and their role
+          in narrative development. Primary source analysis identifies original information providers
+          and their influence on narrative development. Secondary source analysis examines how information
+          is filtered and interpreted through different reporting sources. Expert source analysis identifies
+          subject matter experts and their influence on narrative credibility.
+      - type: prose
+        text: >-
+          Theme evolution analysis tracks how broader themes develop through multiple related narratives.
+          Thematic clustering analysis identifies groups of related stories that support broader themes.
+          Theme persistence analysis examines how long thematic coverage maintains media attention. Theme
+          interaction analysis examines how different themes influence and modify each other through media
+          coverage.

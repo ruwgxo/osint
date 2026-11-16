@@ -1,0 +1,119 @@
+# section_18_03_supply_chain_mapping.yaml
+
+---
+title: Supply Chain Mapping
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 18
+  section: 3
+  section_code: '1803'
+  source_file: part-3-specialized-domains/chapter-18-business-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Supply Chain Mapping
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Supply chain mapping provides systematic approaches to understanding organizational supplier
+          relationships, dependencies, and operational vulnerabilities through comprehensive analysis
+          of procurement patterns, logistics networks, and supplier intelligence.
+      - type: prose
+        text: >-
+          **Supplier Identification and Analysis** systematically identifies organizational suppliers
+          and service providers while analyzing their capabilities, reliability, and strategic importance
+          through comprehensive vendor intelligence gathering and relationship mapping.
+      - type: prose
+        text: >-
+          Public procurement analysis examines government contracting data to identify supplier relationships
+          and contract awards. Contract database analysis reveals supplier relationships and procurement
+          patterns. Bid analysis examines competitive dynamics and supplier selection processes. Performance
+          analysis tracks contract execution and supplier reliability measures.
+      - type: prose
+        text: >-
+          Supply chain disclosure analysis examines mandatory reporting requirements that reveal supplier
+          relationships and dependencies. Regulatory filing analysis identifies significant supplier relationships
+          and dependencies. Sustainability reporting analysis reveals supply chain environmental and social
+          practices. Conflict mineral reporting analysis identifies supply chain geographic origins and
+          risk factors.
+      - type: prose
+        text: >-
+          Trade data analysis examines import/export records to identify supplier relationships and sourcing
+          patterns. Customs data analysis reveals international supplier relationships and trade flows.
+          Bill of lading analysis identifies shipping patterns and logistics relationships. Trade finance
+          analysis examines payment terms and financial relationships with suppliers.
+      - type: prose
+        text: >-
+          **Logistics and Distribution Network Analysis** maps organizational logistics capabilities and
+          distribution channels while identifying operational efficiencies and potential vulnerabilities
+          through systematic analysis of transportation and warehousing patterns.
+      - type: prose
+        text: >-
+          Transportation analysis examines shipping methods, carriers, and route preferences through logistics
+          data and pattern recognition. Carrier analysis identifies preferred transportation providers
+          and service relationships. Route analysis examines shipping patterns and geographic distribution
+          strategies. Mode analysis compares transportation methods and efficiency optimization approaches.
+      - type: prose
+        text: >-
+          Warehousing and distribution analysis examines storage facilities and distribution center networks
+          through facility databases and operational pattern analysis. Facility location analysis identifies
+          strategic positioning and market coverage. Capacity analysis examines storage capabilities and
+          operational scalability. Technology analysis identifies automation and operational efficiency
+          implementations.
+      - type: prose
+        text: >-
+          Inventory management analysis examines stock levels, turnover rates, and demand forecasting
+          through financial analysis and operational pattern recognition. Inventory turnover analysis
+          reveals operational efficiency and demand forecasting accuracy. Safety stock analysis examines
+          risk management and operational resilience approaches. Just-in-time implementation analysis
+          identifies efficiency optimization and risk management trade-offs.
+      - type: prose
+        text: >-
+          **Risk Assessment and Vulnerability Analysis** identifies potential supply chain disruptions
+          and operational vulnerabilities while developing mitigation strategies through systematic risk
+          analysis and contingency planning assessment.
+      - type: prose
+        text: >-
+          Geographic risk analysis examines supplier concentration and regional vulnerability factors.
+          Single-source dependency analysis identifies critical suppliers and potential bottlenecks. Geographic
+          concentration analysis examines regional supplier clustering and natural disaster vulnerability.
+          Political risk analysis evaluates supplier locations and regulatory stability factors.
+      - type: prose
+        text: >-
+          Financial risk analysis examines supplier financial health and business continuity risks. Financial
+          stability analysis evaluates supplier creditworthiness and business sustainability. Bankruptcy
+          risk analysis identifies financially distressed suppliers and potential disruptions. Market
+          concentration analysis examines supplier industry dynamics and competitive pressures.
+      - type: prose
+        text: >-
+          Operational risk analysis identifies potential disruptions from supplier operational problems
+          or capacity constraints. Quality risk analysis examines supplier quality control and performance
+          history. Capacity risk analysis evaluates supplier ability to meet demand fluctuations. Technology
+          risk analysis identifies supplier technological capabilities and upgrade requirements.
+      - type: prose
+        text: >-
+          **Strategic Sourcing Intelligence** analyzes sourcing strategies and supplier selection processes
+          while identifying optimization opportunities through competitive supplier analysis and market
+          intelligence gathering.
+      - type: prose
+        text: >-
+          Market analysis examines supplier markets and competitive dynamics that affect sourcing decisions.
+          Supplier market concentration analysis identifies market power and negotiating leverage. New
+          entrant analysis examines emerging suppliers and competitive alternatives. Innovation analysis
+          identifies suppliers with advanced capabilities and technological advantages.
+      - type: prose
+        text: >-
+          Cost analysis examines pricing structures and total cost of ownership across different supplier
+          options. Price benchmark analysis compares supplier pricing against market standards. Total
+          cost analysis includes hidden costs and operational efficiency factors. Value analysis examines
+          supplier contributions beyond basic pricing considerations.
+      - type: prose
+        text: >-
+          Performance analysis evaluates supplier capabilities and service levels across multiple performance
+          dimensions. Quality analysis examines supplier quality control and defect rates. Delivery performance
+          analysis tracks on-time delivery and reliability measures. Service analysis evaluates supplier
+          responsiveness and customer service capabilities.

@@ -1,0 +1,148 @@
+# section_33_02_bayesian_inference_and_confidence_assessment.yaml
+
+---
+title: Bayesian Inference and Confidence Assessment
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 2
+  section_code: '3302'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Bayesian Inference and Confidence Assessment
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Bayesian Networks
+      - type: prose
+        text: >-
+          Network Components
+      - type: list
+        style: bullet
+        items:
+          - 'Nodes: Represent random variables'
+          - 'Edges: Represent conditional dependencies'
+          - 'Conditional Probability Tables (CPTs): Define relationships between variables'
+      - type: prose
+        text: >-
+          Intelligence Analysis Example Network
+      - type: code
+        lang: text
+        text: |
+          Weather → Satellite_Coverage → Image_Quality → Target_Identification
+              ↓
+          Threat_Level → Security_Measures → Access_Difficulty
+      - type: heading
+        level: 3
+        text: Prior Probability Estimation
+      - type: prose
+        text: >-
+          Methods for Establishing Priors
+      - type: list
+        style: bullet
+        items:
+          - 'Historical Frequency: Base rates from historical data'
+          - 'Expert Judgment: Subjective probability assessments from experts'
+          - 'Reference Class: Comparison with similar situations'
+          - 'Maximum Entropy: Assume uniform distribution when no information available'
+      - type: prose
+        text: >-
+          Examples of Intelligence Priors
+      - type: list
+        style: bullet
+        items:
+          - 'Base rate of insider threats in organizations: \~0.01%'
+          - 'Probability of terrorist attack in major city per year: \~0.001%'
+          - 'Accuracy of human intelligence sources: 60-80%'
+          - 'False positive rate in automated threat detection: 1-5%'
+      - type: heading
+        level: 3
+        text: Likelihood Estimation
+      - type: prose
+        text: >-
+          Sensitivity and Specificity
+      - type: list
+        style: bullet
+        items:
+          - 'Sensitivity (True Positive Rate): P(Test+|Condition+)'
+          - 'Specificity (True Negative Rate): P(Test-|Condition-)'
+          - 'False Positive Rate: P(Test+|Condition-) = 1 - Specificity'
+          - 'False Negative Rate: P(Test-|Condition+) = 1 - Sensitivity'
+      - type: prose
+        text: >-
+          Intelligence Collection System Performance
+      - type: table
+        columns:
+          - System Type
+          - Sensitivity
+          - Specificity
+          - False Positive Rate
+        rows:
+          - - SIGINT Keyword Detection
+            - 85%
+            - 95%
+            - 5%
+          - - Image Recognition
+            - 90%
+            - 92%
+            - 8%
+          - - Social Media Monitoring
+            - 75%
+            - 88%
+            - 12%
+          - - Human Intelligence
+            - 80%
+            - 85%
+            - 15%
+      - type: prose
+        text: >-
+          ****Confidence Intervals and Uncertainty****
+
+          Confidence Interval Formula (Normal Distribution)
+      - type: code
+        lang: text
+        text: |
+          CI = x̄ ± z_(α/2) × (σ/√n)
+
+          Where:
+          x̄ = sample mean
+          z_(α/2) = critical value for confidence level
+          σ = standard deviation
+          n = sample size
+      - type: prose
+        text: >-
+          Common Confidence Levels
+      - type: list
+        style: bullet
+        items:
+          - '90% confidence: z = 1.645'
+          - '95% confidence: z = 1.96'
+          - '99% confidence: z = 2.576'
+      - type: prose
+        text: >-
+          Intelligence Confidence Scales
+
+          NATO Probability Scale:
+      - type: list
+        style: bullet
+        items:
+          - 'Remote: 10-20%'
+          - 'Improbable: 20-35%'
+          - 'Realistic Possibility: 35-65%'
+          - 'Probable: 65-80%'
+          - 'Highly Likely: 80-95%'
+      - type: prose
+        text: >-
+          US Intelligence Community Confidence Levels:
+      - type: list
+        style: bullet
+        items:
+          - 'High Confidence: \~80-95% probability'
+          - 'Moderate Confidence: \~50-80% probability'
+          - 'Low Confidence: \~20-50% probability'

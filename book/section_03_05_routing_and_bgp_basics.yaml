@@ -1,0 +1,93 @@
+# section_03_05_routing_and_bgp_basics.yaml
+
+---
+title: Routing and BGP Basics
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 3
+  section: 5
+  section_code: '0305'
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Routing and BGP Basics
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Border Gateway Protocol (BGP) manages routing between autonomous systems (AS) on the internet,
+          creating a global routing infrastructure that provides extensive intelligence opportunities
+          for organizational analysis and infrastructure mapping. BGP analysis reveals business relationships,
+          network dependencies, and potential security characteristics.
+      - type: prose
+        text: >-
+          **Autonomous System Concepts** provide the fundamental framework for understanding internet
+          routing architecture. Autonomous systems represent administrative domains with consistent routing
+          policies, typically corresponding to Internet Service Providers, large organizations, or network
+          operators.
+      - type: prose
+        text: >-
+          ASN allocation and assignment processes create hierarchical numbering schemes managed by Regional
+          Internet Registries. ASN assignments reflect organizational network boundaries and administrative
+          responsibilities. Historical ASN analysis reveals organizational growth, mergers, and infrastructure
+          changes.
+      - type: prose
+        text: >-
+          AS relationship types include customer-provider, peer-to-peer, and sibling relationships that
+          reflect business arrangements and traffic exchange agreements. Relationship analysis reveals
+          internet economy structure and identifies potential dependencies or vulnerabilities.
+      - type: prose
+        text: >-
+          Multi-homing enables organizations to maintain connections to multiple upstream providers for
+          redundancy and performance optimization. Multi-homing analysis reveals organizational risk management
+          approaches and infrastructure investment priorities.
+      - type: prose
+        text: >-
+          **BGP Route Analysis** examines routing table entries and update messages to understand network
+          reachability and policy implementation. BGP routing information provides extensive intelligence
+          about network relationships and organizational structure.
+      - type: prose
+        text: >-
+          AS path analysis reveals routing relationships and potential traffic paths between networks.
+          Path length analysis identifies preferred routes and potential alternatives. Path diversity
+          analysis reveals redundancy mechanisms and failure resilience characteristics.
+      - type: prose
+        text: >-
+          Route origin analysis identifies networks that announce specific IP address prefixes. Origin
+          analysis reveals organizational address space holdings and hosting relationships. Hijack detection
+          examines unauthorized route announcements that might indicate security incidents or configuration
+          errors.
+      - type: prose
+        text: >-
+          Route filtering and policy analysis examines routing decisions and traffic engineering implementations.
+          Policy analysis can reveal business relationships, security measures, and performance optimization
+          strategies. Geographic routing policies might reflect legal requirements or operational constraints.
+      - type: prose
+        text: >-
+          **BGP Security and Intelligence Implications** address various security mechanisms and threat
+          models that impact routing infrastructure while creating additional analytical opportunities.
+      - type: prose
+        text: >-
+          Route filtering implementations attempt to prevent unauthorized route announcements through
+          various validation and policy enforcement mechanisms. Filter analysis reveals security posture
+          and administrative sophistication. Filter bypasses might indicate security vulnerabilities or
+          sophisticated attacks.
+      - type: prose
+        text: >-
+          Resource Public Key Infrastructure (RPKI) provides cryptographic validation for route announcements
+          through certificate-based authentication systems. RPKI deployment analysis reveals security
+          implementation priorities and technical capabilities.
+      - type: prose
+        text: >-
+          BGP hijacking represents a significant security threat where malicious actors announce unauthorized
+          routes to intercept or disrupt traffic. Hijack detection requires systematic monitoring of routing
+          announcements and validation against authoritative sources.
+      - type: prose
+        text: >-
+          Monitoring and alerting systems enable real-time detection of routing changes that might indicate
+          infrastructure problems, policy changes, or security incidents. Effective monitoring requires
+          comprehensive routing table collection and change analysis capabilities.

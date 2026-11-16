@@ -1,0 +1,174 @@
+# section_21_06_operational_security_opsec_principles.yaml
+
+---
+title: Operational security (OPSEC) principles
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 21
+  section: 6
+  section_code: '2106'
+  source_file: part-4-operational/chapter-21-collection-management.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Operational security (OPSEC) principles
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Operational security (OPSEC) principles provide systematic approaches to protecting intelligence
+          operations from detection and interference while maintaining operational effectiveness through
+          comprehensive security measures that balance collection requirements with security risks and
+          operational sustainability.
+      - type: heading
+        level: 3
+        text: OPSEC Process Implementation
+      - type: prose
+        text: >-
+          Systematic OPSEC process implementation establishes standardized procedures for identifying
+          and protecting critical information while preventing adversary intelligence collection against
+          OSINT operations through comprehensive threat assessment and countermeasure development.
+      - type: prose
+        text: >-
+          Critical information identification establishes systematic procedures for recognizing information
+          that requires protection to maintain operational security. Operational detail protection identifies
+          collection methods, targets, and procedures that require security protection. Personnel information
+          protection safeguards analyst identities, organizational affiliations, and operational roles.
+          Intelligence requirement protection prevents disclosure of collection priorities and analytical
+          objectives that might compromise operations or sources.
+      - type: prose
+        text: >-
+          Threat assessment analysis examines potential adversaries and their capabilities to collect
+          intelligence against OSINT operations. Adversary capability analysis evaluates potential opponent
+          technical and human intelligence collection capabilities. Motivation analysis examines why adversaries
+          might target OSINT operations and what information they seek. Opportunity analysis identifies
+          circumstances where adversaries might gain access to operational information.
+      - type: prose
+        text: >-
+          Vulnerability analysis systematically examines operational weaknesses that might enable adversary
+          intelligence collection. Communication vulnerability assessment identifies potential interception
+          points and insecure communication channels. Personnel vulnerability analysis examines human
+          factors that might compromise operational security. Technical vulnerability assessment evaluates
+          digital security weaknesses and potential exploitation opportunities.
+      - type: heading
+        level: 3
+        text: Compartmentalization and Need-to-Know Implementation
+      - type: prose
+        text: >-
+          Systematic compartmentalization limits information access to authorized personnel while maintaining
+          operational effectiveness through appropriate information sharing procedures that balance security
+          requirements with operational coordination needs.
+      - type: prose
+        text: >-
+          Information compartmentalization establishes systematic procedures for dividing operational
+          information into discrete segments that limit damage from potential compromise. Operational
+          compartments separate different collection activities and analytical projects to prevent compromise
+          of multiple operations. Source compartments protect source identity and information from unauthorized
+          access. Product compartments limit access to analytical conclusions and intelligence reports
+          based on stakeholder requirements.
+      - type: prose
+        text: >-
+          Personnel clearance and access control ensures appropriate information access based on security
+          clearances and operational requirements. Clearance verification confirms personnel security
+          status and authorization for specific information access. Need-to-know determination establishes
+          criteria for information access based on operational requirements rather than clearance level
+          alone. Access logging maintains detailed records of information access and distribution for
+          security monitoring and audit purposes.
+      - type: prose
+        text: >-
+          Communication discipline prevents inadvertent information disclosure through appropriate communication
+          procedures and security awareness. Secure communication channel usage ensures sensitive information
+          transmission uses appropriate security protection. Communication content control prevents disclosure
+          of operational information through casual conversation or informal communication. Electronic
+          communication security maintains appropriate protection for email, messaging, and other digital
+          communication methods.
+      - type: heading
+        level: 3
+        text: Counter-Surveillance and Detection Avoidance
+      - type: prose
+        text: >-
+          Systematic counter-surveillance measures prevent detection of collection activities while maintaining
+          operational effectiveness through appropriate technical and procedural countermeasures that
+          protect operations from adversary intelligence collection.
+      - type: prose
+        text: >-
+          Technical counter-surveillance implements systematic measures to prevent technical collection
+          against OSINT operations. Network security measures prevent monitoring and interception of internet-based
+          collection activities. Device security protection ensures collection equipment maintains appropriate
+          protection against compromise and exploitation. Communication security prevents interception
+          of operational coordination and intelligence reporting.
+      - type: prose
+        text: >-
+          Physical security measures protect collection activities from physical surveillance and observation.
+          Workspace security ensures collection activities occur in appropriately protected environments.
+          Travel security protects personnel during collection activities that require geographic movement.
+          Meeting security ensures operational coordination occurs in secure environments that prevent
+          observation or monitoring.
+      - type: prose
+        text: >-
+          Behavioral security maintains appropriate operational procedures that prevent detection through
+          pattern analysis and behavioral observation. Activity pattern variation prevents establishment
+          of predictable routines that might enable surveillance. Cover activity implementation provides
+          legitimate explanations for necessary operational activities. Social media discipline prevents
+          inadvertent disclosure of operational information through personal social media usage.
+      - type: heading
+        level: 3
+        text: Incident Response and Recovery Procedures
+      - type: prose
+        text: >-
+          Comprehensive incident response procedures address potential security breaches while maintaining
+          operational continuity through systematic damage assessment and recovery measures that minimize
+          operational impact and prevent future compromise.
+      - type: prose
+        text: >-
+          Security incident detection establishes systematic procedures for identifying potential compromise
+          and implementing appropriate response measures. Anomaly detection identifies unusual activity
+          that might indicate security breaches or surveillance. Compromise indicator recognition trains
+          personnel to identify signs of potential operational compromise. Reporting procedures ensure
+          security incidents receive prompt attention and appropriate investigation.
+      - type: prose
+        text: >-
+          Damage assessment analysis evaluates the scope and impact of security incidents while determining
+          appropriate response measures. Information compromise assessment determines what operational
+          information might have been exposed. Source protection assessment evaluates potential risks
+          to information sources and contact networks. Operational impact analysis examines how security
+          incidents affect ongoing collection activities and analytical products.
+      - type: prose
+        text: >-
+          Recovery and continuity procedures maintain operational effectiveness while implementing security
+          improvements that prevent future incidents. Operational restoration procedures re-establish
+          collection activities while maintaining appropriate security measures. Security enhancement
+          implementation addresses vulnerabilities identified through incident investigation. Lessons
+          learned integration ensures security improvements incorporate experience from previous incidents.
+      - type: heading
+        level: 3
+        text: Training and Security Awareness Programs
+      - type: prose
+        text: >-
+          Comprehensive security training programs ensure personnel understand and implement appropriate
+          OPSEC procedures while maintaining security awareness that adapts to evolving threats and operational
+          requirements.
+      - type: prose
+        text: >-
+          OPSEC training curriculum development creates educational programs that address operational
+          security requirements and threat awareness. Basic security awareness training ensures all personnel
+          understand fundamental OPSEC principles and procedures. Advanced training programs provide specialized
+          instruction for personnel with enhanced security responsibilities. Continuous education programs
+          maintain current security awareness and adapt to evolving threats.
+      - type: prose
+        text: >-
+          Practical application training provides hands-on experience with security procedures and countermeasures
+          through realistic scenarios and operational exercises. Simulation exercises test security procedures
+          and identify areas requiring improvement. Case study analysis examines historical security incidents
+          and lessons learned. Tabletop exercises evaluate organizational response to potential security
+          scenarios.
+      - type: prose
+        text: >-
+          Security culture development creates organizational attitudes and behaviors that support operational
+          security through leadership commitment and peer reinforcement. Leadership modeling demonstrates
+          management commitment to security procedures and requirements. Peer accountability encourages
+          mutual support for security procedures and violation reporting. Recognition programs acknowledge
+          personnel who demonstrate exemplary security practices and contribution to operational protection.

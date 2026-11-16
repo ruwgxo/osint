@@ -1,0 +1,59 @@
+# chapter_28_index.yaml
+
+---
+title: 'Chapter 28: Emerging Technologies - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 28
+  source_file: part-5-advanced-integration/chapter-28-emerging-technologies.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260128 | OSINT: Advanced Integration (Chapter 28 Emerging Technologies) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Integration and Future Considerations
+      - ‣‣‣ Emerging Technologies
+chapter_overview:
+  contents:
+    - Internet of Things (IoT) intelligence
+    - 5G and next-generation networks
+    - Quantum computing implications
+    - Blockchain and distributed systems
+    - Augmented and virtual reality
+    - Biometric and behavioral analysis
+    - Edge computing architectures
+  introduction:
+    - type: heading
+      level: 3
+      text: Emerging Technologies
+    - type: prose
+      text: >-
+        Emerging technologies transform OSINT capabilities while creating new collection opportunities
+        and analytical challenges that require adaptive methodologies and forward-thinking approaches
+        to intelligence gathering and analysis in rapidly evolving technological environments.
+sections:
+  - section_number: '28.1'
+    title: Internet of Things (IoT) Intelligence
+    filename: section_28_01_internet_of_things_iot_intelligence.yaml
+  - section_number: '28.2'
+    title: 5G and Next-Generation Networks
+    filename: section_28_02_5g_and_next_generation_networks.yaml
+  - section_number: '28.3'
+    title: Quantum Computing Implications
+    filename: section_28_03_quantum_computing_implications.yaml
+  - section_number: '28.4'
+    title: Blockchain and Distributed Systems
+    filename: section_28_04_blockchain_and_distributed_systems.yaml
+  - section_number: '28.5'
+    title: Biometric and Behavioral Analysis
+    filename: section_28_05_biometric_and_behavioral_analysis.yaml
+  - section_number: '28.6'
+    title: Edge Computing Architectures
+    filename: section_28_06_edge_computing_architectures.yaml

@@ -1,0 +1,63 @@
+# chapter_29_index.yaml
+
+---
+title: 'Chapter 29: Scalability and Performance - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 29
+  source_file: part-5-advanced-integration/chapter-29-scalability-performance.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260129 | OSINT: Advanced Integration (Chapter 29 Scalability and Enterprise Implementation)
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Integration and Future Considerations
+      - ‣‣‣ Scalability and Enterprise Implementation
+chapter_overview:
+  contents:
+    - Distributed collection architectures
+    - Data lake and warehouse design
+    - Real-time processing pipelines
+    - Load balancing and redundancy
+    - Cost-benefit analysis frameworks
+    - Team structure and specialization
+    - Training and capability development
+  introduction:
+    - type: heading
+      level: 3
+      text: Scalability and Enterprise Implementation
+    - type: prose
+      text: >-
+        Scalability and enterprise implementation address systematic approaches to large-scale OSINT operations
+        while understanding organizational requirements and developing comprehensive frameworks that enable
+        effective intelligence programs across complex organizational structures and operational requirements.
+sections:
+  - section_number: '29.1'
+    title: Distributed Collection Architectures
+    filename: section_29_01_distributed_collection_architectures.yaml
+  - section_number: '29.2'
+    title: Data Lake and Warehouse Design
+    filename: section_29_02_data_lake_and_warehouse_design.yaml
+  - section_number: '29.3'
+    title: Real-Time Processing Pipelines
+    filename: section_29_03_real_time_processing_pipelines.yaml
+  - section_number: '29.4'
+    title: Load Balancing and Redundancy
+    filename: section_29_04_load_balancing_and_redundancy.yaml
+  - section_number: '29.5'
+    title: Cost-Benefit Analysis Frameworks
+    filename: section_29_05_cost_benefit_analysis_frameworks.yaml
+  - section_number: '29.6'
+    title: Team Structure and Specialization
+    filename: section_29_06_team_structure_and_specialization.yaml
+  - section_number: '29.7'
+    title: Training and Capability Development
+    filename: section_29_07_training_and_capability_development.yaml

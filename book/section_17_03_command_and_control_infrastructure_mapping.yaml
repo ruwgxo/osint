@@ -1,0 +1,121 @@
+# section_17_03_command_and_control_infrastructure_mapping.yaml
+
+---
+title: Command and Control Infrastructure Mapping
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 17
+  section: 3
+  section_code: '1703'
+  source_file: part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Command and Control Infrastructure Mapping
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Command and control infrastructure mapping reveals the technical systems and network architecture
+          that threat actors use to manage malware operations and coordinate malicious activities through
+          systematic analysis of communication patterns and infrastructure relationships.
+      - type: prose
+        text: >-
+          **C2 Architecture Analysis and Topology Mapping** examines the structural organization of command
+          and control systems to understand threat actor operational approaches, redundancy mechanisms,
+          and potential disruption opportunities.
+      - type: prose
+        text: >-
+          Centralized C2 analysis examines traditional command and control architectures with single points
+          of control. Server infrastructure analysis identifies primary command and control servers and
+          their technical characteristics. Backup mechanism analysis identifies redundant systems and
+          failover procedures. Traffic routing analysis examines how malware communicates with centralized
+          infrastructure.
+      - type: prose
+        text: >-
+          Distributed C2 analysis examines decentralized command and control architectures that provide
+          operational resilience. Peer-to-peer analysis identifies malware that uses infected systems
+          for command and control communication. Domain generation algorithm analysis examines automated
+          domain creation for C2 infrastructure. Fast flux analysis identifies rapidly changing IP addresses
+          for C2 domains.
+      - type: prose
+        text: >-
+          Hybrid C2 analysis examines command and control systems that combine multiple architectural
+          approaches. Multi-tier analysis identifies hierarchical C2 structures with multiple communication
+          levels. Protocol diversity analysis examines C2 systems that use multiple communication protocols.
+          Geographic distribution analysis identifies internationally distributed C2 infrastructure.
+      - type: prose
+        text: >-
+          **Infrastructure Fingerprinting and Identification** develops systematic approaches to identifying
+          and characterizing command and control infrastructure through technical analysis and behavioral
+          pattern recognition.
+      - type: prose
+        text: >-
+          Server fingerprinting identifies technical characteristics of command and control infrastructure.
+          Operating system identification reveals infrastructure platform preferences and potential vulnerabilities.
+          Web server identification examines HTTP server implementations and configuration characteristics.
+          SSL certificate analysis reveals infrastructure deployment patterns and potential operational
+          security lapses.
+      - type: prose
+        text: >-
+          Network infrastructure analysis examines hosting and connectivity characteristics of command
+          and control systems. Hosting provider analysis identifies preferred infrastructure providers
+          and geographic preferences. Autonomous System analysis reveals network routing and connectivity
+          patterns. Registrar analysis examines domain registration patterns and administrative contact
+          information.
+      - type: prose
+        text: >-
+          Behavioral fingerprinting identifies operational characteristics that distinguish different
+          threat actor infrastructure. Communication protocol analysis reveals preferred data exchange
+          mechanisms and encoding methods. Response pattern analysis identifies server behavior characteristics
+          and potential infrastructure signatures. Error message analysis examines server responses that
+          might reveal infrastructure details.
+      - type: prose
+        text: >-
+          **Communication Protocol Analysis** examines the technical mechanisms through which malware
+          communicates with command and control infrastructure to understand operational capabilities
+          and develop countermeasures.
+      - type: prose
+        text: >-
+          HTTP/HTTPS protocol analysis examines web-based command and control communication mechanisms.
+          Request structure analysis identifies communication patterns and data encoding methods. Header
+          analysis reveals client identification and configuration information. Response analysis examines
+          command delivery and operational coordination mechanisms.
+      - type: prose
+        text: >-
+          DNS protocol analysis examines domain name system abuse for command and control communication.
+          DNS tunneling analysis identifies data exfiltration and command delivery through DNS queries.
+          Subdomain analysis examines domain naming patterns and generation algorithms. Query pattern
+          analysis identifies communication timing and frequency characteristics.
+      - type: prose
+        text: >-
+          Alternative protocol analysis examines non-standard communication mechanisms used by sophisticated
+          malware. IRC protocol analysis examines internet relay chat systems used for command and control.
+          Social media analysis identifies platforms used for command delivery and coordination. Steganographic
+          analysis examines hidden communication within legitimate network traffic.
+      - type: prose
+        text: >-
+          **Infrastructure Disruption and Countermeasures** develops systematic approaches to disrupting
+          command and control operations while understanding threat actor adaptation and resilience mechanisms.
+      - type: prose
+        text: >-
+          Takedown strategies coordinate with hosting providers and registrars to disrupt malicious infrastructure.
+          Hosting provider cooperation involves working with infrastructure providers to remove malicious
+          content. Domain seizure involves legal processes to gain control of malicious domains. Sinkholing
+          redirects malware communication to controlled systems for monitoring and disruption.
+      - type: prose
+        text: >-
+          Defensive blocking implements network-level protections against identified command and control
+          infrastructure. DNS blocking prevents resolution of malicious domains. IP address blocking prevents
+          communication with identified malicious servers. URL filtering blocks access to specific malicious
+          resources and command delivery mechanisms.
+      - type: prose
+        text: >-
+          Threat actor adaptation analysis examines how infrastructure disruption affects threat actor
+          operations and planning. Infrastructure migration analysis tracks how threat actors move to
+          new hosting and communication mechanisms. Resilience mechanism analysis identifies backup systems
+          and operational continuity planning. Evolution analysis examines how disruption efforts influence
+          threat actor technical development.

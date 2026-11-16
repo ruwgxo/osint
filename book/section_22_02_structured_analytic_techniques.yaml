@@ -1,0 +1,150 @@
+# section_22_02_structured_analytic_techniques.yaml
+
+---
+title: Structured Analytic Techniques
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 22
+  section: 2
+  section_code: '2202'
+  source_file: part-4-operational/chapter-22-analysis-frameworks.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Structured Analytic Techniques
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Structured analytic techniques provide systematic frameworks for analyzing complex information
+          while reducing cognitive bias and improving analytical rigor through established methodologies
+          that enhance reasoning quality and confidence assessment.
+      - type: prose
+        text: >-
+          **Analysis of Competing Hypotheses (ACH)** systematically evaluates alternative explanations
+          while identifying the most likely scenario through comprehensive hypothesis testing and evidence
+          evaluation that reduces confirmation bias and improves analytical accuracy.
+      - type: prose
+        text: >-
+          Hypothesis development creates comprehensive alternative explanations that account for available
+          evidence while covering the range of possible scenarios. Brainstorming techniques generate diverse
+          hypotheses that avoid premature analytical closure. Hypothesis specificity ensures alternatives
+          are distinct and testable through available evidence. Completeness assessment examines whether
+          hypothesis set covers all reasonable possibilities.
+      - type: prose
+        text: >-
+          Evidence evaluation matrix systematically assesses how well each piece of evidence supports
+          or contradicts different hypotheses. Evidence cataloging identifies all relevant information
+          and its source characteristics. Consistency assessment examines how well evidence aligns with
+          different hypothetical explanations. Diagnostic value assessment identifies evidence that most
+          effectively discriminates between competing hypotheses.
+      - type: prose
+        text: >-
+          Hypothesis ranking establishes relative likelihood of different scenarios based on evidence
+          strength and logical consistency. Scoring methodology assigns numerical values that reflect
+          evidence support for different hypotheses. Weighted assessment considers evidence quality and
+          reliability when evaluating hypothesis support. Sensitivity analysis examines how different
+          evidence interpretation affects hypothesis ranking.
+      - type: prose
+        text: >-
+          **Key Assumptions Check** identifies and evaluates fundamental assumptions that underlie analytical
+          conclusions while testing assumption validity and examining how assumption changes affect analytical
+          findings.
+      - type: prose
+        text: >-
+          Assumption identification recognizes unstated beliefs and premises that support analytical reasoning.
+          Explicit assumption recognition identifies clearly stated premises that support analytical conclusions.
+          Implicit assumption detection recognizes unstated beliefs that influence analytical reasoning.
+          Foundational assumption analysis identifies core premises that underpin multiple analytical
+          conclusions.
+      - type: prose
+        text: >-
+          Assumption testing evaluates assumption validity through evidence examination and logical analysis.
+          Evidence-based testing examines whether available information supports identified assumptions.
+          Logical consistency testing evaluates whether assumptions align with known facts and reasonable
+          inference. Alternative assumption exploration examines how different premises might affect analytical
+          conclusions.
+      - type: prose
+        text: >-
+          Impact assessment examines how assumption changes affect analytical conclusions and confidence
+          levels. Sensitivity analysis evaluates which assumptions most significantly affect analytical
+          outcomes. Robustness testing examines whether conclusions remain valid despite assumption modifications.
+          Uncertainty propagation traces how assumption uncertainty affects overall analytical confidence.
+      - type: prose
+        text: >-
+          **Devil's Advocate Analysis** systematically challenges analytical conclusions while identifying
+          potential weaknesses and alternative interpretations that strengthen analytical rigor and reduce
+          groupthink effects.
+      - type: prose
+        text: >-
+          Challenge development creates systematic criticism of analytical conclusions and supporting
+          reasoning. Contradictory evidence compilation identifies information that challenges preferred
+          analytical conclusions. Alternative interpretation development creates competing explanations
+          that account for available evidence. Weakness identification recognizes logical gaps and evidentiary
+          limitations in preferred analysis.
+      - type: prose
+        text: >-
+          Systematic questioning applies critical examination to all aspects of analytical reasoning and
+          evidence interpretation. Assumption questioning challenges fundamental premises that support
+          analytical conclusions. Evidence questioning examines source reliability and information accuracy.
+          Logic questioning evaluates reasoning processes and inference validity.
+      - type: prose
+        text: >-
+          Response integration addresses legitimate challenges while strengthening analytical conclusions
+          through improved reasoning and evidence presentation. Challenge assessment evaluates the validity
+          and significance of raised objections. Analytical revision incorporates valid criticisms and
+          improves reasoning quality. Rebuttal development addresses challenges that do not undermine
+          analytical conclusions.
+      - type: prose
+        text: >-
+          **Red Team Analysis** employs independent analysts to challenge conclusions and identify potential
+          blind spots while providing alternative perspectives that enhance analytical quality and reduce
+          organizational bias.
+      - type: prose
+        text: >-
+          Independent review structure establishes analytical review processes that maintain independence
+          from original analysis teams. Personnel selection identifies analysts with appropriate expertise
+          who were not involved in original analysis. Mandate definition clearly establishes red team
+          responsibilities and authority. Resource allocation provides adequate support for comprehensive
+          review and alternative analysis.
+      - type: prose
+        text: >-
+          Alternative analysis development creates competing assessments that challenge original conclusions
+          through different analytical approaches. Methodology variation applies different analytical
+          techniques to identical evidence. Perspective shifting examines issues from different stakeholder
+          viewpoints. Assumption modification explores how different premises affect analytical conclusions.
+      - type: prose
+        text: >-
+          Integration process combines red team findings with original analysis while maintaining analytical
+          integrity and decision-maker understanding. Finding comparison identifies areas of agreement
+          and disagreement between analytical teams. Confidence assessment evaluates how red team analysis
+          affects overall analytical confidence. Synthesis development creates comprehensive assessments
+          that incorporate multiple analytical perspectives.
+      - type: prose
+        text: >-
+          **Scenario Development and Analysis** creates systematic exploration of possible future developments
+          while understanding uncertainty and probability that enables planning and preparation for different
+          contingencies.
+      - type: prose
+        text: >-
+          Scenario construction develops plausible future situations that account for current trends and
+          potential discontinuities. Driving force identification recognizes key factors that will shape
+          future developments. Trend extrapolation projects current patterns into future time periods.
+          Wild card consideration includes low-probability events that could significantly affect outcomes.
+      - type: prose
+        text: >-
+          Probability assessment assigns likelihood estimates to different scenarios while acknowledging
+          uncertainty and analytical limitations. Subjective probability estimation provides analyst judgment
+          about scenario likelihood. Objective probability calculation uses statistical analysis and historical
+          precedent when available. Uncertainty quantification acknowledges limitations in probability
+          assessment.
+      - type: prose
+        text: >-
+          Implication analysis examines consequences and planning requirements for different scenarios.
+          Policy implication assessment identifies how different scenarios affect organizational strategy
+          and planning. Resource implication analysis examines resource requirements and allocation under
+          different scenarios. Decision point identification recognizes key decisions that will influence
+          scenario development.

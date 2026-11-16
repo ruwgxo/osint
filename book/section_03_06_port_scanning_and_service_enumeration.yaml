@@ -1,0 +1,116 @@
+# section_03_06_port_scanning_and_service_enumeration.yaml
+
+---
+title: Port Scanning and Service Enumeration
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 3
+  section: 6
+  section_code: '0306'
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Port Scanning and Service Enumeration
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Port scanning and service enumeration provide systematic approaches to identifying networked
+          services and applications that comprise organizational digital infrastructure. These techniques
+          require careful attention to legal and ethical boundaries while providing valuable intelligence
+          for various analytical objectives.
+      - type: prose
+        text: >-
+          **Port Scanning Fundamentals** encompass various techniques for systematically probing target
+          systems to identify accessible network services. Different scanning approaches offer varying
+          trade-offs between comprehensiveness, stealth, and efficiency.
+      - type: prose
+        text: >-
+          TCP scanning techniques leverage connection establishment mechanisms to identify open ports
+          and active services. SYN scanning initiates connection attempts without completing handshake
+          sequences, providing efficient service discovery while minimizing connection overhead. Connect
+          scanning completes full connection establishment, ensuring accurate results but creating more
+          visible network activity.
+      - type: prose
+        text: >-
+          UDP scanning requires different approaches due to protocol characteristics and typical service
+          behaviors. UDP services often respond only to properly formatted application-layer requests
+          rather than simple connection attempts. ICMP unreachable responses can indicate closed ports,
+          but many systems suppress these responses for security reasons.
+      - type: prose
+        text: >-
+          Stealth scanning techniques attempt to minimize detection risks through various evasion methods
+          including fragmentation, timing manipulation, and source address spoofing. However, modern intrusion
+          detection systems can identify many stealth techniques. Stealth scanning should only be employed
+          within appropriate legal and authorization frameworks.
+      - type: prose
+        text: >-
+          **Service Identification and Fingerprinting** determine specific service implementations and
+          characteristics through analysis of response patterns, banner information, and protocol behaviors.
+          Service identification provides essential context for infrastructure analysis and potential
+          security assessment.
+      - type: prose
+        text: >-
+          Banner grabbing collects service identification information through initial connection establishment
+          and protocol negotiation. Many services provide version information, configuration details,
+          and system characteristics through banner responses. Banner analysis should be conducted carefully
+          to avoid triggering security responses.
+      - type: prose
+        text: >-
+          Protocol fingerprinting examines service behavior patterns, timing characteristics, and response
+          formatting to identify specific implementations. Different service implementations often exhibit
+          distinct behavioral signatures that enable systematic identification even when banner information
+          is suppressed.
+      - type: prose
+        text: >-
+          Application-layer probing sends properly formatted requests to identified services to determine
+          functionality and characteristics. Application probing can reveal detailed service capabilities
+          but may trigger logging and alerting systems. Probing activities should be conducted within
+          appropriate authorization boundaries.
+      - type: prose
+        text: >-
+          **Comprehensive Enumeration Strategies** provide systematic approaches to complete service discovery
+          across target networks while managing detection risks and maintaining appropriate operational
+          boundaries.
+      - type: prose
+        text: >-
+          Network segmentation analysis identifies subnet boundaries and service distribution patterns
+          through systematic scanning and analysis. Different network segments often host different service
+          categories reflecting organizational structure and security policies.
+      - type: prose
+        text: >-
+          Port range optimization focuses scanning activities on commonly used ports while maintaining
+          comprehensive coverage. Statistical analysis of port usage patterns enables efficient scanning
+          strategies that balance completeness with resource requirements.
+      - type: prose
+        text: >-
+          Timing and rate limiting manage scanning activities to avoid overwhelming target systems or
+          triggering security responses. Adaptive timing adjusts scanning rates based on target response
+          characteristics and network conditions.
+      - type: prose
+        text: >-
+          **Legal and Ethical Considerations** require careful attention to authorization boundaries,
+          applicable laws, and potential impact on target systems. Port scanning and service enumeration
+          can be interpreted as hostile activities under various legal frameworks.
+      - type: prose
+        text: >-
+          Authorization requirements vary significantly across jurisdictions and organizational contexts.
+          Explicit written permission should be obtained before conducting any scanning activities against
+          systems not owned by the analyst or their organization. Terms of service agreements may explicitly
+          prohibit scanning activities.
+      - type: prose
+        text: >-
+          Impact assessment considers potential disruption to target systems and networks through scanning
+          activities. High-intensity scanning can impact system performance or trigger security responses
+          that affect legitimate users. Scanning activities should be conducted with appropriate consideration
+          for potential impacts.
+      - type: prose
+        text: >-
+          Responsible disclosure frameworks provide guidance for handling security vulnerabilities or
+          misconfigurations identified during legitimate scanning activities. Vulnerability information
+          should be reported to appropriate authorities through established disclosure processes rather
+          than being exploited or publicly disclosed.

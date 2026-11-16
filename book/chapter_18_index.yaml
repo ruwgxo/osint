@@ -1,0 +1,54 @@
+# chapter_18_index.yaml
+
+---
+title: 'Chapter 18: Business Intelligence - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 18
+  source_file: part-3-specialized-domains/chapter-18-business-intelligence.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260118 | OSINT: Specialized OSINT Domains (Chapter 18 Business Intelligence and Competitive
+      Analysis) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Specialized OSINT Domains
+      - ‣‣‣ Business Intelligence and Competitive Analysis
+chapter_overview:
+  contents:
+    - Market research methodologies
+    - Patent and trademark analysis
+    - Supply chain mapping
+    - Executive and key personnel tracking
+    - Merger and acquisition intelligence
+    - Intellectual property monitoring
+    - Regulatory compliance tracking
+sections:
+  - section_number: '18.1'
+    title: Market Research Methodologies
+    filename: section_18_01_market_research_methodologies.yaml
+  - section_number: '18.2'
+    title: Patent and Trademark Analysis
+    filename: section_18_02_patent_and_trademark_analysis.yaml
+  - section_number: '18.3'
+    title: Supply Chain Mapping
+    filename: section_18_03_supply_chain_mapping.yaml
+  - section_number: '18.4'
+    title: Executive and Key Personnel Tracking
+    filename: section_18_04_executive_and_key_personnel_tracking.yaml
+  - section_number: '18.5'
+    title: Merger and Acquisition Intelligence
+    filename: section_18_05_merger_and_acquisition_intelligence.yaml
+  - section_number: '18.6'
+    title: Intellectual Property Monitoring
+    filename: section_18_06_intellectual_property_monitoring.yaml
+  - section_number: '18.7'
+    title: Regulatory compliance tracking
+    filename: section_18_07_regulatory_compliance_tracking.yaml

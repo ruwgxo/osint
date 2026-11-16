@@ -1,0 +1,116 @@
+# section_10_06_subdomain_discovery_and_enumeration_methodologies.yaml
+
+---
+title: Subdomain Discovery and Enumeration Methodologies
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 10
+  section: 6
+  section_code: '1006'
+  source_file: part-2-advanced-techniques/chapter-10-infrastructure-recon.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Subdomain Discovery and Enumeration Methodologies
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Systematic subdomain discovery reveals comprehensive organizational digital asset portfolios
+          and service architectures that might not be apparent through conventional web browsing or search
+          engine discovery.
+      - type: prose
+        text: >-
+          **Passive Subdomain Discovery** leverages existing data sources and public records to identify
+          subdomains without directly probing target infrastructure, maintaining low detection profiles
+          while providing comprehensive coverage.
+      - type: prose
+        text: >-
+          Search engine enumeration uses advanced search operators to identify subdomains indexed by search
+          engines. Site-specific searches reveal subdomains that appear in search results. Cache analysis
+          examines search engine cached pages for subdomain references. Image and document searches might
+          reveal subdomains referenced in various content types.
+      - type: prose
+        text: >-
+          DNS database analysis examines DNS records and zone files available through various sources.
+          Reverse DNS lookups identify hostnames associated with known IP addresses. DNS aggregation services
+          provide compiled subdomain lists from various sources. Historical DNS databases enable discovery
+          of previously active subdomains.
+      - type: prose
+        text: >-
+          Certificate transparency analysis provides comprehensive subdomain discovery through public
+          certificate logs. Subject Alternative Name enumeration extracts all domains from discovered
+          certificates. Wildcard certificate analysis identifies broad domain coverage patterns. Historical
+          certificate analysis reveals subdomain evolution and service development.
+      - type: prose
+        text: >-
+          **Active Subdomain Enumeration** employs direct probing techniques to discover subdomains through
+          systematic testing while managing detection risks and respecting organizational boundaries.
+      - type: prose
+        text: >-
+          Brute force enumeration systematically tests potential subdomain names using comprehensive wordlists.
+          Dictionary-based approaches use common subdomain names and functional terminology. Pattern-based
+          generation creates subdomain candidates based on organizational naming conventions. Recursive
+          enumeration tests discovered subdomains for additional levels of hierarchy.
+      - type: prose
+        text: >-
+          DNS zone walking attempts to enumerate zone contents through systematic DNS queries. NSEC record
+          analysis identifies gaps in DNS security extensions that might reveal additional records. DNSSEC
+          zone enumeration leverages security extensions to discover authenticated subdomains. Alternative
+          query methods test different record types and query patterns.
+      - type: prose
+        text: >-
+          Permutation analysis generates subdomain candidates through systematic variation of known domain
+          names. Character substitution creates variations through letter replacement and addition. Keyword
+          combination generates subdomains through term concatenation and modification. Typosquatting
+          analysis identifies potential defensive registrations and alternative spellings.
+      - type: prose
+        text: >-
+          **Subdomain Validation and Analysis** verifies discovered subdomains and analyzes their characteristics
+          to understand organizational services, infrastructure, and operational patterns through systematic
+          validation procedures.
+      - type: prose
+        text: >-
+          Availability testing confirms that discovered subdomains resolve to active services and determine
+          their operational status. HTTP response analysis examines web service availability and response
+          characteristics. Service fingerprinting identifies applications and technologies running on
+          discovered subdomains. Port scanning reveals additional services beyond web applications.
+      - type: prose
+        text: >-
+          Content analysis examines subdomain purposes and organizational functions. Service identification
+          categorizes subdomains based on their apparent functions and business purposes. Technology stack
+          analysis identifies development platforms, frameworks, and implementation approaches. Organizational
+          structure analysis reveals internal organization and operational boundaries.
+      - type: prose
+        text: >-
+          Relationship mapping identifies connections between different subdomains and organizational
+          services. Link analysis examines cross-references between subdomains and their interconnections.
+          Infrastructure correlation identifies shared hosting, content delivery, and service provider
+          relationships. Security analysis examines access controls, authentication requirements, and
+          potential vulnerabilities.
+      - type: prose
+        text: >-
+          **Automation and Continuous Monitoring** develops systematic approaches to ongoing subdomain
+          discovery that enable comprehensive coverage and continuous intelligence updating through automated
+          processes.
+      - type: prose
+        text: >-
+          Automated discovery frameworks combine multiple enumeration techniques into comprehensive discovery
+          workflows. Multi-source integration aggregates results from different discovery methods while
+          managing duplicate identification. Quality filtering removes false positives and non-functional
+          results. Result prioritization focuses analysis attention on most significant discoveries.
+      - type: prose
+        text: >-
+          Continuous monitoring enables ongoing subdomain discovery and change detection. New subdomain
+          detection identifies organizational expansion and service development. Change monitoring identifies
+          modifications to existing subdomains and their characteristics. Trend analysis examines subdomain
+          creation patterns and organizational growth trajectories.
+      - type: prose
+        text: >-
+          Integration capabilities enable subdomain discovery within broader intelligence gathering workflows.
+          API integration enables programmatic access to discovery results. Database integration enables
+          storage and correlation with other intelligence sources. Alert systems provide notification
+          of significant discoveries and changes.

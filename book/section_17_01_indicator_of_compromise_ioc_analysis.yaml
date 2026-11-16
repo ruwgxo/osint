@@ -1,0 +1,123 @@
+# section_17_01_indicator_of_compromise_ioc_analysis.yaml
+
+---
+title: Indicator of Compromise (IoC) Analysis
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 17
+  section: 1
+  section_code: '1701'
+  source_file: part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Indicator of Compromise (IoC) Analysis
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Indicator of Compromise analysis provides systematic approaches to identifying, analyzing, and
+          leveraging digital artifacts that indicate potential security breaches or malicious activities
+          through comprehensive examination of technical indicators and behavioral patterns.
+      - type: prose
+        text: >-
+          **IoC Types and Classification Systems** establish standardized frameworks for categorizing
+          and analyzing different types of digital evidence that indicate compromise or malicious activity
+          across various system types and attack vectors.
+      - type: prose
+        text: >-
+          Network-based indicators encompass observable artifacts within network traffic and communications
+          that suggest malicious activity or compromise. IP address indicators identify command and control
+          servers, malicious hosting infrastructure, and compromised systems communicating with threat
+          actors. Domain name indicators reveal malicious infrastructure including phishing sites, malware
+          distribution points, and communication channels. URL indicators identify specific malicious
+          resources including exploit kits, malware payloads, and data exfiltration endpoints.
+      - type: prose
+        text: >-
+          Host-based indicators include digital artifacts observable on individual systems that suggest
+          compromise or malicious activity. File hash indicators provide cryptographic fingerprints for
+          malware samples, malicious documents, and compromised system files. Registry key indicators
+          identify Windows system modifications that indicate malware installation or persistence mechanisms.
+          Process name indicators identify malicious executable files and suspicious system processes.
+      - type: prose
+        text: >-
+          Email-based indicators reveal malicious communication patterns and social engineering attempts.
+          Sender address indicators identify compromised accounts and malicious email sources. Subject
+          line patterns identify phishing campaigns and malicious email distribution. Attachment hash
+          indicators identify malicious files distributed through email channels. Header analysis indicators
+          reveal email routing anomalies and spoofing attempts.
+      - type: prose
+        text: >-
+          **IoC Validation and Verification Processes** ensure indicator accuracy and reliability while
+          preventing false positive impacts on business operations through systematic verification methodologies
+          and quality assessment procedures.
+      - type: prose
+        text: >-
+          False positive assessment examines potential legitimate uses for identified indicators to prevent
+          operational disruption. Legitimate service identification ensures that blocking indicators won’t
+          disrupt normal business operations. Geographic analysis considers whether IP addresses represent
+          legitimate international business operations. Context analysis examines indicator usage within
+          normal operational environments.
+      - type: prose
+        text: >-
+          Temporal validation examines indicator relevance and accuracy over time while accounting for
+          infrastructure changes and threat evolution. Age assessment evaluates whether indicators remain
+          current and operationally relevant. Infrastructure lifecycle analysis tracks changes in malicious
+          infrastructure and indicator validity. Campaign correlation analysis links indicators to specific
+          threat campaigns and operational timeframes.
+      - type: prose
+        text: >-
+          Confidence scoring assigns reliability levels to different indicators based on source quality,
+          verification methods, and analytical assessment. Source reliability evaluation considers the
+          credibility and track record of indicator sources. Technical verification examines whether indicators
+          demonstrate actual malicious behavior. Cross-source validation seeks corroboration from multiple
+          independent intelligence sources.
+      - type: prose
+        text: >-
+          **Automated IoC Processing and Integration** implements systematic approaches to indicator collection,
+          analysis, and operational deployment while managing data quality and integration complexity
+          across diverse security systems.
+      - type: prose
+        text: >-
+          Feed integration processes standardize indicator collection from multiple threat intelligence
+          sources. STIX/TAXII implementation provides structured indicator sharing and automated processing
+          capabilities. Custom API integration enables connection with proprietary threat intelligence
+          sources. Feed normalization converts diverse indicator formats into consistent analytical structures.
+      - type: prose
+        text: >-
+          Quality filtering removes duplicate, expired, and low-confidence indicators to optimize operational
+          effectiveness. Deduplication algorithms identify identical indicators from multiple sources.
+          Expiration management removes outdated indicators that no longer provide operational value.
+          Confidence filtering prioritizes high-quality indicators for operational deployment.
+      - type: prose
+        text: >-
+          Security tool integration deploys validated indicators across defensive security infrastructure.
+          SIEM integration provides centralized monitoring and alerting for indicator matches. Firewall
+          integration enables automated blocking of malicious network indicators. Email security integration
+          prevents delivery of messages containing malicious indicators.
+      - type: prose
+        text: >-
+          **IoC Lifecycle Management** maintains indicator accuracy and operational relevance through
+          systematic management processes that account for threat evolution and infrastructure changes
+          over time.
+      - type: prose
+        text: >-
+          Collection management coordinates indicator gathering from diverse sources while avoiding duplication
+          and ensuring comprehensive coverage. Source diversity ensures comprehensive threat landscape
+          coverage. Collection prioritization focuses resources on high-value intelligence sources. Gap
+          analysis identifies coverage limitations and collection requirements.
+      - type: prose
+        text: >-
+          Processing workflows standardize indicator analysis and validation procedures. Enrichment processes
+          add contextual information and analytical value to raw indicators. Attribution analysis links
+          indicators to specific threat actors and campaigns. Impact assessment evaluates potential organizational
+          exposure to identified threats.
+      - type: prose
+        text: >-
+          Distribution mechanisms ensure timely delivery of actionable indicators to operational security
+          teams. Urgency classification prioritizes critical indicators requiring immediate action. Format
+          standardization ensures compatibility with diverse security tools and processes. Access control
+          protects sensitive indicators while enabling appropriate operational use.

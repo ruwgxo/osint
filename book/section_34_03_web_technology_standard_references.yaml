@@ -1,0 +1,164 @@
+# section_34_03_web_technology_standard_references.yaml
+
+---
+title: Web Technology Standard References
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 3
+  section_code: '3403'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Web Technology Standard References
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: HTML5 Specification
+      - type: list
+        style: bullet
+        items:
+          - Document Structure Elements
+          - Metadata Elements for OSINT
+          - Geolocation API
+      - type: prose
+        text: >-
+          Document Structure Elements
+      - type: code
+        lang: text
+        text: |
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Document Title</title>
+          </head>
+          <body>
+              <!-- Content -->
+          </body>
+          </html>
+      - type: prose
+        text: >-
+          Metadata Elements for OSINT
+      - type: list
+        style: bullet
+        items:
+          - 'Author: <meta name="author" content="John Doe">'
+          - 'Description: <meta name="description" content="Page description">'
+          - 'Keywords: <meta name="keywords" content="keyword1, keyword2">'
+          - 'Generator: <meta name="generator" content="WordPress 5.8">'
+          - 'Date: <meta name="date" content="2023-01-15">'
+      - type: prose
+        text: >-
+          Geolocation API
+      - type: code
+        lang: text
+        text: |
+          navigator.geolocation.getCurrentPosition(success, error, options);
+      - type: prose
+        text: >-
+          Accuracy Levels:
+      - type: list
+        style: bullet
+        items:
+          - 'Desktop: \~1000-5000 meters'
+          - 'Mobile GPS: \~5-10 meters'
+          - 'Mobile Network: \~100-1000 meters'
+      - type: heading
+        level: 3
+        text: CSS Selectors for Data Extraction
+      - type: list
+        style: bullet
+        items:
+          - Basic Selectors
+          - Advanced Selectors
+          - Pseudo-Selectors
+      - type: prose
+        text: >-
+          Basic Selectors
+      - type: list
+        style: bullet
+        items:
+          - 'Universal: * (all elements)'
+          - 'Type: div (all div elements)'
+          - 'Class: .classname (elements with specific class)'
+          - 'ID: #idname (element with specific ID)'
+          - 'Attribute: [attribute] (elements with attribute)'
+      - type: prose
+        text: >-
+          Advanced Selectors
+      - type: list
+        style: bullet
+        items:
+          - 'Descendant: div p (p inside div)'
+          - 'Child: div > p (direct p child of div)'
+          - 'Adjacent Sibling: div + p (p immediately after div)'
+          - 'General Sibling: div \~ p (p siblings after div)'
+      - type: prose
+        text: >-
+          Pseudo-Selectors
+      - type: list
+        style: bullet
+        items:
+          - 'First Child: :first-child'
+          - 'Last Child: :last-child'
+          - 'Nth Child: :nth-child(n)'
+          - 'Contains: :contains("text")'
+      - type: heading
+        level: 3
+        text: JavaScript APIs for OSINT
+      - type: list
+        style: bullet
+        items:
+          - Geolocation API
+          - Canvas Fingerprinting
+          - WebRTC IP Detection
+      - type: prose
+        text: >-
+          Geolocation API
+      - type: code
+        lang: text
+        text: |
+          // Get current position
+          navigator.geolocation.getCurrentPosition(
+              function(position) {
+                  const lat = position.coords.latitude;
+                  const lon = position.coords.longitude;
+                  const accuracy = position.coords.accuracy;
+              }
+          );
+      - type: prose
+        text: >-
+          Canvas Fingerprinting
+      - type: code
+        lang: text
+        text: |
+          // Canvas fingerprinting detection
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+          ctx.textBaseline = 'top';
+          ctx.font = '14px Arial';
+          ctx.fillText('Browser fingerprint text', 2, 2);
+          const fingerprint = canvas.toDataURL();
+      - type: prose
+        text: >-
+          WebRTC IP Detection
+      - type: code
+        lang: text
+        text: |
+          // WebRTC local IP detection
+          const pc = new RTCPeerConnection({iceServers:[]});
+          pc.createDataChannel('');
+          pc.createOffer().then(offer => pc.setLocalDescription(offer));
+          pc.onicecandidate = function(ice) {
+              if (ice.candidate) {
+                  const ip = /([0-9]{1,3}(\.[0-9]{1,3}){3})/.exec(ice.candidate.candidate)[1];
+                  console.log('Local IP:', ip);
+              }
+          };

@@ -1,0 +1,248 @@
+# section_33_04_network_analysis_mathematical_foundations.yaml
+
+---
+title: Network Analysis Mathematical Foundations
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 4
+  section_code: '3304'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Network Analysis Mathematical Foundations
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Graph Theory Fundamentals
+      - type: prose
+        text: >-
+          Basic Definitions
+      - type: list
+        style: bullet
+        items:
+          - 'Graph G = (V, E): Set of vertices (nodes) V and edges E'
+          - 'Directed Graph: Edges have direction (A → B)'
+          - 'Undirected Graph: Edges have no direction (A — B)'
+          - 'Weighted Graph: Edges have associated weights or values'
+          - 'Degree: Number of edges connected to a node'
+      - type: prose
+        text: >-
+          Common Network Types in Intelligence
+      - type: list
+        style: bullet
+        items:
+          - 'Social Networks: Individuals connected by relationships'
+          - 'Communication Networks: Entities connected by communication links'
+          - 'Financial Networks: Accounts connected by transactions'
+          - 'Terrorist Networks: Individuals connected by operational relationships'
+      - type: heading
+        level: 3
+        text: Centrality Measures
+      - type: list
+        style: bullet
+        items:
+          - Degree Centrality
+          - Betweenness Centrality
+          - Closeness Centrality
+          - Eigenvector Centrality
+      - type: prose
+        text: >-
+          Degree Centrality
+
+          Measures importance based on number of direct connections.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          C_D(v) = deg(v) / (n-1)
+
+          Where deg(v) is the degree of vertex v and n is the number of vertices.
+      - type: prose
+        text: >-
+          Intelligence Application: Identifying most connected individuals in network.
+      - type: prose
+        text: >-
+          Betweenness Centrality
+
+          Measures importance based on position in network paths.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          C_B(v) = Σ (σ_st(v) / σ_st)
+          Where σ_st is the number of shortest paths from s to t, and σ_st(v) is the number of those paths that pass through v.
+      - type: prose
+        text: >-
+          Intelligence Application: Identifying key brokers or gatekeepers in networks.
+      - type: prose
+        text: >-
+          Closeness Centrality
+
+          Measures importance based on average distance to all other nodes.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          C_C(v) = (n-1) / Σ d(v,u)
+
+          Where d(v,u) is the shortest path distance from v to u.
+      - type: prose
+        text: >-
+          Intelligence Application: Identifying nodes that can efficiently reach all others.
+      - type: prose
+        text: >-
+          Eigenvector Centrality
+
+          Measures importance based on the importance of connected nodes.
+
+          Formula: Based on dominant eigenvector of adjacency matrix
+      - type: code
+        lang: text
+        text: |
+          x_v = (1/λ) Σ A_v,t x_t
+      - type: prose
+        text: >-
+          Intelligence Application: Identifying nodes connected to other important nodes.
+      - type: heading
+        level: 3
+        text: Clustering and Community Detection
+      - type: prose
+        text: >-
+          Clustering Coefficient
+
+          Measures how clustered a node's neighbors are.
+      - type: prose
+        text: >-
+          Local Clustering Coefficient: C_i = (number of triangles connected to vertex i) / (number of
+          possible triangles)
+
+          Global Clustering Coefficient: Average of all local clustering coefficients.
+      - type: prose
+        text: >-
+          Modularity
+
+          Measures quality of division of network into communities.
+      - type: code
+        lang: text
+        text: |
+          Formula: Q = (1/2m) Σ [A_ij - (k_i k_j)/(2m)] δ(c_i, c_j)
+
+          Where:
+          A_ij = adjacency matrix element
+          k_i = degree of vertex i
+          m = total number of edges
+          δ(c_i, c_j) = 1 if vertices i and j are in the same community
+      - type: prose
+        text: >-
+          Intelligence Application: Identifying subgroups within larger networks.
+      - type: heading
+        level: 3
+        text: Network Metrics and Analysis
+      - type: prose
+        text: >-
+          Path Analysis
+      - type: list
+        style: bullet
+        items:
+          - 'Shortest Path: Minimum number of edges between two nodes'
+          - 'Average Path Length: Average shortest path length between all pairs'
+          - 'Diameter: Maximum shortest path length in network'
+      - type: prose
+        text: >-
+          Network Density
+
+          Proportion of possible edges that actually exist.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          Density = 2m / (n(n-1)) for undirected graphs
+          Where m = number of edges, n = number of nodes.
+      - type: prose
+        text: >-
+          Small World Networks
+
+          Networks with high clustering and short path lengths.
+      - type: list
+        style: bullet
+        items:
+          - 'Small World Coefficient: S = (C/C_random) / (L/L_random)'
+          - S > 1 indicates small world properties
+      - type: prose
+        text: >-
+          Intelligence Application: Many real-world networks exhibit small world properties.
+      - type: heading
+        level: 3
+        text: Graph Algorithms for Intelligence Analysis
+      - type: list
+        style: bullet
+        items:
+          - Breadth-First Search (BFS)
+          - Depth-First Search (DFS)
+          - Dijkstra's Algorithm
+          - PageRank Algorithm
+      - type: prose
+        text: >-
+          Breadth-First Search (BFS)
+
+          Used for finding shortest paths and exploring neighborhoods.
+
+          Algorithm Steps:
+      - type: list
+        style: bullet
+        items:
+          - Start at source node
+          - Visit all neighbors at distance 1
+          - Visit all neighbors at distance 2
+          - Continue until all reachable nodes visited
+      - type: prose
+        text: >-
+          Depth-First Search (DFS)
+
+          Used for finding connected components and detecting cycles.
+
+          Algorithm Steps:
+      - type: list
+        style: bullet
+        items:
+          - Start at source node
+          - Follow one path as far as possible
+          - Backtrack when no unvisited neighbors
+          - Continue until all reachable nodes visited
+      - type: prose
+        text: >-
+          Dijkstra's Algorithm
+
+          Finds shortest weighted paths from source to all other nodes.
+
+          Intelligence Application: Finding most efficient communication paths or identifying minimum-cost
+          connections.
+      - type: prose
+        text: >-
+          PageRank Algorithm
+
+          Iterative algorithm for ranking nodes based on link structure.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          PR(p_i) = ((1-d)/N) + d × Σ (PR(p_j) / C(p_j))
+
+          Where:
+          d = damping parameter (usually 0.85)
+          N = total number of pages
+          C(p_j) = number of outbound links from page j
+      - type: prose
+        text: >-
+          Intelligence Application: Ranking importance of entities in networks.

@@ -1,0 +1,161 @@
+# section_32_05_ethical_collection_boundary_frameworks.yaml
+
+---
+title: Ethical Collection Boundary Frameworks
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 32
+  section: 5
+  section_code: '3205'
+  source_file: appendices/b-legal-ethical-guidelines.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Ethical Collection Boundary Frameworks
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Professional Ethics Principles
+      - type: prose
+        text: >-
+          Respect for Persons
+      - type: list
+        style: bullet
+        items:
+          - 'Autonomy: Respecting individual decision-making capacity'
+          - 'Dignity: Treating all persons with inherent worth and respect'
+          - 'Privacy: Recognizing reasonable expectations of privacy'
+          - 'Consent: Obtaining appropriate permission when feasible'
+      - type: prose
+        text: >-
+          Beneficence and Non-Maleficence
+      - type: list
+        style: bullet
+        items:
+          - 'Do Good: Acting in ways that benefit society and stakeholders'
+          - 'Do No Harm: Avoiding actions that cause unnecessary harm'
+          - 'Risk-Benefit Analysis: Weighing potential harms against benefits'
+          - 'Harm Mitigation: Taking steps to minimize potential negative impacts'
+      - type: prose
+        text: >-
+          Justice and Fairness
+      - type: list
+        style: bullet
+        items:
+          - 'Equal Treatment: Avoiding discrimination and bias'
+          - 'Fair Distribution: Ensuring equitable distribution of benefits and burdens'
+          - 'Procedural Fairness: Using fair and transparent processes'
+          - 'Access to Justice: Ensuring equal access to legal protections'
+      - type: prose
+        text: >-
+          Professional Integrity
+      - type: list
+        style: bullet
+        items:
+          - 'Honesty: Being truthful in all professional communications'
+          - 'Competence: Maintaining appropriate skills and knowledge'
+          - 'Accountability: Taking responsibility for professional actions'
+          - 'Transparency: Being open about methods and limitations'
+      - type: heading
+        level: 3
+        text: Collection Ethics Framework
+      - type: prose
+        text: >-
+          Proportionality Assessment
+      - type: list
+        style: bullet
+        items:
+          - 'Necessity Test: Is the collection necessary for the stated purpose?'
+          - 'Adequacy Test: Is the collection adequate to achieve the purpose?'
+          - 'Relevance Test: Is the collected information relevant to the purpose?'
+          - 'Least Intrusive Means: Are less invasive alternatives available?'
+      - type: prose
+        text: >-
+          Source Protection Principles
+      - type: list
+        style: bullet
+        items:
+          - 'Source Safety: Protecting sources from harm or retaliation'
+          - 'Confidentiality: Maintaining appropriate information confidentiality'
+          - 'Attribution Control: Managing source identification and exposure'
+          - 'Relationship Ethics: Maintaining honest and fair source relationships'
+      - type: prose
+        text: >-
+          Information Sensitivity Classification
+      - type: list
+        style: bullet
+        items:
+          - 'Public Information: Freely available information with minimal restrictions'
+          - 'Semi-Public Information: Information requiring registration or membership'
+          - 'Restricted Information: Information with access controls or payment requirements'
+          - 'Private Information: Information with reasonable privacy expectations'
+      - type: heading
+        level: 3
+        text: Vulnerable Population Protections
+      - type: prose
+        text: >-
+          Children and Minors
+      - type: list
+        style: bullet
+        items:
+          - 'Enhanced Privacy: Greater privacy protections for individuals under 18'
+          - 'Parental Consent: Requirements for consent from parents/guardians'
+          - 'Educational Context: Special considerations for school-related information'
+          - 'Social Media: Additional protections for minor social media users'
+      - type: prose
+        text: >-
+          Protected Groups
+      - type: list
+        style: bullet
+        items:
+          - 'Medical Patients: Enhanced protections for health information'
+          - 'Victims of Crime: Special consideration for crime victims and witnesses'
+          - 'Whistleblowers: Protection for individuals reporting wrongdoing'
+          - 'Political Dissidents: Enhanced protections in authoritarian contexts'
+      - type: prose
+        text: >-
+          Economic Vulnerability
+      - type: list
+        style: bullet
+        items:
+          - 'Financial Distress: Consideration for individuals in financial difficulty'
+          - 'Employment Vulnerability: Protection for employees and job seekers'
+          - 'Housing Insecurity: Consideration for individuals facing housing issues'
+          - 'Social Services: Protection for social service recipients'
+      - type: heading
+        level: 3
+        text: Research Ethics Guidelines
+      - type: prose
+        text: >-
+          Academic Research Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Institutional Review Board (IRB): Ethics review for academic research'
+          - 'Informed Consent: Consent requirements for research participation'
+          - 'Risk Minimization: Reducing research risks to participants'
+          - 'Data Protection: Protecting research participant information'
+      - type: prose
+        text: >-
+          Journalism Ethics
+      - type: list
+        style: bullet
+        items:
+          - 'Public Interest: Balancing privacy with public interest in information'
+          - 'Verification: Confirming information accuracy before publication'
+          - 'Source Protection: Protecting journalist sources and whistleblowers'
+          - 'Harm Prevention: Avoiding unnecessary harm through publication'
+      - type: prose
+        text: >-
+          Commercial Research Ethics
+      - type: list
+        style: bullet
+        items:
+          - 'Market Research Standards: Professional standards for commercial research'
+          - 'Consumer Protection: Protecting research participants from exploitation'
+          - 'Transparency: Clear disclosure of research purposes and sponsorship'
+          - 'Data Use Limitations: Restricting use of collected data to stated purposes'

@@ -1,0 +1,126 @@
+# section_14_04_linguistic_analysis_and_stylometry.yaml
+
+---
+title: Linguistic Analysis and Stylometry
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 14
+  section: 4
+  section_code: '1404'
+  source_file: part-2-advanced-techniques/chapter-14-communication-patterns.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Linguistic Analysis and Stylometry
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Linguistic analysis and stylometry examine written communication characteristics to identify
+          authorship, organizational culture, and behavioral patterns through systematic analysis of language
+          usage, writing style, and communication characteristics.
+      - type: prose
+        text: >-
+          **Authorship Attribution Techniques** identify document authors or determine whether multiple
+          documents share common authorship through systematic analysis of writing style characteristics
+          and linguistic patterns.
+      - type: prose
+        text: >-
+          Lexical analysis examines word choice patterns and vocabulary characteristics that distinguish
+          individual writers. Vocabulary richness analysis measures word diversity and linguistic sophistication.
+          Function word analysis examines common words like prepositions and articles that reflect unconscious
+          writing habits. Rare word usage analysis identifies distinctive vocabulary choices that characterize
+          individual authors.
+      - type: prose
+        text: >-
+          Syntactic analysis examines sentence structure patterns and grammatical characteristics that
+          reflect individual writing styles. Sentence length analysis tracks typical sentence complexity
+          and variation patterns. Clause structure analysis examines how writers organize complex sentences
+          and ideas. Punctuation pattern analysis identifies distinctive punctuation usage that characterizes
+          individual authors.
+      - type: prose
+        text: >-
+          Content-free analysis focuses on structural and stylistic characteristics rather than topic-specific
+          vocabulary. Character n-gram analysis examines letter sequence patterns that reflect keyboard
+          habits and spelling patterns. Part-of-speech analysis examines grammatical category usage patterns.
+          Stylistic feature analysis combines multiple linguistic characteristics for comprehensive authorship
+          assessment.
+      - type: prose
+        text: >-
+          **Cultural and Organizational Language Analysis** examines communication patterns that reveal
+          organizational characteristics, cultural influences, and group dynamics through systematic analysis
+          of shared language usage and communication norms.
+      - type: prose
+        text: >-
+          Organizational terminology analysis identifies specialized vocabulary and jargon that characterizes
+          specific organizations or industries. Technical terminology usage reveals organizational focus
+          areas and expertise domains. Acronym and abbreviation analysis identifies internal organizational
+          language and communication efficiency patterns. Policy language analysis examines formal communication
+          styles and compliance requirements.
+      - type: prose
+        text: >-
+          Cultural marker analysis identifies language patterns that reflect national, regional, or demographic
+          cultural influences. Regional dialect analysis identifies geographic origins and cultural backgrounds.
+          Generational language analysis examines age-related communication patterns and technology usage.
+          Professional culture analysis identifies language patterns associated with specific professional
+          domains.
+      - type: prose
+        text: >-
+          Communication formality analysis examines how organizational culture affects communication style
+          and relationship dynamics. Hierarchical language analysis identifies formality patterns that
+          reflect organizational authority structures. Interpersonal distance analysis examines language
+          patterns that indicate relationship closeness or professional distance. Politeness strategy
+          analysis identifies cultural and organizational norms for respectful communication.
+      - type: prose
+        text: >-
+          **Emotional and Psychological Analysis** examines communication content for emotional states,
+          psychological characteristics, and behavioral indicators that provide insights into individual
+          and organizational dynamics.
+      - type: prose
+        text: >-
+          Sentiment analysis quantifies emotional tone and attitude expressed in communications. Positive
+          sentiment analysis identifies optimistic, satisfied, or enthusiastic communications. Negative
+          sentiment analysis identifies frustrated, angry, or pessimistic communications. Emotional intensity
+          analysis measures the strength of emotional expression in different communications.
+      - type: prose
+        text: >-
+          Stress and urgency indicators identify communications that suggest psychological pressure or
+          time-sensitive situations. Linguistic stress markers include increased typos, sentence fragments,
+          and informal language. Cognitive load indicators include simplified vocabulary and shorter sentences
+          during high-stress situations. Urgency language patterns include imperative sentences and time
+          pressure expressions.
+      - type: prose
+        text: >-
+          Personality analysis examines communication patterns that reflect stable individual characteristics
+          and behavioral tendencies. Extraversion indicators include frequent personal references and
+          social language. Conscientiousness indicators include detailed planning language and systematic
+          organization. Openness indicators include creative language and novel expression patterns.
+      - type: prose
+        text: >-
+          **Multi-Language and Cross-Cultural Analysis** addresses communication analysis challenges in
+          multilingual environments while accounting for translation effects and cultural communication
+          differences.
+      - type: prose
+        text: >-
+          Translation quality assessment examines whether communications show signs of machine or human
+          translation that might affect linguistic analysis accuracy. Translation artifact identification
+          recognizes language patterns that suggest non-native expression or translation effects. Cross-language
+          authorship analysis attempts to identify authors across different languages based on stable
+          stylistic characteristics.
+      - type: prose
+        text: >-
+          Code-switching analysis examines how multilingual communicators alternate between languages
+          within single communications. Language choice patterns reveal cultural identity and audience
+          consideration. Mixed-language expression analysis identifies distinctive patterns in multilingual
+          communication. Cultural accommodation analysis examines how communicators adapt language for
+          different cultural audiences.
+      - type: prose
+        text: >-
+          Cross-cultural communication pattern analysis identifies how different cultural backgrounds
+          affect communication styles and expectations. Directness preference analysis examines cultural
+          variation in explicit versus implicit communication. Hierarchy recognition analysis identifies
+          cultural differences in authority acknowledgment and respect expression. Conflict expression
+          analysis examines cultural variation in disagreement and negotiation communication.

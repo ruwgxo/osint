@@ -1,0 +1,115 @@
+# section_08_05_steganography_detection_and_analysis_methods.yaml
+
+---
+title: Steganography Detection and Analysis Methods
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 8
+  section: 5
+  section_code: 0805
+  source_file: part-2-advanced-techniques/chapter-08-cryptographic-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Steganography Detection and Analysis Methods
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Steganography conceals information within other data to enable covert communication and information
+          hiding. Understanding steganographic techniques and detection methods enables identification
+          of hidden communications and assessment of potential covert channel usage within various media
+          types.
+      - type: prose
+        text: >-
+          **Image Steganography Analysis** examines techniques for hiding information within digital images
+          and the analytical methods available for detecting and extracting hidden content.
+      - type: prose
+        text: >-
+          Least Significant Bit (LSB) analysis examines the most common steganographic technique that
+          modifies the least significant bits of image pixels to embed hidden data. LSB detection algorithms
+          identify unusual patterns in image pixel values that might indicate embedded data. Statistical
+          analysis reveals deviations from natural image characteristics that suggest steganographic modification.
+          Visual analysis identifies subtle image artifacts that might indicate content embedding.
+      - type: prose
+        text: >-
+          Frequency domain analysis examines steganographic techniques that modify image frequency components
+          through discrete cosine transform (DCT) or discrete wavelet transform (DWT) methods. JPEG steganography
+          analysis addresses embedding within compressed image formats. Frequency coefficient analysis
+          identifies unusual patterns that might indicate hidden data. Transform domain detection reveals
+          modifications that might not be visible in spatial domain analysis.
+      - type: prose
+        text: >-
+          Palette-based steganography analysis examines techniques that modify color palettes within indexed
+          color images. Color ordering analysis identifies unusual palette arrangements that might conceal
+          information. Palette modification detection reveals changes that might indicate embedded data.
+          Index manipulation analysis examines techniques that modify pixel color indices to embed information.
+      - type: prose
+        text: >-
+          **Audio Steganography Detection** addresses information hiding within audio files and the analytical
+          techniques available for identifying covert audio channels.
+      - type: prose
+        text: >-
+          Time domain analysis examines techniques that modify audio samples directly to embed hidden
+          information. Amplitude modification detection identifies subtle changes that might indicate
+          embedded data. Phase manipulation analysis examines techniques that modify audio phase relationships.
+          Echo hiding detection identifies artificial echo patterns that might conceal information.
+      - type: prose
+        text: >-
+          Frequency domain analysis addresses steganographic techniques that modify audio frequency components.
+          Spectral analysis reveals unusual frequency patterns that might indicate embedded data. Masking
+          analysis examines techniques that hide information within audio masking thresholds. Spread spectrum
+          analysis identifies techniques that distribute hidden data across multiple frequency bands.
+      - type: prose
+        text: >-
+          Compression-based analysis examines steganographic techniques that leverage audio compression
+          artifacts. MP3 steganography detection addresses embedding within compressed audio formats.
+          Quantization analysis identifies modifications to compression parameters that might conceal
+          information. Padding area analysis examines unused portions of compressed audio files.
+      - type: prose
+        text: >-
+          **Document and Text Steganography** examines techniques for hiding information within text documents
+          and formatted content through various linguistic and formatting methods.
+      - type: prose
+        text: >-
+          Format-based steganography analysis examines techniques that use document formatting to conceal
+          information. Font manipulation detection identifies unusual font changes that might encode data.
+          Spacing analysis reveals irregular character or line spacing that might conceal information.
+          Color and formatting analysis identifies subtle changes that might indicate embedded data.
+      - type: prose
+        text: >-
+          Linguistic steganography analysis addresses techniques that use natural language characteristics
+          to hide information. Synonym substitution detection identifies unusual word choices that might
+          encode data. Grammar manipulation analysis examines techniques that modify sentence structure
+          to embed information. Semantic analysis identifies text modifications that might conceal meaning.
+      - type: prose
+        text: >-
+          Metadata steganography analysis examines techniques that hide information within document metadata
+          and properties. Document property analysis identifies unusual metadata that might conceal information.
+          Comment and annotation analysis examines hidden or invisible content within documents. Revision
+          history analysis identifies techniques that use change tracking to hide information.
+      - type: prose
+        text: >-
+          **Network and Protocol Steganography** addresses techniques that hide information within network
+          communications and protocol implementations.
+      - type: prose
+        text: >-
+          Protocol field manipulation analysis examines techniques that modify network protocol fields
+          to embed hidden information. Header field analysis identifies unusual values that might conceal
+          data. Unused field analysis examines protocol fields that might be used for covert communication.
+          Timing analysis identifies unusual communication patterns that might indicate covert channels.
+      - type: prose
+        text: >-
+          Traffic pattern analysis examines network communication characteristics that might conceal information.
+          Packet size analysis identifies unusual patterns that might encode data. Inter-packet timing
+          analysis reveals communication patterns that might indicate covert channels. Flow correlation
+          analysis identifies relationships between different communication flows.
+      - type: prose
+        text: >-
+          Covert channel analysis examines techniques that use legitimate network protocols for unauthorized
+          communication. Bandwidth analysis identifies unusual data transmission patterns. Protocol compliance
+          analysis examines deviations from standard protocol behavior. Detection algorithms identify
+          communication patterns that might indicate covert channel usage.

@@ -28,51 +28,53 @@ The book is built for practitioners. Every chapter addresses the actual work - w
 
 ## Table of Contents
 
+The book is in `book/`: an index per chapter (`chapter_NN_index.yaml`) and one YAML file per section (`section_NN_MM_<topic>.yaml`), with the book index (`osint_book_index.yaml`) and an overview of every chapter (`osint_book_overview.yaml`). Appendices A-D are chapters 31-34.
+
 ### Part 1 - Fundamentals
-- [Chapter 1: Foundations of OSINT](part-1-fundamentals/chapter-01-foundations.md)
-- [Chapter 2: Information Theory and Data Analysis](part-1-fundamentals/chapter-02-information-theory.md)
-- [Chapter 3: Network Fundamentals](part-1-fundamentals/chapter-03-network-fundamentals.md)
-- [Chapter 4: Data Structures and Formats](part-1-fundamentals/chapter-04-data-structures-formats.md)
-- [Chapter 5: Web Technologies](part-1-fundamentals/chapter-05-web-technologies.md)
-- [Chapter 6: Search Methodologies](part-1-fundamentals/chapter-06-search-methodologies.md)
+- [Chapter 1: Foundations of OSINT](book/chapter_01_index.yaml)
+- [Chapter 2: Information Theory and Data Analysis](book/chapter_02_index.yaml)
+- [Chapter 3: Network Fundamentals](book/chapter_03_index.yaml)
+- [Chapter 4: Data Structures and Formats](book/chapter_04_index.yaml)
+- [Chapter 5: Web Technologies](book/chapter_05_index.yaml)
+- [Chapter 6: Search Methodologies](book/chapter_06_index.yaml)
 
 ### Part 2 - Advanced Techniques
-- [Chapter 7: Protocol Analysis and Traffic Inspection](part-2-advanced-techniques/chapter-07-protocol-analysis.md)
-- [Chapter 8: Cryptographic Intelligence](part-2-advanced-techniques/chapter-08-cryptographic-intelligence.md)
-- [Chapter 9: Advanced Data Mining](part-2-advanced-techniques/chapter-09-advanced-data-mining.md)
-- [Chapter 10: Infrastructure Reconnaissance](part-2-advanced-techniques/chapter-10-infrastructure-recon.md)
-- [Chapter 11: Advanced Social Engineering Analysis](part-2-advanced-techniques/chapter-11-social-engineering.md)
-- [Chapter 12: Geospatial Intelligence](part-2-advanced-techniques/chapter-12-geospatial-intelligence.md)
-- [Chapter 13: Temporal Analysis](part-2-advanced-techniques/chapter-13-temporal-analysis.md)
-- [Chapter 14: Communication Pattern Analysis](part-2-advanced-techniques/chapter-14-communication-patterns.md)
+- [Chapter 7: Protocol Analysis and Traffic Inspection](book/chapter_07_index.yaml)
+- [Chapter 8: Cryptographic Intelligence](book/chapter_08_index.yaml)
+- [Chapter 9: Advanced Data Mining](book/chapter_09_index.yaml)
+- [Chapter 10: Infrastructure Reconnaissance](book/chapter_10_index.yaml)
+- [Chapter 11: Advanced Social Engineering Analysis](book/chapter_11_index.yaml)
+- [Chapter 12: Geospatial Intelligence](book/chapter_12_index.yaml)
+- [Chapter 13: Temporal Analysis](book/chapter_13_index.yaml)
+- [Chapter 14: Communication Pattern Analysis](book/chapter_14_index.yaml)
 
 ### Part 3 - Specialized OSINT Domains
-- [Chapter 15: Automation and Systematic Collection](part-3-specialized-domains/chapter-15-automation-collection.md)
-- [Chapter 16: Financial Intelligence](part-3-specialized-domains/chapter-16-financial-intelligence.md)
-- [Chapter 17: Cyber Threat Intelligence](part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md)
-- [Chapter 18: Business Intelligence](part-3-specialized-domains/chapter-18-business-intelligence.md)
-- [Chapter 19: Academic and Research Intelligence](part-3-specialized-domains/chapter-19-academic-research.md)
-- [Chapter 20: Media and Information Analysis](part-3-specialized-domains/chapter-20-media-analysis.md)
+- [Chapter 15: Automation and Systematic Collection](book/chapter_15_index.yaml)
+- [Chapter 16: Financial Intelligence](book/chapter_16_index.yaml)
+- [Chapter 17: Cyber Threat Intelligence](book/chapter_17_index.yaml)
+- [Chapter 18: Business Intelligence](book/chapter_18_index.yaml)
+- [Chapter 19: Academic and Research Intelligence](book/chapter_19_index.yaml)
+- [Chapter 20: Media and Information Analysis](book/chapter_20_index.yaml)
 
 ### Part 4 - Operational Considerations
-- [Chapter 21: Collection Management](part-4-operational/chapter-21-collection-management.md)
-- [Chapter 22: Analysis Frameworks](part-4-operational/chapter-22-analysis-frameworks.md)
-- [Chapter 23: Counterintelligence Awareness](part-4-operational/chapter-23-counterintelligence.md)
-- [Chapter 24: Technical Operations](part-4-operational/chapter-24-technical-operations.md)
-- [Chapter 25: Legal and Ethical Frameworks](part-4-operational/chapter-25-legal-ethical-frameworks.md)
+- [Chapter 21: Collection Management](book/chapter_21_index.yaml)
+- [Chapter 22: Analysis Frameworks](book/chapter_22_index.yaml)
+- [Chapter 23: Counterintelligence Awareness](book/chapter_23_index.yaml)
+- [Chapter 24: Technical Operations](book/chapter_24_index.yaml)
+- [Chapter 25: Legal and Ethical Frameworks](book/chapter_25_index.yaml)
 
 ### Part 5 - Advanced Integration
-- [Chapter 26: Multi-Intelligence Fusion](part-5-advanced-integration/chapter-26-multi-intelligence-fusion.md)
-- [Chapter 27: Artificial Intelligence Integration](part-5-advanced-integration/chapter-27-ai-integration.md)
-- [Chapter 28: Emerging Technologies](part-5-advanced-integration/chapter-28-emerging-technologies.md)
-- [Chapter 29: Scalability and Performance](part-5-advanced-integration/chapter-29-scalability-performance.md)
-- [Chapter 30: Quality Assurance and Tradecraft Standards](part-5-advanced-integration/chapter-30-quality-assurance.md)
+- [Chapter 26: Multi-Intelligence Fusion](book/chapter_26_index.yaml)
+- [Chapter 27: Artificial Intelligence Integration](book/chapter_27_index.yaml)
+- [Chapter 28: Emerging Technologies](book/chapter_28_index.yaml)
+- [Chapter 29: Scalability and Performance](book/chapter_29_index.yaml)
+- [Chapter 30: Quality Assurance and Tradecraft Standards](book/chapter_30_index.yaml)
 
 ### Appendices
-- [A: Technical Reference](appendices/a-technical-reference.md)
-- [B: Legal and Ethical Guidelines](appendices/b-legal-ethical-guidelines.md)
-- [C: Mathematical and Statistical Reference](appendices/c-mathematical-statistical-reference.md)
-- [D: Protocol and Standards Reference](appendices/d-protocols-standards-reference.md)
+- [A: Technical Reference](book/chapter_31_index.yaml)
+- [B: Legal and Ethical Guidelines](book/chapter_32_index.yaml)
+- [C: Mathematical and Statistical Reference](book/chapter_33_index.yaml)
+- [D: Protocol and Standards Reference](book/chapter_34_index.yaml)
 
 ---
 

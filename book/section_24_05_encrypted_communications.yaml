@@ -1,0 +1,123 @@
+# section_24_05_encrypted_communications.yaml
+
+---
+title: Encrypted Communications
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 24
+  section: 5
+  section_code: '2405'
+  source_file: part-4-operational/chapter-24-technical-operations.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Encrypted Communications
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Encrypted communications provide secure communication channels that protect OSINT coordination
+          and information sharing while maintaining operational security through systematic implementation
+          of cryptographic protection measures.
+      - type: prose
+        text: >-
+          **End-to-End Encryption Implementation** establishes secure communication channels that protect
+          message content from interception while maintaining usability and operational capability for
+          OSINT coordination activities.
+      - type: prose
+        text: >-
+          Messaging application selection identifies appropriate secure communication platforms based
+          on security characteristics and operational requirements. Signal implementation provides strong
+          end-to-end encryption with minimal metadata collection and strong security properties. Wire
+          implementation offers secure messaging with additional collaboration features for team coordination.
+          Telegram implementation provides cloud-based secure messaging with optional end-to-end encryption.
+      - type: prose
+        text: >-
+          Key management procedures ensure appropriate generation, distribution, and protection of encryption
+          keys while maintaining communication security. Key generation uses strong random number generators
+          and appropriate key lengths for security requirements. Key distribution implements secure methods
+          for sharing encryption keys without compromise. Key rotation procedures update encryption keys
+          regularly to maintain long-term security.
+      - type: prose
+        text: >-
+          Authentication and verification procedures ensure communication partners are legitimate and
+          prevent impersonation attacks. Identity verification confirms communication partner identity
+          through independent verification methods. Key fingerprint verification ensures encryption keys
+          belong to intended recipients. Out-of-band verification uses alternative communication channels
+          to confirm identity and key authenticity.
+      - type: prose
+        text: >-
+          **Email Security and Encryption** implements secure email communication while protecting message
+          content and metadata from unauthorized access through systematic encryption and security measures.
+
+          PGP/GPG implementation provides email encryption using public key cryptography for secure email
+          communication. Key pair generation creates public and private keys with appropriate strength
+          for security requirements. Public key distribution enables secure email communication through
+          public key sharing and verification. Private key protection ensures encryption keys remain secure
+          and prevent unauthorized access.
+      - type: prose
+        text: >-
+          S/MIME implementation uses certificate-based encryption for email security in organizational
+          environments. Certificate acquisition obtains digital certificates from appropriate certificate
+          authorities for email encryption. Certificate management maintains current certificates and
+          handles renewal and revocation procedures. Integration configuration enables S/MIME functionality
+          in email clients and organizational systems.
+      - type: prose
+        text: >-
+          Email client security configuration implements appropriate security settings while maintaining
+          email functionality and organizational compatibility. Automatic encryption configuration enables
+          transparent email encryption for appropriate recipients. Signature verification ensures email
+          authenticity and prevents tampering. Metadata protection minimizes information leakage through
+          email headers and routing information.
+      - type: prose
+        text: >-
+          **Voice and Video Communication Security** establishes secure real-time communication channels
+          while protecting voice and video communications from interception and maintaining operational
+          coordination capability.
+      - type: prose
+        text: >-
+          Secure voice application selection identifies appropriate platforms based on security characteristics
+          and operational requirements. Signal voice calling provides end-to-end encrypted voice communication
+          with strong security properties. Wire voice calling offers secure voice communication with additional
+          collaboration features. Jitsi Meet provides open-source video conferencing with end-to-end encryption
+          capabilities.
+      - type: prose
+        text: >-
+          Voice over IP security implementation protects voice communications through systematic security
+          measures. SIP security configuration implements appropriate authentication and encryption for
+          VoIP communications. RTP encryption protects voice data streams from interception and eavesdropping.
+          Network security ensures voice traffic uses secure network connections and prevents monitoring.
+      - type: prose
+        text: >-
+          Video conferencing security addresses unique security requirements for video communication while
+          maintaining operational capability. Camera and microphone management controls device access
+          and prevents unauthorized activation. Screen sharing security protects shared content from unauthorized
+          access and recording. Recording security ensures authorized recording while preventing unauthorized
+          capture of sensitive discussions.
+      - type: prose
+        text: >-
+          **Secure File Transfer and Storage** implements protected methods for sharing and storing files
+          while maintaining security and operational capability for OSINT information management.
+      - type: prose
+        text: >-
+          Encrypted file transfer protocols provide secure methods for sharing files while protecting
+          content from unauthorized access. SFTP implementation uses SSH-based file transfer with strong
+          encryption and authentication. HTTPS file upload provides web-based secure file transfer with
+          appropriate encryption. Peer-to-peer encrypted transfer enables direct secure file sharing without
+          intermediary servers.
+      - type: prose
+        text: >-
+          Secure cloud storage utilizes cloud services while maintaining file security through client-side
+          encryption and access controls. Client-side encryption ensures files are encrypted before upload
+          and remain protected in cloud storage. Zero-knowledge storage providers ensure service providers
+          cannot access stored file content. Access control implementation limits file access to authorized
+          personnel through authentication and authorization.
+      - type: prose
+        text: >-
+          Local file encryption protects stored files on local systems while maintaining access for authorized
+          users. Full disk encryption protects entire storage devices from unauthorized access. File-level
+          encryption protects individual files with separate encryption keys. Container-based encryption
+          creates encrypted storage areas for sensitive files while maintaining system functionality.

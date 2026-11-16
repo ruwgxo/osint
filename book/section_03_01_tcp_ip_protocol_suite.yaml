@@ -1,0 +1,107 @@
+# section_03_01_tcp_ip_protocol_suite.yaml
+
+---
+title: TCP/IP Protocol Suite
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 3
+  section: 1
+  section_code: '0301'
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: TCP/IP Protocol Suite
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          The Transmission Control Protocol/Internet Protocol (TCP/IP) suite forms the foundational communication
+          framework for virtually all modern networked systems. For OSINT practitioners, understanding
+          TCP/IP architecture provides essential context for network reconnaissance, traffic analysis,
+          and infrastructure mapping activities.
+      - type: prose
+        text: >-
+          **Protocol Stack Architecture** organizes network communications into distinct layers, each
+          serving specific functions while maintaining independence from adjacent layers. This modular
+          approach enables interoperability across diverse hardware platforms and software implementations
+          while providing multiple points of analytical observation for intelligence collection.
+      - type: prose
+        text: >-
+          The Physical Layer encompasses the electrical, optical, or radio frequency transmission media
+          that carry digital signals between network nodes. OSINT applications rarely interact directly
+          with physical layer characteristics, but understanding transmission media limitations and properties
+          informs collection strategy development and infrastructure analysis.
+      - type: prose
+        text: >-
+          The Data Link Layer manages node-to-node communication within local network segments. Ethernet
+          protocols dominate wired implementations while IEEE 802.11 standards govern wireless communications.
+          Media Access Control (MAC) addresses provide unique identifiers for network interfaces, enabling
+          device tracking and network topology mapping. Address Resolution Protocol (ARP) tables reveal
+          relationships between IP addresses and MAC addresses, supporting local network reconnaissance
+          activities.
+      - type: prose
+        text: >-
+          The Network Layer, primarily implemented through Internet Protocol (IP), enables communication
+          across interconnected networks through routing and addressing mechanisms. IPv4 addresses consist
+          of 32-bit values typically expressed in dotted decimal notation, while IPv6 addresses utilize
+          128-bit values expressed in hexadecimal notation. Understanding address allocation, subnetting,
+          and routing principles enables analysts to map network relationships and identify organizational
+          boundaries.
+      - type: prose
+        text: >-
+          The Transport Layer provides end-to-end communication services through protocols including Transmission
+          Control Protocol (TCP) and User Datagram Protocol (UDP). TCP implements connection-oriented
+          communication with reliability mechanisms including sequence numbering, acknowledgment systems,
+          and error correction. UDP provides connectionless communication optimized for applications requiring
+          minimal overhead. Port numbers enable multiplexing of multiple communication sessions within
+          single IP connections.
+      - type: prose
+        text: >-
+          **Protocol Analysis Applications** leverage understanding of TCP/IP mechanisms to extract intelligence
+          from network communications. Packet capture and analysis reveal communication patterns, application
+          usage, and potential security vulnerabilities that support various analytical objectives.
+      - type: prose
+        text: >-
+          Connection establishment analysis examines TCP three-way handshake sequences to identify active
+          services, measure response times, and detect potential security measures. SYN scanning techniques
+          probe target systems by initiating connection attempts without completing handshake sequences.
+          Response patterns reveal service availability while minimizing detection risks.
+      - type: prose
+        text: >-
+          Traffic flow analysis identifies communication patterns between network nodes through examination
+          of connection metadata including source addresses, destination addresses, port numbers, and
+          timing characteristics. Flow analysis can reveal organizational relationships, operational patterns,
+          and potential security incidents without requiring access to communication content.
+      - type: prose
+        text: >-
+          Quality of Service (QoS) analysis examines traffic prioritization and bandwidth allocation patterns
+          that might reveal organizational priorities, application criticality, or network capacity constraints.
+          QoS implementations often reflect business requirements and operational priorities that provide
+          valuable analytical insights.
+      - type: prose
+        text: >-
+          **Network Addressing Intelligence** develops from systematic analysis of IP address allocation,
+          utilization, and routing patterns. Address space analysis can reveal organizational structure,
+          geographic distribution, and technological capabilities.
+      - type: prose
+        text: >-
+          Regional Internet Registry (RIR) databases maintain authoritative records of IP address allocations
+          to Internet Service Providers (ISPs) and large organizations. OSINT analysis of RIR data reveals
+          organizational address holdings, allocation histories, and administrative contacts. Cross-referencing
+          RIR data with routing table information identifies active address utilization patterns.
+      - type: prose
+        text: >-
+          Autonomous System Number (ASN) analysis maps routing domains and interconnection relationships.
+          ASN assignments reflect organizational network boundaries and peering relationships that support
+          infrastructure mapping and relationship analysis. Border Gateway Protocol (BGP) routing table
+          analysis reveals connectivity patterns and potential redundancy mechanisms.
+      - type: prose
+        text: >-
+          Geolocation databases attempt to map IP addresses to geographic locations through various collection
+          and inference methods. While accuracy varies significantly across address ranges and geographic
+          regions, geolocation analysis provides valuable starting points for geographic intelligence
+          development and hypothesis generation.

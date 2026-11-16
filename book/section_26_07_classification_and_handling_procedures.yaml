@@ -1,0 +1,120 @@
+# section_26_07_classification_and_handling_procedures.yaml
+
+---
+title: Classification and Handling Procedures
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 26
+  section: 7
+  section_code: '2607'
+  source_file: part-5-advanced-integration/chapter-26-multi-intelligence-fusion.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Classification and Handling Procedures
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Classification and handling procedures establish systematic approaches to protecting sensitive
+          information while enabling appropriate sharing and use that maximizes intelligence value while
+          maintaining security requirements and source protection.
+      - type: heading
+        level: 3
+        text: Security Classification Systems
+      - type: prose
+        text: >-
+          Comprehensive security classification systems provide standardized approaches to information
+          protection while ensuring appropriate access and preventing unauthorized disclosure through
+          established classification frameworks and procedural compliance.
+      - type: prose
+        text: >-
+          Classification level determination assigns appropriate security levels while balancing protection
+          requirements with operational and analytical needs. Top Secret classification protects information
+          that could cause exceptionally grave damage to national security if disclosed without authorization.
+          Secret classification protects information that could cause serious damage to national security
+          if disclosed without authorization. Confidential classification protects information that could
+          cause damage to national security if disclosed without authorization.
+      - type: prose
+        text: >-
+          Special access programs provide additional protection for highly sensitive information while
+          maintaining appropriate access for authorized personnel. Compartmented information restricts
+          access to specialized knowledge while maintaining security boundaries and need-to-know requirements.
+          Special access program security provides enhanced protection for critical national security
+          information while ensuring appropriate access for authorized activities. Waived program security
+          provides maximum protection for the most sensitive national security activities.
+      - type: prose
+        text: >-
+          Classification duration and review procedures ensure appropriate protection periods while enabling
+          declassification when security requirements no longer justify continued protection. Automatic
+          declassification procedures release information after specified time periods while maintaining
+          review for continued sensitivity. Declassification review processes evaluate continued classification
+          needs while enabling release of historical information. Systematic declassification review provides
+          periodic evaluation of classified holdings while enabling appropriate public release.
+      - type: heading
+        level: 3
+        text: Handling and Storage Requirements
+      - type: prose
+        text: >-
+          Systematic handling and storage requirements ensure appropriate protection for classified information
+          while maintaining access for authorized users and preventing unauthorized disclosure through
+          established security procedures and physical protection measures.
+      - type: prose
+        text: >-
+          Physical security requirements protect classified information from unauthorized access while
+          maintaining availability for authorized users. Facility security standards provide appropriate
+          protection for classified information storage and processing while ensuring authorized access.
+          Personnel security procedures ensure appropriate access to classified information while preventing
+          unauthorized disclosure. Equipment security requirements protect classified information processing
+          systems while maintaining operational capability.
+      - type: prose
+        text: >-
+          Storage security procedures provide appropriate protection for classified information while
+          ensuring organized access and retrieval. Safe and vault requirements provide secure storage
+          for classified documents while ensuring appropriate access controls. Electronic storage security
+          protects classified information systems while maintaining backup and recovery capabilities.
+          Transportation security procedures protect classified information during movement while maintaining
+          chain of custody and preventing unauthorized access.
+      - type: prose
+        text: >-
+          Access control implementation restricts classified information access to authorized personnel
+          while maintaining efficient operations and preventing security violations. Badge and identification
+          systems verify personnel authorization while providing appropriate access to classified areas
+          and information. Key control procedures protect physical access systems while ensuring appropriate
+          distribution to authorized personnel. Alarm and monitoring systems detect unauthorized access
+          while providing security response and incident investigation capabilities.
+      - type: heading
+        level: 3
+        text: Controlled Disclosure and Sanitization
+      - type: prose
+        text: >-
+          Systematic controlled disclosure and sanitization procedures enable appropriate information
+          sharing while protecting sensitive sources and methods through established procedures for information
+          modification and protection.
+      - type: prose
+        text: >-
+          Source protection procedures prevent disclosure of sensitive sources and methods while enabling
+          necessary information sharing for analytical and operational purposes. Source identification
+          removal eliminates specific references to sensitive sources while maintaining information utility
+          for analytical purposes. Method protection prevents disclosure of sensitive collection techniques
+          while enabling appropriate information use. Attribution protection prevents identification of
+          intelligence organizations while maintaining information credibility.
+      - type: prose
+        text: >-
+          Information sanitization procedures modify classified information to enable broader distribution
+          while maintaining analytical value and protecting sensitive details. Content editing removes
+          sensitive information while maintaining analytical utility and factual accuracy. Technical detail
+          removal eliminates operational specifics while preserving general information useful for analytical
+          purposes. Context modification changes identifying details while maintaining information relevance
+          and accuracy.
+      - type: prose
+        text: >-
+          Declassification procedures enable public release of previously classified information while
+          ensuring appropriate review and protection of continuing sensitive information. Declassification
+          review evaluates continued classification needs while identifying information suitable for public
+          release. Historical review processes address older classified information while enabling academic
+          research and public understanding. Mandatory declassification review provides mechanisms for
+          public requests for information release while maintaining appropriate security review.

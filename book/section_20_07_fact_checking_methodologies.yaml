@@ -1,0 +1,125 @@
+# section_20_07_fact_checking_methodologies.yaml
+
+---
+title: Fact-Checking Methodologies
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 20
+  section: 7
+  section_code: '2007'
+  source_file: part-3-specialized-domains/chapter-20-media-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Fact-Checking Methodologies
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Fact-checking methodologies provide systematic approaches to verifying claims and identifying
+          misinformation while maintaining objectivity and transparency in verification processes that
+          support information integrity and public understanding.
+      - type: prose
+        text: >-
+          **Verification Process Design** establishes systematic procedures for fact-checking claims while
+          ensuring thorough investigation and reliable conclusions through standardized methodologies
+          and quality control measures.
+      - type: prose
+        text: >-
+          Claim identification and prioritization analysis establishes criteria for selecting claims that
+          require fact-checking attention. Newsworthiness analysis identifies claims that affect public
+          discourse and decision-making. Impact assessment analysis prioritizes claims based on potential
+          harm or influence on important decisions. Resource allocation analysis balances fact-checking
+          effort with available resources and expertise.
+      - type: prose
+        text: >-
+          Research methodology development creates systematic approaches to investigating claims and gathering
+          evidence. Primary source research attempts to trace claims to original sources and firsthand
+          evidence. Expert consultation engages subject matter experts to evaluate specialized claims
+          and technical accuracy. Cross-reference verification seeks corroboration from multiple independent
+          sources and authorities.
+      - type: prose
+        text: >-
+          Evidence evaluation frameworks establish criteria for assessing source reliability and evidence
+          quality. Source credibility analysis evaluates the reliability and potential bias of information
+          sources. Evidence strength analysis examines the quality and conclusiveness of available evidence.
+          Uncertainty acknowledgment identifies limitations in available evidence and acknowledges areas
+          where definitive conclusions cannot be reached.
+      - type: prose
+        text: >-
+          **Transparency and Accountability Standards** ensure fact-checking credibility through open
+          processes and clear documentation while maintaining public trust through transparent methodology
+          and error correction procedures.
+      - type: prose
+        text: >-
+          Methodology disclosure provides clear explanation of fact-checking processes and standards.
+          Research documentation maintains detailed records of investigation procedures and evidence sources.
+          Expert identification provides information about subject matter experts consulted during fact-checking
+          investigations. Limitation acknowledgment identifies areas where evidence is insufficient for
+          definitive conclusions.
+      - type: prose
+        text: >-
+          Correction and update procedures establish systematic approaches to handling errors and new
+          evidence. Error acknowledgment procedures ensure prompt correction of fact-checking mistakes.
+          Update protocols address new evidence that emerges after initial fact-checking publication.
+          Revision transparency maintains clear records of changes and the reasons for modifications.
+      - type: prose
+        text: >-
+          Bias minimization procedures address potential bias in fact-checking investigations and conclusions.
+          Editorial independence ensures fact-checking operations maintain distance from political and
+          commercial interests. Diverse perspective inclusion seeks input from multiple viewpoints and
+          expert opinions. Methodology consistency applies identical standards across different claims
+          and political perspectives.
+      - type: prose
+        text: >-
+          **Quality Control and Standards Implementation** maintains fact-checking accuracy and reliability
+          through systematic quality assurance and peer review processes that ensure consistent standards
+          and reliable outcomes.
+      - type: prose
+        text: >-
+          Peer review processes leverage multiple fact-checkers to verify investigation quality and conclusion
+          accuracy. Independent verification seeks confirmation from fact-checkers who were not involved
+          in original investigations. Expert review engages subject matter experts to evaluate technical
+          accuracy and interpretation. Editorial review ensures fact-checking investigations meet organizational
+          standards and guidelines.
+      - type: prose
+        text: >-
+          Accuracy tracking measures fact-checking performance and identifies areas for improvement. Outcome
+          verification tracks whether fact-checking conclusions prove accurate over time. Methodology
+          evaluation examines whether investigation procedures produce reliable results. Training assessment
+          evaluates fact-checker competency and identifies professional development needs.
+      - type: prose
+        text: >-
+          Standard development creates industry-wide approaches to fact-checking quality and methodology.
+          Best practice identification recognizes effective fact-checking approaches and techniques. Guideline
+          development establishes standards for fact-checking organizations and individual fact-checkers.
+          Certification programs provide training and credentialing for fact-checking professionals.
+      - type: prose
+        text: >-
+          **Impact Assessment and Effectiveness Analysis** evaluates how fact-checking affects public
+          understanding and misinformation spread while understanding factors that influence fact-checking
+          effectiveness and public acceptance.
+      - type: prose
+        text: >-
+          Audience reach analysis examines how fact-checking content reaches target audiences and achieves
+          distribution. Platform integration analysis evaluates how social media and news platforms incorporate
+          fact-checking information. Search visibility analysis examines how fact-checking content appears
+          in search results and information discovery. Recommendation algorithm analysis identifies how
+          platform algorithms affect fact-checking content distribution.
+      - type: prose
+        text: >-
+          Belief change analysis examines how fact-checking affects public opinion and individual belief
+          modification. Correction effectiveness analysis measures whether fact-checking successfully
+          changes incorrect beliefs. Resistance analysis examines factors that prevent acceptance of fact-checking
+          conclusions. Demographic variation analysis identifies how different population groups respond
+          to fact-checking information.
+      - type: prose
+        text: >-
+          Behavioral impact analysis examines how fact-checking affects information sharing and communication
+          behavior. Sharing behavior analysis tracks how fact-checking affects content distribution and
+          viral propagation. Source evaluation analysis examines whether fact-checking improves public
+          ability to evaluate information sources. Media literacy analysis evaluates whether fact-checking
+          exposure improves general critical thinking skills.

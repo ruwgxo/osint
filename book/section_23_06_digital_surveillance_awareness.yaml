@@ -1,0 +1,22 @@
+# section_23_06_digital_surveillance_awareness.yaml
+
+---
+title: Digital surveillance awareness
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 23
+  section: 6
+  section_code: '2306'
+  source_file: part-4-operational/chapter-23-counterintelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Digital surveillance awareness
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          <Missing>

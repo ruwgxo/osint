@@ -1,0 +1,133 @@
+# section_21_01_requirements_definition_and_prioritization.yaml
+
+---
+title: Requirements Definition and Prioritization
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 21
+  section: 1
+  section_code: '2101'
+  source_file: part-4-operational/chapter-21-collection-management.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Requirements Definition and Prioritization
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Requirements definition and prioritization establish the foundation for effective OSINT operations
+          by translating intelligence needs into specific collection objectives while ensuring resource
+          allocation aligns with organizational priorities and analytical requirements.
+      - type: prose
+        text: >-
+          **Intelligence Requirements Development** transforms general information needs into specific,
+          actionable collection objectives through systematic analysis of intelligence gaps and stakeholder
+          requirements that guide collection planning and resource allocation.
+      - type: prose
+        text: >-
+          Stakeholder analysis identifies all parties who require intelligence support and their specific
+          information needs. Executive leadership requirements often focus on strategic intelligence including
+          competitive positioning, market opportunities, and organizational threats. Operational management
+          requirements typically emphasize tactical intelligence supporting immediate decision-making
+          and operational planning. Specialized departments require domain-specific intelligence that
+          supports their functional responsibilities and expertise areas.
+      - type: prose
+        text: >-
+          Requirements decomposition breaks down high-level intelligence needs into specific, measurable
+          collection objectives. Strategic requirements decomposition identifies long-term intelligence
+          needs that support organizational planning and competitive positioning. Tactical requirements
+          decomposition focuses on immediate intelligence needs that support operational decisions and
+          crisis response. Ad hoc requirements decomposition addresses urgent intelligence needs that
+          arise from unexpected events or emerging opportunities.
+      - type: prose
+        text: >-
+          Intelligence gap analysis systematically identifies areas where current collection activities
+          fail to provide adequate information for decision-making. Knowledge gap assessment examines
+          areas where organizations lack sufficient understanding to make informed decisions. Collection
+          gap assessment identifies sources and methods that could provide required intelligence but are
+          not currently being exploited. Analytical gap assessment examines areas where available information
+          exists but requires additional analysis to provide actionable intelligence.
+      - type: prose
+        text: >-
+          **Priority Assessment and Resource Allocation** establishes systematic approaches to ranking
+          intelligence requirements and allocating limited collection resources while balancing competing
+          needs and ensuring critical intelligence requirements receive appropriate attention.
+      - type: prose
+        text: >-
+          Criticality assessment evaluates the importance of different intelligence requirements to organizational
+          success and decision-making. Mission-critical requirements identification recognizes intelligence
+          needs that directly affect organizational survival and core objectives. High-priority requirements
+          identification focuses on intelligence needs that significantly affect organizational performance
+          and competitive positioning. Medium-priority requirements include intelligence that provides
+          valuable context but does not directly affect critical decisions.
+      - type: prose
+        text: >-
+          Impact analysis examines potential consequences of intelligence gaps and collection failures.
+          Risk assessment analysis evaluates potential negative outcomes from insufficient intelligence
+          in specific areas. Opportunity cost analysis examines potential missed opportunities from inadequate
+          intelligence collection. Decision impact analysis evaluates how intelligence quality affects
+          decision-making effectiveness and organizational outcomes.
+      - type: prose
+        text: >-
+          Resource constraint analysis examines available collection capabilities and capacity limitations.
+          Personnel capacity analysis evaluates available analytical and collection expertise across different
+          domains. Technology resource analysis examines available collection tools and their capabilities.
+          Budget constraint analysis identifies financial limitations that affect collection scope and
+          methodology selection.
+      - type: prose
+        text: >-
+          **Requirements Validation and Refinement** ensures collection objectives remain relevant and
+          achievable while adapting to changing circumstances and emerging intelligence needs through
+          systematic review and adjustment processes.
+      - type: prose
+        text: >-
+          Feasibility assessment evaluates whether proposed collection activities can realistically achieve
+          stated intelligence objectives. Technical feasibility analysis examines whether available tools
+          and methods can collect required information. Legal feasibility analysis ensures proposed collection
+          activities comply with applicable laws and regulations. Ethical feasibility analysis evaluates
+          whether collection activities align with organizational values and professional standards.
+      - type: prose
+        text: >-
+          Specificity assessment ensures requirements provide clear guidance for collection activities
+          and analytical products. Precision evaluation examines whether requirements specify exactly
+          what information is needed and how it will be used. Measurability assessment ensures requirements
+          include clear success criteria and performance measures. Timeline specification provides clear
+          deadlines and delivery expectations for intelligence products.
+      - type: prose
+        text: >-
+          Relevance review examines whether requirements continue to address current organizational needs
+          and priorities. Currency assessment evaluates whether requirements reflect current threats and
+          opportunities. Alignment review ensures requirements support current organizational strategy
+          and objectives. Stakeholder feedback incorporates user evaluation of requirement utility and
+          analytical product effectiveness.
+      - type: prose
+        text: >-
+          **Requirements Documentation and Communication** establishes clear documentation and communication
+          processes that ensure collection teams understand requirements while maintaining appropriate
+          security and operational procedures.
+      - type: prose
+        text: >-
+          Requirements specification documents provide detailed descriptions of intelligence needs including
+          scope, priorities, and delivery requirements. Objective specification clearly states what intelligence
+          is needed and how it will support decision-making. Scope definition identifies geographic, temporal,
+          and topical boundaries for collection activities. Format specification describes required analytical
+          product characteristics and presentation requirements.
+      - type: prose
+        text: >-
+          Collection guidance development provides specific direction for collection activities including
+          source categories, collection methods, and quality standards. Source guidance identifies preferred
+          information sources and collection platforms. Methodology guidance specifies appropriate collection
+          techniques and analytical approaches. Quality standards establish minimum requirements for source
+          reliability and information accuracy.
+      - type: prose
+        text: >-
+          Stakeholder communication ensures requirements reach appropriate collection and analytical personnel
+          while maintaining security requirements and operational procedures. Distribution control manages
+          requirements access based on security clearances and need-to-know principles. Update procedures
+          ensure stakeholders receive timely notification of requirement changes and priority adjustments.
+          Feedback mechanisms enable stakeholders to request clarification and provide input on requirement
+          interpretation.
