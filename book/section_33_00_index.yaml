@@ -1,0 +1,63 @@
+# section_33_00_index.yaml
+
+---
+title: 'C: Mathematical and Statistical Reference - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 33
+  source_file: appendices/c-mathematical-statistical-reference.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260131 | OSINT: Appendices (Chapter 31.3 Mathematical and Statistical Foundations) by Raghav
+      Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Appendices
+      - ‣‣‣ Mathematical and Statistical Foundations
+chapter_overview:
+  contents:
+    - Probability theory for intelligence analysis
+    - Bayesian inference and confidence assessment
+    - Statistical significance testing methods
+    - Network analysis mathematical foundations
+    - Geographic coordinate system mathematics
+    - Information theory and entropy calculations
+    - Graph theory metrics and algorithms
+  introduction:
+    - type: heading
+      level: 3
+      text: Mathematical and Statistical Foundations
+    - type: prose
+      text: >-
+        This appendix provides essential mathematical and statistical reference materials for OSINT analysis,
+        including probability theory, statistical methods, network analysis metrics, and information theory
+        concepts used in intelligence analysis.
+sections:
+  - section_number: '33.1'
+    title: Probability Theory for Intelligence Analysis
+    filename: section_33_01_probability_theory_for_intelligence_analysis.yaml
+  - section_number: '33.2'
+    title: Bayesian Inference and Confidence Assessment
+    filename: section_33_02_bayesian_inference_and_confidence_assessment.yaml
+  - section_number: '33.3'
+    title: Statistical Significance Testing Methods
+    filename: section_33_03_statistical_significance_testing_methods.yaml
+  - section_number: '33.4'
+    title: Network Analysis Mathematical Foundations
+    filename: section_33_04_network_analysis_mathematical_foundations.yaml
+  - section_number: '33.5'
+    title: Geographic Coordinate System Mathematics
+    filename: section_33_05_geographic_coordinate_system_mathematics.yaml
+  - section_number: '33.6'
+    title: Information Theory and Entropy Calculations
+    filename: section_33_06_information_theory_and_entropy_calculations.yaml
+  - section_number: '33.7'
+    title: Graph Theory Metrics and Algorithms
+    filename: section_33_07_graph_theory_metrics_and_algorithms.yaml

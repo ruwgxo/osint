@@ -1,0 +1,54 @@
+# section_15_00_index.yaml
+
+---
+title: 'Chapter 15: Automation and Systematic Collection - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 15
+  source_file: part-3-specialized-domains/chapter-15-automation-collection.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260115 | OSINT: Specialized OSINT Domains (Chapter 15 Automation and Systematic Collection)
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Specialized OSINT Domains
+      - ‣‣‣ Automation and Systematic Collection
+chapter_overview:
+  contents:
+    - API integration and authentication strategies
+    - Rate limiting and ethical throttling
+    - Scalable data pipeline architecture
+    - Comprehensive error handling and logging
+    - Distributed collection system design
+    - Data normalization and quality assurance
+    - Automated alert and monitoring systems
+sections:
+  - section_number: '15.1'
+    title: API Integration and Authentication Strategies
+    filename: section_15_01_api_integration_and_authentication_strategies.yaml
+  - section_number: '15.2'
+    title: Rate limiting and ethical throttling
+    filename: section_15_02_rate_limiting_and_ethical_throttling.yaml
+  - section_number: '15.3'
+    title: Scalable Data Pipeline Architecture
+    filename: section_15_03_scalable_data_pipeline_architecture.yaml
+  - section_number: '15.4'
+    title: Comprehensive Error Handling and Logging
+    filename: section_15_04_comprehensive_error_handling_and_logging.yaml
+  - section_number: '15.5'
+    title: Distributed Collection System Design
+    filename: section_15_05_distributed_collection_system_design.yaml
+  - section_number: '15.6'
+    title: Data Normalization and Quality Assurance
+    filename: section_15_06_data_normalization_and_quality_assurance.yaml
+  - section_number: '15.7'
+    title: Automated Alert and Monitoring Systems
+    filename: section_15_07_automated_alert_and_monitoring_systems.yaml

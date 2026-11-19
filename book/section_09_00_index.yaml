@@ -1,0 +1,54 @@
+# section_09_00_index.yaml
+
+---
+title: 'Chapter 9: Advanced Data Mining - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 9
+  source_file: part-2-advanced-techniques/chapter-09-advanced-data-mining.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260109 | OSINT: Advanced Techniques (Chapter 09 Advanced Data Mining and Analytics) by
+      Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Techniques
+      - ‣‣‣ Advanced Data Mining and Analytics
+chapter_overview:
+  contents:
+    - Statistical analysis for intelligence applications
+    - Correlation analysis and causation inference
+    - Time series analysis and trend detection
+    - Graph theory and network relationship mapping
+    - Machine learning applications in OSINT
+    - Natural language processing and sentiment analysis
+    - Anomaly detection in large datasets
+sections:
+  - section_number: '9.1'
+    title: Statistical Analysis for Intelligence Applications
+    filename: section_09_01_statistical_analysis_for_intelligence_applications.yaml
+  - section_number: '9.2'
+    title: Correlation Analysis and Causation Inference
+    filename: section_09_02_correlation_analysis_and_causation_inference.yaml
+  - section_number: '9.3'
+    title: Time Series Analysis and Trend Detection
+    filename: section_09_03_time_series_analysis_and_trend_detection.yaml
+  - section_number: '9.4'
+    title: Graph Theory and Network Relationship Mapping
+    filename: section_09_04_graph_theory_and_network_relationship_mapping.yaml
+  - section_number: '9.5'
+    title: Machine Learning Applications in OSINT
+    filename: section_09_05_machine_learning_applications_in_osint.yaml
+  - section_number: '9.6'
+    title: Natural Language Processing and Sentiment Analysis
+    filename: section_09_06_natural_language_processing_and_sentiment_analysis.yaml
+  - section_number: '9.7'
+    title: Anomaly Detection in Large Datasets
+    filename: section_09_07_anomaly_detection_in_large_datasets.yaml

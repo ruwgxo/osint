@@ -1,0 +1,53 @@
+# section_08_00_index.yaml
+
+---
+title: 'Chapter 8: Cryptographic Intelligence - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 8
+  source_file: part-2-advanced-techniques/chapter-08-cryptographic-intelligence.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260108 | OSINT: Advanced Techniques (Chapter 08 Cryptographic Intelligence) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Techniques
+      - ‣‣‣ Cryptographic Intelligence
+chapter_overview:
+  contents:
+    - Hash functions and integrity verification
+    - Digital signatures and PKI infrastructure analysis
+    - Certificate transparency logs and monitoring
+    - Blockchain and distributed ledger investigation
+    - Steganography detection and analysis methods
+    - Encrypted communication identification patterns
+    - Cryptographic implementation weaknesses
+sections:
+  - section_number: '8.1'
+    title: Hash Functions and Integrity Verification
+    filename: section_08_01_hash_functions_and_integrity_verification.yaml
+  - section_number: '8.2'
+    title: Digital Signatures and PKI Infrastructure Analysis
+    filename: section_08_02_digital_signatures_and_pki_infrastructure_analysis.yaml
+  - section_number: '8.3'
+    title: Certificate Transparency Logs and Monitoring
+    filename: section_08_03_certificate_transparency_logs_and_monitoring.yaml
+  - section_number: '8.4'
+    title: Blockchain and Distributed Ledger Investigation
+    filename: section_08_04_blockchain_and_distributed_ledger_investigation.yaml
+  - section_number: '8.5'
+    title: Steganography Detection and Analysis Methods
+    filename: section_08_05_steganography_detection_and_analysis_methods.yaml
+  - section_number: '8.6'
+    title: Encrypted Communication Identification Patterns
+    filename: section_08_06_encrypted_communication_identification_patterns.yaml
+  - section_number: '8.7'
+    title: Cryptographic Implementation Weaknesses
+    filename: section_08_07_cryptographic_implementation_weaknesses.yaml

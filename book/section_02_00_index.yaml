@@ -1,0 +1,46 @@
+# section_02_00_index.yaml
+
+---
+title: 'Chapter 2: Information Theory and Data Analysis - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 2
+  source_file: part-1-fundamentals/chapter-02-information-theory.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260102 | OSINT: Fundamentals (Chapter 02 Information Theory and Data Classification) by
+      Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Fundamentals
+      - ‣‣‣ Information Theory and Data Classification
+chapter_overview:
+  contents:
+    - Data, information, and intelligence hierarchy
+    - Signal vs. noise concepts
+    - Information entropy and uncertainty
+    - Source reliability assessment models
+    - Confidence levels and analytical tradecraft
+sections:
+  - section_number: '2.1'
+    title: Data, Information, and Intelligence Hierarchy
+    filename: section_02_01_data_information_and_intelligence_hierarchy.yaml
+  - section_number: '2.2'
+    title: Signal vs. Noise Concepts
+    filename: section_02_02_signal_vs_noise_concepts.yaml
+  - section_number: '2.3'
+    title: Information Entropy and Uncertainty
+    filename: section_02_03_information_entropy_and_uncertainty.yaml
+  - section_number: '2.4'
+    title: Source Reliability Assessment Models
+    filename: section_02_04_source_reliability_assessment_models.yaml
+  - section_number: '2.5'
+    title: Confidence Levels and Analytical Tradecraft
+    filename: section_02_05_confidence_levels_and_analytical_tradecraft.yaml

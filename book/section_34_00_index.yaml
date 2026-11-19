@@ -1,0 +1,62 @@
+# section_34_00_index.yaml
+
+---
+title: 'D: Protocol and Standards Reference - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 34
+  source_file: appendices/d-protocols-standards-reference.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260131 | OSINT: Appendices (Chapter 31.4 Protocol and Standards Reference) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Appendices
+      - ‣‣‣ Protocol and Standards Reference
+chapter_overview:
+  contents:
+    - Essential RFC documents for OSINT
+    - Internet protocol specifications
+    - Web technology standard references
+    - Cryptographic standard implementations
+    - Data format specifications
+    - API documentation standards
+    - Security protocol references
+  introduction:
+    - type: heading
+      level: 3
+      text: Protocol and Standards Reference
+    - type: prose
+      text: >-
+        This appendix provides essential protocol specifications and technical standards reference materials
+        for OSINT practitioners, including RFC documents, internet protocols, web technologies, cryptographic
+        standards, and security protocols.
+sections:
+  - section_number: '34.1'
+    title: Essential RFC Documents for OSINT
+    filename: section_34_01_essential_rfc_documents_for_osint.yaml
+  - section_number: '34.2'
+    title: Internet Protocol Specifications
+    filename: section_34_02_internet_protocol_specifications.yaml
+  - section_number: '34.3'
+    title: Web Technology Standard References
+    filename: section_34_03_web_technology_standard_references.yaml
+  - section_number: '34.4'
+    title: Cryptographic Standard Implementations
+    filename: section_34_04_cryptographic_standard_implementations.yaml
+  - section_number: '34.5'
+    title: Data Format Specifications
+    filename: section_34_05_data_format_specifications.yaml
+  - section_number: '34.6'
+    title: API Documentation Standards
+    filename: section_34_06_api_documentation_standards.yaml
+  - section_number: '34.7'
+    title: Security Protocol References
+    filename: section_34_07_security_protocol_references.yaml

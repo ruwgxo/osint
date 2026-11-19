@@ -1,0 +1,59 @@
+# section_32_00_index.yaml
+
+---
+title: 'B: Legal and Ethical Guidelines - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 32
+  source_file: appendices/b-legal-ethical-guidelines.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260131 | OSINT: Appendices (Chapter 31.2 Legal and Ethical Guidelines) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Appendices
+      - ‣‣‣ Legal and Ethical Guidelines
+chapter_overview:
+  contents:
+    - International legal frameworks for OSINT
+    - Terms of service interpretation guidelines
+    - Data protection regulation compliance
+    - Privacy law considerations by jurisdiction
+    - Ethical collection boundary frameworks
+    - Attribution and source protection protocols
+    - Professional standards and best practices
+  introduction:
+    - type: heading
+      level: 3
+      text: Legal and Ethical Guidelines
+    - type: prose
+      text: >-
+        This appendix provides essential legal and ethical reference materials for OSINT practitioners,
+        including international legal frameworks, data protection regulations, privacy law considerations,
+        and professional ethical standards.
+sections:
+  - section_number: '32.1'
+    title: International Legal Frameworks for OSINT
+    filename: section_32_01_international_legal_frameworks_for_osint.yaml
+  - section_number: '32.2'
+    title: Terms of Service Interpretation Guidelines
+    filename: section_32_02_terms_of_service_interpretation_guidelines.yaml
+  - section_number: '32.3'
+    title: Data Protection Regulation Compliance
+    filename: section_32_03_data_protection_regulation_compliance.yaml
+  - section_number: '32.4'
+    title: Privacy Law Considerations by Jurisdiction
+    filename: section_32_04_privacy_law_considerations_by_jurisdiction.yaml
+  - section_number: '32.5'
+    title: Ethical Collection Boundary Frameworks
+    filename: section_32_05_ethical_collection_boundary_frameworks.yaml
+  - section_number: '32.6'
+    title: Attribution and Source Protection Protocols
+    filename: section_32_06_attribution_and_source_protection_protocols.yaml
