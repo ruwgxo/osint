@@ -1,0 +1,49 @@
+# section_04_00_index.yaml
+
+---
+title: 'Chapter 4: Data Structures and Formats - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 4
+  source_file: part-1-fundamentals/chapter-04-data-structures-formats.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260104 | OSINT: Fundamentals (Chapter 04 Data Structures and Formats) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Fundamentals
+      - ‣‣‣ Data Structures and Formats
+chapter_overview:
+  contents:
+    - Metadata concepts and extraction
+    - File format analysis (PDF, images, documents)
+    - Database structures (SQL, NoSQL)
+    - XML, JSON, and structured data parsing
+    - Regular expressions for pattern matching
+    - Character encoding (ASCII, Unicode, UTF-8)
+sections:
+  - section_number: '4.1'
+    title: Metadata Concepts and Extraction
+    filename: section_04_01_metadata_concepts_and_extraction.yaml
+  - section_number: '4.2'
+    title: File Format Analysis
+    filename: section_04_02_file_format_analysis.yaml
+  - section_number: '4.3'
+    title: Database Structures (SQL, NoSQL)
+    filename: section_04_03_database_structures_sql_nosql.yaml
+  - section_number: '4.4'
+    title: XML, JSON, and Structured Data Parsing
+    filename: section_04_04_xml_json_and_structured_data_parsing.yaml
+  - section_number: '4.5'
+    title: Regular Expressions for Pattern Matching
+    filename: section_04_05_regular_expressions_for_pattern_matching.yaml
+  - section_number: '4.6'
+    title: Character Encoding (ASCII, Unicode, UTF-8)
+    filename: section_04_06_character_encoding_ascii_unicode_utf_8.yaml

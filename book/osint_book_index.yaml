@@ -124,7 +124,7 @@ chapters:
     title: 'Foundations of OSINT'
     part: 1
     estimated_pages: 18
-    file_reference: 'chapter_01_index.yaml'
+    file_reference: 'section_01_00_index.yaml'
     narrative_arc: >
       The reader arrives with a working definition of OSINT that is almost
       certainly incomplete - most practitioners conflate it with internet
@@ -146,7 +146,7 @@ chapters:
     title: 'Information Theory and Data Analysis'
     part: 1
     estimated_pages: 16
-    file_reference: 'chapter_02_index.yaml'
+    file_reference: 'section_02_00_index.yaml'
     narrative_arc: >
       The reader encounters the mathematical and conceptual foundations of
       information - entropy, signal-to-noise discrimination, and the statistical
@@ -167,7 +167,7 @@ chapters:
     title: 'Network Fundamentals'
     part: 1
     estimated_pages: 18
-    file_reference: 'chapter_03_index.yaml'
+    file_reference: 'section_03_00_index.yaml'
     narrative_arc: >
       The reader builds the network literacy that the advanced technical chapters
       require. TCP/IP stack, DNS, routing, and network topology are introduced
@@ -187,7 +187,7 @@ chapters:
     title: 'Data Structures and Formats'
     part: 1
     estimated_pages: 14
-    file_reference: 'chapter_04_index.yaml'
+    file_reference: 'section_04_00_index.yaml'
     narrative_arc: >
       The reader learns to work with the data formats they will encounter across
       every collection domain: structured, semi-structured, and unstructured
@@ -208,7 +208,7 @@ chapters:
     title: 'Web Technologies'
     part: 1
     estimated_pages: 14
-    file_reference: 'chapter_05_index.yaml'
+    file_reference: 'section_05_00_index.yaml'
     narrative_arc: >
       The reader understands how the web works from an intelligence collection
       perspective: how browsers render pages, how JavaScript generates dynamic
@@ -228,7 +228,7 @@ chapters:
     title: 'Search Methodologies'
     part: 1
     estimated_pages: 16
-    file_reference: 'chapter_06_index.yaml'
+    file_reference: 'section_06_00_index.yaml'
     narrative_arc: >
       The reader learns systematic search methodology that goes beyond search
       engine queries to encompass advanced operators, specialized databases, and
@@ -249,7 +249,7 @@ chapters:
     title: 'Protocol Analysis and Traffic Inspection'
     part: 2
     estimated_pages: 22
-    file_reference: 'chapter_07_index.yaml'
+    file_reference: 'section_07_00_index.yaml'
     narrative_arc: >
       The reader confronts the intelligence content of network traffic - not
       just what systems are communicating, but what those communications reveal
@@ -274,7 +274,7 @@ chapters:
     title: 'Cryptographic Intelligence'
     part: 2
     estimated_pages: 18
-    file_reference: 'chapter_08_index.yaml'
+    file_reference: 'section_08_00_index.yaml'
     narrative_arc: >
       The reader learns what cryptographic implementations reveal about
       organizations - not by breaking encryption, but by analyzing the
@@ -295,7 +295,7 @@ chapters:
     title: 'Advanced Data Mining'
     part: 2
     estimated_pages: 20
-    file_reference: 'chapter_09_index.yaml'
+    file_reference: 'section_09_00_index.yaml'
     narrative_arc: >
       The reader develops the analytical techniques for extracting intelligence
       from large datasets - entity extraction, relationship mapping, topic
@@ -316,7 +316,7 @@ chapters:
     title: 'Infrastructure Reconnaissance'
     part: 2
     estimated_pages: 20
-    file_reference: 'chapter_10_index.yaml'
+    file_reference: 'section_10_00_index.yaml'
     narrative_arc: >
       The reader learns to map organizational infrastructure from public sources
       - DNS records, certificate transparency logs, internet-wide scanning data,
@@ -338,7 +338,7 @@ chapters:
     title: 'Advanced Social Engineering Analysis'
     part: 2
     estimated_pages: 18
-    file_reference: 'chapter_11_index.yaml'
+    file_reference: 'section_11_00_index.yaml'
     narrative_arc: >
       The reader learns to analyze social engineering as an OSINT discipline -
       identifying campaigns, mapping actor networks, understanding pretexting
@@ -359,7 +359,7 @@ chapters:
     title: 'Geospatial Intelligence'
     part: 2
     estimated_pages: 20
-    file_reference: 'chapter_12_index.yaml'
+    file_reference: 'section_12_00_index.yaml'
     narrative_arc: >
       The reader develops geospatial analysis skills for OSINT - satellite
       imagery interpretation, geolocation from image metadata and environmental
@@ -381,7 +381,7 @@ chapters:
     title: 'Temporal Analysis'
     part: 2
     estimated_pages: 16
-    file_reference: 'chapter_13_index.yaml'
+    file_reference: 'section_13_00_index.yaml'
     narrative_arc: >
       The reader learns to use time as an analytical dimension - identifying
       activity patterns, reconstructing event timelines, detecting anomalies
@@ -401,7 +401,7 @@ chapters:
     title: 'Communication Pattern Analysis'
     part: 2
     estimated_pages: 18
-    file_reference: 'chapter_14_index.yaml'
+    file_reference: 'section_14_00_index.yaml'
     narrative_arc: >
       The reader learns to extract intelligence from communication patterns
       without requiring access to communication content - who communicates
@@ -422,7 +422,7 @@ chapters:
     title: 'Automation and Systematic Collection'
     part: 3
     estimated_pages: 20
-    file_reference: 'chapter_15_index.yaml'
+    file_reference: 'section_15_00_index.yaml'
     narrative_arc: >
       The reader learns to build systematic collection pipelines that operate
       at scale while maintaining data quality, legal compliance, and operational
@@ -446,7 +446,7 @@ chapters:
     title: 'Financial Intelligence'
     part: 3
     estimated_pages: 18
-    file_reference: 'chapter_16_index.yaml'
+    file_reference: 'section_16_00_index.yaml'
     narrative_arc: >
       The reader learns to collect and analyze financial intelligence from public
       sources - corporate filings, beneficial ownership registries, court records,
@@ -467,7 +467,7 @@ chapters:
     title: 'Cyber Threat Intelligence'
     part: 3
     estimated_pages: 20
-    file_reference: 'chapter_17_index.yaml'
+    file_reference: 'section_17_00_index.yaml'
     narrative_arc: >
       The reader applies OSINT methodology specifically to cyber threat
       intelligence - tracking threat actor infrastructure, collecting and
@@ -489,7 +489,7 @@ chapters:
     title: 'Business Intelligence'
     part: 3
     estimated_pages: 16
-    file_reference: 'chapter_18_index.yaml'
+    file_reference: 'section_18_00_index.yaml'
     narrative_arc: >
       The reader applies OSINT methodology to competitive and business
       intelligence - mapping competitor capabilities, identifying market signals
@@ -510,7 +510,7 @@ chapters:
     title: 'Academic and Research Intelligence'
     part: 3
     estimated_pages: 12
-    file_reference: 'chapter_19_index.yaml'
+    file_reference: 'section_19_00_index.yaml'
     narrative_arc: >
       The reader learns to leverage academic and research sources systematically
       - publication databases, preprint servers, conference proceedings, research
@@ -531,7 +531,7 @@ chapters:
     title: 'Media and Information Analysis'
     part: 3
     estimated_pages: 14
-    file_reference: 'chapter_20_index.yaml'
+    file_reference: 'section_20_00_index.yaml'
     narrative_arc: >
       The reader learns to analyze media content at scale - monitoring news
       sources, identifying information operations and disinformation campaigns,
@@ -552,7 +552,7 @@ chapters:
     title: 'Collection Management'
     part: 4
     estimated_pages: 20
-    file_reference: 'chapter_21_index.yaml'
+    file_reference: 'section_21_00_index.yaml'
     narrative_arc: >
       The reader builds the management framework that governs professional OSINT
       operations - translating intelligence requirements into collection plans,
@@ -576,7 +576,7 @@ chapters:
     title: 'Analysis Frameworks'
     part: 4
     estimated_pages: 18
-    file_reference: 'chapter_22_index.yaml'
+    file_reference: 'section_22_00_index.yaml'
     narrative_arc: >
       The reader learns the structured analytical techniques that maintain rigor
       in intelligence production - analysis of competing hypotheses, key
@@ -597,7 +597,7 @@ chapters:
     title: 'Counterintelligence Awareness'
     part: 4
     estimated_pages: 16
-    file_reference: 'chapter_23_index.yaml'
+    file_reference: 'section_23_00_index.yaml'
     narrative_arc: >
       The reader learns to think about their collection activities from an
       adversary's perspective - how OSINT operations can be detected, how
@@ -617,7 +617,7 @@ chapters:
     title: 'Technical Operations'
     part: 4
     estimated_pages: 18
-    file_reference: 'chapter_24_index.yaml'
+    file_reference: 'section_24_00_index.yaml'
     narrative_arc: >
       The reader learns to build and maintain the technical infrastructure that
       supports professional OSINT operations - secure workstations, isolated
@@ -638,7 +638,7 @@ chapters:
     title: 'Legal and Ethical Frameworks'
     part: 4
     estimated_pages: 18
-    file_reference: 'chapter_25_index.yaml'
+    file_reference: 'section_25_00_index.yaml'
     narrative_arc: >
       The reader builds comprehensive understanding of the legal landscape
       governing OSINT practice - privacy law across jurisdictions, computer crime
@@ -660,7 +660,7 @@ chapters:
     title: 'Multi-Intelligence Fusion'
     part: 5
     estimated_pages: 22
-    file_reference: 'chapter_26_index.yaml'
+    file_reference: 'section_26_00_index.yaml'
     narrative_arc: >
       The reader learns to integrate OSINT with HUMINT, SIGINT, and GEOINT
       through structured fusion methodologies - source complementarity analysis,
@@ -683,7 +683,7 @@ chapters:
     title: 'Artificial Intelligence Integration'
     part: 5
     estimated_pages: 18
-    file_reference: 'chapter_27_index.yaml'
+    file_reference: 'section_27_00_index.yaml'
     narrative_arc: >
       The reader learns to apply AI and machine learning to OSINT collection
       and analysis - NLP for large-scale text analysis, computer vision for
@@ -704,7 +704,7 @@ chapters:
     title: 'Emerging Technologies'
     part: 5
     estimated_pages: 16
-    file_reference: 'chapter_28_index.yaml'
+    file_reference: 'section_28_00_index.yaml'
     narrative_arc: >
       The reader examines collection opportunities and challenges from emerging
       technologies - IoT device exposure, satellite internet infrastructure,
@@ -725,7 +725,7 @@ chapters:
     title: 'Scalability and Performance'
     part: 5
     estimated_pages: 16
-    file_reference: 'chapter_29_index.yaml'
+    file_reference: 'section_29_00_index.yaml'
     narrative_arc: >
       The reader learns to design OSINT collection systems that maintain
       performance and reliability as collection scope, data volume, and team
@@ -745,7 +745,7 @@ chapters:
     title: 'Quality Assurance and Tradecraft Standards'
     part: 5
     estimated_pages: 18
-    file_reference: 'chapter_30_index.yaml'
+    file_reference: 'section_30_00_index.yaml'
     narrative_arc: >
       The reader builds the quality assurance systems that maintain analytical
       standards across large-scale, sustained OSINT programs. Tradecraft
@@ -770,7 +770,7 @@ appendices:
 
   appendix_a:
     title: 'Technical Reference'
-    file_reference: 'chapter_31_index.yaml'
+    file_reference: 'section_31_00_index.yaml'
     estimated_pages: 20
     sections:
       - 'Common port numbers and services (well-known and registered)'
@@ -783,7 +783,7 @@ appendices:
 
   appendix_b:
     title: 'Legal and Ethical Guidelines'
-    file_reference: 'chapter_32_index.yaml'
+    file_reference: 'section_32_00_index.yaml'
     estimated_pages: 14
     sections:
       - 'Key privacy statutes by jurisdiction'
@@ -794,7 +794,7 @@ appendices:
 
   appendix_c:
     title: 'Mathematical and Statistical Reference'
-    file_reference: 'chapter_33_index.yaml'
+    file_reference: 'section_33_00_index.yaml'
     estimated_pages: 12
     sections:
       - 'Probability fundamentals for intelligence analysis'
@@ -805,7 +805,7 @@ appendices:
 
   appendix_d:
     title: 'Protocol and Standards Reference'
-    file_reference: 'chapter_34_index.yaml'
+    file_reference: 'section_34_00_index.yaml'
     estimated_pages: 10
     sections:
       - 'Intelligence community standards: STIX, TAXII, MISP'

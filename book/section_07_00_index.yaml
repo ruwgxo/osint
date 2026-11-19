@@ -1,0 +1,54 @@
+# section_07_00_index.yaml
+
+---
+title: 'Chapter 7: Protocol Analysis and Traffic Inspection - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 7
+  source_file: part-2-advanced-techniques/chapter-07-protocol-analysis.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260107 | OSINT: Advanced Techniques (Chapter 07 Protocol Analysis and Traffic Inspection)
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Techniques
+      - ‣‣‣ Protocol Analysis and Traffic Inspection
+chapter_overview:
+  contents:
+    - Deep packet inspection methodologies
+    - Application layer protocol dissection
+    - TLS/SSL certificate analysis and intelligence
+    - Email header forensics (SMTP, MIME, authentication)
+    - FTP and secure file transfer protocols
+    - P2P network analysis and monitoring
+    - Network flow analysis and behavioral patterns
+sections:
+  - section_number: '7.1'
+    title: Deep Packet Inspection Methodologies
+    filename: section_07_01_deep_packet_inspection_methodologies.yaml
+  - section_number: '7.2'
+    title: Application Layer Protocol Dissection
+    filename: section_07_02_application_layer_protocol_dissection.yaml
+  - section_number: '7.3'
+    title: TLS/SSL Certificate Analysis and Intelligence
+    filename: section_07_03_tls_ssl_certificate_analysis_and_intelligence.yaml
+  - section_number: '7.4'
+    title: Email Header Forensics (SMTP, MIME, Authentication)
+    filename: section_07_04_email_header_forensics_smtp_mime_authentication.yaml
+  - section_number: '7.5'
+    title: FTP and Secure File Transfer Protocols
+    filename: section_07_05_ftp_and_secure_file_transfer_protocols.yaml
+  - section_number: '7.6'
+    title: P2P Network Analysis and Monitoring
+    filename: section_07_06_p2p_network_analysis_and_monitoring.yaml
+  - section_number: '7.7'
+    title: Network Flow Analysis and Behavioral Patterns
+    filename: section_07_07_network_flow_analysis_and_behavioral_patterns.yaml

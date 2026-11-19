@@ -1,0 +1,54 @@
+# section_25_00_index.yaml
+
+---
+title: 'Chapter 25: Legal and Ethical Frameworks - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 25
+  source_file: part-4-operational/chapter-25-legal-ethical-frameworks.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260125 | OSINT: Operational Considerations (Chapter 25 Legal and Compliance Framework)
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Operational Considerations
+      - ‣‣‣ Legal and Compliance Framework
+chapter_overview:
+  contents:
+    - Jurisdiction-specific regulations
+    - Data protection law compliance
+    - Evidence admissibility standards
+    - Cross-border data transfer rules
+    - Whistleblower protection considerations
+    - Freedom of information act usage
+    - Subpoena and legal process understanding
+sections:
+  - section_number: '25.1'
+    title: Jurisdiction-Specific Regulations
+    filename: section_25_01_jurisdiction_specific_regulations.yaml
+  - section_number: '25.2'
+    title: Data Protection Law Compliance
+    filename: section_25_02_data_protection_law_compliance.yaml
+  - section_number: '25.3'
+    title: Evidence Admissibility Standards
+    filename: section_25_03_evidence_admissibility_standards.yaml
+  - section_number: '25.4'
+    title: Cross-Border Data Transfer Rules
+    filename: section_25_04_cross_border_data_transfer_rules.yaml
+  - section_number: '25.5'
+    title: Whistleblower Protection Considerations
+    filename: section_25_05_whistleblower_protection_considerations.yaml
+  - section_number: '25.6'
+    title: Freedom of Information Act Usage
+    filename: section_25_06_freedom_of_information_act_usage.yaml
+  - section_number: '25.7'
+    title: Subpoena and legal process understanding
+    filename: section_25_07_subpoena_and_legal_process_understanding.yaml

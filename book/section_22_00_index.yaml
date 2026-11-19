@@ -1,0 +1,54 @@
+# section_22_00_index.yaml
+
+---
+title: 'Chapter 22: Analysis Frameworks - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 22
+  source_file: part-4-operational/chapter-22-analysis-frameworks.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260122 | OSINT: Operational Considerations (Chapter 22 Analysis and Production) by Raghav
+      Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Operational Considerations
+      - ‣‣‣ Analysis and Production
+chapter_overview:
+  contents:
+    - Analytical writing standards
+    - Structured analytic techniques
+    - Bias recognition and mitigation
+    - Uncertainty communication
+    - Visual intelligence products
+    - Briefing and presentation methods
+    - Peer review processes
+sections:
+  - section_number: '22.1'
+    title: Analytical Writing Standards
+    filename: section_22_01_analytical_writing_standards.yaml
+  - section_number: '22.2'
+    title: Structured Analytic Techniques
+    filename: section_22_02_structured_analytic_techniques.yaml
+  - section_number: '22.3'
+    title: Bias Recognition and Mitigation
+    filename: section_22_03_bias_recognition_and_mitigation.yaml
+  - section_number: '22.4'
+    title: Uncertainty Communication
+    filename: section_22_04_uncertainty_communication.yaml
+  - section_number: '22.5'
+    title: Visual Intelligence Products
+    filename: section_22_05_visual_intelligence_products.yaml
+  - section_number: '22.6'
+    title: Briefing and Presentation Methods
+    filename: section_22_06_briefing_and_presentation_methods.yaml
+  - section_number: '22.7'
+    title: Peer Review Processes
+    filename: section_22_07_peer_review_processes.yaml

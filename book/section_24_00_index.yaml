@@ -1,0 +1,53 @@
+# section_24_00_index.yaml
+
+---
+title: 'Chapter 24: Technical Operations - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 24
+  source_file: part-4-operational/chapter-24-technical-operations.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260124 | OSINT: Operational Considerations (Chapter 24 Technical Security) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Operational Considerations
+      - ‣‣‣ Technical Security
+chapter_overview:
+  contents:
+    - Virtual machine architectures
+    - Network isolation techniques
+    - VPN and proxy considerations
+    - Browser security and fingerprinting
+    - Encrypted communications
+    - Secure data storage
+    - Evidence preservation protocols
+sections:
+  - section_number: '24.1'
+    title: Virtual Machine Architectures
+    filename: section_24_01_virtual_machine_architectures.yaml
+  - section_number: '24.2'
+    title: Network Isolation Techniques
+    filename: section_24_02_network_isolation_techniques.yaml
+  - section_number: '24.3'
+    title: VPN and Proxy Considerations
+    filename: section_24_03_vpn_and_proxy_considerations.yaml
+  - section_number: '24.4'
+    title: Browser Security and Fingerprinting
+    filename: section_24_04_browser_security_and_fingerprinting.yaml
+  - section_number: '24.5'
+    title: Encrypted Communications
+    filename: section_24_05_encrypted_communications.yaml
+  - section_number: '24.6'
+    title: Secure Data Storage
+    filename: section_24_06_secure_data_storage.yaml
+  - section_number: '24.7'
+    title: Evidence preservation protocols
+    filename: section_24_07_evidence_preservation_protocols.yaml

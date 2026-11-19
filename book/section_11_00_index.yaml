@@ -1,0 +1,54 @@
+# section_11_00_index.yaml
+
+---
+title: 'Chapter 11: Advanced Social Engineering Analysis - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 11
+  source_file: part-2-advanced-techniques/chapter-11-social-engineering.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260111 | OSINT: Advanced Techniques (Chapter 11 Advanced Social Network Analysis) by Raghav
+      Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Techniques
+      - ‣‣‣ Advanced Social Network Analysis
+chapter_overview:
+  contents:
+    - Graph theory applications in social intelligence
+    - Node centrality and influence measurement
+    - Community detection algorithms and applications
+    - Link prediction and relationship inference
+    - Social engineering indicator identification
+    - Cross-platform identity correlation
+    - Influence campaign detection and analysis
+sections:
+  - section_number: '11.1'
+    title: Graph Theory Applications in Social Intelligence
+    filename: section_11_01_graph_theory_applications_in_social_intelligence.yaml
+  - section_number: '11.2'
+    title: Node Centrality and Influence Measurement
+    filename: section_11_02_node_centrality_and_influence_measurement.yaml
+  - section_number: '11.3'
+    title: Community Detection Algorithms and Applications
+    filename: section_11_03_community_detection_algorithms_and_applications.yaml
+  - section_number: '11.4'
+    title: Link Prediction and Relationship Inference
+    filename: section_11_04_link_prediction_and_relationship_inference.yaml
+  - section_number: '11.5'
+    title: Social Engineering Indicator Identification
+    filename: section_11_05_social_engineering_indicator_identification.yaml
+  - section_number: '11.6'
+    title: Cross-Platform Identity Correlation
+    filename: section_11_06_cross_platform_identity_correlation.yaml
+  - section_number: '11.7'
+    title: Influence Campaign Detection and Analysis
+    filename: section_11_07_influence_campaign_detection_and_analysis.yaml
