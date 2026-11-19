@@ -1,0 +1,54 @@
+# chapter_19_index.yaml
+
+---
+title: 'Chapter 19: Academic and Research Intelligence - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 19
+  source_file: part-3-specialized-domains/chapter-19-academic-research.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260119 | OSINT: Specialized OSINT Domains (Chapter 19 Academic and Scientific Intelligence)
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Specialized OSINT Domains
+      - ‣‣‣ Academic and Scientific Intelligence
+chapter_overview:
+  contents:
+    - Research publication analysis
+    - Citation network mapping
+    - Grant funding intelligence
+    - Conference and collaboration tracking
+    - Peer review network analysis
+    - Scientific misconduct detection
+    - Technology transfer monitoring
+sections:
+  - section_number: '19.1'
+    title: Research Publication Analysis
+    filename: section_19_01_research_publication_analysis.yaml
+  - section_number: '19.2'
+    title: Citation Network Mapping
+    filename: section_19_02_citation_network_mapping.yaml
+  - section_number: '19.3'
+    title: Grant Funding Intelligence
+    filename: section_19_03_grant_funding_intelligence.yaml
+  - section_number: '19.4'
+    title: Conference and Collaboration Tracking
+    filename: section_19_04_conference_and_collaboration_tracking.yaml
+  - section_number: '19.5'
+    title: Peer Review Network Analysis
+    filename: section_19_05_peer_review_network_analysis.yaml
+  - section_number: '19.6'
+    title: Scientific Misconduct Detection
+    filename: section_19_06_scientific_misconduct_detection.yaml
+  - section_number: '19.7'
+    title: Technology transfer monitoring
+    filename: section_19_07_technology_transfer_monitoring.yaml

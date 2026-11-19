@@ -1,0 +1,22 @@
+# section_23_07_operational_compartmentalization.yaml
+
+---
+title: Operational compartmentalization
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 23
+  section: 7
+  section_code: '2307'
+  source_file: part-4-operational/chapter-23-counterintelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Operational compartmentalization
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          <Missing>

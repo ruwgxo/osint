@@ -1,0 +1,126 @@
+# section_18_01_market_research_methodologies.yaml
+
+---
+title: Market Research Methodologies
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 18
+  section: 1
+  section_code: '1801'
+  source_file: part-3-specialized-domains/chapter-18-business-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Market Research Methodologies
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Market research methodologies provide systematic approaches to understanding industry dynamics,
+          customer behaviors, and competitive landscapes through comprehensive analysis of public information
+          sources and market data that inform strategic business decisions.
+      - type: prose
+        text: >-
+          **Industry Analysis and Sector Intelligence** examines market structures, competitive dynamics,
+          and growth patterns within specific business sectors to understand opportunities, threats, and
+          strategic positioning requirements.
+      - type: prose
+        text: >-
+          Market size and growth analysis quantifies industry scope and expansion patterns through systematic
+          examination of revenue data, unit sales, and market penetration metrics. Revenue analysis examines
+          total addressable market and serviceable addressable market calculations. Growth rate analysis
+          tracks historical expansion patterns and identifies future growth projections. Market segmentation
+          analysis identifies distinct customer categories and their relative market importance.
+      - type: prose
+        text: >-
+          Competitive landscape analysis maps industry participants and their market positions through
+          comprehensive competitor identification and positioning assessment. Market share analysis quantifies
+          competitive positioning and identifies dominant players. Competitive intensity analysis examines
+          the degree of rivalry and competitive pressure within markets. Barrier to entry analysis evaluates
+          factors that protect existing players and limit new competition.
+      - type: prose
+        text: >-
+          Value chain analysis examines industry structure and profit distribution across different business
+          activities and market participants. Supplier analysis identifies key input providers and their
+          market power. Distribution channel analysis examines how products reach customers and channel
+          partner influence. Service provider analysis identifies supporting businesses and their role
+          in industry value creation.
+      - type: prose
+        text: >-
+          **Customer Analysis and Segmentation** identifies target market characteristics, preferences,
+          and behavioral patterns through systematic analysis of demographic data, purchasing patterns,
+          and customer feedback across diverse information sources.
+      - type: prose
+        text: >-
+          Demographic analysis examines customer population characteristics including age, income, education,
+          and geographic distribution. Population data analysis uses census and survey information to
+          understand target market characteristics. Income distribution analysis identifies purchasing
+          power and market accessibility. Geographic concentration analysis reveals market distribution
+          and regional opportunities.
+      - type: prose
+        text: >-
+          Behavioral analysis examines customer purchasing patterns, preferences, and decision-making
+          processes through transaction data and engagement metrics. Purchase frequency analysis identifies
+          customer loyalty and retention patterns. Product preference analysis reveals feature importance
+          and competitive differentiation opportunities. Decision timeline analysis examines customer
+          buying processes and influence factors.
+      - type: prose
+        text: >-
+          Sentiment analysis examines customer attitudes and perceptions through social media monitoring,
+          review analysis, and survey data. Brand perception analysis identifies customer attitudes toward
+          different market participants. Product satisfaction analysis examines customer experience and
+          quality perceptions. Trend analysis identifies changing customer preferences and emerging market
+          opportunities.
+      - type: prose
+        text: >-
+          **Technology and Innovation Tracking** monitors technological developments and innovation patterns
+          that affect market dynamics, competitive positioning, and future business opportunities through
+          systematic analysis of research publications and development activities.
+      - type: prose
+        text: >-
+          Research and development analysis tracks innovation activities and technological advancement
+          within industries. Patent analysis identifies emerging technologies and innovation ownership.
+          Publication analysis examines academic research and technological development trends. Conference
+          analysis identifies industry discussions and emerging technological directions.
+      - type: prose
+        text: >-
+          Technology adoption analysis examines how new technologies penetrate markets and affect competitive
+          dynamics. Early adopter analysis identifies market segments that embrace new technologies first.
+          Mainstream adoption analysis tracks how technologies achieve broad market acceptance. Technology
+          lifecycle analysis examines maturation patterns and replacement cycles.
+      - type: prose
+        text: >-
+          Disruption analysis identifies technological changes that might fundamentally alter industry
+          structures and competitive dynamics. Platform analysis examines how digital platforms change
+          market intermediation and value creation. Automation analysis identifies activities susceptible
+          to technological replacement. Digital transformation analysis examines how technology changes
+          business models and operational approaches.
+      - type: prose
+        text: >-
+          **Regulatory and Policy Analysis** examines government regulations, policy changes, and compliance
+          requirements that affect industry operations, competitive positioning, and market access through
+          systematic monitoring of regulatory developments.
+      - type: prose
+        text: >-
+          Regulatory compliance analysis identifies requirements that affect market participants and operational
+          approaches. Licensing requirements analysis examines barriers to market entry and operational
+          constraints. Safety and quality standards analysis identifies compliance costs and competitive
+          implications. Environmental regulations analysis examines sustainability requirements and operational
+          impacts.
+      - type: prose
+        text: >-
+          Policy change monitoring tracks government initiatives that might affect industry dynamics and
+          business opportunities. Tax policy analysis examines fiscal policies that affect industry profitability
+          and competitive positioning. Trade policy analysis identifies international commerce regulations
+          and market access requirements. Innovation policy analysis examines government support for research
+          and development activities.
+      - type: prose
+        text: >-
+          Regulatory enforcement analysis examines how government agencies implement and enforce regulations
+          within specific industries. Enforcement pattern analysis identifies regulatory priorities and
+          compliance risk areas. Penalty analysis examines financial and operational consequences of regulatory
+          violations. Settlement analysis identifies negotiated resolutions and regulatory interpretation
+          patterns.

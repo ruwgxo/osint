@@ -1,0 +1,117 @@
+# section_07_02_application_layer_protocol_dissection.yaml
+
+---
+title: Application Layer Protocol Dissection
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 7
+  section: 2
+  section_code: '0702'
+  source_file: part-2-advanced-techniques/chapter-07-protocol-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Application Layer Protocol Dissection
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Application layer protocols carry the actual data and commands that drive network services and
+          user interactions. Protocol dissection techniques enable extraction of detailed intelligence
+          about service implementations, user behaviors, and organizational operational patterns.
+      - type: prose
+        text: >-
+          **HTTP/HTTPS Traffic Analysis** examines web-based communications to understand application
+          architectures, user behaviors, and content access patterns while respecting encryption boundaries
+          and legal constraints.
+      - type: prose
+        text: >-
+          Request analysis examines client-generated HTTP requests to understand user behaviors, application
+          interactions, and system capabilities. Method analysis identifies interaction types and application
+          functionality. URL analysis reveals application structure and resource organization. Header
+          analysis provides client capabilities and authentication information.
+      - type: prose
+        text: >-
+          Response analysis evaluates server-generated responses to understand application behaviors,
+          content characteristics, and system implementations. Status code analysis identifies application
+          health and error patterns. Response header analysis reveals server technologies and caching
+          strategies. Content analysis examines payload characteristics when legally and ethically appropriate.
+      - type: prose
+        text: >-
+          Session analysis tracks communication sequences to understand user workflows, application logic,
+          and authentication mechanisms. Cookie analysis reveals session management approaches and personalization
+          implementations. Authentication flow analysis identifies security mechanisms and user verification
+          processes. State management analysis examines how applications maintain user context across
+          multiple requests.
+      - type: prose
+        text: >-
+          **Email Protocol Examination** analyzes SMTP, POP3, and IMAP communications to understand messaging
+          infrastructure, user behaviors, and organizational communication patterns while maintaining
+          appropriate privacy boundaries.
+      - type: prose
+        text: >-
+          SMTP transaction analysis examines message transmission processes to understand mail routing,
+          server capabilities, and delivery mechanisms. Command sequence analysis reveals client and server
+          implementations. Authentication mechanism analysis identifies security implementations and credential
+          handling. Relay pattern analysis maps email infrastructure and routing decisions.
+      - type: prose
+        text: >-
+          Message header analysis extracts metadata about message origins, routing paths, and delivery
+          mechanisms. Received header analysis traces message paths through mail infrastructure. Authentication
+          header analysis examines SPF, DKIM, and DMARC implementations. Routing analysis identifies mail
+          server relationships and organizational boundaries.
+      - type: prose
+        text: >-
+          Protocol behavior analysis identifies email client implementations, server configurations, and
+          operational patterns. Connection pattern analysis reveals usage schedules and user behaviors.
+          Error pattern analysis identifies configuration issues and potential security concerns. Performance
+          analysis evaluates infrastructure capacity and optimization approaches.
+      - type: prose
+        text: >-
+          **File Transfer Protocol Analysis** examines FTP, SFTP, and other file transfer communications
+          to understand data movement patterns, system access controls, and organizational information
+          sharing practices.
+      - type: prose
+        text: >-
+          Command analysis examines FTP commands to understand user activities, system navigation, and
+          file operations. Directory traversal analysis reveals system organization and access patterns.
+          File operation analysis identifies data transfer activities and manipulation attempts. Authentication
+          analysis examines credential usage and access control implementations.
+      - type: prose
+        text: >-
+          Data channel analysis examines file transfer performance, content characteristics, and transfer
+          completion status. Transfer mode analysis identifies binary versus text handling approaches.
+          Performance analysis evaluates bandwidth utilization and transfer efficiency. Error analysis
+          identifies network issues and configuration problems.
+      - type: prose
+        text: >-
+          Security implementation analysis examines encryption usage, authentication mechanisms, and access
+          control enforcement. FTPS and SFTP analysis evaluates security protocol implementations. Credential
+          transmission analysis identifies potential security vulnerabilities. Access control analysis
+          examines permission enforcement and directory restrictions.
+      - type: prose
+        text: >-
+          **Real-Time Communication Analysis** examines VoIP, video conferencing, and instant messaging
+          protocols to understand communication patterns and system implementations while respecting privacy
+          and legal boundaries.
+      - type: prose
+        text: >-
+          Session Initiation Protocol (SIP) analysis examines call establishment, routing, and termination
+          processes. Registration analysis identifies user presence and capability information. Invitation
+          analysis examines call setup procedures and parameter negotiation. Response analysis evaluates
+          call completion success rates and error conditions.
+      - type: prose
+        text: >-
+          Real-Time Protocol (RTP) analysis examines media stream characteristics and quality metrics.
+          Codec analysis identifies audio and video compression implementations. Quality analysis evaluates
+          packet loss, jitter, and delay characteristics. Bandwidth analysis examines resource utilization
+          and capacity requirements.
+      - type: prose
+        text: >-
+          Instant messaging protocol analysis examines text-based communication systems and presence information.
+          Presence analysis identifies user availability and status information. Message routing analysis
+          maps communication infrastructure and relay mechanisms. Group communication analysis examines
+          multi-user conversation management.

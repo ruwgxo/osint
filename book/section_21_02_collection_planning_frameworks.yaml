@@ -1,0 +1,137 @@
+# section_21_02_collection_planning_frameworks.yaml
+
+---
+title: Collection Planning Frameworks
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 21
+  section: 2
+  section_code: '2102'
+  source_file: part-4-operational/chapter-21-collection-management.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Collection Planning Frameworks
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Collection planning frameworks provide systematic approaches to organizing and coordinating
+          OSINT activities while ensuring comprehensive coverage of intelligence requirements and optimal
+          resource utilization across diverse collection sources and methods.
+      - type: prose
+        text: >-
+          **Strategic Collection Planning** develops long-term collection strategies that align with organizational
+          objectives while building sustainable collection capabilities and maintaining strategic intelligence
+          awareness across key areas of interest.
+      - type: prose
+        text: >-
+          Strategic intelligence architecture development creates comprehensive frameworks for understanding
+          organizational intelligence needs across all functional areas. Domain coverage analysis ensures
+          collection activities address all areas relevant to organizational success including market
+          intelligence, competitive analysis, and threat assessment. Geographic coverage planning identifies
+          regional and global intelligence requirements that support international operations and strategic
+          expansion. Temporal planning establishes long-term collection sustainment and capability development
+          requirements.
+      - type: prose
+        text: >-
+          Collection strategy integration aligns OSINT activities with other intelligence collection methods
+          and organizational information sources. Multi-source integration coordinates OSINT with human
+          intelligence, signals intelligence, and other collection disciplines. Information sharing coordination
+          establishes procedures for combining OSINT with internal organizational information and external
+          partnership intelligence. Analytical integration ensures OSINT collection supports comprehensive
+          analytical products that combine multiple information sources.
+      - type: prose
+        text: >-
+          Capability development planning identifies collection capabilities required for future intelligence
+          requirements while building organizational competencies and technical capabilities. Technology
+          development planning identifies tools and platforms required for emerging collection requirements.
+          Personnel development planning ensures adequate expertise and training for evolving intelligence
+          needs. Infrastructure development planning identifies facilities and systems required for expanding
+          collection operations.
+      - type: prose
+        text: >-
+          **Operational Collection Planning** translates strategic requirements into specific collection
+          activities while coordinating tactical collection efforts and ensuring efficient resource utilization
+          across multiple concurrent operations.
+      - type: prose
+        text: >-
+          Collection campaign planning organizes systematic collection efforts that address specific intelligence
+          requirements through coordinated activities across multiple sources and time periods. Campaign
+          objective definition clearly states what intelligence each campaign will produce and how it
+          supports broader requirements. Campaign timeline development establishes milestones and deliverable
+          schedules that align with stakeholder needs. Campaign resource allocation assigns personnel,
+          technology, and budget resources to support campaign objectives.
+      - type: prose
+        text: >-
+          Source diversification strategies ensure comprehensive coverage while avoiding over-reliance
+          on single information sources or collection methods. Primary source identification establishes
+          core collection sources that provide consistent, high-quality intelligence. Secondary source
+          development identifies backup sources and alternative collection methods. Niche source exploitation
+          identifies specialized sources that provide unique intelligence unavailable through mainstream
+          collection.
+      - type: prose
+        text: >-
+          Collection synchronization coordinates multiple collection activities to maximize efficiency
+          and avoid duplication while ensuring comprehensive coverage. Timeline coordination ensures collection
+          activities occur at optimal times for information availability and analytical utility. Geographic
+          coordination organizes collection activities across different regions and time zones. Methodological
+          coordination ensures different collection approaches complement rather than duplicate each other.
+      - type: prose
+        text: >-
+          **Tactical Collection Planning** addresses immediate collection requirements and crisis response
+          while maintaining operational flexibility and enabling rapid adaptation to changing circumstances
+          and urgent intelligence needs.
+      - type: prose
+        text: >-
+          Rapid response planning establishes procedures for addressing urgent intelligence requirements
+          that arise from unexpected events or crisis situations. Emergency collection protocols enable
+          immediate deployment of collection resources to address critical intelligence gaps. Surge capacity
+          planning ensures additional collection resources can be mobilized when requirements exceed normal
+          operational capacity. Crisis communication procedures ensure stakeholders receive timely intelligence
+          updates during emergency situations.
+      - type: prose
+        text: >-
+          Dynamic collection planning enables adaptation to changing requirements and emerging opportunities
+          while maintaining collection effectiveness. Agile planning methodologies enable rapid adjustment
+          of collection priorities and resource allocation. Opportunity exploitation procedures enable
+          collection teams to pursue unexpected intelligence opportunities that arise during routine operations.
+          Contingency planning prepares for various scenarios that might affect collection operations.
+      - type: prose
+        text: >-
+          Real-time collection coordination manages immediate collection activities while ensuring quality
+          control and avoiding operational conflicts. Task assignment procedures ensure clear responsibility
+          for specific collection activities. Progress monitoring enables real-time tracking of collection
+          progress and early identification of problems. Resource reallocation enables rapid adjustment
+          of personnel and technology assignments based on changing requirements.
+      - type: prose
+        text: >-
+          **Collection Plan Integration and Coordination** ensures collection activities support broader
+          organizational objectives while avoiding duplication and maximizing the value of collection
+          investments across different functional areas.
+      - type: prose
+        text: >-
+          Cross-functional coordination integrates OSINT collection with other organizational functions
+          including strategic planning, competitive analysis, and risk management. Strategic planning
+          integration ensures collection activities support long-term organizational planning and strategic
+          decision-making. Operational planning integration aligns collection activities with operational
+          planning cycles and decision-making timelines. Risk management integration ensures collection
+          activities support risk assessment and mitigation planning.
+      - type: prose
+        text: >-
+          External coordination establishes relationships with external partners and information sources
+          while maintaining appropriate security and operational procedures. Partnership coordination
+          manages relationships with external organizations that provide intelligence or collection support.
+          Vendor coordination manages relationships with commercial intelligence providers and technology
+          suppliers. Government coordination establishes appropriate relationships with government agencies
+          and regulatory authorities.
+      - type: prose
+        text: >-
+          Quality assurance integration ensures collection planning incorporates quality control measures
+          and analytical standards. Standard development establishes consistent collection and analytical
+          procedures across different domains and operations. Performance measurement integrates collection
+          assessment with broader organizational performance management. Continuous improvement procedures
+          ensure collection planning incorporates lessons learned and best practices from previous operations.

@@ -1,0 +1,85 @@
+# section_02_01_data_information_and_intelligence_hierarchy.yaml
+
+---
+title: Data, Information, and Intelligence Hierarchy
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 2
+  section: 1
+  section_code: '0201'
+  source_file: part-1-fundamentals/chapter-02-information-theory.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Data, Information, and Intelligence Hierarchy
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Professional OSINT practice requires clear understanding of the hierarchical relationship between
+          data, information, and intelligence. This conceptual framework provides the foundation for systematic
+          collection strategies, analytical methodologies, and quality assessment procedures.
+      - type: prose
+        text: >-
+          **Data** represents the fundamental building blocks of all intelligence analysis. Data consists
+          of discrete, unprocessed facts or observations that exist independently of analytical context.
+          Examples include timestamps, geographic coordinates, numerical measurements, textual strings,
+          or binary values. Data has inherent properties including format, precision, accuracy, and provenance,
+          but lacks processed meaning or interpretive context.
+      - type: prose
+        text: >-
+          Data quality assessment involves evaluating accuracy, completeness, consistency, timeliness,
+          and validity. Accuracy refers to the degree to which data correctly represents real-world phenomena.
+          Completeness measures whether all required data elements are present. Consistency evaluates
+          logical coherence within and across datasets. Timeliness assesses whether data collection occurred
+          within relevant temporal windows. Validity determines whether data conforms to expected formats
+          and ranges.
+      - type: prose
+        text: >-
+          Understanding data characteristics is essential for effective analytical planning. Some data
+          types are naturally quantitative and amenable to statistical analysis, while others require
+          qualitative interpretation methods. Temporal data enables trend analysis and predictive modeling.
+          Spatial data supports geographic analysis and pattern recognition. Relational data reveals network
+          structures and interaction patterns.
+      - type: prose
+        text: >-
+          **Information** emerges when data is organized, structured, or contextualized to convey meaning.
+          Information represents processed data that has been formatted for human comprehension or computational
+          analysis. Examples include database records, formatted reports, structured datasets, or organized
+          document collections. Information retains the factual character of underlying data while adding
+          organizational structure that facilitates interpretation.
+      - type: prose
+        text: >-
+          Information processing involves aggregation, summarization, filtering, and formatting operations.
+          Aggregation combines multiple data points into summary measures. Summarization creates condensed
+          representations that highlight key characteristics. Filtering removes irrelevant or erroneous
+          elements. Formatting structures information for specific analytical or presentation purposes.
+      - type: prose
+        text: >-
+          The transformation from data to information can introduce processing errors, selection biases,
+          or interpretive assumptions. Professional OSINT practice requires careful attention to these
+          transformation processes to ensure that analytical conclusions remain grounded in reliable evidence.
+      - type: prose
+        text: >-
+          **Intelligence** represents the highest level of analytical refinement, incorporating judgments
+          about significance, implications, and relationships relevant to specific requirements. Intelligence
+          products synthesize information from multiple sources, assess reliability and confidence levels,
+          and develop insights that support decision-making processes. Intelligence adds analytical value
+          through interpretation, contextualization, and predictive assessment.
+      - type: prose
+        text: >-
+          Intelligence production involves several analytical steps including correlation, evaluation,
+          synthesis, and interpretation. Correlation identifies relationships between different information
+          elements. Evaluation assesses source reliability and information credibility. Synthesis integrates
+          findings from multiple sources into coherent analytical frameworks. Interpretation develops
+          insights and implications relevant to consumer requirements.
+      - type: prose
+        text: >-
+          The hierarchy from data through information to intelligence represents increasing levels of
+          analytical refinement and added value. Each level builds upon the previous while introducing
+          additional complexity and potential for analytical error. Professional intelligence analysis
+          must maintain traceability throughout this hierarchical progression to ensure accountability
+          and enable quality assessment.

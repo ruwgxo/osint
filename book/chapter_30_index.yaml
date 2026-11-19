@@ -1,0 +1,63 @@
+# chapter_30_index.yaml
+
+---
+title: 'Chapter 30: Quality Assurance and Tradecraft Standards - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 30
+  source_file: part-5-advanced-integration/chapter-30-quality-assurance.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260130 | OSINT: Advanced Integration (Chapter 30 Quality Assurance and Metrics) by Raghav
+      Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Advanced Integration and Future Considerations
+      - ‣‣‣ Quality Assurance and Metrics
+chapter_overview:
+  contents:
+    - Intelligence product evaluation
+    - Source reliability tracking
+    - Analytical accuracy measurement
+    - Collection efficiency metrics
+    - Timeliness and relevance assessment
+    - Customer satisfaction evaluation
+    - Continuous improvement processes
+  introduction:
+    - type: heading
+      level: 3
+      text: Quality Assurance and Metrics
+    - type: prose
+      text: >-
+        Quality assurance and metrics provide systematic approaches to measuring and improving OSINT effectiveness
+        while understanding performance evaluation and implementing comprehensive quality control frameworks
+        that ensure analytical excellence and operational optimization.
+sections:
+  - section_number: '30.1'
+    title: Intelligence Product Evaluation
+    filename: section_30_01_intelligence_product_evaluation.yaml
+  - section_number: '30.2'
+    title: Source Reliability Tracking
+    filename: section_30_02_source_reliability_tracking.yaml
+  - section_number: '30.3'
+    title: Analytical Accuracy Measurement
+    filename: section_30_03_analytical_accuracy_measurement.yaml
+  - section_number: '30.4'
+    title: Collection Efficiency Metrics
+    filename: section_30_04_collection_efficiency_metrics.yaml
+  - section_number: '30.5'
+    title: Timeliness and Relevance Assessment
+    filename: section_30_05_timeliness_and_relevance_assessment.yaml
+  - section_number: '30.6'
+    title: Customer Satisfaction Evaluation
+    filename: section_30_06_customer_satisfaction_evaluation.yaml
+  - section_number: '30.7'
+    title: Continuous Improvement Processes
+    filename: section_30_07_continuous_improvement_processes.yaml

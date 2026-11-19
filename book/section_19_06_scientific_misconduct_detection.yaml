@@ -1,0 +1,126 @@
+# section_19_06_scientific_misconduct_detection.yaml
+
+---
+title: Scientific Misconduct Detection
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 19
+  section: 6
+  section_code: '1906'
+  source_file: part-3-specialized-domains/chapter-19-academic-research.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Scientific Misconduct Detection
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Scientific misconduct detection provides systematic approaches to identifying research integrity
+          violations and publication ethics breaches while understanding misconduct patterns and developing
+          prevention strategies through comprehensive analysis of research practices and quality control
+          mechanisms.
+      - type: prose
+        text: >-
+          **Research Data Integrity Analysis** examines research data and analytical practices to identify
+          potential fabrication, falsification, or manipulation while developing systematic approaches
+          to data verification and quality assessment.
+      - type: prose
+        text: >-
+          Statistical analysis of research data examines patterns that might indicate data manipulation
+          or fabrication. Distribution analysis identifies unusual data patterns that might indicate manipulation.
+          Outlier analysis examines extreme values that might indicate data problems. Correlation analysis
+          identifies relationships that might be too good to be true or artificially enhanced.
+      - type: prose
+        text: >-
+          Image analysis examines research figures and photographs for evidence of manipulation or fabrication.
+          Duplicate image detection identifies reused images across different publications or experiments.
+          Manipulation detection identifies digital alteration of research images. Enhancement analysis
+          examines inappropriate image processing that might mislead readers.
+      - type: prose
+        text: >-
+          Experimental replication analysis examines whether research results can be reproduced by independent
+          researchers. Replication success analysis tracks how often published results can be reproduced.
+          Methodology analysis examines whether sufficient detail is provided for replication attempts.
+          Data availability analysis evaluates whether original data is accessible for verification.
+      - type: prose
+        text: >-
+          **Publication Pattern Analysis** examines publication behaviors and patterns that might indicate
+          misconduct while identifying systematic approaches to monitoring research integrity and publication
+          ethics.
+      - type: prose
+        text: >-
+          Duplicate publication analysis identifies instances where identical or substantially similar
+          research is published multiple times. Content similarity analysis compares publications to identify
+          duplicate or overlapping content. Translation duplicate analysis identifies publications that
+          duplicate content across different languages. Salami slicing analysis identifies inappropriate
+          division of research into multiple publications.
+      - type: prose
+        text: >-
+          Authorship analysis examines author contribution patterns and potential authorship misconduct.
+          Ghost authorship analysis identifies situations where significant contributors are not credited
+          as authors. Gift authorship analysis identifies situations where individuals receive authorship
+          credit without significant contribution. Author contribution verification analysis examines
+          whether stated contributions match actual involvement.
+      - type: prose
+        text: >-
+          Citation misconduct analysis examines inappropriate citation practices and reference manipulation.
+          Citation manipulation analysis identifies artificial inflation of citation counts through self-citation
+          or citation rings. Reference accuracy analysis examines whether citations accurately represent
+          the cited work. Reference accessibility analysis evaluates whether cited sources are genuine
+          and accessible.
+      - type: prose
+        text: >-
+          **Institutional Response and Prevention Analysis** examines how organizations handle misconduct
+          allegations and develop prevention programs while identifying best practices and effective intervention
+          strategies through systematic analysis of institutional policies and procedures.
+      - type: prose
+        text: >-
+          Investigation process analysis examines how institutions handle misconduct allegations and conduct
+          integrity investigations. Investigation procedures analysis evaluates whether investigations
+          follow established protocols and fairness standards. Investigation outcomes analysis examines
+          sanction patterns and their appropriateness for different types of misconduct. Appeal process
+          analysis evaluates whether adequate due process protections exist.
+      - type: prose
+        text: >-
+          Prevention program analysis examines educational and policy interventions designed to prevent
+          research misconduct. Training program analysis evaluates the effectiveness of research integrity
+          education. Mentorship program analysis examines how senior researchers guide junior colleagues
+          in ethical research practices. Policy effectiveness analysis evaluates whether institutional
+          policies effectively prevent misconduct.
+      - type: prose
+        text: >-
+          Cultural change analysis examines how organizations develop and maintain cultures of research
+          integrity. Leadership commitment analysis evaluates whether institutional leaders prioritize
+          and model research integrity. Incentive structure analysis examines whether reward systems encourage
+          or discourage ethical research practices. Reporting culture analysis evaluates whether organizations
+          encourage reporting of integrity concerns.
+      - type: prose
+        text: >-
+          **Technology and Detection Tool Analysis** examines automated tools and technologies for detecting
+          research misconduct while evaluating their effectiveness and identifying areas for improvement
+          through systematic analysis of detection capabilities and limitations.
+      - type: prose
+        text: >-
+          Plagiarism detection technology analysis examines software tools for identifying duplicate or
+          plagiarized content. Detection accuracy analysis evaluates the effectiveness of different plagiarism
+          detection approaches. False positive analysis examines situations where legitimate similarities
+          are flagged as potential misconduct. Detection coverage analysis evaluates the comprehensiveness
+          of plagiarism detection databases.
+      - type: prose
+        text: >-
+          Image forensics technology analysis examines tools for detecting image manipulation and falsification.
+          Manipulation detection accuracy analysis evaluates the effectiveness of different image forensics
+          approaches. Forensics tool validation analysis examines whether detection tools produce reliable
+          results. User training analysis evaluates whether investigators can effectively use forensics
+          tools.
+      - type: prose
+        text: >-
+          Statistical analysis tool development examines automated approaches to detecting unusual data
+          patterns and potential manipulation. Algorithm development analysis tracks advances in statistical
+          approaches to misconduct detection. Validation study analysis examines whether statistical tools
+          accurately identify potential misconduct. Implementation analysis evaluates how effectively
+          institutions adopt and use statistical detection tools.

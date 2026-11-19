@@ -1,0 +1,119 @@
+# section_03_04_network_topology_mapping.yaml
+
+---
+title: Network Topology Mapping
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 3
+  section: 4
+  section_code: '0304'
+  source_file: part-1-fundamentals/chapter-03-network-fundamentals.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Network Topology Mapping
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Network topology mapping reconstructs the logical and physical structure of networked systems
+          through systematic collection and analysis of connectivity information. Topology mapping provides
+          essential context for infrastructure analysis, vulnerability assessment, and organizational
+          understanding.
+      - type: prose
+        text: >-
+          **Logical Topology Discovery** identifies network connectivity relationships through analysis
+          of routing information, reachability testing, and protocol behavior observation. Logical topology
+          reflects the software-defined connectivity between network nodes regardless of physical infrastructure
+          implementation.
+      - type: prose
+        text: >-
+          Traceroute analysis identifies network paths between source and destination systems through
+          systematic probing with increasing Time-To-Live (TTL) values. Each network hop responds with
+          ICMP Time Exceeded messages that reveal intermediate router addresses. Path analysis reveals
+          routing patterns, network boundaries, and potential redundancy mechanisms.
+      - type: prose
+        text: >-
+          Router discovery identifies network infrastructure devices through various probing techniques
+          and protocol analysis. ICMP messages, SNMP queries, and routing protocol observations can reveal
+          router presence and characteristics. Router fingerprinting attempts to identify specific hardware
+          and software implementations through response analysis.
+      - type: prose
+        text: >-
+          Subnet mapping identifies network address ranges and their organizational significance through
+          systematic address space analysis. Active hosts within subnet ranges indicate utilization patterns
+          and potential service boundaries. Subnet organization often reflects administrative boundaries
+          and functional groupings.
+      - type: prose
+        text: >-
+          **Physical Topology Inference** attempts to reconstruct physical network infrastructure through
+          analysis of logical connectivity patterns, timing measurements, and external information sources.
+          While complete physical mapping requires privileged access, substantial infrastructure intelligence
+          can be developed through analytical techniques.
+      - type: prose
+        text: >-
+          Latency analysis examines network delay patterns to infer geographic relationships and infrastructure
+          characteristics. Consistent low latency suggests physical proximity or high-quality connectivity.
+          Asymmetric latency patterns might indicate different routing paths or infrastructure limitations.
+      - type: prose
+        text: >-
+          Bandwidth measurement attempts to characterize network capacity and utilization through systematic
+          testing. Available bandwidth often reflects infrastructure investment and organizational priorities.
+          Bandwidth limitations might indicate network boundaries or resource constraints.
+      - type: prose
+        text: >-
+          Infrastructure correlation combines network analysis with external information sources including
+          facility databases, infrastructure providers, and geographic information systems. Correlation
+          analysis can reveal data center locations, fiber optic infrastructure, and organizational facilities.
+      - type: prose
+        text: >-
+          **Service and Application Mapping** identifies networked services and applications through systematic
+          scanning and analysis techniques. Service mapping provides essential context for organizational
+          analysis and potential security assessment.
+      - type: prose
+        text: >-
+          Port scanning systematically probes target systems for open network ports that indicate active
+          services. TCP SYN scanning provides efficient service discovery while minimizing connection
+          overhead. UDP scanning requires different techniques due to protocol characteristics. Port scanning
+          should only be conducted within appropriate legal and ethical boundaries.
+      - type: prose
+        text: >-
+          Service fingerprinting attempts to identify specific service implementations through analysis
+          of response characteristics, banner information, and protocol behaviors. Different service implementations
+          often exhibit distinct signatures that enable systematic identification.
+      - type: prose
+        text: >-
+          Application discovery identifies web applications, database systems, and other software through
+          various probing techniques. Application fingerprinting can reveal technology stacks, version
+          information, and potential security characteristics.
+      - type: prose
+        text: >-
+          Load balancer and content delivery network detection identifies infrastructure components that
+          distribute traffic across multiple systems. Load balancer behavior patterns and response characteristics
+          often reveal underlying infrastructure organization.
+      - type: prose
+        text: >-
+          **Visualization and Analysis Techniques** transform network topology information into comprehensible
+          formats that support analytical objectives and decision-making processes. Effective visualization
+          requires careful consideration of analytical requirements and audience needs.
+      - type: prose
+        text: >-
+          Network diagrams provide graphical representations of connectivity relationships, infrastructure
+          components, and organizational boundaries. Diagram design should emphasize analytical insights
+          while maintaining clarity and comprehensibility. Interactive visualizations enable exploration
+          of complex topologies and relationship patterns.
+      - type: prose
+        text: >-
+          Hierarchical organization reflects network administrative boundaries and functional groupings.
+          Hierarchical visualization can reveal organizational structure and operational patterns. Geographic
+          mapping correlates network topology with physical locations to identify facility relationships
+          and service boundaries.
+      - type: prose
+        text: >-
+          Temporal analysis examines topology changes over time to identify infrastructure evolution,
+          organizational changes, and operational patterns. Historical topology data enables trend analysis
+          and change detection. Anomaly detection identifies unusual topology characteristics that might
+          indicate security incidents or operational problems.

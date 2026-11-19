@@ -1,0 +1,118 @@
+# section_11_04_link_prediction_and_relationship_inference.yaml
+
+---
+title: Link Prediction and Relationship Inference
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 11
+  section: 4
+  section_code: '1104'
+  source_file: part-2-advanced-techniques/chapter-11-social-engineering.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Link Prediction and Relationship Inference
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Link prediction algorithms forecast future relationships and identify missing connections within
+          social networks, enabling analysis of relationship development patterns and network evolution
+          trends.
+      - type: prose
+        text: >-
+          **Similarity-Based Link Prediction** leverages node similarity measures to predict future connections
+          based on the principle that similar individuals are more likely to form relationships.
+      - type: prose
+        text: >-
+          Common neighbor analysis predicts links based on shared connections between node pairs. Jaccard
+          coefficient normalizes common neighbors by total neighbor counts to account for different node
+          degrees. Adamic-Adar index weights common neighbors by their inverse logarithmic degree to emphasize
+          connections through less connected intermediaries. Preferential attachment predicts links based
+          on node degree products, favoring connections between highly connected nodes.
+      - type: prose
+        text: >-
+          Structural similarity measures examine node positions within network structure to predict connections.
+          Structural equivalence analysis identifies nodes that occupy similar network positions and might
+          form connections. Role similarity analysis examines functional roles and predicts connections
+          between nodes serving similar functions. Embedding-based similarity uses network embedding techniques
+          to calculate node similarity in latent spaces.
+      - type: prose
+        text: >-
+          Attribute similarity analysis incorporates node characteristics beyond network structure to
+          improve prediction accuracy. Demographic similarity examines shared characteristics including
+          age, gender, location, and organizational affiliation. Interest similarity analysis examines
+          shared preferences, activities, or professional interests. Homophily analysis examines tendency
+          for similar individuals to form connections.
+      - type: prose
+        text: >-
+          **Machine Learning Approaches to Link Prediction** leverage supervised learning algorithms to
+          combine multiple features and improve prediction accuracy through systematic feature engineering
+          and model training.
+      - type: prose
+        text: >-
+          Feature engineering creates predictive features from network structure, node attributes, and
+          temporal patterns. Structural features include various centrality measures, clustering coefficients,
+          and path-based measures. Temporal features examine relationship formation trends and timing
+          patterns. Attribute features incorporate demographic, organizational, and behavioral characteristics.
+      - type: prose
+        text: >-
+          Classification algorithms treat link prediction as binary classification problem distinguishing
+          future links from non-links. Logistic regression provides interpretable models with feature
+          importance analysis. Random forest algorithms handle feature interactions and provide robust
+          predictions. Support vector machines handle high-dimensional feature spaces and non-linear relationships.
+      - type: prose
+        text: >-
+          Deep learning approaches use neural networks to learn complex patterns and feature interactions
+          automatically. Graph neural networks incorporate network structure directly into learning algorithms.
+          Embedding approaches learn low-dimensional node representations that capture network proximity.
+          Attention mechanisms identify important features and network regions for prediction tasks.
+      - type: prose
+        text: >-
+          **Temporal Link Prediction** addresses time-dependent relationship formation patterns and enables
+          forecasting of network evolution through systematic temporal analysis.
+      - type: prose
+        text: >-
+          Time series analysis examines relationship formation trends and seasonal patterns over time.
+          Trend analysis identifies long-term patterns in relationship formation rates. Seasonal decomposition
+          identifies recurring patterns in network activity. Temporal correlation analysis examines relationships
+          between different time periods.
+      - type: prose
+        text: >-
+          Survival analysis models time until relationship formation using survival analysis techniques.
+          Hazard function estimation examines relationship formation rates conditional on current network
+          state. Covariate analysis identifies factors that accelerate or delay relationship formation.
+          Competing risk analysis addresses situations where multiple relationship types might form.
+      - type: prose
+        text: >-
+          Dynamic network modeling incorporates network evolution directly into prediction models. Continuous-time
+          models examine relationship formation as continuous processes. Discrete-time models analyze
+          relationship formation at specific time intervals. State-dependent models examine how current
+          network state affects future relationship formation.
+      - type: prose
+        text: >-
+          **Missing Link Inference** identifies relationships that might exist but are not observed in
+          available data, addressing data completeness issues and hidden relationship discovery.
+      - type: prose
+        text: >-
+          Data incompleteness analysis examines potential sources of missing relationship data including
+          privacy settings, data collection limitations, and sampling biases. Coverage analysis evaluates
+          what portion of actual relationships might be missing from observed networks. Bias analysis
+          examines systematic patterns in missing relationships.
+      - type: prose
+        text: >-
+          Imputation methods estimate missing relationships based on observed network patterns and node
+          characteristics. Probabilistic imputation assigns probabilities to potential missing links.
+          Multiple imputation creates multiple complete networks that incorporate uncertainty about missing
+          relationships. Sensitivity analysis examines how missing link assumptions affect analytical
+          results.
+      - type: prose
+        text: >-
+          Hidden relationship discovery identifies relationships that might be deliberately concealed
+          or difficult to observe. Indirect connection analysis examines multi-step paths that might indicate
+          hidden direct relationships. Behavioral pattern analysis identifies consistent interactions
+          that might indicate unobserved relationships. Temporal pattern analysis examines timing patterns
+          that might reveal hidden coordination.

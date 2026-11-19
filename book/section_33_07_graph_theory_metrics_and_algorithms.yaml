@@ -1,0 +1,166 @@
+# section_33_07_graph_theory_metrics_and_algorithms.yaml
+
+---
+title: Graph Theory Metrics and Algorithms
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 7
+  section_code: '3307'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Graph Theory Metrics and Algorithms
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Advanced Centrality Measures
+      - type: list
+        style: bullet
+        items:
+          - '**Katz Centrality**'
+          - '**Harmonic Centrality**'
+          - '**Subgraph Centrality**'
+      - type: prose
+        text: >-
+          Katz Centrality
+
+          Measures influence based on total number of walks, giving less weight to longer walks.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          x_i = α Σ A_ij x_j + β
+
+          Where α is the attenuation factor and β is a constant.
+      - type: prose
+        text: >-
+          Harmonic Centrality
+
+          Alternative to closeness centrality that handles disconnected graphs.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          H(x) = Σ 1/d(x,y) for all y ≠ x
+      - type: prose
+        text: >-
+          Subgraph Centrality
+
+          Measures centrality based on participation in subgraphs.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          SC_i(G) = Σ (μ_j)² / λ_j
+          Where μ_j and λ_j are eigenvector and eigenvalue components.
+      - type: heading
+        level: 3
+        text: Community Detection Algorithms
+      - type: list
+        style: bullet
+        items:
+          - Girvan-Newman Algorithm
+          - Louvain Method
+      - type: prose
+        text: >-
+          Girvan-Newman Algorithm
+      - type: list
+        style: bullet
+        items:
+          - Calculate betweenness centrality for all edges
+          - Remove edge with highest betweenness
+          - Recalculate betweenness for remaining edges
+          - Repeat until desired number of communities
+      - type: prose
+        text: >-
+          Louvain Method
+
+          Fast algorithm for community detection based on modularity optimization:
+      - type: list
+        style: bullet
+        items:
+          - Assign each node to its own community
+          - For each node, consider moving to neighbor communities
+          - Move node if it increases modularity
+          - Build new network of communities
+          - Repeat until no improvement
+      - type: heading
+        level: 3
+        text: Graph Similarity Measures
+      - type: list
+        style: bullet
+        items:
+          - Jaccard Similarity
+          - Cosine Similarity
+      - type: prose
+        text: >-
+          Jaccard Similarity
+
+          For comparing two sets or networks.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          J(A,B) = |A ∩ B| / |A ∪ B|
+      - type: prose
+        text: >-
+          Cosine Similarity
+
+          Measures cosine of angle between two vectors.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          cos(θ) = (A · B) / (||A|| × ||B||)
+      - type: prose
+        text: >-
+          Graph Edit Distance
+
+          Minimum number of operations (insert, delete, modify) to transform one graph into another.
+      - type: heading
+        level: 3
+        text: Network Robustness Measures
+      - type: prose
+        text: >-
+          Connectivity
+      - type: list
+        style: bullet
+        items:
+          - 'Node Connectivity: Minimum number of nodes to remove to disconnect graph'
+          - 'Edge Connectivity: Minimum number of edges to remove to disconnect graph'
+      - type: prose
+        text: >-
+          Assortativity
+
+          Measures tendency of nodes to connect to similar nodes.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          r = (Σ j_i k_i A_ij - Σ j_i Σ k_i A_ij) / (Σ j_i² A_ij - (Σ j_i A_ij)²)
+
+          Values:
+          r > 0: Assortative (similar nodes connect)
+          r < 0: Disassortative (dissimilar nodes connect)
+          r = 0: No correlation
+      - type: prose
+        text: >-
+          Resilience Measures
+      - type: list
+        style: bullet
+        items:
+          - 'Efficiency: How well network maintains connectivity after node removal'
+          - 'Vulnerability: Decrease in efficiency after removing most central node'
+          - 'Robustness: Overall resistance to random failures or targeted attacks'

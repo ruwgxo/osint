@@ -1,0 +1,120 @@
+# section_19_02_citation_network_mapping.yaml
+
+---
+title: Citation Network Mapping
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 19
+  section: 2
+  section_code: '1902'
+  source_file: part-3-specialized-domains/chapter-19-academic-research.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Citation Network Mapping
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Citation network mapping reveals knowledge structures, research influence patterns, and intellectual
+          relationships within scientific communities through systematic analysis of citation patterns
+          and scholarly communication networks.
+      - type: prose
+        text: >-
+          **Citation Pattern Analysis and Research Impact Assessment** examines how research publications
+          cite and influence subsequent work while identifying influential research and knowledge development
+          patterns through comprehensive citation analysis.
+      - type: prose
+        text: >-
+          Direct citation analysis examines immediate citation relationships between research publications.
+          Citation frequency analysis measures research impact through citation count analysis. Citation
+          timing analysis tracks how quickly research is recognized and incorporated into subsequent work.
+          Citation persistence analysis examines long-term research influence and sustained impact.
+      - type: prose
+        text: >-
+          Indirect citation analysis examines broader influence patterns through multi-generation citation
+          analysis. Citation cascade analysis tracks how research influence spreads through subsequent
+          generations of research. Citation cluster analysis identifies related research and knowledge
+          communities. Citation pathway analysis traces knowledge flow and intellectual development patterns.
+      - type: prose
+        text: >-
+          Self-citation analysis examines how researchers and institutions cite their own previous work.
+          Author self-citation analysis tracks individual researcher citation patterns and potential bias
+          indicators. Institutional self-citation analysis examines organizational citation practices
+          and potential insularity. Collaborative self-citation analysis tracks citation patterns within
+          research teams and long-term collaborations.
+      - type: prose
+        text: >-
+          **Knowledge Flow and Influence Networks** map how scientific knowledge moves between researchers,
+          institutions, and research domains while identifying key knowledge brokers and influence pathways
+          through systematic network analysis.
+      - type: prose
+        text: >-
+          Knowledge broker identification recognizes researchers and institutions that facilitate knowledge
+          transfer between different research communities. Interdisciplinary broker analysis identifies
+          individuals who connect different research domains. Geographic broker analysis examines researchers
+          who facilitate international knowledge transfer. Institutional broker analysis identifies organizations
+          that bridge different research communities.
+      - type: prose
+        text: >-
+          Influence propagation analysis tracks how research findings spread through scientific communities.
+          Rapid influence analysis identifies research that quickly impacts subsequent work. Sustained
+          influence analysis examines research with long-term impact on scientific development. Delayed
+          recognition analysis identifies research that gains influence after initial publication.
+      - type: prose
+        text: >-
+          Research school analysis examines how research traditions and approaches develop and spread
+          through citation networks. Theoretical framework analysis tracks the development and adoption
+          of research paradigms. Methodological innovation analysis examines how new research approaches
+          gain acceptance. Paradigm shift analysis identifies fundamental changes in research thinking
+          and approach.
+      - type: prose
+        text: >-
+          **Emerging Research Area Detection** identifies new scientific developments and research frontiers
+          through systematic analysis of citation patterns, publication trends, and knowledge network
+          evolution.
+      - type: prose
+        text: >-
+          Novel research identification recognizes emerging research areas through citation pattern analysis
+          and topic modeling. Novelty detection algorithms identify research that introduces new concepts
+          or approaches. Breakthrough identification recognizes research that significantly advances scientific
+          understanding. Innovation analysis examines research that develops new methodologies or technologies.
+      - type: prose
+        text: >-
+          Research frontier analysis examines the boundaries of current scientific knowledge and identifies
+          areas of active development. Knowledge gap analysis identifies areas where research is needed
+          or developing. Research convergence analysis examines areas where different research domains
+          intersect. Future research direction analysis predicts likely areas of scientific development.
+      - type: prose
+        text: >-
+          Early adoption analysis identifies researchers and institutions that quickly embrace new research
+          areas. Pioneer identification recognizes early contributors to emerging research areas. Adoption
+          pattern analysis tracks how new research areas gain acceptance within scientific communities.
+          Growth trajectory analysis predicts the development potential of emerging research areas.
+      - type: prose
+        text: >-
+          **Network Evolution and Dynamic Analysis** examines how citation networks change over time while
+          identifying shifting research priorities and evolving knowledge structures through temporal
+          network analysis.
+      - type: prose
+        text: >-
+          Temporal network analysis tracks changes in citation patterns and knowledge networks over time.
+          Network growth analysis examines how research networks expand and develop. Network restructuring
+          analysis identifies fundamental changes in research organization and collaboration patterns.
+          Network stability analysis examines persistent elements within evolving research networks.
+      - type: prose
+        text: >-
+          Research lifecycle analysis examines how research areas develop, mature, and potentially decline
+          over time. Emergence phase analysis tracks the initial development of new research areas. Growth
+          phase analysis examines rapid development and expansion of research domains. Maturity phase
+          analysis identifies established research areas with sustained activity. Decline phase analysis
+          examines research areas with decreasing activity or relevance.
+      - type: prose
+        text: >-
+          Knowledge obsolescence analysis identifies research that loses relevance or is superseded by
+          newer developments. Citation decline analysis tracks decreasing citation of older research.
+          Paradigm replacement analysis examines how new research approaches replace older methodologies.
+          Knowledge integration analysis identifies how older research is incorporated into newer frameworks.

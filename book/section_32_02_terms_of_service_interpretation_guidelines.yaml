@@ -1,0 +1,118 @@
+# section_32_02_terms_of_service_interpretation_guidelines.yaml
+
+---
+title: Terms of Service Interpretation Guidelines
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 32
+  section: 2
+  section_code: '3202'
+  source_file: appendices/b-legal-ethical-guidelines.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Terms of Service Interpretation Guidelines
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Common Terms of Service Clauses
+      - type: prose
+        text: >-
+          Acceptable Use Policies
+      - type: list
+        style: bullet
+        items:
+          - 'Permitted Activities: What users may do with the service'
+          - 'Prohibited Activities: Specific restrictions on use'
+          - 'Automated Access: Rules regarding bots, scrapers, and automated tools'
+          - 'Rate Limiting: Restrictions on frequency and volume of requests'
+      - type: prose
+        text: >-
+          Data Use and Privacy Clauses
+      - type: list
+        style: bullet
+        items:
+          - 'Data Collection: What information is collected from users'
+          - 'Data Use: How collected information may be used'
+          - 'Data Sharing: When and with whom data may be shared'
+          - 'Data Retention: How long data is kept'
+      - type: prose
+        text: >-
+          Intellectual Property Provisions
+      - type: list
+        style: bullet
+        items:
+          - 'Content Ownership: Who owns user-generated content'
+          - 'License Grants: What rights users grant to the platform'
+          - 'Copyright Protection: DMCA and other copyright compliance'
+          - 'Trademark Use: Rules regarding trademark and brand usage'
+      - type: heading
+        level: 3
+        text: Key Interpretation Principles
+      - type: prose
+        text: >-
+          Contract Law Fundamentals
+      - type: list
+        style: bullet
+        items:
+          - 'Offer and Acceptance: ToS constitutes a contract offer'
+          - 'Consideration: Value exchanged (service for agreement to terms)'
+          - 'Capacity: Users must have legal capacity to enter contracts'
+          - 'Unconscionability: Terms cannot be fundamentally unfair'
+      - type: prose
+        text: >-
+          Ambiguity Resolution
+      - type: list
+        style: bullet
+        items:
+          - 'Contra Proferentem: Ambiguous terms interpreted against drafter'
+          - 'Plain Meaning: Terms given ordinary meaning unless defined otherwise'
+          - 'Context Consideration: Terms interpreted within overall document context'
+          - 'Industry Standards: Terms interpreted according to industry practices'
+      - type: prose
+        text: >-
+          Geographic Jurisdiction
+      - type: list
+        style: bullet
+        items:
+          - 'Choice of Law: Which jurisdiction''s laws govern the agreement'
+          - 'Forum Selection: Where disputes must be resolved'
+          - 'Enforceability: Whether choice of law/forum clauses are valid'
+          - 'Conflict Resolution: How conflicting jurisdictional requirements are handled'
+      - type: heading
+        level: 3
+        text: Platform-Specific Considerations
+      - type: prose
+        text: >-
+          Social Media Platforms
+      - type: list
+        style: bullet
+        items:
+          - 'Public vs. Private Content: Different rules for public and private posts'
+          - 'Content Licensing: Rights granted to platform for user content'
+          - 'API Access: Specific terms for developers using platform APIs'
+          - 'Commercial Use: Restrictions on business use of platform data'
+      - type: prose
+        text: >-
+          Search Engines
+      - type: list
+        style: bullet
+        items:
+          - 'Robots.txt Compliance: Adherence to crawling restrictions'
+          - 'Fair Use: Indexing and caching under copyright exceptions'
+          - 'Commercial vs. Research Use: Different terms for different use types'
+          - 'Data Retention: How long search data is retained'
+      - type: prose
+        text: >-
+          Professional Networks
+      - type: list
+        style: bullet
+        items:
+          - 'Professional Use Only: Restrictions to business/professional purposes'
+          - 'Contact Information: Rules regarding access to member contact details'
+          - 'Recruitment Activities: Specific terms for hiring and job search'
+          - 'Competitive Intelligence: Restrictions on competitor research'

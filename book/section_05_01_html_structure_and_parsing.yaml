@@ -1,0 +1,141 @@
+# section_05_01_html_structure_and_parsing.yaml
+
+---
+title: HTML Structure and Parsing
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 5
+  section: 1
+  section_code: '0501'
+  source_file: part-1-fundamentals/chapter-05-web-technologies.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: HTML Structure and Parsing
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          HyperText Markup Language (HTML) forms the structural foundation of web content, providing both
+          visible information and extensive metadata that supports comprehensive OSINT analysis. Understanding
+          HTML structure and parsing techniques enables systematic extraction of content, relationships,
+          and organizational intelligence from web-based sources.
+      - type: prose
+        text: >-
+          **Document Structure Analysis** examines HTML document organization to understand content hierarchy,
+          semantic relationships, and presentation logic. HTML structure reflects both content organization
+          and technical implementation approaches that can reveal organizational characteristics and development
+          practices.
+      - type: prose
+        text: >-
+          Document Type Declaration (DOCTYPE) analysis identifies HTML version specifications and standards
+          compliance approaches. Different DOCTYPE declarations indicate varying levels of standards adherence
+          and technical sophistication. Legacy DOCTYPE usage might reveal outdated development practices
+          or system constraints. XHTML declarations suggest more rigorous development approaches and potential
+          XML processing capabilities.
+      - type: prose
+        text: >-
+          Head section analysis extracts metadata including title information, character encoding specifications,
+          viewport configurations, and resource dependencies. Meta tags provide extensive information
+          about content categorization, search engine optimization approaches, and social media integration
+          strategies. Canonical URL specifications reveal content organization and duplicate content management
+          approaches.
+      - type: prose
+        text: >-
+          Body structure examination identifies content organization patterns, semantic markup usage,
+          and accessibility implementations. Heading hierarchies reflect information architecture and
+          content organization approaches. List structures might indicate navigational elements, content
+          categories, or data presentation formats. Table usage patterns can reveal data organization
+          approaches and potential structured information sources.
+      - type: prose
+        text: >-
+          **Semantic Markup Intelligence** leverages HTML5 semantic elements and microdata implementations
+          to understand content categorization and organizational approaches to structured information
+          presentation.
+      - type: prose
+        text: >-
+          Semantic element analysis examines usage of elements like article, section, nav, and aside to
+          understand content organization and information architecture approaches. Semantic markup indicates
+          development sophistication and accessibility consideration. Inconsistent semantic usage might
+          reveal multiple development teams or varying technical standards.
+      - type: prose
+        text: >-
+          Micro-data and structured data analysis identifies embedded semantic information using schemas
+          like Schema.org markup. Structured data reveals organizational approaches to search engine optimization
+          and content categorization. JSON-LD implementations provide rich semantic information that supports
+          automated content analysis and relationship identification.
+      - type: prose
+        text: >-
+          Accessibility markup analysis examines ARIA labels, alt text implementations, and other accessibility
+          features that indicate organizational priorities and compliance requirements. Accessibility
+          implementations reflect legal requirements, user consideration, and development maturity levels.
+          Missing accessibility features might indicate technical debt or insufficient development resources.
+      - type: prose
+        text: >-
+          **Link Analysis and Relationship Mapping** examines hyperlink structures to understand content
+          relationships, organizational boundaries, and external dependencies. Link analysis provides
+          valuable intelligence about organizational structure and operational relationships.
+      - type: prose
+        text: >-
+          Internal link pattern analysis reveals site architecture, content hierarchy, and user navigation
+          approaches. Link density patterns might indicate content importance or SEO optimization strategies.
+          Breadcrumb navigation reveals hierarchical organization and user experience priorities. Site
+          search functionality indicates content volume and user interaction expectations.
+      - type: prose
+        text: >-
+          External link analysis identifies organizational relationships, partnerships, and information
+          dependencies. Outbound link patterns reveal trusted information sources, business relationships,
+          and operational dependencies. Link attributes including nofollow tags indicate link relationship
+          characterization and SEO considerations.
+      - type: prose
+        text: >-
+          Anchor text analysis examines link descriptions and context to understand content relationships
+          and optimization strategies. Anchor text patterns might reveal keyword targeting approaches
+          or natural language usage patterns. Generic anchor text might indicate automated link generation
+          or poor content management practices.
+      - type: prose
+        text: >-
+          **Form Analysis and Data Collection Intelligence** examines HTML forms to understand organizational
+          data collection practices, user interaction requirements, and potential information sources.
+      - type: prose
+        text: >-
+          Form structure analysis identifies data collection requirements, validation approaches, and
+          submission processing workflows. Field types reveal expected data categories and format requirements.
+          Required field indicators show critical information priorities. Form organization reflects user
+          experience design and data processing capabilities.
+      - type: prose
+        text: >-
+          Input validation analysis examines client-side validation implementations including pattern
+          matching, length restrictions, and format requirements. Validation approaches indicate security
+          awareness and data quality priorities. JavaScript validation might reveal additional processing
+          logic and security implementations.
+      - type: prose
+        text: >-
+          Form submission analysis identifies processing endpoints, method specifications, and data handling
+          approaches. Form actions reveal server-side processing capabilities and potential database integration
+          patterns. GET versus POST method usage indicates data sensitivity awareness and technical implementation
+          approaches.
+      - type: prose
+        text: >-
+          **Content Management System Identification** leverages HTML structure patterns to identify underlying
+          content management platforms and understand organizational technical infrastructure.
+      - type: prose
+        text: >-
+          CMS fingerprinting examines HTML structure patterns, CSS class naming conventions, and JavaScript
+          library usage to identify specific content management systems. Different CMS platforms exhibit
+          distinct structural signatures that enable systematic identification. Plugin and theme identification
+          provides additional technical intelligence about system customization and functionality.
+      - type: prose
+        text: >-
+          Template analysis identifies design frameworks, theme implementations, and customization approaches.
+          Template structures reveal development approaches and potential security considerations. Custom
+          versus standard template usage indicates technical sophistication and resource investment levels.
+      - type: prose
+        text: >-
+          Version identification attempts to determine specific CMS versions through structure analysis,
+          comment examination, and resource reference patterns. Version information enables security assessment
+          and technical capability evaluation. Outdated versions might indicate maintenance deficiencies
+          or update management challenges.

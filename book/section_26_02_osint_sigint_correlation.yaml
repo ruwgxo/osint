@@ -1,0 +1,118 @@
+# section_26_02_osint_sigint_correlation.yaml
+
+---
+title: OSINT-SIGINT Correlation
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 26
+  section: 2
+  section_code: '2602'
+  source_file: part-5-advanced-integration/chapter-26-multi-intelligence-fusion.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: OSINT-SIGINT Correlation
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          OSINT-SIGINT correlation combines open source intelligence with signals intelligence to create
+          comprehensive understanding of communications and electronic activities while leveraging technical
+          collection capabilities and open source analysis.
+      - type: heading
+        level: 3
+        text: Technical Signal Analysis Enhancement
+      - type: prose
+        text: >-
+          Technical signal analysis enhancement uses OSINT research to provide context and interpretation
+          for signals intelligence while improving understanding of communication patterns and technical
+          systems through systematic information correlation.
+      - type: prose
+        text: >-
+          Communication system identification uses OSINT research to understand technical systems and
+          communication patterns that enhance SIGINT collection and analysis. Technical documentation
+          analysis examines publicly available information about communication systems and protocols.
+          Infrastructure mapping uses open source information to understand communication networks and
+          routing patterns. Equipment identification leverages public information about technical systems
+          and capabilities.
+      - type: prose
+        text: >-
+          Protocol analysis enhancement uses OSINT research to understand communication protocols and
+          encoding methods that improve SIGINT processing and interpretation. Standard documentation analysis
+          examines publicly available protocol specifications and technical standards. Implementation
+          analysis uses open source information about how organizations implement communication systems.
+          Vulnerability research leverages public information about system weaknesses and exploitation
+          techniques.
+      - type: prose
+        text: >-
+          Geolocation correlation combines SIGINT technical data with OSINT geographic information to
+          improve location accuracy and understanding. Infrastructure correlation uses public information
+          about communication infrastructure to enhance location analysis. Mapping integration combines
+          technical data with geographic databases and mapping information. Movement analysis correlates
+          technical indicators with publicly available information about transportation and logistics.
+      - type: heading
+        level: 3
+        text: Communication Pattern Analysis
+      - type: prose
+        text: >-
+          Comprehensive communication pattern analysis combines SIGINT technical data with OSINT behavioral
+          analysis to understand communication networks and identify significant patterns that indicate
+          operational activities or organizational relationships.
+      - type: prose
+        text: >-
+          Network mapping combines technical communication data with open source relationship information
+          to create comprehensive network analysis. Social network analysis uses OSINT research to understand
+          relationship patterns that explain technical communication data. Organizational mapping leverages
+          public information about organizational structures to interpret communication patterns. Hierarchy
+          analysis combines technical data with publicly available information about organizational authority
+          and decision-making.
+      - type: prose
+        text: >-
+          Temporal pattern analysis correlates communication timing with public events and activities
+          to understand operational patterns and decision-making processes. Event correlation analysis
+          examines relationships between communication patterns and publicly reported events. Operational
+          timing analysis identifies communication patterns that correspond to specific activities or
+          operations. Schedule correlation uses publicly available information about schedules and activities
+          to interpret communication timing.
+      - type: prose
+        text: >-
+          Behavioral analysis combines technical communication indicators with OSINT personality and behavioral
+          assessment to understand individual and organizational communication patterns. Individual behavior
+          assessment uses public information about personal communication preferences and patterns. Organizational
+          culture analysis leverages open source information about communication practices and procedures.
+          Stress indicator analysis correlates communication patterns with publicly observable stress
+          factors and events.
+      - type: heading
+        level: 3
+        text: Metadata and Content Correlation
+      - type: prose
+        text: >-
+          Systematic metadata and content correlation combines technical communication data with open
+          source content analysis to create comprehensive understanding of communication significance
+          and operational implications.
+      - type: prose
+        text: >-
+          Content verification uses OSINT research to verify and interpret communication content while
+          providing context and significance assessment. Fact-checking analysis compares communication
+          content with publicly available information to verify accuracy. Context provision uses open
+          source research to explain the significance of communication content. Reference identification
+          uses public information to understand references and terminology within communications.
+      - type: prose
+        text: >-
+          Attribution enhancement combines technical attribution indicators with OSINT identity research
+          to improve understanding of communication participants and their relationships. Identity verification
+          uses public information to confirm or challenge technical attribution indicators. Relationship
+          analysis leverages open source research to understand connections between communication participants.
+          Motivation analysis uses publicly available information about participants to understand communication
+          purposes.
+      - type: prose
+        text: >-
+          Operational significance assessment combines communication analysis with OSINT operational research
+          to understand the importance and implications of intercepted communications. Activity correlation
+          uses public information about operations and activities to interpret communication significance.
+          Impact assessment leverages open source analysis to understand the potential consequences of
+          communication content. Timeline correlation places communications within broader operational
+          contexts using publicly available information.

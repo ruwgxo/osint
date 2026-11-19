@@ -1,0 +1,114 @@
+# section_07_04_email_header_forensics_smtp_mime_authentication.yaml
+
+---
+title: Email Header Forensics (SMTP, MIME, Authentication)
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 7
+  section: 4
+  section_code: '0704'
+  source_file: part-2-advanced-techniques/chapter-07-protocol-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Email Header Forensics (SMTP, MIME, Authentication)
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Email header analysis provides extensive intelligence about message origins, routing paths,
+          authentication mechanisms, and infrastructure implementations. Professional email forensics
+          techniques enable extraction of detailed intelligence while maintaining appropriate privacy
+          and legal boundaries.
+      - type: prose
+        text: >-
+          **SMTP Header Analysis** examines Simple Mail Transfer Protocol headers to trace message routing,
+          identify infrastructure components, and understand delivery mechanisms.
+      - type: prose
+        text: >-
+          Received header analysis traces message paths through mail infrastructure by examining each
+          mail server hop in reverse chronological order. Server identification reveals mail infrastructure
+          components and routing decisions. Timestamp analysis enables precise message timing and delivery
+          performance assessment. IP address analysis identifies server locations and network boundaries.
+      - type: prose
+        text: >-
+          Message-ID analysis provides unique message identification and potential correlation opportunities
+          across different email sources. Message-ID format analysis might reveal email client implementations
+          or organizational conventions. Correlation analysis enables identification of related messages
+          or bulk mailing activities. Thread identification connects messages within conversation sequences.
+      - type: prose
+        text: >-
+          SMTP authentication analysis examines server-to-server authentication mechanisms and trust relationships.
+          SMTP AUTH analysis identifies authenticated submission processes. TLS negotiation analysis reveals
+          encryption capabilities and security implementations. Relay authorization analysis examines
+          trusted sender relationships and forwarding policies.
+      - type: prose
+        text: >-
+          **MIME Structure and Content Analysis** examines Multipurpose Internet Mail Extensions structure
+          to understand message composition, attachment handling, and content organization.
+      - type: prose
+        text: >-
+          MIME boundary analysis identifies message part separation and structural organization. Boundary
+          pattern analysis might reveal email client implementations or message composition tools. Nested
+          structure analysis examines complex message organization including embedded messages and alternative
+          formats. Part enumeration identifies all message components and attachment characteristics.
+      - type: prose
+        text: >-
+          Content-Type analysis identifies message part formats and handling requirements. Text format
+          analysis examines character encoding and content structure. Attachment type analysis identifies
+          file formats and potential security implications. Alternative format analysis examines HTML
+          versus plain text implementations.
+      - type: prose
+        text: >-
+          Content-Disposition analysis examines attachment handling instructions and filename specifications.
+          Inline versus attachment analysis identifies intended content presentation. Filename analysis
+          reveals attachment characteristics and potential security considerations. Content encoding analysis
+          examines compression and encoding implementations.
+      - type: prose
+        text: >-
+          **Email Authentication Mechanisms** analyze SPF, DKIM, and DMARC implementations to understand
+          organizational email security posture and identify potential spoofing attempts.
+      - type: prose
+        text: >-
+          Sender Policy Framework (SPF) analysis examines DNS-based sender authorization mechanisms. SPF
+          record analysis identifies authorized sending servers and policy enforcement approaches. SPF
+          validation results reveal authentication success rates and potential spoofing attempts. SPF
+          mechanism analysis examines include statements and redirect policies.
+      - type: prose
+        text: >-
+          DomainKeys Identified Mail (DKIM) analysis examines cryptographic message authentication implementations.
+          DKIM signature analysis verifies message integrity and sender authentication. Public key analysis
+          examines cryptographic implementations and key management practices. Selector analysis identifies
+          key rotation practices and policy implementations.
+      - type: prose
+        text: >-
+          Domain-based Message Authentication, Reporting, and Conformance (DMARC) analysis examines organizational
+          policies for email authentication enforcement. DMARC policy analysis identifies enforcement
+          approaches and failure handling procedures. Aggregate report analysis examines authentication
+          statistics and trend patterns. Forensic report analysis identifies specific authentication failures
+          and potential security incidents.
+      - type: prose
+        text: >-
+          **Bulk Email and Campaign Analysis** identifies mass mailing activities, campaign characteristics,
+          and potential coordinated messaging efforts through systematic header pattern analysis.
+      - type: prose
+        text: >-
+          Volume pattern analysis identifies bulk mailing activities through message frequency and timing
+          patterns. Sender pattern analysis examines originating infrastructure and distribution mechanisms.
+          Template analysis identifies common message structures and campaign coordination. Distribution
+          list analysis examines recipient patterns and targeting approaches.
+      - type: prose
+        text: >-
+          Infrastructure correlation analysis identifies shared resources across different email campaigns.
+          Server correlation analysis identifies common infrastructure usage across multiple campaigns.
+          IP address correlation reveals shared hosting or routing infrastructure. Domain correlation
+          identifies related sender domains and organizational relationships.
+      - type: prose
+        text: >-
+          Campaign attribution analysis attempts to identify organizations or entities responsible for
+          bulk email activities. Registration analysis examines domain registration patterns and administrative
+          contacts. Infrastructure analysis correlates email infrastructure with other organizational
+          assets. Pattern analysis identifies behavioral signatures that might enable campaign attribution.

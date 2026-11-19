@@ -1,0 +1,147 @@
+# section_33_03_statistical_significance_testing_methods.yaml
+
+---
+title: Statistical Significance Testing Methods
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 3
+  section_code: '3303'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Statistical Significance Testing Methods
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Hypothesis Testing Framework
+      - type: prose
+        text: >-
+          Null and Alternative Hypotheses
+      - type: list
+        style: bullet
+        items:
+          - 'H₀ (Null Hypothesis): No effect or no difference'
+          - 'H₁ (Alternative Hypothesis): There is an effect or difference'
+      - type: prose
+        text: >-
+          Type I and Type II Errors
+      - type: list
+        style: bullet
+        items:
+          - 'Type I Error (α): Rejecting true null hypothesis (false positive)'
+          - 'Type II Error (β): Failing to reject false null hypothesis (false negative)'
+          - 'Power (1-β): Probability of correctly rejecting false null hypothesis'
+      - type: prose
+        text: >-
+          P-Values and Significance Levels
+      - type: list
+        style: bullet
+        items:
+          - 'P-value: Probability of observing results at least as extreme as those observed, assuming
+            null hypothesis is true'
+          - 'Significance Level (α): Threshold for rejecting null hypothesis (commonly 0.05)'
+          - 'Decision Rule: Reject H₀ if p-value < α'
+      - type: heading
+        level: 3
+        text: Common Statistical Tests
+      - type: list
+        style: bullet
+        items:
+          - T-Tests
+          - Chi-Square Tests
+          - ANOVA (Analysis of Variance)
+      - type: heading
+        level: 3
+        text: T-Tests
+      - type: prose
+        text: >-
+          One-Sample t-test: Compare sample mean to known population mean
+      - type: list
+        style: bullet
+        items:
+          - 'Test statistic: t = (x̄ - μ₀) / (s/√n)'
+          - 'Degrees of freedom: n - 1'
+      - type: prose
+        text: >-
+          Two-Sample t-test: Compare means of two independent groups
+      - type: list
+        style: bullet
+        items:
+          - 'Test statistic: t = (x̄₁ - x̄₂) / √(s₁²/n₁ + s₂²/n₂)'
+      - type: prose
+        text: >-
+          Intelligence Application: Comparing response times before and after implementing new procedures.
+      - type: heading
+        level: 3
+        text: Chi-Square Tests
+      - type: prose
+        text: >-
+          Goodness of Fit: Test if sample distribution matches expected distribution
+      - type: list
+        style: bullet
+        items:
+          - 'Test statistic: χ² = Σ [(Observed - Expected)² / Expected]'
+      - type: prose
+        text: >-
+          Independence Test: Test if two categorical variables are independent
+      - type: list
+        style: bullet
+        items:
+          - 'Test statistic: χ² = Σ [(O_ij - E_ij)² / E_ij]'
+      - type: prose
+        text: >-
+          Intelligence Application: Testing if geographic distribution of incidents matches population
+          distribution.
+      - type: heading
+        level: 3
+        text: ANOVA (Analysis of Variance)
+      - type: prose
+        text: >-
+          Test for differences among three or more group means.
+      - type: list
+        style: bullet
+        items:
+          - 'F-statistic: F = (Between-group variance) / (Within-group variance)'
+      - type: prose
+        text: >-
+          Intelligence Application: Comparing effectiveness of different intelligence collection methods.
+      - type: heading
+        level: 3
+        text: Effect Size and Practical Significance
+      - type: prose
+        text: >-
+          Cohen's d (Standardized Effect Size)
+      - type: code
+        lang: text
+        text: |
+          d = (μ₁ - μ₂) / σ_pooled
+      - type: prose
+        text: >-
+          Interpretation:
+      - type: list
+        style: bullet
+        items:
+          - 'Small effect: d ≈ 0.2'
+          - 'Medium effect: d ≈ 0.5'
+          - 'Large effect: d ≈ 0.8'
+      - type: prose
+        text: >-
+          Correlation Coefficient (r)
+
+          Measures strength of linear relationship between two variables.
+      - type: list
+        style: bullet
+        items:
+          - 'Range: -1 to +1'
+          - '|r| < 0.3: Weak relationship'
+          - '0.3 ≤ |r| < 0.7: Moderate relationship'
+          - '|r| ≥ 0.7: Strong relationship'
+      - type: prose
+        text: >-
+          Intelligence Application: Correlation between threat level and incident frequency.

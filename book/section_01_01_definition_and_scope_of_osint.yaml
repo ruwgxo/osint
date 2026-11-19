@@ -1,0 +1,58 @@
+# section_01_01_definition_and_scope_of_osint.yaml
+
+---
+title: Definition and Scope of OSINT
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 1
+  section: 1
+  section_code: '0101'
+  source_file: part-1-fundamentals/chapter-01-foundations.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Definition and Scope of OSINT
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Open Source Intelligence (OSINT) represents the systematic collection, analysis, and dissemination
+          of information derived from publicly available sources to support decision-making processes.
+          Unlike popular misconceptions that equate OSINT with simple internet searches, professional
+          OSINT encompasses a rigorous methodology that transforms raw data into actionable intelligence
+          through structured analytical processes.
+      - type: prose
+        text: >-
+          The scope of OSINT extends far beyond traditional media monitoring or social media research.
+          Modern OSINT practitioners leverage diverse information sources including government databases,
+          academic publications, commercial data repositories, satellite imagery, technical documentation,
+          financial records, and digital communications. The discipline requires mastery of both technical
+          collection methods and analytical frameworks to produce intelligence products that meet specific
+          requirements.
+      - type: prose
+        text: >-
+          OSINT operates within the broader intelligence community alongside Human Intelligence (HUMINT),
+          Signals Intelligence (SIGINT), Geospatial Intelligence (GEOINT), and Measurement and Signature
+          Intelligence (MASINT). What distinguishes OSINT is its reliance on information that is theoretically
+          accessible to any member of the public, though practical access often requires specialized tools,
+          techniques, and expertise.
+      - type: prose
+        text: >-
+          Open Source Intelligence (OSINT)
+      - type: list
+        style: bullet
+        items:
+          - Human Intelligence (HUMINT
+          - Signals Intelligence (SIGINT)
+          - Geospatial Intelligence (GEOINT)
+          - Measurement and Signature Intelligence (MASINT)
+      - type: prose
+        text: >-
+          The modern digital landscape has exponentially expanded both the volume and complexity of open
+          source information. Social media platforms generate petabytes of behavioral data daily, while
+          IoT devices, financial systems, and digital infrastructure create continuous data streams. This
+          information abundance creates opportunities for unprecedented analytical depth while simultaneously
+          presenting challenges in signal-to-noise discrimination and analytical focus.

@@ -1,0 +1,44 @@
+# chapter_31_index.yaml
+
+---
+title: 'A: Technical Reference - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 31
+  source_file: appendices/a-technical-reference.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260131 | OSINT: Appendices (Chapter 31.1 Technical Reference) by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Appendices
+      - ‣‣‣ Technical Reference
+chapter_overview:
+  contents:
+    - Common port numbers and services
+    - HTTP status codes and meanings
+    - DNS record types and purposes
+    - File signatures (magic numbers) directory
+    - Character encoding reference tables
+    - Regular expression syntax quick reference
+    - Network protocol header structures
+  introduction:
+    - type: heading
+      level: 3
+      text: Technical Reference
+    - type: prose
+      text: >-
+        This technical reference provides quick access to essential technical information for OSINT practitioners,
+        including common protocols, file formats, and technical specifications needed for effective intelligence
+        collection and analysis.
+sections:
+  - section_number: '31.1'
+    title: Common Port Numbers and Services
+    filename: section_31_01_common_port_numbers_and_services.yaml

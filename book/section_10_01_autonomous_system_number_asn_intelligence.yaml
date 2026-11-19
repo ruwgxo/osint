@@ -1,0 +1,126 @@
+# section_10_01_autonomous_system_number_asn_intelligence.yaml
+
+---
+title: Autonomous System Number (ASN) Intelligence
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 10
+  section: 1
+  section_code: '1001'
+  source_file: part-2-advanced-techniques/chapter-10-infrastructure-recon.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Autonomous System Number (ASN) Intelligence
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Autonomous System Numbers provide unique identifiers for network routing domains and enable
+          comprehensive mapping of internet infrastructure ownership, routing relationships, and organizational
+          network boundaries. ASN analysis reveals business relationships, network dependencies, and infrastructure
+          characteristics that support various intelligence objectives.
+      - type: prose
+        text: >-
+          **ASN Allocation and Registration Analysis** examines how autonomous system numbers are assigned,
+          managed, and documented to understand organizational network boundaries and administrative relationships.
+      - type: prose
+        text: >-
+          Regional Internet Registry (RIR) databases maintain authoritative records of ASN allocations
+          and provide extensive metadata about network operators and organizational affiliations. ARIN,
+          RIPE, APNIC, LACNIC, and AFRINIC databases contain registration details including organization
+          names, contact information, and address space allocations. Registration timeline analysis reveals
+          organizational growth patterns and network expansion activities.
+      - type: prose
+        text: >-
+          ASN registration metadata includes organization names, administrative contacts, technical contacts,
+          and registration dates that provide intelligence about network operators. Organization field
+          analysis identifies corporate entities and their network holdings. Contact analysis reveals
+          administrative personnel and potential social engineering targets. Registration date analysis
+          identifies network establishment timelines and operational history.
+      - type: prose
+        text: >-
+          ASN transfer and reallocation analysis tracks ownership changes and organizational restructuring
+          through historical database comparison. Merger and acquisition activities often result in ASN
+          transfers between organizations. Corporate restructuring might involve ASN reallocation or administrative
+          contact changes. Market transactions sometimes involve ASN sales or lease arrangements.
+      - type: prose
+        text: >-
+          **BGP Routing Table Analysis** examines Border Gateway Protocol advertisements to understand
+          network reachability, routing policies, and inter-organizational relationships through systematic
+          routing data examination.
+      - type: prose
+        text: >-
+          Route origin analysis identifies which ASNs announce specific IP address prefixes and reveals
+          address space utilization patterns. Prefix announcements indicate active network usage and organizational
+          boundaries. Hijack detection identifies unauthorized route announcements that might indicate
+          security incidents or misconfigurations. Origin validation examines Route Origin Authorizations
+          (ROAs) and RPKI deployment patterns.
+      - type: prose
+        text: >-
+          AS path analysis examines routing paths between different autonomous systems to understand connectivity
+          patterns and business relationships. Path length analysis identifies preferred routes and potential
+          traffic engineering implementations. Path diversity analysis reveals redundancy mechanisms and
+          alternative routing options. Transit provider identification reveals upstream connectivity relationships.
+      - type: prose
+        text: >-
+          Route aggregation analysis examines how organizations announce address space to understand network
+          design and traffic engineering approaches. Deaggregation patterns might indicate traffic engineering
+          or load balancing strategies. Aggregation policies reveal operational approaches to route table
+          management. More-specific announcements might indicate content delivery network deployments
+          or specialized services.
+      - type: prose
+        text: >-
+          **ASN Relationship Mapping** identifies business relationships between network operators including
+          customer-provider, peer-to-peer, and sibling relationships that reveal internet economic structure
+          and organizational dependencies.
+      - type: prose
+        text: >-
+          Customer-provider relationship identification reveals commercial internet connectivity arrangements.
+          Upstream provider analysis identifies organizations’ internet service providers and potential
+          dependencies. Downstream customer analysis identifies organizations that purchase connectivity
+          services. Provider diversity analysis reveals redundancy mechanisms and business continuity
+          approaches.
+      - type: prose
+        text: >-
+          Peer-to-peer relationship analysis identifies settlement-free traffic exchange arrangements
+          between networks of similar size and scope. Peering analysis reveals strategic partnerships
+          and traffic optimization arrangements. Internet Exchange Point (IXP) analysis identifies locations
+          where organizations establish peering relationships. Peering policy analysis examines selective
+          versus open peering approaches.
+      - type: prose
+        text: >-
+          Sibling relationship identification reveals commonly owned or affiliated autonomous systems
+          that typically exchange traffic without commercial arrangements. Corporate structure analysis
+          uses sibling relationships to map organizational boundaries. Subsidiary identification reveals
+          corporate hierarchies and operational structures. Infrastructure sharing analysis identifies
+          resource consolidation and operational efficiency measures.
+      - type: prose
+        text: >-
+          **Geographic and Infrastructure Distribution Analysis** examines ASN deployment patterns across
+          different geographic regions and infrastructure types to understand organizational scope and
+          operational characteristics.
+      - type: prose
+        text: >-
+          Geographic presence analysis correlates ASNs with physical locations through various data sources
+          including facility databases and network measurement. Multi-homing analysis identifies organizations
+          with diverse geographic connectivity. Regional concentration analysis reveals operational focus
+          areas and business priorities. International presence analysis identifies global organizations
+          and cross-border operations.
+      - type: prose
+        text: >-
+          Infrastructure type classification categorizes ASNs based on their operational focus including
+          content providers, ISPs, enterprises, and government networks. Content Delivery Network (CDN)
+          identification reveals organizations focused on content distribution and performance optimization.
+          Cloud provider identification reveals infrastructure-as-a-service operations. Enterprise network
+          identification reveals organizations with primarily internal-facing infrastructure.
+      - type: prose
+        text: >-
+          Facility correlation combines ASN data with data center and colocation facility information
+          to understand physical infrastructure deployment. Colocation analysis identifies shared facility
+          usage and potential physical security considerations. Data center presence analysis reveals
+          infrastructure investment and operational scope. Network presence analysis identifies points
+          of presence and service delivery locations.

@@ -1,0 +1,120 @@
+# section_24_06_secure_data_storage.yaml
+
+---
+title: Secure Data Storage
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 24
+  section: 6
+  section_code: '2406'
+  source_file: part-4-operational/chapter-24-technical-operations.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Secure Data Storage
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Secure data storage implements systematic approaches to protecting collected intelligence while
+          maintaining accessibility for authorized users and preventing unauthorized access through comprehensive
+          data protection measures.
+      - type: prose
+        text: >-
+          **Encryption at Rest Implementation** protects stored data through cryptographic protection
+          while maintaining operational access and ensuring long-term data availability for authorized
+          users.
+      - type: prose
+        text: >-
+          Full disk encryption provides comprehensive protection for entire storage devices while maintaining
+          system functionality and performance. BitLocker implementation provides Windows-based full disk
+          encryption with strong security characteristics and enterprise management capabilities. FileVault
+          implementation offers macOS full disk encryption with integration into Apple security systems.
+          LUKS implementation provides Linux full disk encryption with open-source transparency and strong
+          security.
+      - type: prose
+        text: >-
+          File system encryption creates encrypted storage areas within existing file systems while maintaining
+          selective protection and operational flexibility. EncFS implementation provides directory-based
+          encryption with transparent access for authorized users. eCryptfs provides file system layer
+          encryption with integration into Linux operating systems. AxCrypt provides file-level encryption
+          for Windows systems with individual file protection.
+      - type: prose
+        text: >-
+          Database encryption protects structured data storage while maintaining query capability and
+          operational functionality. Transparent data encryption provides automatic database encryption
+          without application modification. Column-level encryption protects specific sensitive data fields
+          while maintaining query functionality. Application-level encryption enables custom encryption
+          implementation with full control over protection measures.
+      - type: prose
+        text: >-
+          **Access Control and Authentication** implements systematic approaches to controlling data access
+          while ensuring appropriate protection and maintaining operational capability for authorized
+          users.
+
+          Multi-factor authentication provides strong user verification while maintaining usability and
+          operational efficiency. Hardware token authentication uses physical devices for strong authentication
+          without password vulnerabilities. Biometric authentication provides convenient strong authentication
+          through fingerprint or other biological characteristics. Smart card authentication uses certificate-based
+          authentication with physical token protection.
+      - type: prose
+        text: >-
+          Role-based access control manages user permissions based on organizational roles and responsibilities
+          while maintaining appropriate protection. Permission management assigns appropriate access levels
+          based on job requirements and security clearances. Group membership manages access through organizational
+          groups and role assignments. Privilege escalation controls temporary additional access while
+          maintaining security boundaries.
+      - type: prose
+        text: >-
+          Audit logging maintains detailed records of data access while enabling security monitoring and
+          incident investigation. Access logging records all data access attempts and outcomes for security
+          analysis. Change logging tracks data modifications and identifies unauthorized alterations.
+          Alert generation provides notification of suspicious access patterns and potential security
+          incidents.
+      - type: prose
+        text: >-
+          **Data Loss Prevention and Backup Security** protects data from loss while maintaining security
+          during backup and recovery operations through systematic data protection and recovery procedures.
+
+          Backup encryption ensures backup data receives appropriate protection while maintaining recovery
+          capability. Backup media encryption protects stored backup data from unauthorized access. Transport
+          encryption protects backup data during transmission to storage locations. Recovery testing verifies
+          backup integrity and encryption functionality.
+      - type: prose
+        text: >-
+          Redundancy and availability strategies ensure data availability while maintaining security through
+          multiple protection layers. Geographic distribution stores backup data in multiple locations
+          to prevent data loss from local disasters. Version control maintains multiple data versions
+          while enabling recovery from data corruption or unauthorized modification. Cloud backup integration
+          provides additional data protection while maintaining encryption and access controls.
+      - type: prose
+        text: >-
+          Data sanitization procedures ensure secure data disposal while preventing data recovery from
+          disposed storage media. Secure deletion overwrites data multiple times to prevent recovery through
+          forensic analysis. Physical destruction provides ultimate protection for highly sensitive data
+          through media destruction. Certificate destruction ensures cryptographic certificates are properly
+          disposed of when no longer needed.
+      - type: prose
+        text: >-
+          **Evidence Preservation and Chain of Custody** maintains data integrity for legal and analytical
+          purposes while ensuring admissibility and credibility through systematic evidence handling procedures.
+
+          Digital forensics procedures maintain evidence integrity while enabling analysis and legal proceedings.
+          Hash verification ensures data integrity throughout collection and analysis processes. Timestamp
+          validation provides reliable timing information for evidence chronology. Metadata preservation
+          maintains technical information that supports evidence authenticity.
+      - type: prose
+        text: >-
+          Chain of custody documentation tracks evidence handling while maintaining legal admissibility
+          and analytical credibility. Handling logs record all evidence access and modification activities.
+          Transfer documentation tracks evidence movement between personnel and systems. Storage documentation
+          records evidence storage conditions and access controls.
+      - type: prose
+        text: >-
+          Evidence authentication provides verification procedures that support legal proceedings and
+          analytical conclusions. Digital signature implementation provides cryptographic evidence authentication.
+          Witness testimony supports evidence collection and handling procedures. Expert validation provides
+          technical verification of evidence integrity and analytical procedures.

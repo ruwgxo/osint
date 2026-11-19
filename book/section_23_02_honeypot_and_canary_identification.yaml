@@ -1,0 +1,135 @@
+# section_23_02_honeypot_and_canary_identification.yaml
+
+---
+title: Honeypot and Canary Identification
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 23
+  section: 2
+  section_code: '2302'
+  source_file: part-4-operational/chapter-23-counterintelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Honeypot and Canary Identification
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Honeypot and canary identification provides systematic approaches to recognizing deception traps
+          and monitoring systems while understanding defensive techniques and developing detection capabilities
+          that protect intelligence operations from compromise and manipulation.
+      - type: prose
+        text: >-
+          **Honeypot Detection and Avoidance** identifies systems and resources designed to attract and
+          monitor unauthorized access while understanding honeypot characteristics and developing approaches
+          that avoid detection and compromise during legitimate intelligence collection activities.
+      - type: prose
+        text: >-
+          Technical honeypot identification recognizes computer systems and network resources designed
+          to detect and monitor unauthorized access attempts. Network service analysis identifies services
+          that appear vulnerable but might be monitoring traps. Response time analysis examines system
+          behavior that might indicate monitoring or virtualized environments. Configuration analysis
+          identifies system settings that seem inconsistent with legitimate operational requirements.
+      - type: prose
+        text: >-
+          Content honeypot detection identifies information resources designed to attract intelligence
+          collection while monitoring access and attribution. Document trap identification recognizes
+          files and databases that contain attractive information but include monitoring capabilities.
+          Website honeypot detection identifies seemingly valuable information sources that might be monitoring
+          visitor activity. Social media honeypot recognition identifies accounts and content designed
+          to attract intelligence collection while tracking engagement.
+      - type: prose
+        text: >-
+          Behavioral honeypot recognition identifies human-operated deception designed to attract intelligence
+          collection and social engineering attempts. False expert identification recognizes individuals
+          who present themselves as knowledgeable sources while actually collecting intelligence on collection
+          efforts. Provocateur detection identifies individuals who encourage illegal or unethical activities
+          while documenting participant involvement. False opportunity recognition identifies seemingly
+          valuable intelligence opportunities that are actually collection operations.
+      - type: prose
+        text: >-
+          **Canary Token and Trap Detection** identifies monitoring devices and markers designed to detect
+          unauthorized access while understanding canary characteristics and developing detection approaches
+          that avoid triggering alerts during legitimate activities.
+      - type: prose
+        text: >-
+          Digital canary detection identifies electronic markers embedded in documents and systems that
+          alert owners to unauthorized access. Embedded tracking identification recognizes tracking pixels,
+          web beacons, and other monitoring elements within digital content. Document watermark detection
+          identifies unique markers that enable document tracking and access monitoring. URL token analysis
+          identifies unique identifiers that enable link tracking and access attribution.
+      - type: prose
+        text: >-
+          Physical canary identification recognizes physical markers and monitoring devices that detect
+          unauthorized access to facilities and resources. Seal and tamper detection identifies physical
+          indicators that reveal whether materials have been accessed or disturbed. Surveillance indicator
+          recognition identifies cameras, sensors, and other monitoring devices that might detect intelligence
+          collection activities. Environmental marker detection identifies changes to physical spaces
+          that might indicate monitoring or security enhancement.
+      - type: prose
+        text: >-
+          Communication canary detection identifies monitoring elements within communication channels
+          that detect unauthorized interception or access. Email tracking identification recognizes read
+          receipts, tracking pixels, and other monitoring elements within electronic communications. Phone
+          call monitoring detection identifies audio quality changes and technical indicators that might
+          suggest call interception. Network monitoring detection identifies traffic analysis and monitoring
+          that might reveal communication patterns and participants.
+      - type: prose
+        text: >-
+          **Counter-Surveillance Recognition** identifies monitoring and surveillance activities directed
+          at intelligence collection operations while understanding surveillance techniques and developing
+          detection approaches that protect operational security.
+      - type: prose
+        text: >-
+          Physical surveillance detection identifies human surveillance teams and activities designed
+          to monitor intelligence collection personnel and operations. Surveillance team recognition identifies
+          coordinated human surveillance through pattern analysis and behavioral observation. Vehicle
+          surveillance detection identifies mobile surveillance through traffic pattern analysis and vehicle
+          behavior observation. Static surveillance detection identifies fixed observation posts and monitoring
+          positions.
+      - type: prose
+        text: >-
+          Technical surveillance detection identifies electronic monitoring and tracking systems designed
+          to monitor intelligence collection activities. Communication interception detection identifies
+          phone tapping, email monitoring, and other electronic surveillance. Location tracking detection
+          identifies GPS monitoring, cell phone tracking, and other position monitoring systems. Computer
+          monitoring detection identifies malware, keyloggers, and other software-based surveillance tools.
+      - type: prose
+        text: >-
+          Digital surveillance recognition identifies online monitoring and tracking designed to monitor
+          digital intelligence collection activities. Network traffic analysis detection identifies monitoring
+          of internet usage and communication patterns. Social media monitoring detection identifies tracking
+          of online activities and digital footprints. Search query monitoring detection identifies tracking
+          of online research and information gathering activities.
+      - type: prose
+        text: >-
+          **Operational Security Assessment** evaluates intelligence collection activities for potential
+          vulnerability to detection and monitoring while developing protective measures that maintain
+          collection effectiveness while reducing compromise risk.
+      - type: prose
+        text: >-
+          Activity pattern analysis examines intelligence collection routines and behaviors that might
+          enable surveillance detection and prediction. Temporal pattern assessment identifies consistent
+          timing that might enable surveillance planning and detection. Geographic pattern analysis examines
+          location usage that might reveal operational patterns and enable surveillance positioning. Behavioral
+          pattern evaluation identifies consistent approaches that might enable detection and countermeasures.
+      - type: prose
+        text: >-
+          Communication security assessment examines communication methods and procedures for potential
+          monitoring and interception vulnerabilities. Channel security evaluation identifies communication
+          methods that provide appropriate protection for operational requirements. Encryption usage assessment
+          ensures appropriate cryptographic protection for sensitive communications. Attribution protection
+          evaluation examines whether communication methods protect participant identity and organizational
+          affiliation.
+      - type: prose
+        text: >-
+          Digital footprint analysis examines online activities and digital traces that might enable attribution
+          and surveillance. Browser fingerprinting assessment identifies technical characteristics that
+          might enable tracking across different sessions and activities. Search history analysis examines
+          research patterns that might reveal intelligence collection interests and objectives. Social
+          media exposure assessment identifies personal information and connections that might enable
+          attribution and targeting.

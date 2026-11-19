@@ -1,0 +1,120 @@
+# section_07_03_tls_ssl_certificate_analysis_and_intelligence.yaml
+
+---
+title: TLS/SSL Certificate Analysis and Intelligence
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 7
+  section: 3
+  section_code: '0703'
+  source_file: part-2-advanced-techniques/chapter-07-protocol-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: TLS/SSL Certificate Analysis and Intelligence
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Transport Layer Security (TLS) and Secure Sockets Layer (SSL) certificates provide extensive
+          intelligence opportunities through their embedded metadata, validation chains, and deployment
+          patterns. Certificate analysis enables organizational mapping, infrastructure identification,
+          and security posture assessment.
+      - type: prose
+        text: >-
+          **Certificate Structure and Metadata Extraction** examines the standardized information fields
+          within X.509 certificates to extract organizational intelligence and infrastructure details.
+      - type: prose
+        text: >-
+          Subject information analysis extracts organizational identifiers, geographic locations, and
+          administrative contacts from certificate subject fields. Common Name (CN) analysis identifies
+          primary domain coverage and naming conventions. Organization (O) and Organizational Unit (OU)
+          fields reveal corporate structure and departmental organization. Locality and Country fields
+          provide geographic intelligence and operational boundaries.
+      - type: prose
+        text: >-
+          Issuer information analysis identifies Certificate Authority relationships and trust hierarchies.
+          Certificate Authority identification reveals organizational trust relationships and security
+          provider choices. Intermediate CA analysis maps certificate chain structures and PKI implementations.
+          Root CA analysis identifies ultimate trust anchors and certification policies.
+      - type: prose
+        text: >-
+          Validity period analysis examines certificate lifespans and renewal patterns to understand operational
+          practices and security policies. Issue date analysis reveals certificate deployment timelines
+          and infrastructure changes. Expiration date analysis identifies renewal schedules and potential
+          service disruptions. Validity period length analysis reveals security policies and operational
+          approaches.
+      - type: prose
+        text: >-
+          **Certificate Transparency and Monitoring** leverages public certificate logs to track certificate
+          issuance patterns, identify unauthorized certificates, and monitor organizational domain portfolios.
+      - type: prose
+        text: >-
+          Certificate transparency log analysis provides comprehensive visibility into certificate issuance
+          activities across all major Certificate Authorities. Log monitoring enables real-time detection
+          of new certificate issuance for monitored domains. Historical analysis reveals certificate issuance
+          patterns and organizational growth trajectories. Comparative analysis identifies unusual issuance
+          patterns that might indicate security incidents.
+      - type: prose
+        text: >-
+          Domain monitoring tracks certificate issuance for specific organizations or domain patterns
+          to identify infrastructure changes and potential security threats. Subdomain discovery reveals
+          previously unknown organizational assets through certificate analysis. Wildcard certificate
+          analysis identifies broad domain coverage and potential security implications. Multi-domain
+          certificate analysis reveals service consolidation and infrastructure optimization approaches.
+      - type: prose
+        text: >-
+          Unauthorized certificate detection identifies potentially malicious certificates issued for
+          monitored domains. Suspicious issuer analysis identifies certificates from unexpected Certificate
+          Authorities. Suspicious timing analysis identifies certificates issued during known security
+          incidents. Suspicious metadata analysis identifies certificates with unusual or inconsistent
+          information.
+      - type: prose
+        text: >-
+          **Certificate Chain Validation and Trust Analysis** examines certification paths and trust relationships
+          to understand PKI implementations and identify potential security vulnerabilities.
+      - type: prose
+        text: >-
+          Certificate chain construction validates the complete certification path from end-entity certificates
+          to trusted root authorities. Path validation algorithms verify certificate signatures and trust
+          relationships. Chain completeness analysis identifies missing intermediate certificates that
+          might cause validation failures. Cross-certification analysis identifies alternative validation
+          paths and PKI interoperability.
+      - type: prose
+        text: >-
+          Trust anchor analysis examines root certificate usage patterns and organizational trust decisions.
+          Root CA distribution analysis reveals which trust anchors are most commonly relied upon. Custom
+          root CA identification reveals private PKI implementations and organizational trust boundaries.
+          Trust policy analysis examines certificate usage constraints and validation requirements.
+      - type: prose
+        text: >-
+          Revocation status analysis examines certificate revocation mechanisms and identifies potentially
+          compromised certificates. Certificate Revocation List (CRL) analysis tracks revoked certificates
+          and revocation reasons. Online Certificate Status Protocol (OCSP) analysis provides real-time
+          revocation checking capabilities. Revocation pattern analysis identifies trends and potential
+          security incidents.
+      - type: prose
+        text: >-
+          **Certificate-Based Infrastructure Mapping** uses certificate information to map organizational
+          infrastructure, identify service relationships, and understand system architectures.
+      - type: prose
+        text: >-
+          Domain relationship mapping leverages certificate Subject Alternative Name (SAN) fields to identify
+          related domains and services. Multi-domain certificates reveal service consolidation and infrastructure
+          relationships. DNS name patterns within certificates identify naming conventions and organizational
+          structure. IP address inclusion identifies specific server assignments and network boundaries.
+      - type: prose
+        text: >-
+          Service identification analyzes certificate usage patterns to identify specific services and
+          applications. Web server identification examines HTTPS certificate deployment patterns. Email
+          server identification analyzes SMTP/IMAP certificate usage. VPN and remote access identification
+          examines certificate-based authentication systems.
+      - type: prose
+        text: >-
+          Geographic distribution analysis correlates certificate information with infrastructure deployment
+          patterns. Server location inference combines certificate metadata with network analysis. Content
+          delivery network identification examines certificate deployment across distributed infrastructure.
+          Regional service boundaries analysis identifies geographic operational constraints.

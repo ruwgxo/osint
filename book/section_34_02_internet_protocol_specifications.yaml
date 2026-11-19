@@ -1,0 +1,173 @@
+# section_34_02_internet_protocol_specifications.yaml
+
+---
+title: Internet Protocol Specifications
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 2
+  section_code: '3402'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Internet Protocol Specifications
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: IPv4 Addressing and Subnetting
+      - type: list
+        style: bullet
+        items:
+          - Private Address Ranges (RFC 1918)
+          - Special-Use IPv4 Addresses
+          - Subnet Mask Calculations
+      - type: heading
+        level: 3
+        text: Private Address Ranges (RFC 1918)
+      - type: list
+        style: bullet
+        items:
+          - 'Class A: 10.0.0.0/8 (10.0.0.0 - 10.255.255.255)'
+          - 'Class B: 172.16.0.0/12 (172.16.0.0 - 172.31.255.255)'
+          - 'Class C: 192.168.0.0/16 (192.168.0.0 - 192.168.255.255)'
+      - type: heading
+        level: 3
+        text: Special-Use IPv4 Addresses
+      - type: list
+        style: bullet
+        items:
+          - 'Loopback: 127.0.0.0/8'
+          - 'Link-Local: 169.254.0.0/16'
+          - 'Multicast: 224.0.0.0/4'
+          - 'Reserved: 240.0.0.0/4'
+      - type: heading
+        level: 3
+        text: Subnet Mask Calculations
+      - type: table
+        columns:
+          - CIDR
+          - Subnet Mask
+          - Network Bits
+          - Host Bits
+          - Max Hosts
+        rows:
+          - - /24
+            - 255.255.255.0
+            - '24'
+            - '8'
+            - '254'
+          - - /25
+            - 255.255.255.128
+            - '25'
+            - '7'
+            - '126'
+          - - /26
+            - 255.255.255.192
+            - '26'
+            - '6'
+            - '62'
+          - - /27
+            - 255.255.255.224
+            - '27'
+            - '5'
+            - '30'
+          - - /28
+            - 255.255.255.240
+            - '28'
+            - '4'
+            - '14'
+          - - /29
+            - 255.255.255.248
+            - '29'
+            - '3'
+            - '6'
+          - - /30
+            - 255.255.255.252
+            - '30'
+            - '2'
+            - '2'
+      - type: heading
+        level: 3
+        text: IPv6 Addressing Structure
+      - type: list
+        style: bullet
+        items:
+          - IPv6 Address Format
+          - IPv6 Address Types
+          - IPv6 Special Addresses
+      - type: heading
+        level: 3
+        text: IPv6 Address Format
+      - type: list
+        style: bullet
+        items:
+          - 'Length: 128 bits (16 bytes)'
+          - 'Notation: 8 groups of 4 hexadecimal digits'
+          - 'Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334'
+          - 'Compressed: 2001:db8:85a3::8a2e:370:7334'
+      - type: heading
+        level: 3
+        text: IPv6 Address Types
+      - type: list
+        style: bullet
+        items:
+          - 'Global Unicast: 2000::/3'
+          - 'Link-Local: FE80::/10'
+          - 'Unique Local: FC00::/7'
+          - 'Multicast: FF00::/8'
+          - 'Loopback: ::1/128'
+          - 'Unspecified: ::/128'
+      - type: heading
+        level: 3
+        text: IPv6 Special Addresses
+      - type: list
+        style: bullet
+        items:
+          - '6to4: 2002::/16 (IPv6 over IPv4 tunneling)'
+          - 'Teredo: 2001::/32 (NAT traversal)'
+          - 'Documentation: 2001:DB8::/32'
+      - type: heading
+        level: 3
+        text: Routing Protocol Specifications
+      - type: list
+        style: bullet
+        items:
+          - Border Gateway Protocol (BGP) - RFC 4271
+          - IPv6 Special Addresses
+      - type: heading
+        level: 3
+        text: Border Gateway Protocol (BGP) - RFC 4271
+      - type: prose
+        text: >-
+          Key OSINT Applications:
+      - type: list
+        style: bullet
+        items:
+          - Internet routing analysis
+          - ASN (Autonomous System Number) research
+          - Network path analysis
+          - BGP hijacking detection
+      - type: prose
+        text: >-
+          BGP Message Types:
+      - type: list
+        style: bullet
+        items:
+          - 'OPEN: Establish BGP session'
+          - 'UPDATE: Advertise/withdraw routes'
+          - 'NOTIFICATION: Error conditions'
+          - 'KEEPALIVE: Maintain session'
+      - type: heading
+        level: 3
+        text: Open Shortest Path First (OSPF) - RFC 2328
+      - type: list
+        style: bullet
+        items:
+          - 'Applications: Internal network topology discovery'
+          - Routing Information Protocol (RIP) - RFC 2453
+          - 'Applications: Small network analysis'

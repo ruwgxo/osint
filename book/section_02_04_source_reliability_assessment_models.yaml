@@ -1,0 +1,80 @@
+# section_02_04_source_reliability_assessment_models.yaml
+
+---
+title: Source Reliability Assessment Models
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 2
+  section: 4
+  section_code: '0204'
+  source_file: part-1-fundamentals/chapter-02-information-theory.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Source Reliability Assessment Models
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Systematic source evaluation represents a cornerstone of professional OSINT practice. Reliability
+          assessment models provide structured approaches to evaluating source credibility, accuracy,
+          and utility across diverse information domains.
+      - type: prose
+        text: >-
+          **Traditional Reliability Scales** employ alphanumeric systems to categorize source reliability
+          and information credibility. The standard six-level source reliability scale ranges from A (completely
+          reliable) through F (cannot be judged), while information credibility scales range from 1 (confirmed)
+          through 6 (cannot be judged). These frameworks provide standardized approaches to source evaluation
+          that facilitate analytical comparison and quality control.
+      - type: prose
+        text: >-
+          Source reliability assessment considers track record, access, motivation, and capability factors.
+          Track record evaluation examines historical accuracy patterns and correction procedures. Access
+          assessment determines whether sources have reasonable opportunities to obtain relevant information.
+          Motivation analysis considers potential biases, conflicts of interest, or incentive structures
+          that might influence reporting. Capability evaluation assesses technical competence and resource
+          availability.
+      - type: prose
+        text: >-
+          Information credibility assessment focuses on content characteristics including logical consistency,
+          corroborating evidence, and plausibility. Logical consistency examines internal coherence and
+          absence of contradictions. Corroborating evidence evaluation seeks independent verification
+          from alternative sources. Plausibility assessment considers whether information conforms to
+          known patterns and established facts.
+      - type: prose
+        text: >-
+          **Contemporary Challenges** in source reliability assessment reflect the changing information
+          landscape and evolving deception techniques. Social media platforms create new categories of
+          sources with limited track records and unclear motivations. Automated content generation can
+          produce large volumes of apparently independent sources that actually originate from common
+          origins. Sophisticated disinformation campaigns can establish apparently credible sources over
+          extended periods before activating them for deceptive purposes.
+      - type: prose
+        text: >-
+          Digital source evaluation requires additional considerations including technical authentication,
+          metadata analysis, and behavioral pattern assessment. Technical authentication examines digital
+          signatures, timestamp verification, and platform indicators that might reveal manipulation or
+          forgery. Metadata analysis reveals creation circumstances, modification history, and distribution
+          patterns. Behavioral pattern assessment identifies unusual characteristics that might indicate
+          automation or coordination.
+      - type: prose
+        text: >-
+          **Multi-Source Verification** provides robust approaches to reliability assessment through systematic
+          comparison and corroboration across independent sources. Single-source intelligence carries
+          inherent limitations regardless of source reliability ratings. Multi-source approaches enable
+          cross-verification, bias identification, and confidence enhancement.
+      - type: prose
+        text: >-
+          Independent source identification requires careful attention to potential common origins, shared
+          biases, or coordinated messaging. True independence encompasses different collection methods,
+          distinct access patterns, and separate analytical perspectives. Apparent independence can be
+          misleading when sources share common origins or coordination mechanisms.
+      - type: prose
+        text: >-
+          Corroboration analysis examines consistency patterns across multiple sources while accounting
+          for expected variations in perspective, emphasis, and detail. Perfect consistency across multiple
+          sources might indicate coordination rather than independent verification. Natural variations
+          in emphasis and detail can actually strengthen overall credibility when core facts remain consistent.

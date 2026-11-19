@@ -1,0 +1,188 @@
+# section_33_01_probability_theory_for_intelligence_analysis.yaml
+
+---
+title: Probability Theory for Intelligence Analysis
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 1
+  section_code: '3301'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Probability Theory for Intelligence Analysis
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Basic Probability Concepts
+      - type: prose
+        text: >-
+          Fundamental Probability Rules
+      - type: list
+        style: bullet
+        items:
+          - 'Addition Rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B)'
+          - 'Multiplication Rule: P(A ∩ B) = P(A) × P(B|A) = P(B) × P(A|B)'
+          - 'Complement Rule: P(A'') = 1 - P(A)'
+          - 'Law of Total Probability: P(B) = Σ P(B|Aᵢ) × P(Aᵢ)'
+      - type: prose
+        text: >-
+          Conditional Probability
+      - type: code
+        lang: text
+        text: |
+          P(A|B) = P(A ∩ B) / P(B), where P(B) > 0
+      - type: prose
+        text: >-
+          Example: Probability that an individual is a terrorist given they appear on a watchlist
+      - type: list
+        style: bullet
+        items:
+          - P(Terrorist|Watchlist) = P(Terrorist ∩ Watchlist) / P(Watchlist)
+      - type: prose
+        text: >-
+          Independence
+
+          Events A and B are independent if:
+      - type: list
+        style: bullet
+        items:
+          - P(A ∩ B) = P(A) × P(B)
+          - P(A|B) = P(A)
+          - P(B|A) = P(B)
+      - type: heading
+        level: 3
+        text: Bayes' Theorem and Intelligence Applications
+      - type: prose
+        text: >-
+          Bayes' Theorem Formula
+      - type: code
+        lang: text
+        text: |
+          P(H|E) = [P(E|H) × P(H)] / P(E)
+
+          Where:
+          P(H|E) = Posterior probability (probability of hypothesis given evidence)
+          P(E|H) = Likelihood (probability of evidence given hypothesis)
+          P(H) = Prior probability (initial probability of hypothesis)
+          P(E) = Marginal probability (total probability of evidence)
+      - type: heading
+        level: 3
+        text: Intelligence Analysis Applications
+      - type: prose
+        text: >-
+          Terrorist Identification Example:
+      - type: list
+        style: bullet
+        items:
+          - H = Person is a terrorist
+          - E = Person appears on multiple watchlists
+          - 'P(H) = 0.00001 (prior: 1 in 100,000 people are terrorists)'
+          - P(E|H) = 0.90 (90% of terrorists appear on watchlists)
+          - P(E|H') = 0.001 (0.1% of non-terrorists appear on watchlists)
+      - type: code
+        lang: text
+        text: |
+          P(E) = P(E|H) × P(H) + P(E|H') × P(H') P(E) = 0.90 × 0.00001 + 0.001 × 0.99999 = 0.00109
+          P(H|E) = (0.90 × 0.00001) / 0.00109 = 0.0083 = 0.83%
+      - type: prose
+        text: >-
+          Key Insight: Even with 90% accuracy, the probability of being a terrorist given watchlist appearance
+          is less than 1%.
+      - type: heading
+        level: 3
+        text: Common Probability Distributions
+      - type: list
+        style: bullet
+        items:
+          - '**Binomial Distribution**'
+          - Poisson Distribution
+          - '**Normal Distribution**'
+          - '**Exponential Distribution**'
+      - type: heading
+        level: 3
+        text: Binomial Distribution
+      - type: prose
+        text: >-
+          Used for binary outcomes (success/failure) over n trials.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          P(X = k) = C(n,k) × p^k × (1-p)^(n-k)
+
+          Parameters:
+          n = number of trials
+          k = number of successes
+          p = probability of success on each trial
+      - type: prose
+        text: >-
+          Intelligence Application: Probability of k successful intelligence operations out of n attempts.
+      - type: heading
+        level: 3
+        text: Poisson Distribution
+      - type: prose
+        text: >-
+          Used for rare events occurring over time or space.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          P(X = k) = (λ^k × e^(-λ)) / k!
+      - type: prose
+        text: >-
+          Parameters:
+      - type: list
+        style: bullet
+        items:
+          - λ = average rate of occurrence
+          - k = number of events
+      - type: prose
+        text: >-
+          Intelligence Application: Probability of k terrorist attacks in a given time period.
+      - type: heading
+        level: 3
+        text: Normal Distribution
+      - type: prose
+        text: >-
+          Bell-shaped distribution common in natural phenomena.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          f(x) = (1/(σ√(2π))) × e^(-(x-μ)²/(2σ²))
+      - type: prose
+        text: >-
+          Parameters:
+      - type: list
+        style: bullet
+        items:
+          - μ = mean
+          - σ = standard deviation
+      - type: prose
+        text: >-
+          Intelligence Application: Distribution of response times, measurement errors, or other continuous
+          variables.
+      - type: heading
+        level: 3
+        text: Exponential Distribution
+      - type: prose
+        text: >-
+          Used for time between events.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          f(x) = λe^(-λx) for x ≥ 0
+      - type: prose
+        text: >-
+          Intelligence Application: Time between cyber attacks or intelligence reports.

@@ -1,0 +1,54 @@
+# chapter_17_index.yaml
+
+---
+title: 'Chapter 17: Cyber Threat Intelligence - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 17
+  source_file: part-3-specialized-domains/chapter-17-cyber-threat-intelligence.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260117 | OSINT: Specialized OSINT Domains (Chapter 17 Cyber Threat Intelligence (CTI))
+      by Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Specialized OSINT Domains
+      - ‣‣‣ Cyber Threat Intelligence (CTI)
+chapter_overview:
+  contents:
+    - Indicator of compromise (IoC) analysis
+    - Malware family classification
+    - Command and control infrastructure mapping
+    - Threat actor attribution methodologies
+    - Vulnerability intelligence gathering
+    - Dark web monitoring techniques
+    - Incident response intelligence support
+sections:
+  - section_number: '17.1'
+    title: Indicator of Compromise (IoC) Analysis
+    filename: section_17_01_indicator_of_compromise_ioc_analysis.yaml
+  - section_number: '17.2'
+    title: Malware Family Classification
+    filename: section_17_02_malware_family_classification.yaml
+  - section_number: '17.3'
+    title: Command and Control Infrastructure Mapping
+    filename: section_17_03_command_and_control_infrastructure_mapping.yaml
+  - section_number: '17.4'
+    title: Threat Actor Attribution Methodologies
+    filename: section_17_04_threat_actor_attribution_methodologies.yaml
+  - section_number: '17.5'
+    title: Vulnerability Intelligence Gathering
+    filename: section_17_05_vulnerability_intelligence_gathering.yaml
+  - section_number: '17.6'
+    title: Dark Web Monitoring Techniques
+    filename: section_17_06_dark_web_monitoring_techniques.yaml
+  - section_number: '17.7'
+    title: Incident response intelligence support
+    filename: section_17_07_incident_response_intelligence_support.yaml

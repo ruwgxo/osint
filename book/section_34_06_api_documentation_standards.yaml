@@ -1,0 +1,176 @@
+# section_34_06_api_documentation_standards.yaml
+
+---
+title: API Documentation Standards
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 34
+  section: 6
+  section_code: '3406'
+  source_file: appendices/d-protocols-standards-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: API Documentation Standards
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: REST API Design Principles
+      - type: list
+        style: bullet
+        items:
+          - HTTP Methods and Their Uses
+          - Status Codes for API Responses
+          - REST API URL Structure
+      - type: prose
+        text: >-
+          HTTP Methods and Their Uses
+      - type: list
+        style: bullet
+        items:
+          - 'GET: Retrieve resources (idempotent, safe)'
+          - 'POST: Create new resources'
+          - 'PUT: Update/replace entire resource (idempotent)'
+          - 'PATCH: Partial resource update'
+          - 'DELETE: Remove resources (idempotent)'
+          - 'HEAD: Get resource headers only'
+          - 'OPTIONS: Query supported methods'
+      - type: heading
+        level: 3
+        text: Status Codes for API Responses
+      - type: list
+        style: bullet
+        items:
+          - 2xx Success
+          - 4xx Client Errors
+          - 5xx Server Errors
+      - type: prose
+        text: >-
+          2xx Success:
+      - type: list
+        style: bullet
+        items:
+          - '200 OK: Request successful'
+          - '201 Created: Resource created'
+          - '202 Accepted: Request accepted for processing'
+          - '204 No Content: Successful but no content returned'
+      - type: prose
+        text: >-
+          4xx Client Errors:
+      - type: list
+        style: bullet
+        items:
+          - '400 Bad Request: Invalid request syntax'
+          - '401 Unauthorized: Authentication required'
+          - '403 Forbidden: Access denied'
+          - '404 Not Found: Resource not found'
+          - '429 Too Many Requests: Rate limit exceeded'
+      - type: prose
+        text: >-
+          5xx Server Errors:
+      - type: list
+        style: bullet
+        items:
+          - '500 Internal Server Error: Generic server error'
+          - '502 Bad Gateway: Invalid upstream response'
+          - '503 Service Unavailable: Server temporarily unavailable'
+      - type: prose
+        text: >-
+          REST API URL Structure
+      - type: code
+        lang: text
+        text: |
+          https://api.example.com/v1/users/123/posts
+          └─────┬─────┘ └──┬──┘ └┬┘ └──┬──┘ └─┬─┘
+             Base URL    Version API  Resource Collection
+      - type: heading
+        level: 3
+        text: OpenAPI Specification (Swagger)
+      - type: prose
+        text: >-
+          Basic OpenAPI Document Structure
+      - type: code
+        lang: text
+        text: |
+          openapi: 3.0.3
+          info:
+            title: Example API
+            version: 1.0.0
+            description: Example API for OSINT data collection
+          servers:
+            - url: https://api.example.com/v1
+          paths:
+            /users/{userId}:
+              get:
+                summary: Get user by ID
+                parameters:
+                  - name: userId
+                    in: path
+                    required: true
+                    schema:
+                      type: integer
+                responses:
+                  '200':
+                    description: User details
+                    content:
+                      application/json:
+                        schema:
+                          $ref: '#/components/schemas/User'
+          components:
+            schemas:
+              User:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  email:
+                    type: string
+                    format: email
+      - type: heading
+        level: 3
+        text: GraphQL Standards
+      - type: list
+        style: bullet
+        items:
+          - Basic Query Structure
+          - Mutation Example
+      - type: prose
+        text: >-
+          Basic Query Structure
+      - type: code
+        lang: text
+        text: |
+          query GetUser($userId: ID!) {
+            user(id: $userId) {
+              id
+              name
+              email
+              posts {
+                id
+                title
+                publishedAt
+              }
+            }
+          }
+      - type: prose
+        text: >-
+          Mutation Example
+      - type: code
+        lang: text
+        text: |
+          mutation CreatePost($input: PostInput!) {
+            createPost(input: $input) {
+              id
+              title
+              content
+              author {
+                name
+              }
+            }
+          }

@@ -1,0 +1,118 @@
+# section_12_04_temporal_analysis_of_geospatial_imagery.yaml
+
+---
+title: Temporal Analysis of Geospatial Imagery
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 12
+  section: 4
+  section_code: '1204'
+  source_file: part-2-advanced-techniques/chapter-12-geospatial-intelligence.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Temporal Analysis of Geospatial Imagery
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Temporal analysis examines changes in geographic areas over time through systematic comparison
+          of imagery sequences, enabling identification of development patterns, seasonal changes, and
+          significant events.
+      - type: prose
+        text: >-
+          **Time Series Analysis Methodology** provides systematic approaches to analyzing imagery sequences
+          and extracting temporal patterns that reveal geographic and infrastructure changes over time.
+      - type: prose
+        text: >-
+          Image sequence preparation ensures consistent analysis across different acquisition dates through
+          geometric and radiometric normalization. Temporal registration aligns imagery from different
+          dates to enable accurate comparison. Illumination normalization accounts for seasonal and daily
+          lighting variations. Atmospheric correction reduces temporal variations due to weather and atmospheric
+          conditions.
+      - type: prose
+        text: >-
+          Change detection algorithms identify areas where significant modifications have occurred between
+          different time periods. Pixel-based change detection compares individual pixel values across
+          time sequences. Object-based change detection analyzes changes in discrete geographic features.
+          Threshold selection balances change detection sensitivity with false positive rates.
+      - type: prose
+        text: >-
+          Trend analysis identifies directional changes that occur over extended time periods. Linear
+          trend analysis quantifies consistent rates of change over time. Non-linear trend analysis identifies
+          accelerating or decelerating change patterns. Seasonal trend decomposition separates cyclical
+          changes from long-term trends.
+      - type: prose
+        text: >-
+          **Infrastructure Development Monitoring** tracks construction, modification, and demolition
+          activities through systematic analysis of infrastructure changes visible in temporal imagery
+          sequences.
+      - type: prose
+        text: >-
+          Construction activity detection identifies new building and infrastructure development through
+          comparison of imagery sequences. Foundation preparation identification marks early stages of
+          construction activity. Structural progress monitoring tracks building completion through multiple
+          imagery dates. Completion verification identifies when construction projects reach operational
+          status.
+      - type: prose
+        text: >-
+          Modification and expansion analysis tracks changes to existing infrastructure and facilities.
+          Building addition identification monitors expansions to existing structures. Renovation activity
+          detection identifies major modifications to existing infrastructure. Demolition identification
+          tracks removal of buildings and infrastructure.
+      - type: prose
+        text: >-
+          Transportation infrastructure analysis monitors road development, airport expansion, and other
+          transportation facility changes. Road construction monitoring tracks new route development and
+          existing road improvements. Airport facility analysis monitors runway construction, terminal
+          expansion, and aircraft activity changes. Port facility analysis tracks harbor development and
+          shipping infrastructure modifications.
+      - type: prose
+        text: >-
+          **Activity Pattern Analysis** examines temporal patterns in human activity and infrastructure
+          utilization through systematic analysis of activity indicators visible in imagery sequences.
+      - type: prose
+        text: >-
+          Vehicular activity monitoring tracks traffic patterns and parking utilization through analysis
+          of vehicles visible in imagery. Traffic density analysis examines road utilization patterns
+          and congestion levels. Parking analysis monitors facility utilization and capacity. Fleet activity
+          analysis tracks organizational vehicle patterns and operational schedules.
+      - type: prose
+        text: >-
+          Facility utilization analysis examines activity levels at various infrastructure types through
+          visible activity indicators. Industrial facility analysis monitors production activity through
+          visible indicators including smoke, vehicle traffic, and material storage. Commercial facility
+          analysis tracks retail and business activity through parking utilization and visible customer
+          activity. Agricultural activity analysis monitors farming operations through equipment presence
+          and crop status.
+      - type: prose
+        text: >-
+          Event detection identifies unusual activity patterns that might indicate significant events
+          or security incidents. Crowd detection identifies unusual gatherings or public events. Emergency
+          response detection identifies fire, police, or medical response activities. Security incident
+          detection identifies unusual military or law enforcement presence.
+      - type: prose
+        text: >-
+          **Environmental and Seasonal Change Analysis** examines natural variations and environmental
+          changes through temporal analysis of vegetation, water bodies, and landscape characteristics.
+      - type: prose
+        text: >-
+          Vegetation phenology analysis tracks seasonal changes in plant communities and agricultural
+          areas. Growing season monitoring tracks crop development and harvest cycles. Forest change analysis
+          identifies deforestation, reforestation, and natural succession patterns. Urban vegetation analysis
+          monitors park maintenance and landscaping changes.
+      - type: prose
+        text: >-
+          Water body analysis monitors lakes, rivers, and reservoirs through temporal changes in water
+          extent and characteristics. Seasonal water level analysis tracks natural and managed water level
+          variations. Drought analysis identifies extended periods of reduced water availability. Flood
+          analysis identifies areas affected by exceptional water levels.
+      - type: prose
+        text: >-
+          Land use change analysis tracks transitions between different surface types and usage patterns.
+          Urban expansion analysis monitors city growth and development patterns. Agricultural conversion
+          analysis tracks changes between farming and other land uses. Natural habitat change analysis
+          monitors ecosystem modifications and conservation efforts.

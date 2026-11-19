@@ -1,0 +1,203 @@
+# section_24_07_evidence_preservation_protocols.yaml
+
+---
+title: Evidence preservation protocols
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 24
+  section: 7
+  section_code: '2407'
+  source_file: part-4-operational/chapter-24-technical-operations.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Evidence preservation protocols
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Evidence preservation protocols establish systematic approaches to maintaining digital evidence
+          integrity while ensuring legal admissibility and analytical credibility through comprehensive
+          evidence handling procedures that protect information throughout collection, analysis, and storage
+          processes.
+      - type: heading
+        level: 3
+        text: Digital Evidence Collection Standards
+      - type: prose
+        text: >-
+          Systematic digital evidence collection establishes standardized procedures for acquiring digital
+          information while maintaining integrity and ensuring legal admissibility through appropriate
+          collection methodologies and documentation procedures.
+      - type: prose
+        text: >-
+          Forensically sound collection procedures ensure digital evidence maintains integrity and legal
+          admissibility through systematic acquisition methodologies. Bit-for-bit imaging creates exact
+          copies of digital storage media while preserving all data including deleted files and system
+          metadata. Write-blocking technology prevents modification of original evidence during collection
+          and analysis processes. Chain of custody documentation maintains detailed records of evidence
+          handling from initial collection through final disposition.
+      - type: prose
+        text: >-
+          Metadata preservation maintains technical information that supports evidence authenticity and
+          provides context for analytical conclusions. File system metadata preservation captures creation
+          dates, modification times, and access information that support temporal analysis. Network metadata
+          collection maintains routing information, communication timestamps, and protocol details. Application
+          metadata preservation captures software-specific information including document properties and
+          embedded data.
+      - type: prose
+        text: >-
+          Hash verification provides cryptographic proof of evidence integrity while enabling detection
+          of unauthorized modification throughout the evidence lifecycle. SHA-256 hash calculation creates
+          unique digital fingerprints for evidence files and storage media. Verification procedures compare
+          hash values at different points in the evidence lifecycle to confirm integrity. Hash documentation
+          maintains records of cryptographic verification and ensures traceability.
+      - type: heading
+        level: 3
+        text: Documentation and Chain of Custody Management
+      - type: prose
+        text: >-
+          Comprehensive documentation and chain of custody management maintains detailed records of evidence
+          handling while ensuring legal admissibility and analytical credibility through systematic record-keeping
+          procedures.
+      - type: prose
+        text: >-
+          Evidence acquisition documentation records initial collection procedures while providing context
+          and methodology verification for legal and analytical purposes. Collection methodology documentation
+          describes technical procedures used for evidence acquisition including tools, techniques, and
+          environmental conditions. Source identification documentation records original evidence location,
+          ownership, and access circumstances. Personnel documentation identifies individuals involved
+          in evidence collection and their qualifications.
+      - type: prose
+        text: >-
+          Handling and transfer documentation tracks evidence movement while maintaining accountability
+          and preventing unauthorized access or modification. Transfer logs record evidence movement between
+          personnel, systems, and storage locations. Access logs maintain records of all evidence examination
+          and analysis activities. Custody documentation identifies responsible personnel and maintains
+          continuous accountability throughout evidence lifecycle.
+      - type: prose
+        text: >-
+          Storage and retention documentation ensures appropriate evidence preservation while maintaining
+          security and accessibility for authorized users. Storage condition documentation records environmental
+          controls and security measures protecting evidence integrity. Retention schedule documentation
+          establishes appropriate preservation periods based on legal and operational requirements. Disposal
+          documentation records secure evidence destruction when retention periods expire.
+      - type: heading
+        level: 3
+        text: Legal Admissibility Requirements
+      - type: prose
+        text: >-
+          Legal admissibility requirements ensure digital evidence meets court standards while maintaining
+          reliability and credibility through systematic compliance with legal precedents and procedural
+          requirements.
+      - type: prose
+        text: >-
+          Authentication standards establish evidence genuineness while meeting legal requirements for
+          proof of authenticity. Technical authentication uses cryptographic verification and forensic
+          analysis to prove evidence authenticity. Witness authentication provides testimony supporting
+          evidence collection and handling procedures. Documentation authentication uses records and procedures
+          to demonstrate evidence reliability.
+      - type: prose
+        text: >-
+          Relevance and reliability standards ensure evidence supports analytical conclusions while meeting
+          legal standards for probative value. Relevance assessment examines whether evidence directly
+          relates to investigative questions and analytical objectives. Reliability evaluation examines
+          evidence source credibility and collection methodology appropriateness. Prejudicial impact assessment
+          ensures evidence value outweighs potential negative effects on legal proceedings.
+      - type: prose
+        text: >-
+          Expert testimony preparation enables qualified personnel to testify about evidence collection
+          and analysis while meeting legal requirements for expert witness qualifications. Technical expertise
+          documentation establishes analyst qualifications and competency in relevant technical areas.
+          Methodology validation demonstrates that analytical procedures follow accepted scientific and
+          technical standards. Conclusion support ensures analytical conclusions are appropriately supported
+          by evidence and methodology.
+      - type: heading
+        level: 3
+        text: Long-term Preservation Strategies
+      - type: prose
+        text: >-
+          Long-term preservation strategies ensure evidence remains accessible and usable over extended
+          periods while addressing technological obsolescence and maintaining integrity through systematic
+          preservation planning.
+      - type: prose
+        text: >-
+          Format migration and conversion procedures address technological obsolescence while maintaining
+          evidence integrity and accessibility. Format assessment identifies evidence formats that might
+          become obsolete and require migration to current standards. Migration planning establishes procedures
+          for converting evidence to new formats while maintaining integrity. Validation procedures ensure
+          migrated evidence maintains accuracy and completeness.
+      - type: prose
+        text: >-
+          Storage media management addresses physical storage limitations while ensuring long-term evidence
+          availability and integrity. Media lifecycle management tracks storage device age and reliability
+          while planning replacement before failure. Redundancy strategies maintain multiple evidence
+          copies in different locations and storage systems. Environmental controls maintain appropriate
+          storage conditions including temperature, humidity, and security protection.
+      - type: prose
+        text: >-
+          Technology refresh procedures update evidence storage and access systems while maintaining compatibility
+          and ensuring continued evidence availability. Hardware refresh planning updates storage systems
+          before obsolescence affects evidence accessibility. Software compatibility testing ensures new
+          systems can access and process preserved evidence. Migration testing verifies that system updates
+          do not compromise evidence integrity or accessibility.
+      - type: heading
+        level: 3
+        text: Quality Assurance and Validation Procedures
+      - type: prose
+        text: >-
+          Quality assurance and validation procedures ensure evidence preservation effectiveness while
+          identifying potential problems and implementing corrective measures through systematic quality
+          monitoring and improvement processes.
+      - type: prose
+        text: >-
+          Integrity verification procedures confirm evidence remains unmodified while detecting potential
+          corruption or unauthorized access. Periodic hash verification compares current evidence hash
+          values with original calculations to detect modification. Checksum validation uses additional
+          verification methods to confirm evidence integrity. Corruption detection identifies potential
+          evidence damage and implements recovery procedures.
+      - type: prose
+        text: >-
+          Access audit procedures monitor evidence access while ensuring appropriate usage and detecting
+          unauthorized activities. Access logging records all evidence examination activities including
+          user identity, time, and purpose. Permission verification ensures access requests have appropriate
+          authorization and business justification. Anomaly detection identifies unusual access patterns
+          that might indicate security breaches or policy violations.
+      - type: prose
+        text: >-
+          Compliance monitoring ensures evidence preservation procedures meet legal and organizational
+          requirements while identifying areas requiring improvement. Legal compliance assessment examines
+          whether procedures meet current legal standards and requirements. Policy compliance verification
+          ensures procedures follow organizational policies and industry best practices. Performance measurement
+          tracks preservation effectiveness and identifies optimization opportunities.
+      - type: heading
+        level: 3
+        text: Incident Response and Recovery Procedures
+      - type: prose
+        text: >-
+          Incident response and recovery procedures address evidence preservation emergencies while minimizing
+          damage and maintaining maximum possible evidence recovery through systematic crisis management
+          and restoration processes.
+      - type: prose
+        text: >-
+          Evidence compromise response addresses potential evidence modification or corruption while minimizing
+          additional damage and preserving remaining evidence value. Compromise detection identifies evidence
+          integrity problems through monitoring and verification procedures. Damage assessment evaluates
+          compromise scope and impact on evidence reliability and legal admissibility. Containment procedures
+          prevent additional compromise while preserving remaining evidence.
+      - type: prose
+        text: >-
+          Recovery procedures restore evidence accessibility while maximizing information recovery from
+          damaged or corrupted evidence. Backup restoration uses preserved evidence copies to restore
+          access and functionality. Forensic recovery employs specialized techniques to extract information
+          from damaged storage media. Partial recovery procedures maximize information extraction when
+          complete restoration is impossible.
+      - type: prose
+        text: >-
+          Documentation and reporting procedures ensure incident response activities are properly recorded
+          while maintaining transparency and accountability. Incident documentation records compromise
+          circumstances, response actions, and outcomes. Impact assessment documentation evaluates effects
+          on ongoing investigations and legal proceedings. Lessons learned documentation captures experience
+          for future incident prevention and response improvement.

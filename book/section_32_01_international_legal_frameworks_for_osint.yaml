@@ -1,0 +1,94 @@
+# section_32_01_international_legal_frameworks_for_osint.yaml
+
+---
+title: International Legal Frameworks for OSINT
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 32
+  section: 1
+  section_code: '3201'
+  source_file: appendices/b-legal-ethical-guidelines.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: International Legal Frameworks for OSINT
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: Universal Declaration of Human Rights (UDHR) - Relevant Articles
+      - type: prose
+        text: >-
+          Article 12 - Privacy
+
+          > "No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence,
+          nor to attacks upon his honour and reputation. Everyone has the right to the protection of the
+          law against such interference or attacks."
+      - type: prose
+        text: >-
+          Article 18 - Freedom of Thought and Religion
+
+          > "Everyone has the right to freedom of thought, conscience and religion; this right includes
+          freedom to change his religion or belief, and freedom, either alone or in community with others
+          and in public or private, to manifest his religion or belief in teaching, practice, worship
+          and observance."
+      - type: prose
+        text: >-
+          Article 19 - Freedom of Expression
+
+          > "Everyone has the right to freedom of opinion and expression; this right includes freedom
+          to hold opinions without interference and to seek, receive and impart information and ideas
+          through any media and regardless of frontiers."
+      - type: heading
+        level: 3
+        text: International Covenant on Civil and Political Rights (ICCPR)
+      - type: prose
+        text: >-
+          Article 17 - Privacy Rights
+      - type: list
+        style: bullet
+        items:
+          - No one shall be subjected to arbitrary or unlawful interference with his privacy, family,
+            home or correspondence, nor to unlawful attacks on his honour and reputation.
+          - Everyone has the right to the protection of the law against such interference or attacks.
+      - type: prose
+        text: >-
+          Article 19 - Freedom of Expression
+      - type: list
+        style: bullet
+        items:
+          - Everyone shall have the right to hold opinions without interference.
+          - Everyone shall have the right to freedom of expression; this right shall include freedom to
+            seek, receive and impart information and ideas of all kinds, regardless of frontiers, either
+            orally, in writing or in print, in the form of art, or through any other media of his choice.
+          - The exercise of the rights provided for in paragraph 2 of this article carries with it special
+            duties and responsibilities.
+      - type: heading
+        level: 3
+        text: European Convention on Human Rights (ECHR)
+      - type: prose
+        text: >-
+          Article 8 - Right to Respect for Private and Family Life
+      - type: list
+        style: bullet
+        items:
+          - Everyone has the right to respect for his private and family life, his home and his correspondence.
+          - There shall be no interference by a public authority with the exercise of this right except
+            such as is in accordance with the law and is necessary in a democratic society in the interests
+            of national security, public safety or the economic well-being of the country, for the prevention
+            of disorder or crime, for the protection of health or morals, or for the protection of the
+            rights and freedoms of others.
+      - type: prose
+        text: >-
+          Article 10 - Freedom of Expression
+      - type: list
+        style: bullet
+        items:
+          - Everyone has the right to freedom of expression. This right shall include freedom to hold
+            opinions and to receive and impart information and ideas without interference by public authority
+            and regardless of frontiers.
+          - The exercise of these freedoms may be subject to such formalities, conditions, restrictions
+            or penalties as are prescribed by law and are necessary in a democratic society.

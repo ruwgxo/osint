@@ -1,0 +1,87 @@
+# section_32_04_privacy_law_considerations_by_jurisdiction.yaml
+
+---
+title: Privacy Law Considerations by Jurisdiction
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 32
+  section: 4
+  section_code: '3204'
+  source_file: appendices/b-legal-ethical-guidelines.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Privacy Law Considerations by Jurisdiction
+    id: part_1
+    blocks:
+      - type: heading
+        level: 3
+        text: United States Privacy Laws
+      - type: prose
+        text: >-
+          Sector-Specific Privacy Laws
+      - type: list
+        style: bullet
+        items:
+          - 'Health Insurance Portability and Accountability Act (HIPAA): Healthcare information'
+          - 'Family Educational Rights and Privacy Act (FERPA): Educational records'
+          - 'Children''s Online Privacy Protection Act (COPPA): Children under 13'
+          - 'Gramm-Leach-Bliley Act (GLBA): Financial information'
+          - 'Video Privacy Protection Act (VPPA): Video rental/streaming records'
+      - type: prose
+        text: >-
+          State Privacy Laws
+      - type: list
+        style: bullet
+        items:
+          - 'California Consumer Privacy Act (CCPA): Comprehensive consumer privacy'
+          - 'Illinois Biometric Information Privacy Act (BIPA): Biometric data protection'
+          - 'Texas Privacy Act: Comprehensive privacy law (pending)'
+          - 'Virginia Consumer Data Protection Act (VCDPA): Consumer privacy rights'
+      - type: heading
+        level: 3
+        text: European Union Privacy Framework
+      - type: prose
+        text: >-
+          Privacy Directive (ePrivacy Directive)
+      - type: list
+        style: bullet
+        items:
+          - 'Scope: Electronic communications privacy'
+          - 'Cookie Consent: Requirements for tracking technologies'
+          - 'Direct Marketing: Consent requirements for electronic marketing'
+          - 'Traffic Data: Protection of communication metadata'
+      - type: prose
+        text: >-
+          Digital Services Act (DSA)
+      - type: list
+        style: bullet
+        items:
+          - 'Scope: Digital services and platform responsibilities'
+          - 'Content Moderation: Transparency and accountability requirements'
+          - 'Risk Assessment: Obligations for very large online platforms'
+          - 'Data Access: Researcher access to platform data'
+      - type: heading
+        level: 3
+        text: Asia-Pacific Privacy Laws
+      - type: prose
+        text: >-
+          Australia - Privacy Act 1988
+      - type: list
+        style: bullet
+        items:
+          - 'Australian Privacy Principles (APPs): 13 principles governing personal information'
+          - 'Notifiable Data Breaches: Mandatory breach notification scheme'
+          - 'Cross-border Disclosure: Restrictions on overseas transfers'
+      - type: prose
+        text: >-
+          Singapore - Personal Data Protection Act (PDPA)
+      - type: list
+        style: bullet
+        items:
+          - 'Consent Framework: Consent, notification, and access obligations'
+          - 'Do Not Call Registry: Restrictions on marketing communications'
+          - 'Data Breach Notification: Mandatory notification requirements'

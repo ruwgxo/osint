@@ -1,0 +1,128 @@
+# section_09_02_correlation_analysis_and_causation_inference.yaml
+
+---
+title: Correlation Analysis and Causation Inference
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 9
+  section: 2
+  section_code: 0902
+  source_file: part-2-advanced-techniques/chapter-09-advanced-data-mining.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Correlation Analysis and Causation Inference
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Understanding relationships between variables requires careful distinction between correlation
+          and causation, systematic approaches to relationship identification, and appropriate methods
+          for causal inference in observational data commonly encountered in OSINT applications.
+      - type: prose
+        text: >-
+          **Correlation Measurement and Interpretation** examine statistical relationships between variables
+          while avoiding inappropriate causal conclusions and understanding correlation limitations and
+          proper interpretation.
+      - type: prose
+        text: >-
+          Pearson correlation analysis measures linear relationships between continuous variables and
+          provides standardized measures of association strength. Correlation coefficient interpretation
+          ranges from -1 to +1 with values near zero indicating weak relationships. Positive correlations
+          indicate variables that increase together while negative correlations indicate inverse relationships.
+          Correlation strength interpretation requires domain knowledge and practical significance assessment.
+      - type: prose
+        text: >-
+          Spearman rank correlation provides robust measures of monotonic relationships that don’t require
+          linear associations or normal distributions. Rank-based correlation resists outlier influence
+          and handles ordinal data appropriately. Non-parametric correlation enables relationship detection
+          in skewed or categorical data. Rank correlation interpretation focuses on ordering relationships
+          rather than specific value relationships.
+      - type: prose
+        text: >-
+          Partial correlation analysis examines relationships between variables while controlling for
+          the influence of additional variables. Controlling variables enables isolation of direct relationships
+          from spurious associations. Multiple correlation analysis examines combined relationship strength
+          between multiple predictor variables and outcome variables. Correlation matrix analysis reveals
+          complex relationship patterns across multiple variables simultaneously.
+      - type: prose
+        text: >-
+          **Causal Inference Methodology** addresses systematic approaches to identifying causal relationships
+          in observational data while avoiding common pitfalls and inappropriate causal claims based solely
+          on correlational evidence.
+      - type: prose
+        text: >-
+          Bradford Hill criteria provide systematic frameworks for evaluating causal relationships in
+          observational studies. Strength of association assessment examines correlation magnitude and
+          consistency across studies. Temporal sequence verification ensures proposed causes precede observed
+          effects. Biological gradient analysis examines dose-response relationships and causal mechanism
+          plausibility.
+      - type: prose
+        text: >-
+          Confounding variable identification addresses alternative explanations for observed relationships
+          that might create spurious associations. Confounding occurs when third variables influence both
+          proposed causes and effects. Control strategies including stratification and statistical adjustment
+          help isolate direct causal relationships. Unmeasured confounding represents ongoing threats
+          to causal inference validity.
+      - type: prose
+        text: >-
+          Natural experiment identification leverages quasi-experimental conditions in observational data
+          to strengthen causal inference. Instrumental variable analysis uses variables that influence
+          exposure but not outcomes except through the exposure pathway. Regression discontinuity analysis
+          examines causal effects around arbitrary thresholds or cutoff points. Difference-in-differences
+          analysis compares changes across groups with different exposure patterns.
+      - type: prose
+        text: >-
+          **Network and Relationship Analysis** examine complex interaction patterns and relationship
+          structures that might reveal organizational hierarchies, communication patterns, and influence
+          networks through systematic graph analysis techniques.
+      - type: prose
+        text: >-
+          Network topology analysis examines structural properties of relationship networks including
+          density, centralization, and clustering patterns. Network density measures the proportion of
+          possible connections that actually exist. Centralization analysis identifies whether networks
+          have concentrated or distributed connection patterns. Clustering coefficient analysis examines
+          local connectivity and sub-group formation patterns.
+      - type: prose
+        text: >-
+          Centrality analysis identifies important nodes within networks based on various importance measures.
+          Degree centrality counts direct connections and identifies highly connected nodes. Betweenness
+          centrality identifies nodes that bridge different network regions and control information flow.
+          Eigenvector centrality considers connection quality and identifies nodes connected to other
+          important nodes.
+      - type: prose
+        text: >-
+          Community detection algorithms identify cohesive sub-groups within larger networks that might
+          represent organizational units or functional groups. Modularity optimization identifies communities
+          that maximize internal connections while minimizing external connections. Hierarchical community
+          detection reveals nested group structures and organizational hierarchies. Temporal community
+          analysis tracks group evolution and membership changes over time.
+      - type: prose
+        text: >-
+          **Causal Mechanism Analysis** examines pathways through which causal relationships operate and
+          enable understanding of complex causal processes that might operate in organizational and social
+          contexts.
+      - type: prose
+        text: >-
+          Mediation analysis identifies intermediate variables that explain how causal relationships operate.
+          Direct effects measure causal impact that doesn’t operate through mediating variables. Indirect
+          effects quantify causal impact that operates through mediating pathways. Total effects combine
+          direct and indirect causal impacts. Mediation analysis requires careful consideration of temporal
+          ordering and confounding variables.
+      - type: prose
+        text: >-
+          Moderation analysis examines conditional relationships where causal effects depend on additional
+          variables. Interaction effects identify situations where causal relationships vary across different
+          conditions or populations. Conditional effect analysis quantifies relationship strength at different
+          moderator levels. Moderation interpretation requires careful attention to practical significance
+          and external validity.
+      - type: prose
+        text: >-
+          Process tracing methodology examines detailed causal mechanisms through systematic evidence
+          evaluation. Theory-based process tracing tests specific causal mechanism hypotheses against
+          observed evidence. Explaining outcome process tracing develops causal explanations for specific
+          outcomes. Evidence evaluation frameworks assess mechanism evidence quality and diagnostic value
+          for causal claims.

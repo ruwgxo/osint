@@ -1,0 +1,125 @@
+# section_22_05_visual_intelligence_products.yaml
+
+---
+title: Visual Intelligence Products
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 22
+  section: 5
+  section_code: '2205'
+  source_file: part-4-operational/chapter-22-analysis-frameworks.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Visual Intelligence Products
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Visual intelligence products enhance analytical communication while improving comprehension
+          and decision-making through systematic use of graphics, charts, and visual presentation that
+          makes complex information accessible and actionable.
+      - type: prose
+        text: >-
+          **Data Visualization and Chart Design** creates effective graphical presentations that communicate
+          quantitative information clearly while supporting analytical conclusions and enabling rapid
+          comprehension of complex data patterns and relationships.
+      - type: prose
+        text: >-
+          Chart type selection matches visualization approaches with data characteristics and communication
+          objectives. Time series charts effectively display temporal trends and patterns. Comparison
+          charts enable relative assessment across different categories or entities. Distribution charts
+          show data spread and frequency patterns. Relationship charts reveal correlations and connections
+          between variables.
+      - type: prose
+        text: >-
+          Design principle application ensures visual products are clear, accurate, and professional while
+          maintaining accessibility for diverse audiences. Color usage employs consistent color schemes
+          that enhance rather than distract from information communication. Typography selection uses
+          clear, readable fonts that maintain professionalism and accessibility. Layout design organizes
+          visual elements that guide reader attention and facilitate understanding.
+      - type: prose
+        text: >-
+          Accuracy and integrity standards ensure visual presentations accurately represent underlying
+          data while avoiding misleading impressions or distorted interpretation. Scale appropriateness
+          ensures chart axes and proportions accurately reflect data relationships. Context provision
+          includes appropriate baseline information and comparison references. Limitation acknowledgment
+          identifies data constraints and potential interpretation limitations.
+      - type: prose
+        text: >-
+          **Geographic and Spatial Visualization** creates maps and spatial presentations that communicate
+          geographic information effectively while supporting location-based analysis and enabling spatial
+          pattern recognition and strategic planning.
+      - type: prose
+        text: >-
+          Map design principles create clear, informative geographic presentations that effectively communicate
+          spatial information. Base map selection provides appropriate geographic context without overwhelming
+          specific information presentation. Symbology design uses clear, consistent symbols that effectively
+          communicate different data categories. Scale selection ensures appropriate geographic detail
+          for analytical objectives.
+      - type: prose
+        text: >-
+          Spatial analysis integration combines geographic presentation with analytical findings to support
+          location-based decision-making. Pattern identification highlights geographic clusters and spatial
+          relationships that support analytical conclusions. Trend analysis displays geographic changes
+          over time that reveal spatial development patterns. Risk assessment communication shows geographic
+          risk distribution and vulnerability patterns.
+      - type: prose
+        text: >-
+          Interactive capability development enables user exploration of geographic data while maintaining
+          information accuracy and analytical integrity. Zoom functionality enables examination of different
+          geographic scales and detail levels. Layer management allows users to control information display
+          and focus attention on relevant data. Query capability enables user exploration of specific
+          geographic areas and data relationships.
+      - type: prose
+        text: >-
+          **Network and Relationship Visualization** creates visual presentations of complex relationships
+          and connections while enabling pattern recognition and understanding of organizational structures
+          and interaction networks.
+      - type: prose
+        text: >-
+          Network diagram design presents relationship information clearly while avoiding visual complexity
+          that obscures important patterns. Node design uses consistent symbols and sizing that effectively
+          communicates entity characteristics. Edge design shows relationship types and strengths through
+          line style and thickness. Layout algorithms position elements that minimize visual complexity
+          while highlighting important patterns.
+      - type: prose
+        text: >-
+          Hierarchy visualization presents organizational structures and authority relationships through
+          clear visual representation. Organizational chart design shows reporting relationships and authority
+          structures. Decision tree presentation displays decision processes and outcome relationships.
+          Process flow visualization shows workflow and procedural relationships.
+      - type: prose
+        text: >-
+          Dynamic visualization presents changing relationships and temporal network development. Animation
+          design shows network evolution over time while maintaining clarity and comprehension. Interactive
+          exploration enables user investigation of specific relationships and network components. Temporal
+          controls allow users to examine network states at different time periods.
+      - type: prose
+        text: >-
+          **Interactive and Dynamic Presentations** develop user-controlled presentations that enable
+          exploration and analysis while maintaining information integrity and supporting diverse analytical
+          needs and presentation requirements.
+      - type: prose
+        text: >-
+          Dashboard design creates comprehensive information displays that provide real-time awareness
+          and enable monitoring of key indicators. Metric selection identifies key performance indicators
+          that support decision-making and situational awareness. Layout design organizes information
+          that enables rapid assessment and pattern recognition. Update mechanisms ensure information
+          currency and reliability.
+      - type: prose
+        text: >-
+          Drill-down capability enables users to explore summary information in greater detail while maintaining
+          context and analytical coherence. Summary level design provides high-level overview that enables
+          rapid assessment. Detail level access provides comprehensive information that supports detailed
+          analysis. Navigation design enables smooth transition between different information levels.
+      - type: prose
+        text: >-
+          Customization capability enables users to adapt presentations to their specific needs and preferences
+          while maintaining analytical integrity. Filter controls enable users to focus on relevant information
+          categories and time periods. Display options allow users to select presentation formats that
+          meet their preferences and requirements. Export capability enables users to extract information
+          for further analysis and reporting.

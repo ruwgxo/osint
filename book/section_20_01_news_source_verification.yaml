@@ -1,0 +1,128 @@
+# section_20_01_news_source_verification.yaml
+
+---
+title: News Source Verification
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 20
+  section: 1
+  section_code: '2001'
+  source_file: part-3-specialized-domains/chapter-20-media-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: News Source Verification
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          News source verification provides systematic approaches to evaluating media credibility, identifying
+          misinformation, and understanding information ecosystem dynamics through comprehensive analysis
+          of source characteristics, content patterns, and verification methodologies.
+      - type: prose
+        text: >-
+          **Source Credibility Assessment Frameworks** establish systematic approaches to evaluating news
+          source reliability while accounting for bias, accuracy, and transparency factors that affect
+          information quality and analytical utility.
+      - type: prose
+        text: >-
+          Editorial standards analysis examines news organization policies and procedures that govern
+          content creation and fact-checking. Editorial policy evaluation identifies commitment to accuracy,
+          correction procedures, and source verification requirements. Fact-checking implementation analysis
+          examines verification processes and error correction mechanisms. Transparency assessment evaluates
+          disclosure of funding sources, ownership structures, and potential conflicts of interest.
+      - type: prose
+        text: >-
+          Track record analysis examines historical accuracy and reliability patterns across different
+          news sources. Correction frequency analysis identifies organizations that regularly acknowledge
+          and correct errors. Retraction analysis examines how sources handle significant factual errors
+          or misleading information. Consistency analysis evaluates whether sources maintain editorial
+          standards across different topics and time periods.
+      - type: prose
+        text: >-
+          Source attribution analysis examines how news organizations cite sources and provide evidence
+          for their reporting. Primary source usage analysis evaluates reliance on firsthand information
+          versus secondary reporting. Anonymous source policies analysis examines approaches to protecting
+          source identity while maintaining accountability. Documentation standards analysis evaluates
+          whether sources provide adequate evidence and context for claims.
+      - type: prose
+        text: >-
+          **Bias Detection and Analysis Methodologies** identify systematic bias patterns in news coverage
+          while understanding how political, commercial, and cultural factors affect information presentation
+          and source reliability.
+      - type: prose
+        text: >-
+          Political bias analysis examines partisan slant and ideological positioning in news coverage.
+          Content analysis identifies language patterns, source selection, and framing approaches that
+          indicate political bias. Story selection analysis examines which topics receive coverage and
+          which are ignored or minimized. Expert selection analysis evaluates whether sources provide
+          balanced perspectives or favor particular viewpoints.
+      - type: prose
+        text: >-
+          Commercial bias analysis examines how financial interests and advertising relationships affect
+          news coverage. Advertiser influence analysis identifies potential conflicts between commercial
+          interests and editorial independence. Corporate ownership analysis examines how parent company
+          interests might affect news coverage. Sponsored content analysis identifies paid content and
+          potential influence on editorial decisions.
+      - type: prose
+        text: >-
+          Cultural and demographic bias analysis examines how news sources represent different communities
+          and perspectives. Geographic bias analysis evaluates whether coverage focuses on particular
+          regions while neglecting others. Demographic representation analysis examines whether sources
+          provide diverse perspectives and avoid stereotyping. Language bias analysis identifies terminology
+          choices that might reflect cultural assumptions or prejudices.
+      - type: prose
+        text: >-
+          **Content Verification Techniques** provide systematic approaches to fact-checking news content
+          while identifying verification sources and methodologies that enable accurate assessment of
+          information reliability.
+      - type: prose
+        text: >-
+          Primary source verification attempts to trace news claims back to original sources and firsthand
+          evidence. Official source verification examines government records, legal documents, and regulatory
+          filings that support or contradict news claims. Academic source verification leverages peer-reviewed
+          research and expert analysis to evaluate news content accuracy. Witness verification seeks firsthand
+          accounts and eyewitness testimony that corroborate or contradict reporting.
+      - type: prose
+        text: >-
+          Cross-reference verification compares news claims across multiple independent sources to identify
+          consistency and discrepancies. Independent verification seeks confirmation from sources unaffiliated
+          with original reporting. Timeline verification examines whether claimed events align with documented
+          chronological evidence. Geographic verification confirms location claims through mapping, satellite
+          imagery, and local source confirmation.
+      - type: prose
+        text: >-
+          Technical verification leverages specialized knowledge and tools to evaluate technical claims
+          and scientific reporting. Expert consultation engages subject matter experts to evaluate specialized
+          content and technical accuracy. Document authentication verifies the legitimacy of documents
+          and records cited in news reporting. Image and video verification uses forensic techniques to
+          confirm authenticity and prevent manipulation deception.
+      - type: prose
+        text: >-
+          **Disinformation and Misinformation Detection** identifies false or misleading information while
+          understanding creation and distribution patterns that enable systematic detection and mitigation
+          of harmful content.
+      - type: prose
+        text: >-
+          Content fabrication detection identifies completely false information created to deceive audiences.
+          Fact-checking comparison identifies content that contradicts established facts and reliable
+          evidence. Logical consistency analysis examines whether claims align with known information
+          and reasonable inference. Source existence verification confirms whether cited sources and experts
+          actually exist and made claimed statements.
+      - type: prose
+        text: >-
+          Manipulation detection identifies content that contains elements of truth but presents misleading
+          context or interpretation. Context manipulation analysis identifies selective quotation and
+          misleading framing that distorts original meaning. Statistical manipulation analysis examines
+          misuse of data and research to support false conclusions. Image manipulation analysis identifies
+          doctored photographs and misleading visual content.
+      - type: prose
+        text: >-
+          Propaganda and narrative analysis examines systematic information campaigns designed to influence
+          public opinion. Narrative consistency analysis identifies coordinated messaging across multiple
+          sources and platforms. Emotional manipulation analysis examines content designed to provoke
+          emotional responses rather than inform audiences. Target audience analysis identifies demographic
+          groups specifically targeted by disinformation campaigns.

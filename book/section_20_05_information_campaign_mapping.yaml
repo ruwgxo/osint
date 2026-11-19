@@ -1,0 +1,130 @@
+# section_20_05_information_campaign_mapping.yaml
+
+---
+title: Information Campaign Mapping
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 20
+  section: 5
+  section_code: '2005'
+  source_file: part-3-specialized-domains/chapter-20-media-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Information Campaign Mapping
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Information campaign mapping provides systematic approaches to identifying coordinated information
+          operations while understanding campaign structure, objectives, and effectiveness through comprehensive
+          analysis of organized information activities.
+      - type: prose
+        text: >-
+          **Campaign Structure and Organization Analysis** examines how information operations organize
+          resources and coordinate activities while understanding command structures, resource allocation,
+          and operational approaches that enable systematic campaign execution.
+      - type: prose
+        text: >-
+          Organizational hierarchy analysis identifies command and control structures within information
+          campaigns. Leadership identification recognizes individuals responsible for campaign direction
+          and strategic decision-making. Operational structure analysis examines how campaigns organize
+          different functional activities including content creation, distribution, and audience engagement.
+          Resource allocation analysis identifies how campaigns distribute effort across different activities
+          and platforms.
+      - type: prose
+        text: >-
+          Actor network analysis maps relationships between different participants in information campaigns.
+          Core actor identification recognizes primary campaign operators and content creators. Supporting
+          actor analysis identifies individuals and organizations that amplify campaign content. Peripheral
+          actor analysis examines casual participants who unknowingly support campaign objectives through
+          content sharing and engagement.
+      - type: prose
+        text: >-
+          Infrastructure analysis examines technical resources and platforms used to support information
+          campaign activities. Platform utilization analysis identifies social media and content platforms
+          used for campaign distribution. Technical infrastructure analysis examines domains, hosting,
+          and technical resources supporting campaign operations. Automation infrastructure analysis identifies
+          bots, scripts, and technical tools used to amplify campaign content.
+      - type: prose
+        text: >-
+          **Objective and Target Analysis** examines campaign goals and intended audiences while understanding
+          how operations adapt messaging and tactics to achieve specific objectives with particular population
+          groups.
+      - type: prose
+        text: >-
+          Strategic objective analysis identifies high-level goals and intended outcomes of information
+          campaigns. Political objective analysis examines campaigns designed to influence elections,
+          policy decisions, or political opinion. Commercial objective analysis identifies campaigns designed
+          to affect business outcomes, market perception, or consumer behavior. Social objective analysis
+          examines campaigns designed to influence social movements, cultural attitudes, or community
+          relationships.
+      - type: prose
+        text: >-
+          Target audience analysis identifies specific population groups that campaigns attempt to influence.
+          Demographic targeting analysis examines how campaigns focus on particular age, gender, income,
+          or educational groups. Geographic targeting analysis identifies regional, national, or local
+          populations targeted by campaign activities. Psychographic targeting analysis examines how campaigns
+          target particular personality types, values, or belief systems.
+      - type: prose
+        text: >-
+          Message adaptation analysis examines how campaigns customize content for different audiences
+          and platforms. Platform customization analysis identifies how campaigns adapt messaging for
+          different social media and content platforms. Audience customization analysis examines how campaigns
+          modify content for different demographic and psychographic groups. Temporal adaptation analysis
+          tracks how campaigns modify messaging over time in response to events and feedback.
+      - type: prose
+        text: >-
+          **Effectiveness and Impact Measurement** evaluates campaign success and influence while understanding
+          metrics and measurement approaches that indicate campaign performance and real-world impact.
+      - type: prose
+        text: >-
+          Engagement metric analysis examines quantitative measures of campaign reach and audience interaction.
+          Reach analysis measures how many people are exposed to campaign content across different platforms.
+          Engagement analysis examines likes, shares, comments, and other interaction measures that indicate
+          audience response. Conversion analysis tracks how engagement translates into desired behaviors
+          or opinion changes.
+      - type: prose
+        text: >-
+          Influence measurement analysis examines how campaigns affect target audience attitudes and behaviors.
+          Opinion polling analysis examines changes in public opinion that correlate with campaign activities.
+          Behavioral change analysis tracks modifications in voting, purchasing, or social behavior that
+          might result from campaign influence. Media coverage analysis examines how campaigns affect
+          mainstream media attention and framing.
+      - type: prose
+        text: >-
+          Network effect analysis examines how campaigns spread beyond initial audiences through social
+          sharing and word-of-mouth propagation. Viral propagation analysis identifies content that achieves
+          widespread sharing and distribution. Network amplification analysis examines how campaign content
+          spreads through social networks and online communities. Cascade analysis tracks how influence
+          spreads through multiple generations of content sharing.
+      - type: prose
+        text: >-
+          **Attribution and Countermeasure Analysis** identifies campaign operators and develops responses
+          while understanding attribution challenges and developing systematic approaches to campaign
+          disruption and mitigation.
+      - type: prose
+        text: >-
+          Attribution methodology analysis examines approaches to identifying campaign operators through
+          technical and behavioral evidence. Technical attribution analysis uses infrastructure analysis,
+          digital forensics, and operational security mistakes to identify campaign operators. Behavioral
+          attribution analysis examines consistent patterns and operational characteristics that suggest
+          common control. Linguistic attribution analysis uses language patterns and cultural references
+          to infer operator characteristics.
+      - type: prose
+        text: >-
+          Detection and monitoring analysis examines systematic approaches to identifying information
+          campaigns through automated and manual analysis. Automated detection analysis uses machine learning
+          and pattern recognition to identify coordinated inauthentic behavior. Manual analysis approaches
+          leverage human expertise to identify subtle campaign characteristics. Hybrid approaches combine
+          automated and manual analysis for comprehensive campaign detection.
+      - type: prose
+        text: >-
+          Response and mitigation analysis examines approaches to countering information campaigns through
+          various intervention strategies. Platform-based responses examine how social media companies
+          detect and remove campaign content. Counter-messaging approaches develop alternative narratives
+          and fact-checking responses. Legal and regulatory responses examine policy and enforcement approaches
+          to campaign disruption.

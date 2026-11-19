@@ -1,0 +1,217 @@
+# section_32_06_attribution_and_source_protection_protocols.yaml
+
+---
+title: Attribution and Source Protection Protocols
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 32
+  section: 6
+  section_code: '3206'
+  source_file: appendices/b-legal-ethical-guidelines.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Attribution and Source Protection Protocols
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Source Classification System
+
+          Source Categories
+      - type: list
+        style: bullet
+        items:
+          - 'Open Sources: Publicly available information requiring minimal protection'
+          - 'Confidential Sources: Sources requiring identity protection'
+          - 'Anonymous Sources: Sources whose identity is unknown to researcher'
+          - 'Protected Sources: Sources requiring enhanced security measures'
+      - type: prose
+        text: >-
+          Protection Levels
+      - type: list
+        style: bullet
+        items:
+          - 'Level 1 - Basic: Standard professional discretion and confidentiality'
+          - 'Level 2 - Enhanced: Additional security measures and access controls'
+          - 'Level 3 - Maximum: Comprehensive security and identity protection'
+          - 'Level 4 - Critical: Life-or-safety threatening situations requiring extreme measures'
+      - type: heading
+        level: 3
+        text: Attribution Guidelines
+      - type: prose
+        text: >-
+          Public Information Attribution
+      - type: list
+        style: bullet
+        items:
+          - 'Source Citation: Proper citation of public sources and databases'
+          - 'URL Documentation: Recording web addresses and access dates'
+          - 'Archive References: Citing archived versions of dynamic content'
+          - 'Version Control: Noting document versions and revision dates'
+      - type: prose
+        text: >-
+          Confidential Source Attribution
+      - type: list
+        style: bullet
+        items:
+          - 'General Attribution: "According to a government official"'
+          - 'Categorical Attribution: "According to a State Department source"'
+          - 'Institutional Attribution: "According to sources within the organization"'
+          - 'Anonymous Attribution: "According to sources familiar with the matter"'
+      - type: prose
+        text: >-
+          No Attribution Guidelines
+      - type: list
+        style: bullet
+        items:
+          - 'Background Information: Information for context only, not for attribution'
+          - 'Off-the-Record: Information that cannot be used or attributed'
+          - 'Deep Background: Information that can be used but not attributed'
+          - 'Source Protection: When attribution would endanger source safety'
+      - type: heading
+        level: 3
+        text: Source Protection Procedures
+      - type: prose
+        text: >-
+          Technical Protection Measures
+      - type: list
+        style: bullet
+        items:
+          - 'Encrypted Communication: Using secure communication channels'
+          - 'Secure Meeting Locations: Choosing safe venues for source meetings'
+          - 'Digital Security: Protecting digital communications and files'
+          - 'Counter-Surveillance: Detecting and avoiding surveillance'
+      - type: prose
+        text: >-
+          Operational Security
+      - type: list
+        style: bullet
+        items:
+          - 'Compartmentalization: Limiting source information access'
+          - 'Cover Stories: Providing plausible explanations for contact'
+          - 'Emergency Procedures: Plans for source protection emergencies'
+          - 'Legal Protection: Understanding legal protections and limitations'
+      - type: prose
+        text: >-
+          **7. Professional Standards and Best Practices**
+      - type: heading
+        level: 3
+        text: Intelligence Community Standards
+      - type: prose
+        text: >-
+          Intelligence Community Directive 203 (ICD 203) - Analytic Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Objective: Pursue intellectual rigor and maintain analytic objectivity'
+          - 'Independent: Perform independent analysis and avoid politicization'
+          - 'Timely: Provide timely intelligence support to customers'
+          - 'Based on Sources: Ground analysis in available intelligence information'
+          - 'Assumptions: Apply tradecraft standards and make assumptions explicit'
+      - type: prose
+        text: >-
+          Professional Analyst Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Accuracy: Strive for accuracy in all analytical products'
+          - 'Objectivity: Maintain analytical objectivity and avoid bias'
+          - 'Timeliness: Provide intelligence support when needed'
+          - 'Relevance: Focus on customer requirements and decision support'
+          - 'Clarity: Communicate clearly and effectively'
+      - type: heading
+        level: 3
+        text: Industry Professional Organizations
+      - type: prose
+        text: >-
+          Association of Certified Fraud Examiners (ACFE)
+      - type: list
+        style: bullet
+        items:
+          - 'Professional Ethics: Maintain high standards of professional conduct'
+          - 'Competence: Maintain professional competence through continuing education'
+          - 'Due Care: Exercise due professional care in all professional activities'
+          - 'Independence: Maintain independence and avoid conflicts of interest'
+      - type: prose
+        text: >-
+          International Association for Intelligence Education (IAFIE)
+      - type: list
+        style: bullet
+        items:
+          - 'Academic Freedom: Support academic freedom in intelligence education'
+          - 'Professional Development: Promote professional development and education'
+          - 'Ethical Standards: Maintain high ethical standards in intelligence education'
+          - 'Research Integrity: Ensure integrity in intelligence research and scholarship'
+      - type: prose
+        text: >-
+          SANS Information Security Community
+      - type: list
+        style: bullet
+        items:
+          - 'Information Security: Promote information security best practices'
+          - 'Professional Development: Support professional development and certification'
+          - 'Knowledge Sharing: Encourage knowledge sharing and collaboration'
+          - 'Ethical Hacking: Promote ethical hacking and responsible disclosure'
+      - type: heading
+        level: 3
+        text: Certification and Training Standards
+      - type: prose
+        text: >-
+          Professional Certifications
+      - type: list
+        style: bullet
+        items:
+          - 'Certified Information Systems Security Professional (CISSP): Information security'
+          - 'Certified Ethical Hacker (CEH): Ethical hacking and penetration testing'
+          - 'Certified Information Security Manager (CISM): Information security management'
+          - 'Certified in Risk and Information Systems Control (CRISC): Risk management'
+      - type: prose
+        text: >-
+          Training Requirements
+      - type: list
+        style: bullet
+        items:
+          - 'Continuing Education: Ongoing professional development requirements'
+          - 'Ethics Training: Regular ethics and professional conduct training'
+          - 'Technical Training: Maintaining current technical knowledge and skills'
+          - 'Legal Training: Understanding legal requirements and limitations'
+      - type: prose
+        text: >-
+          ##
+      - type: heading
+        level: 3
+        text: Quality Assurance Standards
+      - type: prose
+        text: >-
+          Analytical Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Source Evaluation: Systematic evaluation of source reliability'
+          - 'Information Validation: Verification of information accuracy'
+          - 'Analytical Rigor: Application of structured analytical techniques'
+          - 'Peer Review: Independent review of analytical products'
+      - type: prose
+        text: >-
+          Documentation Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Source Documentation: Proper documentation of information sources'
+          - 'Methodology Documentation: Clear explanation of analytical methods'
+          - 'Assumption Documentation: Explicit identification of analytical assumptions'
+          - 'Limitation Documentation: Clear identification of analytical limitations'
+      - type: prose
+        text: >-
+          Reporting Standards
+      - type: list
+        style: bullet
+        items:
+          - 'Executive Summary: Clear executive summary for senior decision-makers'
+          - 'Key Judgments: Identification of key analytical judgments'
+          - 'Confidence Levels: Clear communication of confidence in judgments'
+          - 'Alternative Views: Consideration of alternative explanations and viewpoints'

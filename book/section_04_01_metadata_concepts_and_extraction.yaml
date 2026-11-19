@@ -1,0 +1,99 @@
+# section_04_01_metadata_concepts_and_extraction.yaml
+
+---
+title: Metadata Concepts and Extraction
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 4
+  section: 1
+  section_code: '0401'
+  source_file: part-1-fundamentals/chapter-04-data-structures-formats.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Metadata Concepts and Extraction
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Metadata represents information about information, providing contextual details that describe
+          the characteristics, origin, and processing history of data objects. For OSINT practitioners,
+          metadata extraction often yields more valuable intelligence than primary content analysis, revealing
+          creation circumstances, authorship patterns, and organizational processes that might otherwise
+          remain hidden.
+      - type: prose
+        text: >-
+          **Fundamental Metadata Categories** encompass descriptive, structural, and administrative metadata
+          types that serve different analytical purposes. Understanding these categories enables systematic
+          metadata collection and analysis across diverse data formats and sources.
+      - type: prose
+        text: >-
+          Descriptive metadata provides information about content characteristics including title, author,
+          subject, keywords, and creation date. Descriptive metadata typically appears in standardized
+          formats that facilitate automated extraction and analysis. Document management systems, content
+          repositories, and publishing platforms often maintain extensive descriptive metadata that reflects
+          organizational processes and authorship patterns.
+      - type: prose
+        text: >-
+          Structural metadata describes relationships between data objects and their internal organization.
+          For complex documents, structural metadata might include page counts, section hierarchies, embedded
+          object references, and formatting specifications. Database systems maintain structural metadata
+          about table relationships, field definitions, and indexing structures. Understanding structural
+          metadata enables reconstruction of original data organization and identification of missing
+          or modified components.
+      - type: prose
+        text: >-
+          Administrative metadata encompasses information about data management processes including access
+          controls, modification history, backup procedures, and retention policies. Administrative metadata
+          often reveals organizational security practices, workflow procedures, and compliance requirements.
+          Version control systems maintain extensive administrative metadata that documents change history
+          and collaboration patterns.
+      - type: prose
+        text: >-
+          **Extraction Techniques and Tools** enable systematic collection of metadata from diverse file
+          formats and data sources. Professional OSINT practice requires mastery of multiple extraction
+          approaches to handle the variety of formats encountered in real-world investigations.
+      - type: prose
+        text: >-
+          File system metadata includes creation dates, modification times, access records, and permission
+          settings maintained by operating systems. File system metadata analysis can reveal usage patterns,
+          timeline reconstruction information, and potential evidence of data manipulation. Different
+          operating systems maintain varying metadata granularity and accuracy levels.
+      - type: prose
+        text: >-
+          Embedded metadata within files often contains extensive information about creation circumstances,
+          authorship, and processing history. Office documents frequently contain author names, organization
+          information, revision histories, and comments that provide valuable intelligence about document
+          origins and collaboration patterns. Digital images contain EXIF metadata including camera settings,
+          GPS coordinates, and timestamps that enable detailed forensic analysis.
+      - type: prose
+        text: >-
+          Network metadata from communication protocols includes source addresses, timestamps, routing
+          information, and quality metrics that describe transmission characteristics. Network metadata
+          analysis enables traffic pattern recognition, infrastructure mapping, and behavioral analysis
+          without requiring access to communication content.
+      - type: prose
+        text: >-
+          **Metadata Analysis Applications** transform extracted metadata into actionable intelligence
+          through systematic analysis and correlation techniques. Effective metadata analysis requires
+          understanding both technical extraction methods and analytical frameworks for interpretation.
+      - type: prose
+        text: >-
+          Temporal analysis examines timestamp patterns to reconstruct activity timelines, identify operational
+          patterns, and detect anomalous behaviors. Metadata timestamps often provide more reliable temporal
+          information than content-based dating methods. Cross-referencing timestamps across multiple
+          sources enables verification and gap identification.
+      - type: prose
+        text: >-
+          Attribution analysis leverages author information, system identifiers, and processing signatures
+          to identify responsible parties and organizational affiliations. Metadata attribution evidence
+          often survives content modification attempts and provides reliable source identification. However,
+          metadata can be modified or forged, requiring verification through multiple independent sources.
+      - type: prose
+        text: >-
+          Pattern recognition identifies recurring metadata characteristics that might indicate automated
+          processing, template usage, or systematic procedures. Metadata patterns often reveal organizational
+          workflows, tool usage, and operational procedures that provide valuable contextual intelligence.

@@ -1,0 +1,116 @@
+# section_07_05_ftp_and_secure_file_transfer_protocols.yaml
+
+---
+title: FTP and Secure File Transfer Protocols
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 7
+  section: 5
+  section_code: '0705'
+  source_file: part-2-advanced-techniques/chapter-07-protocol-analysis.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: FTP and Secure File Transfer Protocols
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          File Transfer Protocol (FTP) and its secure variants provide essential services for data exchange
+          while creating extensive opportunities for intelligence collection through protocol analysis
+          and infrastructure examination. Understanding FTP implementations enables assessment of organizational
+          data handling practices and security postures.
+      - type: prose
+        text: >-
+          **Traditional FTP Protocol Analysis** examines the fundamental FTP implementation to understand
+          data transfer mechanisms, security limitations, and operational characteristics.
+      - type: prose
+        text: >-
+          Command channel analysis examines FTP control communications to understand user activities and
+          system interactions. USER and PASS command analysis reveals authentication mechanisms and credential
+          handling. SYST command analysis identifies server implementations and operating system characteristics.
+          PWD and CWD command analysis traces directory navigation and system exploration activities.
+      - type: prose
+        text: >-
+          Data channel analysis examines file transfer mechanisms and performance characteristics. Active
+          versus passive mode analysis identifies firewall traversal approaches and security considerations.
+          PORT and PASV command analysis reveals data connection establishment patterns. Transfer mode
+          analysis examines binary versus ASCII handling and potential data corruption risks.
+      - type: prose
+        text: >-
+          Directory listing analysis examines LIST and NLST responses to understand system organization
+          and file availability. File metadata analysis extracts size, modification time, and permission
+          information. Directory structure analysis reveals organizational approaches to data management.
+          Hidden file analysis identifies system files and potential security-relevant information.
+      - type: prose
+        text: >-
+          **Secure FTP Implementations** analyze FTPS, SFTP, and other secure file transfer protocols
+          to understand security implementations and organizational approaches to data protection.
+      - type: prose
+        text: >-
+          FTP over SSL/TLS (FTPS) analysis examines certificate-based security implementations and encryption
+          usage. Certificate analysis identifies organizational PKI implementations and trust relationships.
+          Encryption negotiation analysis reveals supported cipher suites and security preferences. Authentication
+          analysis examines certificate-based and password-based security mechanisms.
+      - type: prose
+        text: >-
+          SSH File Transfer Protocol (SFTP) analysis leverages SSH protocol analysis techniques to understand
+          secure file transfer implementations. SSH key analysis identifies authentication mechanisms
+          and key management practices. Encryption analysis examines symmetric encryption implementations
+          and security levels. Authentication analysis evaluates password-based versus key-based security
+          approaches.
+      - type: prose
+        text: >-
+          Secure Copy Protocol (SCP) analysis examines simplified secure file transfer implementations.
+          Command line analysis reveals usage patterns and operational procedures. Key-based authentication
+          analysis identifies security implementations and access control mechanisms. Performance analysis
+          evaluates efficiency compared to alternative transfer methods.
+      - type: prose
+        text: >-
+          **File Transfer Pattern Analysis** identifies data movement behaviors that might indicate organizational
+          activities, security incidents, or operational patterns requiring further investigation.
+      - type: prose
+        text: >-
+          Transfer volume analysis examines data movement quantities to identify bulk operations, backup
+          activities, or unusual data exfiltration patterns. Temporal pattern analysis identifies regular
+          transfer schedules that might indicate automated processes. Size distribution analysis reveals
+          typical file characteristics and potential anomalies.
+      - type: prose
+        text: >-
+          Source and destination analysis maps data flow patterns between organizational systems and external
+          entities. Geographic analysis correlates transfer patterns with organizational facilities and
+          operational boundaries. Organizational analysis identifies business relationships and data sharing
+          arrangements. Security zone analysis examines transfers across security boundaries and access
+          control implementations.
+      - type: prose
+        text: >-
+          User behavior analysis examines individual and automated transfer patterns to understand operational
+          procedures and identify potential security concerns. Authentication pattern analysis reveals
+          credential usage and access control effectiveness. Session analysis examines connection duration
+          and activity patterns. Error pattern analysis identifies configuration issues and potential
+          security attempts.
+      - type: prose
+        text: >-
+          **Security Assessment and Vulnerability Analysis** evaluates FTP implementations for potential
+          security weaknesses and organizational security posture indicators.
+      - type: prose
+        text: >-
+          Authentication security analysis examines credential transmission and storage mechanisms. Clear-text
+          credential analysis identifies implementations that transmit passwords without encryption. Brute
+          force resistance analysis evaluates account lockout and rate limiting implementations. Anonymous
+          access analysis examines public access policies and potential information disclosure.
+      - type: prose
+        text: >-
+          Data protection analysis evaluates encryption usage and data integrity mechanisms. Encryption
+          coverage analysis identifies protected versus unprotected data transfers. Certificate validation
+          analysis examines PKI implementations and trust verification. Data integrity analysis evaluates
+          checksums and validation mechanisms.
+      - type: prose
+        text: >-
+          Access control analysis examines permission systems and directory access restrictions. User
+          privilege analysis identifies permission escalation risks and administrative access patterns.
+          Directory traversal analysis examines path validation and access control enforcement. File permission
+          analysis identifies potential unauthorized access opportunities.

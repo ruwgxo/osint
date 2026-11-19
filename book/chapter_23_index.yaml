@@ -1,0 +1,54 @@
+# chapter_23_index.yaml
+
+---
+title: 'Chapter 23: Counterintelligence Awareness - Index'
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  book: 'OSINT: Open Source Intelligence'
+  chapter: 23
+  source_file: part-4-operational/chapter-23-counterintelligence.md
+  repository: https://github.com/ruwgxo/osint
+  license: MIT
+  legacy:
+    header: '20260123 | OSINT: Operational Considerations (Chapter 23 Counterintelligence Awareness) by
+      Raghav Dinesh'
+    tags:
+      - '#wrap #paper'
+    breadcrumb:
+      - ‣ Open Source Intelligence
+      - ‣‣ Operational Considerations
+      - ‣‣‣ Counterintelligence Awareness
+chapter_overview:
+  contents:
+    - Deception detection methods
+    - Honeypot and canary identification
+    - Attribution manipulation techniques
+    - Information poisoning recognition
+    - Social engineering defense
+    - Digital surveillance awareness
+    - Operational compartmentalization
+sections:
+  - section_number: '23.1'
+    title: Deception Detection Methods
+    filename: section_23_01_deception_detection_methods.yaml
+  - section_number: '23.2'
+    title: Honeypot and Canary Identification
+    filename: section_23_02_honeypot_and_canary_identification.yaml
+  - section_number: '23.3'
+    title: Attribution Manipulation Techniques
+    filename: section_23_03_attribution_manipulation_techniques.yaml
+  - section_number: '23.4'
+    title: Information Poisoning Recognition
+    filename: section_23_04_information_poisoning_recognition.yaml
+  - section_number: '23.5'
+    title: Social Engineering Defense
+    filename: section_23_05_social_engineering_defense.yaml
+  - section_number: '23.6'
+    title: Digital surveillance awareness
+    filename: section_23_06_digital_surveillance_awareness.yaml
+  - section_number: '23.7'
+    title: Operational compartmentalization
+    filename: section_23_07_operational_compartmentalization.yaml

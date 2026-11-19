@@ -1,0 +1,120 @@
+# section_11_03_community_detection_algorithms_and_applications.yaml
+
+---
+title: Community Detection Algorithms and Applications
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 11
+  section: 3
+  section_code: '1103'
+  source_file: part-2-advanced-techniques/chapter-11-social-engineering.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Community Detection Algorithms and Applications
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Community detection identifies cohesive sub-groups within larger networks that might represent
+          organizational units, functional groups, or social clusters through systematic analysis of connection
+          patterns and structural characteristics.
+      - type: prose
+        text: >-
+          **Modularity-Based Community Detection** leverages modularity optimization to identify communities
+          that maximize internal connections while minimizing external connections, providing systematic
+          approaches to network partition.
+      - type: prose
+        text: >-
+          Modularity definition quantifies community structure quality by comparing actual within-community
+          connections to expected connections in random networks. Modularity optimization seeks network
+          partitions that maximize modularity scores. Modularity interpretation ranges from -0.5 to 1.0
+          with higher values indicating stronger community structure. Modularity limitations include resolution
+          limits that might miss small communities in large networks.
+      - type: prose
+        text: >-
+          Louvain algorithm provides efficient modularity optimization through iterative local optimization
+          and network coarsening. Local optimization phase moves nodes to communities that maximize modularity
+          improvement. Aggregation phase creates new network where communities become nodes. Multi-level
+          optimization enables detection of hierarchical community structures. Louvain implementation
+          handles large networks efficiently while providing good community detection quality.
+      - type: prose
+        text: >-
+          Leiden algorithm improves upon Louvain algorithm by addressing quality and performance limitations.
+          Quality improvement ensures that communities are well-connected and avoid poorly connected sub-communities.
+          Runtime optimization provides better performance characteristics for large networks. Resolution
+          parameter tuning enables detection of communities at different scales and granularity levels.
+      - type: prose
+        text: >-
+          **Hierarchical Community Detection** reveals nested community structures that reflect organizational
+          hierarchies and multi-level social organization through systematic hierarchical analysis.
+      - type: prose
+        text: >-
+          Agglomerative clustering builds hierarchical structures by iteratively merging similar communities
+          based on connection patterns and similarity measures. Distance measure selection affects clustering
+          results and community interpretation. Linkage criteria determine how community similarity is
+          calculated during merging process. Dendrogram analysis visualizes hierarchical structures and
+          enables exploration of different granularity levels.
+      - type: prose
+        text: >-
+          Divisive clustering creates hierarchical structures by recursively partitioning networks into
+          smaller communities. Edge betweenness-based division removes high betweenness edges to separate
+          communities. Modularity-based division optimizes community splits for maximum modularity improvement.
+          Recursive partitioning continues until communities reach specified size or modularity thresholds.
+      - type: prose
+        text: >-
+          Multi-resolution analysis examines community structures at different scales and granularity
+          levels. Resolution parameter variation reveals communities of different sizes and organizational
+          levels. Scale selection depends on analytical objectives and organizational characteristics.
+          Cross-scale validation ensures community stability across different resolution parameters.
+      - type: prose
+        text: >-
+          **Overlapping Community Detection** addresses situations where individuals belong to multiple
+          communities simultaneously, reflecting complex organizational affiliations and social roles.
+      - type: prose
+        text: >-
+          Clique-based approaches identify overlapping communities through maximal clique enumeration
+          and analysis. Maximal clique identification finds complete sub-graphs that represent tightly
+          connected groups. Clique overlap analysis identifies shared members between different complete
+          sub-groups. Community formation combines overlapping cliques into larger community structures.
+      - type: prose
+        text: >-
+          Fuzzy clustering approaches assign probability weights for community membership rather than
+          hard assignments. Membership probability calculation enables quantification of community affiliation
+          strength. Uncertainty quantification addresses situations where community membership is ambiguous.
+          Probability interpretation enables nuanced understanding of multi-community affiliations.
+      - type: prose
+        text: >-
+          Link clustering approaches cluster edges rather than nodes to identify overlapping communities
+          naturally. Edge similarity calculation enables identification of connections that serve similar
+          functions. Link community formation groups similar edges into communities. Node community assignment
+          derives overlapping node communities from link communities.
+      - type: prose
+        text: >-
+          **Community Validation and Interpretation** ensures detected communities represent meaningful
+          social structures rather than algorithmic artifacts through systematic validation and contextual
+          analysis.
+      - type: prose
+        text: >-
+          Internal validation measures assess community quality through structural characteristics including
+          density, conductance, and modularity contributions. Community density measures internal connection
+          strength compared to external connections. Conductance analysis examines community boundary
+          strength and separation quality. Silhouette analysis evaluates how well nodes fit within assigned
+          communities compared to alternative assignments.
+      - type: prose
+        text: >-
+          External validation compares detected communities with known organizational structures or social
+          categories. Ground truth comparison evaluates community detection accuracy when true community
+          structure is known. Organizational alignment analysis examines correspondence between detected
+          communities and formal organizational units. Demographic correlation analysis examines relationships
+          between communities and individual characteristics.
+      - type: prose
+        text: >-
+          Stability analysis examines community persistence across different parameters, time periods,
+          and network samples. Parameter sensitivity testing evaluates community robustness to algorithmic
+          parameter changes. Temporal stability analysis examines how communities persist across different
+          time periods. Sample stability analysis evaluates community consistency across different network
+          samples or data sources.

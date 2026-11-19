@@ -1,0 +1,177 @@
+# section_33_06_information_theory_and_entropy_calculations.yaml
+
+---
+title: Information Theory and Entropy Calculations
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 33
+  section: 6
+  section_code: '3306'
+  source_file: appendices/c-mathematical-statistical-reference.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Information Theory and Entropy Calculations
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          **Entropy and Information Content**
+      - type: heading
+        level: 3
+        text: Shannon Entropy
+      - type: prose
+        text: >-
+          Measures uncertainty or information content in a message.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          H(X) = -Σ p(x) × log₂(p(x))
+
+          Where p(x) is the probability of event x occurring.
+      - type: prose
+        text: >-
+          Units: Bits (when using log₂)
+
+          Properties:
+      - type: list
+        style: bullet
+        items:
+          - H(X) ≥ 0 (entropy is non-negative)
+          - H(X) = 0 when outcome is certain
+          - H(X) is maximum when all outcomes are equally likely
+      - type: prose
+        text: >-
+          Information Content
+
+          Information content of a specific event.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          I(x) = -log₂(p(x)) = log₂(1/p(x))
+      - type: prose
+        text: >-
+          Intelligence Application: Measuring surprise value of intelligence reports.
+      - type: heading
+        level: 3
+        text: Conditional Entropy and Mutual Information
+      - type: prose
+        text: >-
+          Conditional Entropy
+
+          Entropy of X given knowledge of Y.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          H(X|Y) = -Σ p(y) × Σ p(x|y) × log₂(p(x|y))
+      - type: prose
+        text: >-
+          Intelligence Application: Uncertainty remaining about target after collecting intelligence.
+      - type: prose
+        text: >-
+          Mutual Information
+
+          Amount of information shared between two variables.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X)
+      - type: prose
+        text: >-
+          Alternative Formula: I(X;Y) = Σ p(x,y) × log₂(p(x,y) / (p(x) × p(y)))
+
+          Intelligence Application: Measuring how much one piece of intelligence tells us about another.
+      - type: prose
+        text: >-
+          **Cross-Entropy and KL Divergence**
+      - type: heading
+        level: 3
+        text: Cross-Entropy
+      - type: prose
+        text: >-
+          Measures average number of bits needed to encode events from distribution P using coding scheme
+          optimized for distribution Q.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          H(P,Q) = -Σ p(x) × log₂(q(x))
+      - type: prose
+        text: >-
+          Kullback-Leibler (KL) Divergence
+
+          Measures how different two probability distributions are.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          D_KL(P||Q) = Σ p(x) × log₂(p(x) / q(x))
+      - type: prose
+        text: >-
+          Properties:
+      - type: list
+        style: bullet
+        items:
+          - Always non-negative
+          - D_KL(P||Q) = 0 if and only if P = Q
+          - 'Not symmetric: D_KL(P||Q) ≠ D_KL(Q||P)'
+      - type: prose
+        text: >-
+          Intelligence Application: Comparing expected vs. observed patterns in data.
+      - type: heading
+        level: 3
+        text: Applications in Intelligence Analysis
+      - type: list
+        style: bullet
+        items:
+          - Information Gain
+          - Channel Capacity
+      - type: prose
+        text: >-
+          Information Gain
+
+          Used in decision trees and feature selection.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          IG(S,A) = H(S) - Σ |S_v|/|S| × H(S_v)
+
+          Where S is the dataset and A is the attribute being evaluated.
+      - type: prose
+        text: >-
+          Relative Entropy (KL Divergence) Applications
+      - type: list
+        style: bullet
+        items:
+          - 'Anomaly Detection: Compare current behavior to baseline'
+          - 'Model Comparison: Compare different analytical models'
+          - 'Change Detection: Identify when patterns shift significantly'
+      - type: prose
+        text: >-
+          Channel Capacity
+
+          Maximum rate at which information can be transmitted over a channel.
+
+          Formula:
+      - type: code
+        lang: text
+        text: |
+          C = max I(X;Y)
+      - type: prose
+        text: >-
+          Intelligence Application: Understanding limits of intelligence collection systems.

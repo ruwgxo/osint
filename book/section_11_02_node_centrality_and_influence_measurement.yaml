@@ -1,0 +1,122 @@
+# section_11_02_node_centrality_and_influence_measurement.yaml
+
+---
+title: Node Centrality and Influence Measurement
+updated: '2026-06-05'
+version: '1.0'
+authors:
+  - Raghav Dinesh
+section_info:
+  chapter: 11
+  section: 2
+  section_code: '1102'
+  source_file: part-2-advanced-techniques/chapter-11-social-engineering.md
+  license: MIT
+  repository: https://github.com/ruwgxo/osint
+prose_content:
+  - heading: Node Centrality and Influence Measurement
+    id: part_1
+    blocks:
+      - type: prose
+        text: >-
+          Centrality measures identify important actors within social networks based on various concepts
+          of importance and influence that reveal leadership structures, communication hubs, and critical
+          network positions for organizational analysis.
+      - type: prose
+        text: >-
+          **Degree Centrality and Connectivity Analysis** measures node importance based on direct connection
+          counts and provides basic indicators of social activity and network position.
+      - type: prose
+        text: >-
+          In-degree analysis counts incoming connections and identifies individuals who receive attention,
+          communication, or recognition from others. High in-degree nodes might represent authority figures,
+          popular individuals, or information destinations. In-degree distribution analysis reveals whether
+          networks have concentrated or distributed attention patterns. In-degree correlation with organizational
+          positions validates formal versus informal authority structures.
+      - type: prose
+        text: >-
+          Out-degree analysis counts outgoing connections and identifies individuals who initiate communication,
+          seek information, or influence others. High out-degree nodes might represent active communicators,
+          information seekers, or influence attempts. Out-degree patterns reveal communication initiative
+          and social engagement levels. Out-degree temporal analysis identifies changes in individual
+          communication behaviors.
+      - type: prose
+        text: >-
+          Total degree analysis combines incoming and outgoing connections to measure overall social activity
+          and network integration. High total degree indicates high social activity and network centrality.
+          Degree correlation analysis examines relationships between different centrality measures. Degree
+          stability analysis tracks how individual centrality changes over time.
+      - type: prose
+        text: >-
+          **Betweenness Centrality and Brokerage Analysis** identifies nodes that control information
+          flow between different network regions and serve as bridges or brokers in social communication.
+      - type: prose
+        text: >-
+          Shortest path betweenness measures how often nodes lie on the shortest paths between other node
+          pairs. High betweenness centrality indicates structural positions that control information flow
+          and communication pathways. Betweenness distribution analysis reveals whether information control
+          is concentrated or distributed. Betweenness correlation with organizational roles identifies
+          formal versus informal brokerage positions.
+      - type: prose
+        text: >-
+          Edge betweenness analysis identifies critical connections rather than critical nodes within
+          network structures. High edge betweenness indicates connections whose removal would significantly
+          impact network connectivity. Edge removal analysis examines network vulnerability to relationship
+          dissolution. Bridge identification reveals connections that link different network components
+          or sub-groups.
+      - type: prose
+        text: >-
+          Brokerage role analysis examines different types of intermediary positions including coordinators,
+          gatekeepers, representatives, and liaisons. Coordinator roles connect actors within the same
+          group or organization. Gatekeeper roles control information flow between groups. Representative
+          roles represent group interests in external interactions. Liaison roles connect different groups
+          without belonging to either group.
+      - type: prose
+        text: >-
+          **Eigenvector Centrality and Quality-Weighted Importance** measures node importance based on
+          the importance of their connections, identifying individuals connected to other important actors.
+      - type: prose
+        text: >-
+          Eigenvector calculation considers connection quality by weighting relationships with other central
+          actors more heavily than relationships with peripheral actors. High eigenvector centrality indicates
+          connection to other important network members. Eigenvector interpretation reveals prestige and
+          association with network elites. Eigenvector stability analysis examines how quality-weighted
+          importance changes over time.
+      - type: prose
+        text: >-
+          PageRank analysis adapts web page ranking algorithms to social network analysis with random
+          walk and damping factor considerations. PageRank implementation handles directed networks and
+          provides alternative importance measures. Damping parameter selection affects ranking results
+          and interpretation. PageRank comparison with other centrality measures reveals different aspects
+          of network importance.
+      - type: prose
+        text: >-
+          Authority and hub analysis distinguishes between nodes that provide information (authorities)
+          and nodes that point to information sources (hubs). Authority scores identify nodes that are
+          considered important information sources. Hub scores identify nodes that connect to many authorities.
+          HITS algorithm implementation provides mutual reinforcement between authority and hub scores.
+      - type: prose
+        text: >-
+          **Closeness Centrality and Accessibility Analysis** measures how quickly nodes can reach other
+          network members through shortest path distances, identifying central positions for information
+          dissemination.
+      - type: prose
+        text: >-
+          Average distance calculation measures mean shortest path lengths from individual nodes to all
+          other reachable nodes. Low average distance indicates central positions that can quickly reach
+          other network members. Closeness normalization accounts for network size and enables comparison
+          across different networks. Disconnected component handling addresses situations where not all
+          nodes are reachable.
+      - type: prose
+        text: >-
+          Harmonic centrality provides alternative distance-based measures that handle disconnected networks
+          more gracefully than traditional closeness measures. Inverse distance summation provides meaningful
+          measures even when some nodes are unreachable. Harmonic centrality interpretation focuses on
+          accessibility and communication efficiency. Comparison with traditional closeness reveals different
+          aspects of network centrality.
+      - type: prose
+        text: >-
+          Eccentricity analysis examines maximum distances from individual nodes to other network members.
+          Low eccentricity indicates positions that are close to even the most distant network members.
+          Peripheral node identification reveals network boundaries and less integrated members. Center
+          identification reveals nodes with minimum eccentricity that represent network centers.
